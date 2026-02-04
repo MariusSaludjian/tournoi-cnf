@@ -1,0 +1,6193 @@
+{
+  "joueurs": [
+    {
+      "nom": "Alain Salomon",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 10,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.91,
+      "elo": 1492.0,
+      "elo_max": 1506.0,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Antoine Lebrat",
+      "matchs_joues": 9,
+      "victoires": 7,
+      "defaites": 2,
+      "sets_gagnes": 17,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 77.8,
+      "ratio_sets": 1.42,
+      "elo": 1569.0,
+      "elo_max": 1585.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Enzo Leroux",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.5,
+      "elo": 1489.0,
+      "elo_max": 1502.0,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Victor Morlat",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.29,
+      "elo": 1501.0,
+      "elo_max": 1517.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Béatrice Revel",
+      "matchs_joues": 7,
+      "victoires": 5,
+      "defaites": 2,
+      "sets_gagnes": 13,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 1.62,
+      "elo": 1545.0,
+      "elo_max": 1560.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Léo Santiquet",
+      "matchs_joues": 13,
+      "victoires": 10,
+      "defaites": 3,
+      "sets_gagnes": 34,
+      "sets_perdus": 17,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 76.9,
+      "ratio_sets": 2.0,
+      "elo": 1602.0,
+      "elo_max": 1618.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Clément Ricaud",
+      "matchs_joues": 15,
+      "victoires": 13,
+      "defaites": 2,
+      "sets_gagnes": 39,
+      "sets_perdus": 16,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 86.7,
+      "ratio_sets": 2.44,
+      "elo": 1656.0,
+      "elo_max": 1656.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Paul Dauboin",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 2.2,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Axel Garcin",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.08,
+      "elo": 1529.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Arthur Jamette",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 0,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1468.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "FX Tierny",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 1,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.25,
+      "elo": 1469.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Théo Coltat",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 10,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.25,
+      "elo": 1499.0,
+      "elo_max": 1533.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Gabin Néron",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 11,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.22,
+      "elo": 1530.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Gabriel Labbé",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 7,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.64,
+      "elo": 1486.0,
+      "elo_max": 1519.0,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Maxime Trépant",
+      "matchs_joues": 12,
+      "victoires": 10,
+      "defaites": 2,
+      "sets_gagnes": 30,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.31,
+      "elo": 1620.0,
+      "elo_max": 1636.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Lucas Larroque",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 1,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.25,
+      "elo": 1468.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Augustin Lesne",
+      "matchs_joues": 11,
+      "victoires": 8,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 72.7,
+      "ratio_sets": 1.71,
+      "elo": 1575.0,
+      "elo_max": 1591.0,
+      "elo_min": 1498.0
+    },
+    {
+      "nom": "Théophile Watremez",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 21,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 1.62,
+      "elo": 1563.0,
+      "elo_max": 1578.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Eugénie Roquain",
+      "matchs_joues": 8,
+      "victoires": 6,
+      "defaites": 2,
+      "sets_gagnes": 15,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.88,
+      "elo": 1559.0,
+      "elo_max": 1575.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Pierre-Louis Petit",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.71,
+      "elo": 1485.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Raphaël Delacote",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.18,
+      "elo": 1527.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Victor Duforest",
+      "matchs_joues": 12,
+      "victoires": 11,
+      "defaites": 1,
+      "sets_gagnes": 32,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 91.7,
+      "ratio_sets": 2.91,
+      "elo": 1635.0,
+      "elo_max": 1652.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Bastien Lavaux",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 8,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.89,
+      "elo": 1502.0,
+      "elo_max": 1518.0,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Victor Perron",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "elo": 1469.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Gauthier Chapelle",
+      "matchs_joues": 2,
+      "victoires": 1,
+      "defaites": 1,
+      "sets_gagnes": 3,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.5,
+      "elo": 1501.0,
+      "elo_max": 1501.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Marius Saludjian",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 2.0,
+      "elo": 1570.0,
+      "elo_max": 1584.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Romain Perrier",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 1,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.1,
+      "elo": 1427.0,
+      "elo_max": 1500,
+      "elo_min": 1427.0
+    },
+    {
+      "nom": "Octave Chardain",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.71,
+      "elo": 1483.0,
+      "elo_max": 1517.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Lucas Bey",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 19,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 1.36,
+      "elo": 1552.0,
+      "elo_max": 1568.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Benjamin Riegel",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.18,
+      "elo": 1536.0,
+      "elo_max": 1547.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Julien Reijasse",
+      "matchs_joues": 7,
+      "victoires": 4,
+      "defaites": 3,
+      "sets_gagnes": 11,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.0,
+      "elo": 1519.0,
+      "elo_max": 1535.0,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Daphné Lesur",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 0,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1469.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Zoé Nemeth",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.2,
+      "elo": 1527.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Victoire Guth",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 9,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.82,
+      "elo": 1487.0,
+      "elo_max": 1503.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Malo Thuillier",
+      "matchs_joues": 11,
+      "victoires": 9,
+      "defaites": 2,
+      "sets_gagnes": 24,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 81.8,
+      "ratio_sets": 1.71,
+      "elo": 1596.0,
+      "elo_max": 1614.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Justine Sellier",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.5,
+      "elo": 1453.0,
+      "elo_max": 1515.0,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Calixte Parendel",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.5,
+      "elo": 1457.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Yaël Vincent",
+      "matchs_joues": 7,
+      "victoires": 5,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 1.38,
+      "elo": 1542.0,
+      "elo_max": 1560.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Thibault Planckeel",
+      "matchs_joues": 6,
+      "victoires": 2,
+      "defaites": 4,
+      "sets_gagnes": 6,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1471.0,
+      "elo_max": 1503.0,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Rémi Charlemagne",
+      "matchs_joues": 7,
+      "victoires": 4,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.2,
+      "elo": 1519.0,
+      "elo_max": 1531.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Eryne Trzeciak",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 3,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.3,
+      "elo": 1430.0,
+      "elo_max": 1500,
+      "elo_min": 1430.0
+    },
+    {
+      "nom": "Arthur Buffavand",
+      "matchs_joues": 2,
+      "victoires": 1,
+      "defaites": 1,
+      "sets_gagnes": 3,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.5,
+      "elo": 1501.0,
+      "elo_max": 1501.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Titouan Boulitreau",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1499.0,
+      "elo_max": 1516.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Mathias Joly",
+      "matchs_joues": 6,
+      "victoires": 5,
+      "defaites": 1,
+      "sets_gagnes": 15,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.5,
+      "elo": 1558.0,
+      "elo_max": 1573.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Timothée Priou Pichon",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Matéo Batista",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.6,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Arthur Peschaire",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Audrey Cahuac",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1515.0,
+      "elo_max": 1517.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Eliott Levy Rondeau",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Elwan El-Hafaia",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Léonard Wilson",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1452.0,
+      "elo_max": 1500,
+      "elo_min": 1452.0
+    },
+    {
+      "nom": "Jean Debare",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Chloé Perrier",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1500.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Ulysse Comte",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1502.0,
+      "elo_max": 1516.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Coralie Tyrode",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Isaure Chevreau",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1458.0,
+      "elo_max": 1500,
+      "elo_min": 1458.0
+    },
+    {
+      "nom": "David Carrié",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1519.0,
+      "elo_max": 1519.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Tom Lemoine",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1487.0,
+      "elo_max": 1503.0,
+      "elo_min": 1487.0
+    },
+    {
+      "nom": "Guilhem Demesy",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1499.0,
+      "elo_max": 1531.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Ulysse Cruz Ramos",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.67,
+      "elo": 1529.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Pierric Léopold",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Lou-Ann Flécher",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Philippe Pernet",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1514.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Apolline Joire",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Oleksandr Segeda",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Cheikh Oumar Diarra",
+      "matchs_joues": 10,
+      "victoires": 8,
+      "defaites": 2,
+      "sets_gagnes": 25,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 1.92,
+      "elo": 1582.0,
+      "elo_max": 1599.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Maëlys Normand",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0
+    },
+    {
+      "nom": "Justine Bonnamy",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1485.0,
+      "elo_max": 1516.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Lucas Gonçalves",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.4,
+      "elo": 1503.0,
+      "elo_max": 1517.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Max Perron",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Chloé Lumb",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1503.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Nassim Houzali",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Antonin Briat",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Siméon Glomot",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1516.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Luka Petrovic",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 2.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1485.0
+    },
+    {
+      "nom": "Juliette Vialla",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0
+    },
+    {
+      "nom": "Jack Hascoet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Baptiste Fontaine",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1514.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Mathis Patin",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.6,
+      "elo": 1529.0,
+      "elo_max": 1546.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Lilou Frezzato",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Yassine Aloui",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Barthélémy Limonne",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1501.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Lucas Dargère",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1501.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Loan Piquet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1482.0,
+      "elo_max": 1516.0,
+      "elo_min": 1482.0
+    },
+    {
+      "nom": "Célian Fouchet",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.14,
+      "elo": 1515.0,
+      "elo_max": 1531.0,
+      "elo_min": 1498.0
+    },
+    {
+      "nom": "Doriann Brossais",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 10,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.11,
+      "elo": 1536.0,
+      "elo_max": 1550.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Lola Schauterden",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1484.0,
+      "elo_max": 1500.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Elouan Mazoyer",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Marius Tournié",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 7,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.75,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Johannes Engel",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 13,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.86,
+      "elo": 1534.0,
+      "elo_max": 1547.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Juliette Plault",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Thomas Souprayen",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.71,
+      "elo": 1501.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Mathilde Lesueur",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 3,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "elo": 1452.0,
+      "elo_max": 1500,
+      "elo_min": 1452.0
+    },
+    {
+      "nom": "Anaé Saubestre",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Ilias Brumant",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Benjamin Lasserre",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.0,
+      "elo": 1530.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Antoine De La Monneraye",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Sacha Claisse",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1500.0,
+      "elo_max": 1516.0,
+      "elo_min": 1500.0
+    },
+    {
+      "nom": "Solène Wang",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Simon Blin",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1487.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Constantin Chalumeau",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1484.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Chloé Best-Belpomme",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Malo Mutti",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1487.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Adrien Queffélec",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1499.0,
+      "elo_max": 1532.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Yani Debiane",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1500.0,
+      "elo_max": 1516.0,
+      "elo_min": 1500.0
+    },
+    {
+      "nom": "Edgar Virlogeux",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Lamia D'Acunto",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 7,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.75,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Yanis Saa",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 5,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.67,
+      "elo": 1514.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Mathilde Sallé",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.29,
+      "elo": 1520.0,
+      "elo_max": 1534.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Titouan Mahevas",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0
+    },
+    {
+      "nom": "Axel Shi",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 9,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.5,
+      "elo": 1517.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Thibaud Malvache",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Théotime Ponsen",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0
+    },
+    {
+      "nom": "Matthieu Bouchet",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 10,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.25,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Bastien Pageaud",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Arthur Devouge-Ruvira",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 3,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Anthony Gago-Klimenko",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.6,
+      "elo": 1526.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Mathéo Blain",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1504.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Louis Charpentier",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1457.0,
+      "elo_max": 1500,
+      "elo_min": 1457.0
+    },
+    {
+      "nom": "Blaise Dubreuil",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1490.0,
+      "elo_max": 1500,
+      "elo_min": 1474.0
+    },
+    {
+      "nom": "Tanguy Fesselet",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.8,
+      "elo": 1502.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Laura Medioni",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1470.0
+    },
+    {
+      "nom": "Clément Ducottet",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Romain Brechet",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1518.0,
+      "elo_max": 1518.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Gabin Chausse",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1483.0,
+      "elo_max": 1516.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Martin Chollet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Annaëlle Maigre",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Maxence Schwerer",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1500.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500.0
+    },
+    {
+      "nom": "Paul Laurent Verleye",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0
+    },
+    {
+      "nom": "Rémi Imbert Chevrier",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.29,
+      "elo": 1515.0,
+      "elo_max": 1529.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Gianni Mazzone",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1451.0,
+      "elo_max": 1500,
+      "elo_min": 1451.0
+    },
+    {
+      "nom": "Lilian Beauvais",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1483.0,
+      "elo_max": 1500,
+      "elo_min": 1467.0
+    },
+    {
+      "nom": "Thibault Vo",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1500.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Vincent Brun",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0
+    },
+    {
+      "nom": "Maxime De Campos",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1470.0
+    },
+    {
+      "nom": "Karl Nuyts",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Maxime Antoine",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1534.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Lilou Palud",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1505.0,
+      "elo_max": 1519.0,
+      "elo_min": 1486.0
+    },
+    {
+      "nom": "Bastian Zachary",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0
+    },
+    {
+      "nom": "Etienne Saudubray",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.8,
+      "elo": 1483.0,
+      "elo_max": 1516.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Titouan Leveugle",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1515.0,
+      "elo_max": 1515.0,
+      "elo_min": 1483.0
+    },
+    {
+      "nom": "Alix Nevers",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 0.88,
+      "elo": 1517.0,
+      "elo_max": 1533.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Emile Sandberg",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1518.0,
+      "elo_max": 1518.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Marius Bacle",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1457.0,
+      "elo_max": 1500,
+      "elo_min": 1457.0
+    },
+    {
+      "nom": "Jasper Williamson",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.1,
+      "elo": 1533.0,
+      "elo_max": 1549.0,
+      "elo_min": 1499.0
+    },
+    {
+      "nom": "Bastien Danino",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.4,
+      "elo": 1501.0,
+      "elo_max": 1518.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Brune Paluel-Marmont",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1502.0,
+      "elo_min": 1484.0
+    },
+    {
+      "nom": "Alexandre Poisson",
+      "matchs_joues": 7,
+      "victoires": 7,
+      "defaites": 0,
+      "sets_gagnes": 20,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 100.0,
+      "ratio_sets": 3.33,
+      "elo": 1605.0,
+      "elo_max": 1605.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Nicolas Dupré",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0
+    },
+    {
+      "nom": "Thomas Brisset-Bouscarle",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 14,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.4,
+      "elo": 1534.0,
+      "elo_max": 1549.0,
+      "elo_min": 1500
+    },
+    {
+      "nom": "Raphaël Tipaka",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1484.0
+    }
+  ],
+  "matchs": [
+    {
+      "id": 1,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Alain Salomon",
+      "joueur2": "Antoine Lebrat",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 2,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Enzo Leroux",
+      "joueur2": "Victor Morlat",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Victor Morlat"
+    },
+    {
+      "id": 3,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Alain Salomon",
+      "joueur2": "Béatrice Revel",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Béatrice Revel"
+    },
+    {
+      "id": 4,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Enzo Leroux",
+      "joueur2": "Léo Santiquet",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 5,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Antoine Lebrat",
+      "joueur2": "Béatrice Revel",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 6,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Victor Morlat",
+      "joueur2": "Léo Santiquet",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 7,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Paul Dauboin",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 8,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Arthur Jamette",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Axel Garcin"
+    },
+    {
+      "id": 9,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "FX Tierny",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 10,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Théo Coltat",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Axel Garcin"
+    },
+    {
+      "id": 11,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Paul Dauboin",
+      "joueur2": "FX Tierny",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Paul Dauboin"
+    },
+    {
+      "id": 12,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Arthur Jamette",
+      "joueur2": "Théo Coltat",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Théo Coltat"
+    },
+    {
+      "id": 13,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Gabriel Labbé",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Gabin Néron"
+    },
+    {
+      "id": 14,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Lucas Larroque",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 15,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Théophile Watremez",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 16,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Eugénie Roquain",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 17,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Augustin Lesne",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 18,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Lucas Larroque",
+      "joueur2": "Eugénie Roquain",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 19,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Gabriel Labbé",
+      "joueur2": "Théophile Watremez",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 20,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Théophile Watremez",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Gabin Néron"
+    },
+    {
+      "id": 21,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Gabriel Labbé",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Gabriel Labbé"
+    },
+    {
+      "id": 22,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Pierre-Louis Petit",
+      "joueur2": "Raphaël Delacote",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Raphaël Delacote"
+    },
+    {
+      "id": 23,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Bastien Lavaux",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 24,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Pierre-Louis Petit",
+      "joueur2": "Victor Perron",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Pierre-Louis Petit"
+    },
+    {
+      "id": 25,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Gauthier Chapelle",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 26,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Raphaël Delacote",
+      "joueur2": "Victor Perron",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Raphaël Delacote"
+    },
+    {
+      "id": 27,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Bastien Lavaux",
+      "joueur2": "Gauthier Chapelle",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Gauthier Chapelle"
+    },
+    {
+      "id": 28,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Romain Perrier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 29,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Octave Chardain",
+      "joueur2": "Lucas Bey",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 30,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Benjamin Riegel",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Benjamin Riegel"
+    },
+    {
+      "id": 31,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Octave Chardain",
+      "joueur2": "Julien Reijasse",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Octave Chardain"
+    },
+    {
+      "id": 32,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Romain Perrier",
+      "joueur2": "Benjamin Riegel",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Benjamin Riegel"
+    },
+    {
+      "id": 33,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Julien Reijasse",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 34,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Daphné Lesur",
+      "joueur2": "Zoé Nemeth",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Zoé Nemeth"
+    },
+    {
+      "id": 35,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Malo Thuillier",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 36,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Daphné Lesur",
+      "joueur2": "Justine Sellier",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Justine Sellier"
+    },
+    {
+      "id": 37,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Calixte Parendel",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Victoire Guth"
+    },
+    {
+      "id": 38,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Zoé Nemeth",
+      "joueur2": "Justine Sellier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Zoé Nemeth"
+    },
+    {
+      "id": 39,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Calixte Parendel",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 40,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Yaël Vincent",
+      "joueur2": "Thibault Planckeel",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Yaël Vincent"
+    },
+    {
+      "id": 41,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Eryne Trzeciak",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Rémi Charlemagne"
+    },
+    {
+      "id": 42,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Yaël Vincent",
+      "joueur2": "Arthur Buffavand",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Yaël Vincent"
+    },
+    {
+      "id": 43,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Cheikh Oumar Diarra",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 44,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Thibault Planckeel",
+      "joueur2": "Arthur Buffavand",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Arthur Buffavand"
+    },
+    {
+      "id": 45,
+      "tournoi": "CNF 1",
+      "phase": "Poules",
+      "date": "2025-04",
+      "joueur1": "Eryne Trzeciak",
+      "joueur2": "Cheikh Oumar Diarra",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 46,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Benjamin Riegel",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 47,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Raphaël Delacote",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Raphaël Delacote"
+    },
+    {
+      "id": 48,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Yaël Vincent",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 49,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Antoine Lebrat",
+      "joueur2": "Maxime Trépant",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 50,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Victoire Guth",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 51,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Malo Thuillier",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 52,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Cheikh Oumar Diarra",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 53,
+      "tournoi": "CNF 1",
+      "phase": "8èmes",
+      "date": "2025-04",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Zoé Nemeth",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 54,
+      "tournoi": "CNF 1",
+      "phase": "Quarts",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Raphaël Delacote",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 55,
+      "tournoi": "CNF 1",
+      "phase": "Quarts",
+      "date": "2025-04",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Antoine Lebrat",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 56,
+      "tournoi": "CNF 1",
+      "phase": "Quarts",
+      "date": "2025-04",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Malo Thuillier",
+      "score1": 4,
+      "score2": 1,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 57,
+      "tournoi": "CNF 1",
+      "phase": "Quarts",
+      "date": "2025-04",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Clément Ricaud",
+      "score1": 3,
+      "score2": 4,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 58,
+      "tournoi": "CNF 1",
+      "phase": "Demis",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Léo Santiquet",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 59,
+      "tournoi": "CNF 1",
+      "phase": "Demis",
+      "date": "2025-04",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Lucas Bey",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 60,
+      "tournoi": "CNF 1",
+      "phase": "Finale",
+      "date": "2025-04",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Clément Ricaud",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 61,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Titouan Boulitreau",
+      "joueur2": "Timothée Priou Pichon",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Titouan Boulitreau"
+    },
+    {
+      "id": 62,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Calixte Parendel",
+      "joueur2": "Mathias Joly",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Mathias Joly"
+    },
+    {
+      "id": 63,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Titouan Boulitreau",
+      "joueur2": "Mathias Joly",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Mathias Joly"
+    },
+    {
+      "id": 64,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Calixte Parendel",
+      "joueur2": "Timothée Priou Pichon",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Calixte Parendel"
+    },
+    {
+      "id": 65,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Mathias Joly",
+      "joueur2": "Timothée Priou Pichon",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Mathias Joly"
+    },
+    {
+      "id": 66,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Titouan Boulitreau",
+      "joueur2": "Calixte Parendel",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Titouan Boulitreau"
+    },
+    {
+      "id": 67,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Benjamin Riegel",
+      "joueur2": "Audrey Cahuac",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Audrey Cahuac"
+    },
+    {
+      "id": 68,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Matéo Batista",
+      "joueur2": "Arthur Peschaire",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Matéo Batista"
+    },
+    {
+      "id": 69,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Benjamin Riegel",
+      "joueur2": "Arthur Peschaire",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Benjamin Riegel"
+    },
+    {
+      "id": 70,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Matéo Batista",
+      "joueur2": "Audrey Cahuac",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Matéo Batista"
+    },
+    {
+      "id": 71,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Arthur Peschaire",
+      "joueur2": "Audrey Cahuac",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Audrey Cahuac"
+    },
+    {
+      "id": 72,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Benjamin Riegel",
+      "joueur2": "Matéo Batista",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Benjamin Riegel"
+    },
+    {
+      "id": 73,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Elwan El-Hafaia",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 74,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Enzo Leroux",
+      "joueur2": "Eliott Levy Rondeau",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Enzo Leroux"
+    },
+    {
+      "id": 75,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Eliott Levy Rondeau",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 76,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Enzo Leroux",
+      "joueur2": "Elwan El-Hafaia",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Enzo Leroux"
+    },
+    {
+      "id": 77,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eliott Levy Rondeau",
+      "joueur2": "Elwan El-Hafaia",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Eliott Levy Rondeau"
+    },
+    {
+      "id": 78,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Enzo Leroux",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 79,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Paul Dauboin",
+      "joueur2": "Jean Debare",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Paul Dauboin"
+    },
+    {
+      "id": 80,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alain Salomon",
+      "joueur2": "Léonard Wilson",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Alain Salomon"
+    },
+    {
+      "id": 81,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Paul Dauboin",
+      "joueur2": "Léonard Wilson",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Paul Dauboin"
+    },
+    {
+      "id": 82,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alain Salomon",
+      "joueur2": "Jean Debare",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Alain Salomon"
+    },
+    {
+      "id": 83,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Léonard Wilson",
+      "joueur2": "Jean Debare",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Jean Debare"
+    },
+    {
+      "id": 84,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Paul Dauboin",
+      "joueur2": "Alain Salomon",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Paul Dauboin"
+    },
+    {
+      "id": 85,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Coralie Tyrode",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 86,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Chloé Perrier",
+      "joueur2": "Ulysse Comte",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Ulysse Comte"
+    },
+    {
+      "id": 87,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Ulysse Comte",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 88,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Chloé Perrier",
+      "joueur2": "Coralie Tyrode",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Chloé Perrier"
+    },
+    {
+      "id": 89,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ulysse Comte",
+      "joueur2": "Coralie Tyrode",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Ulysse Comte"
+    },
+    {
+      "id": 90,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Chloé Perrier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 91,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Tom Lemoine",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 92,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Isaure Chevreau",
+      "joueur2": "David Carrié",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "David Carrié"
+    },
+    {
+      "id": 93,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "David Carrié",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 94,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Isaure Chevreau",
+      "joueur2": "Tom Lemoine",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Tom Lemoine"
+    },
+    {
+      "id": 95,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "David Carrié",
+      "joueur2": "Tom Lemoine",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "David Carrié"
+    },
+    {
+      "id": 96,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Isaure Chevreau",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 97,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Guilhem Demesy",
+      "joueur2": "Lou-Ann Flécher",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Guilhem Demesy"
+    },
+    {
+      "id": 98,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ulysse Cruz Ramos",
+      "joueur2": "Pierric Léopold",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Ulysse Cruz Ramos"
+    },
+    {
+      "id": 99,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Guilhem Demesy",
+      "joueur2": "Pierric Léopold",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Guilhem Demesy"
+    },
+    {
+      "id": 100,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ulysse Cruz Ramos",
+      "joueur2": "Lou-Ann Flécher",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Ulysse Cruz Ramos"
+    },
+    {
+      "id": 101,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Pierric Léopold",
+      "joueur2": "Lou-Ann Flécher",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Pierric Léopold"
+    },
+    {
+      "id": 102,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Guilhem Demesy",
+      "joueur2": "Ulysse Cruz Ramos",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Ulysse Cruz Ramos"
+    },
+    {
+      "id": 103,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Oleksandr Segeda",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 104,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Philippe Pernet",
+      "joueur2": "Apolline Joire",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Philippe Pernet"
+    },
+    {
+      "id": 105,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Apolline Joire",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 106,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Philippe Pernet",
+      "joueur2": "Oleksandr Segeda",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Philippe Pernet"
+    },
+    {
+      "id": 107,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Apolline Joire",
+      "joueur2": "Oleksandr Segeda",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Oleksandr Segeda"
+    },
+    {
+      "id": 108,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Philippe Pernet",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 109,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Lucas Gonçalves",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 110,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maëlys Normand",
+      "joueur2": "Justine Bonnamy",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Justine Bonnamy"
+    },
+    {
+      "id": 111,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Justine Bonnamy",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 112,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maëlys Normand",
+      "joueur2": "Lucas Gonçalves",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lucas Gonçalves"
+    },
+    {
+      "id": 113,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Justine Bonnamy",
+      "joueur2": "Lucas Gonçalves",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lucas Gonçalves"
+    },
+    {
+      "id": 114,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Maëlys Normand",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 115,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Nassim Houzali",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victoire Guth"
+    },
+    {
+      "id": 116,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Max Perron",
+      "joueur2": "Chloé Lumb",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Chloé Lumb"
+    },
+    {
+      "id": 117,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Chloé Lumb",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Chloé Lumb"
+    },
+    {
+      "id": 118,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Max Perron",
+      "joueur2": "Nassim Houzali",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Nassim Houzali"
+    },
+    {
+      "id": 119,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Chloé Lumb",
+      "joueur2": "Nassim Houzali",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Nassim Houzali"
+    },
+    {
+      "id": 120,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Max Perron",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victoire Guth"
+    },
+    {
+      "id": 121,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eugénie Roquain",
+      "joueur2": "Siméon Glomot",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 122,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Pierre-Louis Petit",
+      "joueur2": "Antonin Briat",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Pierre-Louis Petit"
+    },
+    {
+      "id": 123,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eugénie Roquain",
+      "joueur2": "Antonin Briat",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 124,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Pierre-Louis Petit",
+      "joueur2": "Siméon Glomot",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Siméon Glomot"
+    },
+    {
+      "id": 125,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Antonin Briat",
+      "joueur2": "Siméon Glomot",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Siméon Glomot"
+    },
+    {
+      "id": 126,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eugénie Roquain",
+      "joueur2": "Pierre-Louis Petit",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 127,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Morlat",
+      "joueur2": "Juliette Vialla",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victor Morlat"
+    },
+    {
+      "id": 128,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Zoé Nemeth",
+      "joueur2": "Luka Petrovic",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Zoé Nemeth"
+    },
+    {
+      "id": 129,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Morlat",
+      "joueur2": "Luka Petrovic",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Luka Petrovic"
+    },
+    {
+      "id": 130,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Zoé Nemeth",
+      "joueur2": "Juliette Vialla",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Zoé Nemeth"
+    },
+    {
+      "id": 131,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Luka Petrovic",
+      "joueur2": "Juliette Vialla",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Luka Petrovic"
+    },
+    {
+      "id": 132,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Morlat",
+      "joueur2": "Zoé Nemeth",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victor Morlat"
+    },
+    {
+      "id": 133,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Jack Hascoet",
+      "joueur2": "Mathis Patin",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Mathis Patin"
+    },
+    {
+      "id": 134,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Justine Sellier",
+      "joueur2": "Baptiste Fontaine",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Baptiste Fontaine"
+    },
+    {
+      "id": 135,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Jack Hascoet",
+      "joueur2": "Baptiste Fontaine",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Baptiste Fontaine"
+    },
+    {
+      "id": 136,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Justine Sellier",
+      "joueur2": "Mathis Patin",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Mathis Patin"
+    },
+    {
+      "id": 137,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Baptiste Fontaine",
+      "joueur2": "Mathis Patin",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Mathis Patin"
+    },
+    {
+      "id": 138,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Jack Hascoet",
+      "joueur2": "Justine Sellier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Jack Hascoet"
+    },
+    {
+      "id": 139,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Barthélémy Limonne",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 140,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lilou Frezzato",
+      "joueur2": "Yassine Aloui",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Yassine Aloui"
+    },
+    {
+      "id": 141,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Yassine Aloui",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 142,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lilou Frezzato",
+      "joueur2": "Barthélémy Limonne",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Barthélémy Limonne"
+    },
+    {
+      "id": 143,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yassine Aloui",
+      "joueur2": "Barthélémy Limonne",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Barthélémy Limonne"
+    },
+    {
+      "id": 144,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Lilou Frezzato",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 145,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Célian Fouchet",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Célian Fouchet"
+    },
+    {
+      "id": 146,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lucas Dargère",
+      "joueur2": "Loan Piquet",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Loan Piquet"
+    },
+    {
+      "id": 147,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Loan Piquet",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 148,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lucas Dargère",
+      "joueur2": "Célian Fouchet",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Lucas Dargère"
+    },
+    {
+      "id": 149,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Loan Piquet",
+      "joueur2": "Célian Fouchet",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Célian Fouchet"
+    },
+    {
+      "id": 150,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Lucas Dargère",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 151,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Antoine Lebrat",
+      "joueur2": "Lola Schauterden",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 152,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eryne Trzeciak",
+      "joueur2": "Doriann Brossais",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Doriann Brossais"
+    },
+    {
+      "id": 153,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Antoine Lebrat",
+      "joueur2": "Doriann Brossais",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 154,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Eryne Trzeciak",
+      "joueur2": "Lola Schauterden",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lola Schauterden"
+    },
+    {
+      "id": 155,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Doriann Brossais",
+      "joueur2": "Lola Schauterden",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Doriann Brossais"
+    },
+    {
+      "id": 156,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Antoine Lebrat",
+      "joueur2": "Eryne Trzeciak",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 157,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Elouan Mazoyer",
+      "joueur2": "Juliette Plault",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Juliette Plault"
+    },
+    {
+      "id": 158,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Marius Tournié",
+      "joueur2": "Johannes Engel",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Marius Tournié"
+    },
+    {
+      "id": 159,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Elouan Mazoyer",
+      "joueur2": "Johannes Engel",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Johannes Engel"
+    },
+    {
+      "id": 160,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Marius Tournié",
+      "joueur2": "Juliette Plault",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Marius Tournié"
+    },
+    {
+      "id": 161,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Johannes Engel",
+      "joueur2": "Juliette Plault",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Johannes Engel"
+    },
+    {
+      "id": 162,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Elouan Mazoyer",
+      "joueur2": "Marius Tournié",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Marius Tournié"
+    },
+    {
+      "id": 163,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Julien Reijasse",
+      "joueur2": "Anaé Saubestre",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Julien Reijasse"
+    },
+    {
+      "id": 164,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thomas Souprayen",
+      "joueur2": "Mathilde Lesueur",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Thomas Souprayen"
+    },
+    {
+      "id": 165,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Julien Reijasse",
+      "joueur2": "Mathilde Lesueur",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Julien Reijasse"
+    },
+    {
+      "id": 166,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thomas Souprayen",
+      "joueur2": "Anaé Saubestre",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Thomas Souprayen"
+    },
+    {
+      "id": 167,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Mathilde Lesueur",
+      "joueur2": "Anaé Saubestre",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Anaé Saubestre"
+    },
+    {
+      "id": 168,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Julien Reijasse",
+      "joueur2": "Thomas Souprayen",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Julien Reijasse"
+    },
+    {
+      "id": 169,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ilias Brumant",
+      "joueur2": "Sacha Claisse",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Sacha Claisse"
+    },
+    {
+      "id": 170,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Benjamin Lasserre",
+      "joueur2": "Antoine De La Monneraye",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Benjamin Lasserre"
+    },
+    {
+      "id": 171,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ilias Brumant",
+      "joueur2": "Antoine De La Monneraye",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Ilias Brumant"
+    },
+    {
+      "id": 172,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Benjamin Lasserre",
+      "joueur2": "Sacha Claisse",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Benjamin Lasserre"
+    },
+    {
+      "id": 173,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Antoine De La Monneraye",
+      "joueur2": "Sacha Claisse",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Sacha Claisse"
+    },
+    {
+      "id": 174,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Ilias Brumant",
+      "joueur2": "Benjamin Lasserre",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Benjamin Lasserre"
+    },
+    {
+      "id": 175,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Raphaël Delacote",
+      "joueur2": "Constantin Chalumeau",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Constantin Chalumeau"
+    },
+    {
+      "id": 176,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Solène Wang",
+      "joueur2": "Simon Blin",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Solène Wang"
+    },
+    {
+      "id": 177,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Raphaël Delacote",
+      "joueur2": "Simon Blin",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Raphaël Delacote"
+    },
+    {
+      "id": 178,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Solène Wang",
+      "joueur2": "Constantin Chalumeau",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Solène Wang"
+    },
+    {
+      "id": 179,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Simon Blin",
+      "joueur2": "Constantin Chalumeau",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Simon Blin"
+    },
+    {
+      "id": 180,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Raphaël Delacote",
+      "joueur2": "Solène Wang",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Raphaël Delacote"
+    },
+    {
+      "id": 181,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Adrien Queffélec",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Adrien Queffélec"
+    },
+    {
+      "id": 182,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Chloé Best-Belpomme",
+      "joueur2": "Malo Mutti",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Chloé Best-Belpomme"
+    },
+    {
+      "id": 183,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Malo Mutti",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Rémi Charlemagne"
+    },
+    {
+      "id": 184,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Chloé Best-Belpomme",
+      "joueur2": "Adrien Queffélec",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Adrien Queffélec"
+    },
+    {
+      "id": 185,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Malo Mutti",
+      "joueur2": "Adrien Queffélec",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Malo Mutti"
+    },
+    {
+      "id": 186,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Chloé Best-Belpomme",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Rémi Charlemagne"
+    },
+    {
+      "id": 187,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Romain Perrier",
+      "joueur2": "Lamia D'Acunto",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lamia D'Acunto"
+    },
+    {
+      "id": 188,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yani Debiane",
+      "joueur2": "Edgar Virlogeux",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Yani Debiane"
+    },
+    {
+      "id": 189,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Romain Perrier",
+      "joueur2": "Edgar Virlogeux",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Edgar Virlogeux"
+    },
+    {
+      "id": 190,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yani Debiane",
+      "joueur2": "Lamia D'Acunto",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Lamia D'Acunto"
+    },
+    {
+      "id": 191,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Edgar Virlogeux",
+      "joueur2": "Lamia D'Acunto",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lamia D'Acunto"
+    },
+    {
+      "id": 192,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Romain Perrier",
+      "joueur2": "Yani Debiane",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Yani Debiane"
+    },
+    {
+      "id": 193,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Titouan Mahevas",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Axel Garcin"
+    },
+    {
+      "id": 194,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yanis Saa",
+      "joueur2": "Mathilde Sallé",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Yanis Saa"
+    },
+    {
+      "id": 195,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Mathilde Sallé",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Mathilde Sallé"
+    },
+    {
+      "id": 196,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yanis Saa",
+      "joueur2": "Titouan Mahevas",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Yanis Saa"
+    },
+    {
+      "id": 197,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Mathilde Sallé",
+      "joueur2": "Titouan Mahevas",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Mathilde Sallé"
+    },
+    {
+      "id": 198,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Axel Garcin",
+      "joueur2": "Yanis Saa",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Axel Garcin"
+    },
+    {
+      "id": 199,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Béatrice Revel",
+      "joueur2": "Théotime Ponsen",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Béatrice Revel"
+    },
+    {
+      "id": 200,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Axel Shi",
+      "joueur2": "Thibaud Malvache",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Axel Shi"
+    },
+    {
+      "id": 201,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Béatrice Revel",
+      "joueur2": "Thibaud Malvache",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Béatrice Revel"
+    },
+    {
+      "id": 202,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Axel Shi",
+      "joueur2": "Théotime Ponsen",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Axel Shi"
+    },
+    {
+      "id": 203,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibaud Malvache",
+      "joueur2": "Théotime Ponsen",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Théotime Ponsen"
+    },
+    {
+      "id": 204,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Béatrice Revel",
+      "joueur2": "Axel Shi",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Béatrice Revel"
+    },
+    {
+      "id": 205,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Matthieu Bouchet",
+      "joueur2": "Anthony Gago-Klimenko",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Anthony Gago-Klimenko"
+    },
+    {
+      "id": 206,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastien Pageaud",
+      "joueur2": "Arthur Devouge-Ruvira",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Bastien Pageaud"
+    },
+    {
+      "id": 207,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Matthieu Bouchet",
+      "joueur2": "Arthur Devouge-Ruvira",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Matthieu Bouchet"
+    },
+    {
+      "id": 208,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastien Pageaud",
+      "joueur2": "Anthony Gago-Klimenko",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Anthony Gago-Klimenko"
+    },
+    {
+      "id": 209,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Arthur Devouge-Ruvira",
+      "joueur2": "Anthony Gago-Klimenko",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Anthony Gago-Klimenko"
+    },
+    {
+      "id": 210,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Matthieu Bouchet",
+      "joueur2": "Bastien Pageaud",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Matthieu Bouchet"
+    },
+    {
+      "id": 211,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Blaise Dubreuil",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 212,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Mathéo Blain",
+      "joueur2": "Louis Charpentier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Mathéo Blain"
+    },
+    {
+      "id": 213,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Louis Charpentier",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 214,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Mathéo Blain",
+      "joueur2": "Blaise Dubreuil",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Mathéo Blain"
+    },
+    {
+      "id": 215,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Louis Charpentier",
+      "joueur2": "Blaise Dubreuil",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Blaise Dubreuil"
+    },
+    {
+      "id": 216,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Mathéo Blain",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 217,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yaël Vincent",
+      "joueur2": "Clément Ducottet",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Yaël Vincent"
+    },
+    {
+      "id": 218,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Tanguy Fesselet",
+      "joueur2": "Laura Medioni",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Tanguy Fesselet"
+    },
+    {
+      "id": 219,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yaël Vincent",
+      "joueur2": "Laura Medioni",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Yaël Vincent"
+    },
+    {
+      "id": 220,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Tanguy Fesselet",
+      "joueur2": "Clément Ducottet",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Tanguy Fesselet"
+    },
+    {
+      "id": 221,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Laura Medioni",
+      "joueur2": "Clément Ducottet",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Laura Medioni"
+    },
+    {
+      "id": 222,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Yaël Vincent",
+      "joueur2": "Tanguy Fesselet",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Yaël Vincent"
+    },
+    {
+      "id": 223,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théo Coltat",
+      "joueur2": "Martin Chollet",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Théo Coltat"
+    },
+    {
+      "id": 224,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Romain Brechet",
+      "joueur2": "Gabin Chausse",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Gabin Chausse"
+    },
+    {
+      "id": 225,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théo Coltat",
+      "joueur2": "Gabin Chausse",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Théo Coltat"
+    },
+    {
+      "id": 226,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Romain Brechet",
+      "joueur2": "Martin Chollet",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Romain Brechet"
+    },
+    {
+      "id": 227,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabin Chausse",
+      "joueur2": "Martin Chollet",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Martin Chollet"
+    },
+    {
+      "id": 228,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Théo Coltat",
+      "joueur2": "Romain Brechet",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Romain Brechet"
+    },
+    {
+      "id": 229,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Annaëlle Maigre",
+      "joueur2": "Rémi Imbert Chevrier",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Rémi Imbert Chevrier"
+    },
+    {
+      "id": 230,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxence Schwerer",
+      "joueur2": "Paul Laurent Verleye",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Maxence Schwerer"
+    },
+    {
+      "id": 231,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Annaëlle Maigre",
+      "joueur2": "Paul Laurent Verleye",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Annaëlle Maigre"
+    },
+    {
+      "id": 232,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxence Schwerer",
+      "joueur2": "Rémi Imbert Chevrier",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Maxence Schwerer"
+    },
+    {
+      "id": 233,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Paul Laurent Verleye",
+      "joueur2": "Rémi Imbert Chevrier",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Rémi Imbert Chevrier"
+    },
+    {
+      "id": 234,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Annaëlle Maigre",
+      "joueur2": "Maxence Schwerer",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Annaëlle Maigre"
+    },
+    {
+      "id": 235,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabriel Labbé",
+      "joueur2": "Lilian Beauvais",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Gabriel Labbé"
+    },
+    {
+      "id": 236,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastien Lavaux",
+      "joueur2": "Gianni Mazzone",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Bastien Lavaux"
+    },
+    {
+      "id": 237,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabriel Labbé",
+      "joueur2": "Gianni Mazzone",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Gabriel Labbé"
+    },
+    {
+      "id": 238,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastien Lavaux",
+      "joueur2": "Lilian Beauvais",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Bastien Lavaux"
+    },
+    {
+      "id": 239,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gianni Mazzone",
+      "joueur2": "Lilian Beauvais",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lilian Beauvais"
+    },
+    {
+      "id": 240,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabriel Labbé",
+      "joueur2": "Bastien Lavaux",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Bastien Lavaux"
+    },
+    {
+      "id": 241,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Maxime De Campos",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Gabin Néron"
+    },
+    {
+      "id": 242,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibault Vo",
+      "joueur2": "Vincent Brun",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Thibault Vo"
+    },
+    {
+      "id": 243,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Vincent Brun",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Gabin Néron"
+    },
+    {
+      "id": 244,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibault Vo",
+      "joueur2": "Maxime De Campos",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Thibault Vo"
+    },
+    {
+      "id": 245,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Vincent Brun",
+      "joueur2": "Maxime De Campos",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Maxime De Campos"
+    },
+    {
+      "id": 246,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Thibault Vo",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Gabin Néron"
+    },
+    {
+      "id": 247,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Lilou Palud",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 248,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Karl Nuyts",
+      "joueur2": "Maxime Antoine",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Maxime Antoine"
+    },
+    {
+      "id": 249,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Maxime Antoine",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Maxime Antoine"
+    },
+    {
+      "id": 250,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Karl Nuyts",
+      "joueur2": "Lilou Palud",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Lilou Palud"
+    },
+    {
+      "id": 251,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Maxime Antoine",
+      "joueur2": "Lilou Palud",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Lilou Palud"
+    },
+    {
+      "id": 252,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Lucas Bey",
+      "joueur2": "Karl Nuyts",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 253,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibault Planckeel",
+      "joueur2": "Titouan Leveugle",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Thibault Planckeel"
+    },
+    {
+      "id": 254,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastian Zachary",
+      "joueur2": "Etienne Saudubray",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Etienne Saudubray"
+    },
+    {
+      "id": 255,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibault Planckeel",
+      "joueur2": "Etienne Saudubray",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Thibault Planckeel"
+    },
+    {
+      "id": 256,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastian Zachary",
+      "joueur2": "Titouan Leveugle",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Titouan Leveugle"
+    },
+    {
+      "id": 257,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Etienne Saudubray",
+      "joueur2": "Titouan Leveugle",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Titouan Leveugle"
+    },
+    {
+      "id": 258,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thibault Planckeel",
+      "joueur2": "Bastian Zachary",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Bastian Zachary"
+    },
+    {
+      "id": 259,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Marius Bacle",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 260,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alix Nevers",
+      "joueur2": "Emile Sandberg",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Alix Nevers"
+    },
+    {
+      "id": 261,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Emile Sandberg",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Emile Sandberg"
+    },
+    {
+      "id": 262,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alix Nevers",
+      "joueur2": "Marius Bacle",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Alix Nevers"
+    },
+    {
+      "id": 263,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Emile Sandberg",
+      "joueur2": "Marius Bacle",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Emile Sandberg"
+    },
+    {
+      "id": 264,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Alix Nevers",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 265,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Octave Chardain",
+      "joueur2": "Brune Paluel-Marmont",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Octave Chardain"
+    },
+    {
+      "id": 266,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Jasper Williamson",
+      "joueur2": "Bastien Danino",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Jasper Williamson"
+    },
+    {
+      "id": 267,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Octave Chardain",
+      "joueur2": "Bastien Danino",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Bastien Danino"
+    },
+    {
+      "id": 268,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Jasper Williamson",
+      "joueur2": "Brune Paluel-Marmont",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Brune Paluel-Marmont"
+    },
+    {
+      "id": 269,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Bastien Danino",
+      "joueur2": "Brune Paluel-Marmont",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Bastien Danino"
+    },
+    {
+      "id": 270,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Octave Chardain",
+      "joueur2": "Jasper Williamson",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Jasper Williamson"
+    },
+    {
+      "id": 271,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Raphaël Tipaka",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 272,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Nicolas Dupré",
+      "joueur2": "Thomas Brisset-Bouscarle",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Thomas Brisset-Bouscarle"
+    },
+    {
+      "id": 273,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Thomas Brisset-Bouscarle",
+      "score1": 2,
+      "score2": 1,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 274,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Nicolas Dupré",
+      "joueur2": "Raphaël Tipaka",
+      "score1": 1,
+      "score2": 2,
+      "gagnant": "Raphaël Tipaka"
+    },
+    {
+      "id": 275,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Thomas Brisset-Bouscarle",
+      "joueur2": "Raphaël Tipaka",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Thomas Brisset-Bouscarle"
+    },
+    {
+      "id": 276,
+      "tournoi": "CNF 2",
+      "phase": "Poules",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Nicolas Dupré",
+      "score1": 2,
+      "score2": 0,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 277,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Barthélémy Limonne",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 278,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Victor Morlat",
+      "joueur2": "Axel Garcin",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Axel Garcin"
+    },
+    {
+      "id": 279,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Ulysse Comte",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 280,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Mathilde Sallé",
+      "joueur2": "Lamia D'Acunto",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Mathilde Sallé"
+    },
+    {
+      "id": 281,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Mathias Joly",
+      "joueur2": "Sacha Claisse",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Mathias Joly"
+    },
+    {
+      "id": 282,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Gabriel Labbé",
+      "joueur2": "Matéo Batista",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Matéo Batista"
+    },
+    {
+      "id": 283,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Mathéo Blain",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 284,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Thibault Vo",
+      "joueur2": "Béatrice Revel",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Béatrice Revel"
+    },
+    {
+      "id": 285,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Guilhem Demesy",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 286,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Axel Shi",
+      "joueur2": "Raphaël Delacote",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Axel Shi"
+    },
+    {
+      "id": 287,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Bastien Lavaux",
+      "joueur2": "Matthieu Bouchet",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Matthieu Bouchet"
+    },
+    {
+      "id": 288,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Thomas Brisset-Bouscarle",
+      "joueur2": "Marius Tournié",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Thomas Brisset-Bouscarle"
+    },
+    {
+      "id": 289,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Maxence Schwerer",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 290,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Alain Salomon",
+      "joueur2": "Anthony Gago-Klimenko",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Alain Salomon"
+    },
+    {
+      "id": 291,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Rémi Imbert Chevrier",
+      "joueur2": "Thibault Planckeel",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Rémi Imbert Chevrier"
+    },
+    {
+      "id": 292,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Lilou Palud",
+      "joueur2": "Eugénie Roquain",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 293,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Paul Dauboin",
+      "joueur2": "Marius Saludjian",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 294,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Célian Fouchet",
+      "joueur2": "Bastien Danino",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Célian Fouchet"
+    },
+    {
+      "id": 295,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Mathis Patin",
+      "joueur2": "Jasper Williamson",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Jasper Williamson"
+    },
+    {
+      "id": 296,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Zoé Nemeth",
+      "joueur2": "Benjamin Lasserre",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Zoé Nemeth"
+    },
+    {
+      "id": 297,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Tanguy Fesselet",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 298,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Yani Debiane",
+      "joueur2": "Antoine Lebrat",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Antoine Lebrat"
+    },
+    {
+      "id": 299,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Victoire Guth",
+      "joueur2": "Johannes Engel",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Johannes Engel"
+    },
+    {
+      "id": 300,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Alix Nevers",
+      "joueur2": "Ulysse Cruz Ramos",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Alix Nevers"
+    },
+    {
+      "id": 301,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Adrien Queffélec",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 302,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Lucas Gonçalves",
+      "joueur2": "Lucas Bey",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Lucas Bey"
+    },
+    {
+      "id": 303,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Julien Reijasse",
+      "joueur2": "Titouan Boulitreau",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Julien Reijasse"
+    },
+    {
+      "id": 304,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Doriann Brossais",
+      "joueur2": "Yaël Vincent",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Doriann Brossais"
+    },
+    {
+      "id": 305,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Gabin Néron",
+      "joueur2": "Benjamin Riegel",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Benjamin Riegel"
+    },
+    {
+      "id": 306,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Chloé Lumb",
+      "joueur2": "Victor Duforest",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 307,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Théo Coltat",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Rémi Charlemagne"
+    },
+    {
+      "id": 308,
+      "tournoi": "CNF 2",
+      "phase": "32èmes",
+      "date": "2025-10",
+      "joueur1": "Thomas Souprayen",
+      "joueur2": "Clément Ricaud",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 309,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Axel Garcin",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 310,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Cheikh Oumar Diarra",
+      "joueur2": "Mathilde Sallé",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Cheikh Oumar Diarra"
+    },
+    {
+      "id": 311,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Mathias Joly",
+      "joueur2": "Matéo Batista",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Mathias Joly"
+    },
+    {
+      "id": 312,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Béatrice Revel",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 313,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Axel Shi",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 314,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Matthieu Bouchet",
+      "joueur2": "Thomas Brisset-Bouscarle",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Thomas Brisset-Bouscarle"
+    },
+    {
+      "id": 315,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Alain Salomon",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 316,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Rémi Imbert Chevrier",
+      "joueur2": "Eugénie Roquain",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Eugénie Roquain"
+    },
+    {
+      "id": 317,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Célian Fouchet",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 318,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Jasper Williamson",
+      "joueur2": "Zoé Nemeth",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Jasper Williamson"
+    },
+    {
+      "id": 319,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Antoine Lebrat",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 320,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Johannes Engel",
+      "joueur2": "Alix Nevers",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Johannes Engel"
+    },
+    {
+      "id": 321,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Lucas Bey",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 322,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Julien Reijasse",
+      "joueur2": "Doriann Brossais",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Doriann Brossais"
+    },
+    {
+      "id": 323,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Benjamin Riegel",
+      "joueur2": "Victor Duforest",
+      "score1": 0,
+      "score2": 3,
+      "gagnant": "Victor Duforest"
+    },
+    {
+      "id": 324,
+      "tournoi": "CNF 2",
+      "phase": "16èmes",
+      "date": "2025-10",
+      "joueur1": "Rémi Charlemagne",
+      "joueur2": "Clément Ricaud",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 325,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Cheikh Oumar Diarra",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "Augustin Lesne"
+    },
+    {
+      "id": 326,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Mathias Joly",
+      "joueur2": "Léo Santiquet",
+      "score1": 3,
+      "score2": 4,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 327,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Thomas Brisset-Bouscarle",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "Théophile Watremez"
+    },
+    {
+      "id": 328,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Alexandre Poisson",
+      "joueur2": "Eugénie Roquain",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 329,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Jasper Williamson",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 330,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Malo Thuillier",
+      "joueur2": "Johannes Engel",
+      "score1": 4,
+      "score2": 2,
+      "gagnant": "Malo Thuillier"
+    },
+    {
+      "id": 331,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Doriann Brossais",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 332,
+      "tournoi": "CNF 2",
+      "phase": "8èmes",
+      "date": "2025-10",
+      "joueur1": "Victor Duforest",
+      "joueur2": "Clément Ricaud",
+      "score1": 1,
+      "score2": 4,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 333,
+      "tournoi": "CNF 2",
+      "phase": "Quarts",
+      "date": "2025-10",
+      "joueur1": "Augustin Lesne",
+      "joueur2": "Léo Santiquet",
+      "score1": 1,
+      "score2": 4,
+      "gagnant": "Léo Santiquet"
+    },
+    {
+      "id": 334,
+      "tournoi": "CNF 2",
+      "phase": "Quarts",
+      "date": "2025-10",
+      "joueur1": "Théophile Watremez",
+      "joueur2": "Alexandre Poisson",
+      "score1": 2,
+      "score2": 4,
+      "gagnant": "Alexandre Poisson"
+    },
+    {
+      "id": 335,
+      "tournoi": "CNF 2",
+      "phase": "Quarts",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Malo Thuillier",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Marius Saludjian"
+    },
+    {
+      "id": 336,
+      "tournoi": "CNF 2",
+      "phase": "Quarts",
+      "date": "2025-10",
+      "joueur1": "Maxime Trépant",
+      "joueur2": "Clément Ricaud",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 337,
+      "tournoi": "CNF 2",
+      "phase": "Demis",
+      "date": "2025-10",
+      "joueur1": "Léo Santiquet",
+      "joueur2": "Clément Ricaud",
+      "score1": 1,
+      "score2": 4,
+      "gagnant": "Clément Ricaud"
+    },
+    {
+      "id": 338,
+      "tournoi": "CNF 2",
+      "phase": "Demis",
+      "date": "2025-10",
+      "joueur1": "Marius Saludjian",
+      "joueur2": "Maxime Trépant",
+      "score1": 3,
+      "score2": 4,
+      "gagnant": "Maxime Trépant"
+    },
+    {
+      "id": 339,
+      "tournoi": "CNF 2",
+      "phase": "Finale",
+      "date": "2025-10",
+      "joueur1": "Clément Ricaud",
+      "joueur2": "Maxime Trépant",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Clément Ricaud"
+    }
+  ],
+  "derniere_maj": "2025-10-23",
+  "stats_globales": {
+    "total_joueurs": 152,
+    "total_matchs": 339,
+    "total_sets": 962
+  }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrale Nantes Fléchettes - Statistiques & Classements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img  src="logo.png", alt="image", height="70px" />
+                <div class="logo-text">
+                    <span class="logo-main">CNF</span>
+                    <span class="logo-sub">Centrale Nantes Fléchettes</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-link active" data-page="accueil">Accueil</a></li>
+                <li><a href="#joueurs" class="nav-link" data-page="joueurs">Joueurs</a></li>
+                <li><a href="#matchs" class="nav-link" data-page="matchs">Matchs</a></li>
+                <li><a href="#classement" class="nav-link" data-page="classement">Classement</a></li>
+                <li><a href="#predictions" class="nav-link" data-page="predictions">Prédictions</a></li>
+                <li><a href="#comparateur" class="nav-link" data-page="comparateur">Comparateur</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Accueil -->
+    <section id="accueil" class="page active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-dart">🎯</span>
+                    <span>Statistiques</span>
+                    <span class="hero-highlight">en direct</span>
+                </h1>
+                <p class="hero-subtitle">Suivez les performances de tous les joueurs du club</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-joueurs">0</div>
+                    <div class="stat-label">Joueurs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-matchs">0</div>
+                    <div class="stat-label">Matchs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-sets">0</div>
+                    <div class="stat-label">Sets joués</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="section-title">🏆 Top Joueurs</h2>
+            <div class="top-players-grid" id="top-players">
+                <!-- Rempli dynamiquement -->
+            </div>
+
+            <h2 class="section-title">📊 Derniers Matchs</h2>
+            <div class="recent-matches" id="recent-matches">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Joueurs -->
+    <section id="joueurs" class="page">
+        <div class="container">
+            <h1 class="page-title">Tous les Joueurs</h1>
+            
+            <div class="filters">
+                <input type="text" id="search-player" class="search-input" placeholder="🔍 Rechercher un joueur...">
+                <select id="sort-players" class="sort-select">
+                    <option value="elo">Trier par ELO</option>
+                    <option value="victoires">Trier par Victoires</option>
+                    <option value="pourcentage">Trier par %</option>
+                    <option value="sets">Trier par Sets gagnés</option>
+                    <option value="nom">Trier par Nom</option>
+                </select>
+            </div>
+
+            <div class="players-grid" id="all-players">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Matchs -->
+    <section id="matchs" class="page">
+        <div class="container">
+            <h1 class="page-title">Historique des Matchs</h1>
+            
+            <div class="filters">
+                <select id="filter-tournoi" class="filter-select">
+                    <option value="">Tous les tournois</option>
+                    <option value="CNF 1">CNF 1</option>
+                    <option value="CNF 2">CNF 2</option>
+                </select>
+                <select id="filter-phase" class="filter-select">
+                    <option value="">Toutes les phases</option>
+                    <option value="Poules">Poules</option>
+                    <option value="32èmes">32èmes</option>
+                    <option value="16èmes">16èmes</option>
+                    <option value="8èmes">8èmes</option>
+                    <option value="Quarts">Quarts</option>
+                    <option value="Demis">Demis</option>
+                    <option value="Finale">Finale</option>
+                </select>
+            </div>
+
+            <div class="matches-list" id="matches-list">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Classement -->
+    <section id="classement" class="page">
+        <div class="container">
+            <h1 class="page-title">Classement Général</h1>
+            
+            <div class="ranking-table-container">
+                <table class="ranking-table">
+                    <thead>
+                        <tr>
+                            <th>Rang</th>
+                            <th>Joueur</th>
+                            <th>ELO</th>
+                            <th>Matchs</th>
+                            <th>V</th>
+                            <th>D</th>
+                            <th>%</th>
+                            <th>Sets +/-</th>
+                            <th>Ratio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ranking-tbody">
+                        <!-- Rempli dynamiquement -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Prédictions -->
+    <section id="predictions" class="page">
+        <div class="container">
+            <h1 class="page-title">Prédictions Tournoi Double</h1>
+            <p class="page-subtitle">Calculez les chances de victoire d'une équipe en double</p>
+
+            <div class="prediction-selector">
+                <div class="team-selector">
+                    <h3>🎯 Équipe A</h3>
+                    <select id="team-a-player1" class="player-select">
+                        <option value="">Joueur 1</option>
+                    </select>
+                    <select id="team-a-player2" class="player-select">
+                        <option value="">Joueur 2</option>
+                    </select>
+                </div>
+
+                <div class="vs-separator">VS</div>
+
+                <div class="team-selector">
+                    <h3>🎯 Équipe B</h3>
+                    <select id="team-b-player1" class="player-select">
+                        <option value="">Joueur 1</option>
+                    </select>
+                    <select id="team-b-player2" class="player-select">
+                        <option value="">Joueur 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="calculate-prediction" class="btn-primary">Calculer les cotes</button>
+
+            <div id="prediction-result" class="prediction-result hidden">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Comparateur -->
+    <section id="comparateur" class="page">
+        <div class="container">
+            <h1 class="page-title">Comparateur de Joueurs</h1>
+            
+            <div class="compare-selector">
+                <select id="compare-player1" class="player-select">
+                    <option value="">Sélectionner joueur 1</option>
+                </select>
+                <div class="vs-separator">VS</div>
+                <select id="compare-player2" class="player-select">
+                    <option value="">Sélectionner joueur 2</option>
+                </select>
+            </div>
+
+            <div id="comparison-result" class="comparison-result">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Profil Joueur -->
+    <div id="player-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="player-modal-content">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
