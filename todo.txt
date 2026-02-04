@@ -1,6 +1,6 @@
 à faire :
--> bumting sur toute la page
--> ajouter Tournoi CNF 3
+-> bumting sur toute la page -- OK
+-> ajouter Tournoi CNF 3 
 -> faire une page photos 
 -> ajouter les crédits et contacts 
 -> faire un jeu ? 

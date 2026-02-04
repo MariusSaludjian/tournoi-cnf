@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
     <nav class="main-nav">
         <div class="nav-container">
             <div class="logo">
-                <img  src="logo.png", alt="image", height="70px" />
+                <img src="logo.png" alt="CNF Logo" height="70px" />
                 <div class="logo-text">
                     <span class="logo-main">CNF</span>
                     <span class="logo-sub">Centrale Nantes Fléchettes</span>
@@ -25,6 +26,7 @@
                 <li><a href="#joueurs" class="nav-link" data-page="joueurs">Joueurs</a></li>
                 <li><a href="#matchs" class="nav-link" data-page="matchs">Matchs</a></li>
                 <li><a href="#classement" class="nav-link" data-page="classement">Classement</a></li>
+                <li><a href="#cnf3" class="nav-link" data-page="cnf3">CNF 3 (Double)</a></li>
                 <li><a href="#predictions" class="nav-link" data-page="predictions">Prédictions</a></li>
                 <li><a href="#comparateur" class="nav-link" data-page="comparateur">Comparateur</a></li>
             </ul>
@@ -36,7 +38,6 @@
         <div class="hero">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    <span class="hero-dart">🎯</span>
                     <span>Statistiques</span>
                     <span class="hero-highlight">en direct</span>
                 </h1>
@@ -150,6 +151,61 @@
         </div>
     </section>
 
+    <!-- Page CNF 3 -->
+    <section id="cnf3" class="page">
+        <div class="container">
+            <h1 class="page-title">Tournoi CNF 3 - Format Double</h1>
+            <p class="page-subtitle">Tournoi en équipes de 2 joueurs - À venir !</p>
+
+            <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: var(--dark-light); border-radius: 12px; border: 2px solid var(--primary);">
+                <div style="font-size: 1.2rem; color: var(--light); margin-bottom: 1rem;">
+                    <strong>32 poules</strong> · <strong>69 équipes</strong> · <strong>138 joueurs</strong>
+                </div>
+                <div style="font-size: 1rem; color: var(--gray);">
+                    Les matchs n'ont pas encore eu lieu. Les résultats seront ajoutés au fur et à mesure.
+                </div>
+            </div>
+
+            <!-- Onglets -->
+            <div class="cnf3-tabs">
+                <button class="cnf3-tab active" data-tab="equipes">📋 Toutes les équipes</button>
+                <button class="cnf3-tab" data-tab="poules">🎯 Poules du tournoi</button>
+                <button class="cnf3-tab" data-tab="tableau">🏆 Tableau final</button>
+            </div>
+
+            <!-- Vue: Toutes les équipes -->
+            <div id="cnf3-equipes" class="cnf3-view active">
+                <div class="filters">
+                    <input type="text" id="search-team" class="search-input" placeholder="🔍 Rechercher une équipe ou un joueur...">
+                    <select id="filter-chapeau" class="filter-select">
+                        <option value="">Tous les chapeaux</option>
+                        <option value="1">Chapeau 1 (Favoris)</option>
+                        <option value="2">Chapeau 2 (Intermédiaires)</option>
+                        <option value="3">Chapeau 3 (Challengers)</option>
+                    </select>
+                </div>
+
+                <div class="teams-grid" id="teams-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+
+            <!-- Vue: Poules -->
+            <div id="cnf3-poules" class="cnf3-view">
+                <div class="poules-grid" id="poules-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+
+            <!-- Vue: Tableau final -->
+            <div id="cnf3-tableau" class="cnf3-view">
+                <div class="bracket-container" id="tableau-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Page Prédictions -->
     <section id="predictions" class="page">
         <div class="container">
@@ -218,6 +274,58 @@
             </div>
         </div>
     </div>
+    <!-- Footer avec crédits et contacts -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Section Crédits -->
+            <div class="footer-section">
+                <h3><i class="fas fa-bullseye"></i> Centrale Nantes Fléchettes</h3>
+                <p>Site web officiel de CNF</p>
+                <p class="footer-credits">
+                    Site développé par <strong>Marius Saludjian (et un peu Claude)</strong><br>
+                    Avec <i class="fas fa-heart" style="color: var(--primary);"></i> pour CNF
+                </p>
+            </div>
+
+            <!-- Section Bureau du club -->
+            <div class="footer-section">
+                <h3><i class="fas fa-users"></i> Bureau du Club</h3>
+                <div class="contact-item">
+                    <i class="fas fa-crown"></i> <strong>Président :</strong> Gabin Néron<br>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-coins"></i> <strong>Trésorier :</strong> Octave Chardain<br>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-pen"></i> <strong>Secrétaire :</strong> Antoine Lebrat<br>
+                </div>
+            </div>
+
+            <!-- Section Réseaux sociaux -->
+            <div class="footer-section">
+                <h3><i class="fas fa-link"></i> Nous suivre</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/centrale_nantes_flechettes" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61573959904434" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="mailto:scolarite@ec-nantes.fr" class="social-link">
+                        <i class="fas fa-envelope"></i> Contact
+                    </a>
+                </div>
+                <p style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+                    <i class="fas fa-hand-point-right"></i> Rejoins-nous pour des tournois fléchettes !
+                </p>
+            </div>
+        </div>
+
+        <!-- Ligne de copyright -->
+        <div class="footer-bottom">
+            <p><i class="fas fa-copyright"></i> 2024-2025 Centrale Nantes Fléchettes | Tous droits réservés</p>
+        </div>
+    </footer>  
 
     <script src="app.js"></script>
 </body>

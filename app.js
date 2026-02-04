@@ -1,6 +1,8 @@
 // Configuration et variables globales
 let joueurs = [];
 let matchs = [];
+let equipes = [];
+let poulesCNF3 = [];
 let statsGlobales = {};
 
 // Charger les données au démarrage
@@ -11,6 +13,8 @@ async function chargerDonnees() {
         
         joueurs = data.joueurs;
         matchs = data.matchs;
+        equipes = data.equipes || [];
+        poulesCNF3 = data.poules_cnf3 || [];
         statsGlobales = data.stats_globales;
         
         initialiserSite();
@@ -27,6 +31,10 @@ function initialiserSite() {
     afficherTousJoueurs();
     afficherTousMatchs();
     afficherClassement();
+    afficherEquipesCNF3();
+    afficherPoulesCNF3();
+    afficherTableauCNF3();
+    initialiserOngletsCNF3();
     initialiserPredictions();
     initialiserComparateur();
     initialiserNavigation();
@@ -520,6 +528,134 @@ function initialiserRecherche() {
     const sortSelect = document.getElementById('sort-players');
     const tournoiFilter = document.getElementById('filter-tournoi');
     const phaseFilter = document.getElementById('filter-phase');
+    const searchTeam = document.getElementById('search-team');
+    const filterChapeau = document.getElementById('filter-chapeau');
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            afficherTousJoueurs(e.target.value, sortSelect.value);
+        });
+    }
+    
+    if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+            afficherTousJoueurs(searchInput.value, e.target.value);
+        });
+    }
+    
+    if (tournoiFilter) {
+        tournoiFilter.addEventListener('change', (e) => {
+            afficherTousMatchs(e.target.value, phaseFilter.value);
+        });
+    }
+    
+    if (phaseFilter) {
+        phaseFilter.addEventListener('change', (e) => {
+            afficherTousMatchs(tournoiFilter.value, e.target.value);
+        });
+    }
+    
+    if (searchTeam) {
+        searchTeam.addEventListener('input', (e) => {
+            afficherEquipesCNF3(e.target.value, filterChapeau.value);
+        });
+    }
+    
+    if (filterChapeau) {
+        filterChapeau.addEventListener('change', (e) => {
+            afficherEquipesCNF3(searchTeam.value, e.target.value);
+        });
+    }
+}
+
+// Afficher les équipes CNF 3
+function afficherEquipesCNF3(filtreTexte = '', filtreChapeau = '') {
+    const container = document.getElementById('teams-cnf3');
+    if (!container) return;
+    
+    let equipesAffichees = equipes.filter(e => e.tournoi === 'CNF 3');
+    
+    // Filtrer par texte (nom équipe ou joueurs)
+    if (filtreTexte) {
+        const texte = filtreTexte.toLowerCase();
+        equipesAffichees = equipesAffichees.filter(e => 
+            e.nom.toLowerCase().includes(texte) ||
+            e.joueur1.toLowerCase().includes(texte) ||
+            e.joueur2.toLowerCase().includes(texte)
+        );
+    }
+    
+    // Filtrer par chapeau
+    if (filtreChapeau) {
+        equipesAffichees = equipesAffichees.filter(e => e.chapeau === parseInt(filtreChapeau));
+    }
+    
+    // Trier par chapeau puis nom
+    equipesAffichees.sort((a, b) => {
+        if (a.chapeau !== b.chapeau) return a.chapeau - b.chapeau;
+        return a.nom.localeCompare(b.nom);
+    });
+    
+    if (equipesAffichees.length === 0) {
+        container.innerHTML = '<div style="text-align: center; padding: 3rem; color: var(--gray);">Aucune équipe trouvée</div>';
+        return;
+    }
+    
+    container.innerHTML = equipesAffichees.map(equipe => {
+        // Récupérer les ELO des joueurs
+        const j1 = joueurs.find(j => j.nom === equipe.joueur1);
+        const j2 = joueurs.find(j => j.nom === equipe.joueur2);
+        
+        const elo1 = j1 ? Math.round(j1.elo) : 1500;
+        const elo2 = j2 ? Math.round(j2.elo) : 1500;
+        const eloMoyen = Math.round((elo1 + elo2) / 2);
+        
+        // Badge de chapeau
+        let chapeauColor = '';
+        let chapeauText = '';
+        if (equipe.chapeau === 1) {
+            chapeauColor = 'var(--accent)';
+            chapeauText = '🥇 Chapeau 1';
+        } else if (equipe.chapeau === 2) {
+            chapeauColor = '#FFB347';
+            chapeauText = '🥈 Chapeau 2';
+        } else {
+            chapeauColor = 'var(--success)';
+            chapeauText = '🥉 Chapeau 3';
+        }
+        
+        return `
+            <div class="team-card">
+                <div class="team-header">
+                    <div class="team-name">${equipe.nom}</div>
+                    <div class="team-chapeau" style="color: ${chapeauColor};">${chapeauText}</div>
+                </div>
+                <div class="team-players">
+                    <div class="team-player">
+                        <div class="team-player-name">${equipe.joueur1}</div>
+                        <div class="team-player-elo">ELO: ${elo1}</div>
+                    </div>
+                    <div class="team-vs">+</div>
+                    <div class="team-player">
+                        <div class="team-player-name">${equipe.joueur2}</div>
+                        <div class="team-player-elo">ELO: ${elo2}</div>
+                    </div>
+                </div>
+                <div class="team-elo-moyen">
+                    <span style="color: var(--gray); font-size: 0.9rem;">ELO Moyen:</span>
+                    <span style="font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: var(--primary); margin-left: 0.5rem;">${eloMoyen}</span>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// Initialiser la recherche
+function initialiserRecherche() {
+    const searchInput = document.getElementById('search-player');
+    const sortSelect = document.getElementById('sort-players');
+    const tournoiFilter = document.getElementById('filter-tournoi');
+    const phaseFilter = document.getElementById('filter-phase');
     
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
@@ -654,3 +790,154 @@ document.getElementById('player-modal').addEventListener('click', (e) => {
 
 // Démarrer l'application
 document.addEventListener('DOMContentLoaded', chargerDonnees);
+
+// Afficher les poules CNF 3
+function afficherPoulesCNF3() {
+    const container = document.getElementById('poules-cnf3');
+    if (!container || !poulesCNF3 || poulesCNF3.length === 0) return;
+    
+    container.innerHTML = poulesCNF3.map(poule => {
+        const equipesHTML = poule.equipes.map(equipe => {
+            // Récupérer les ELO
+            const j1 = joueurs.find(j => j.nom === equipe.joueur1);
+            const j2 = joueurs.find(j => j.nom === equipe.joueur2);
+            
+            const elo1 = j1 ? Math.round(j1.elo) : 1500;
+            const elo2 = j2 ? Math.round(j2.elo) : 1500;
+            const eloMoyen = Math.round((elo1 + elo2) / 2);
+            
+            return `
+                <div class="poule-equipe">
+                    <div class="poule-equipe-nom">${equipe.nom}</div>
+                    <div class="poule-equipe-joueurs">
+                        <span>${equipe.joueur1 || '?'}</span> & <span>${equipe.joueur2 || '?'}</span>
+                    </div>
+                    <div class="poule-equipe-elo">ELO: ${eloMoyen}</div>
+                </div>
+            `;
+        }).join('');
+        
+        return `
+            <div class="poule-card">
+                <div class="poule-header">
+                    <h3>Poule ${poule.numero}</h3>
+                    <div class="poule-equipes-count">${poule.equipes.length} équipes</div>
+                </div>
+                <div class="poule-equipes">
+                    ${equipesHTML}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// Initialiser les onglets CNF 3
+function initialiserOngletsCNF3() {
+    const tabs = document.querySelectorAll('.cnf3-tab');
+    const views = document.querySelectorAll('.cnf3-view');
+    
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const targetView = tab.dataset.tab;
+            
+            // Mettre à jour les onglets actifs
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            
+            // Afficher la bonne vue
+            views.forEach(v => v.classList.remove('active'));
+            document.getElementById(`cnf3-${targetView}`).classList.add('active');
+        });
+    });
+}
+
+// Afficher le tableau final CNF 3
+function afficherTableauCNF3() {
+    const container = document.getElementById('tableau-cnf3');
+    if (!container) return;
+    
+    // Récupérer les matchs du CNF 3 dans les phases finales
+    const matchsCNF3 = matchs.filter(m => m.tournoi === 'CNF 3' && m.phase !== 'Poules');
+    
+    // Organiser par phase
+    const phases = {
+        '32èmes': matchsCNF3.filter(m => m.phase === '32èmes' || m.phase === '32ème'),
+        '16èmes': matchsCNF3.filter(m => m.phase === '16èmes' || m.phase === '16ème'),
+        '8èmes': matchsCNF3.filter(m => m.phase === '8èmes' || m.phase === '8ème'),
+        'Quarts': matchsCNF3.filter(m => m.phase === 'Quarts' || m.phase === 'Quart'),
+        'Demis': matchsCNF3.filter(m => m.phase === 'Demis' || m.phase === 'Demi'),
+        'Finale': matchsCNF3.filter(m => m.phase === 'Finale')
+    };
+    
+    // Si aucun match n'est joué
+    if (matchsCNF3.length === 0) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 4rem; color: var(--gray);">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+                <h3 style="color: var(--light); margin-bottom: 1rem;">Tableau final à venir</h3>
+                <p>Les phases finales commenceront après les matchs de poules.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">
+                    Les 32 premiers de chaque poule s'affronteront en 32èmes de finale.
+                </p>
+            </div>
+        `;
+        return;
+    }
+    
+    // Afficher les phases avec matchs
+    let html = '<div class="phases-finales">';
+    
+    const phaseOrder = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
+    
+    for (const phaseName of phaseOrder) {
+        const phaseMatches = phases[phaseName];
+        
+        if (phaseMatches.length > 0) {
+            html += `
+                <div class="phase-section">
+                    <h3 class="phase-title">${phaseName} de finale</h3>
+                    <div class="phase-matches">
+            `;
+            
+            phaseMatches.forEach(match => {
+                const winner = match.gagnant;
+                const isJ1Winner = match.joueur1 === winner;
+                const isJ2Winner = match.joueur2 === winner;
+                
+                html += `
+                    <div class="bracket-match">
+                        <div class="bracket-team ${isJ1Winner ? 'winner' : ''}">
+                            <span class="bracket-team-name">${match.joueur1}</span>
+                            <span class="bracket-team-score">${match.score1}</span>
+                        </div>
+                        <div class="bracket-team ${isJ2Winner ? 'winner' : ''}">
+                            <span class="bracket-team-name">${match.joueur2}</span>
+                            <span class="bracket-team-score">${match.score2}</span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += `
+                    </div>
+                </div>
+            `;
+        }
+    }
+    
+    html += '</div>';
+    
+    // Si on a un champion (finale jouée)
+    const finale = phases['Finale'][0];
+    if (finale) {
+        html += `
+            <div class="champion-section">
+                <div class="champion-trophy">🏆</div>
+                <div class="champion-title">Champion CNF 3</div>
+                <div class="champion-name">${finale.gagnant}</div>
+            </div>
+        `;
+    }
+    
+    container.innerHTML = html;
+}
