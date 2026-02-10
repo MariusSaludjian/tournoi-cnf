@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrale Nantes Fléchettes - Statistiques & Classements</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="CNF Logo" height="70px" />
+                <div class="logo-text">
+                    <span class="logo-main">CNF</span>
+                    <span class="logo-sub">Centrale Nantes Fléchettes</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-link active" data-page="accueil">Accueil</a></li>
+                <li><a href="#live" class="nav-link" data-page="live"><span class="live-indicator">●</span> Live</a></li>
+                <li><a href="#joueurs" class="nav-link" data-page="joueurs">Joueurs</a></li>
+                <li><a href="#matchs" class="nav-link" data-page="matchs">Matchs</a></li>
+                <li><a href="#classement" class="nav-link" data-page="classement">Classement</a></li>
+                <li><a href="#palmares" class="nav-link" data-page="palmares">Palmarès</a></li>
+                <li><a href="#cnf3" class="nav-link" data-page="cnf3">CNF 3 </a></li>
+                <li><a href="#predictions" class="nav-link" data-page="predictions">Prédictions</a></li>
+                <li><a href="#comparateur" class="nav-link" data-page="comparateur">Comparateur</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Accueil -->
+    <section id="accueil" class="page active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>Statistiques</span>
+                    <span class="hero-highlight">en direct</span>
+                </h1>
+                <p class="hero-subtitle">Suivez les performances de tous les joueurs de Centrale Nantes</p>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-joueurs">0</div>
+                    <div class="stat-label">Joueurs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-matchs">0</div>
+                    <div class="stat-label">Matchs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-sets">0</div>
+                    <div class="stat-label">Sets joués</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats dynamiques -->
+        <div class="container">
+            <div id="dynamic-home-stats"></div>
+        </div>
+
+        <div class="container">
+            <h2 class="section-title">🏆 Top Joueurs</h2>
+            <div class="top-players-grid" id="top-players">
+                <!-- Rempli dynamiquement -->
+            </div>
+
+            <h2 class="section-title">📊 Derniers Matchs</h2>
+            <div class="recent-matches" id="recent-matches">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Joueurs -->
+    <section id="joueurs" class="page">
+        <div class="container">
+            <h1 class="page-title">Tous les Joueurs</h1>
+            
+            <div class="filters">
+                <input type="text" id="search-player" class="search-input" placeholder="🔍 Rechercher un joueur...">
+                <select id="sort-players" class="sort-select">
+                    <option value="elo">Trier par ELO</option>
+                    <option value="victoires">Trier par Victoires</option>
+                    <option value="pourcentage">Trier par %</option>
+                    <option value="sets">Trier par Sets gagnés</option>
+                    <option value="nom">Trier par Nom</option>
+                </select>
+            </div>
+
+            <div class="players-grid" id="all-players">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Matchs -->
+    <section id="matchs" class="page">
+        <div class="container">
+            <h1 class="page-title">Historique des Matchs</h1>
+            
+            <div class="filters">
+                <select id="filter-tournoi" class="filter-select">
+                    <option value="">Tous les tournois</option>
+                    <option value="CNF 1">CNF 1</option>
+                    <option value="CNF 2">CNF 2</option>
+                    <option value="CNF 3">CNF 3</option>
+                </select>
+                <select id="filter-phase" class="filter-select">
+                    <option value="">Toutes les phases</option>
+                    <option value="Poules">Poules</option>
+                    <option value="32èmes">32èmes</option>
+                    <option value="16èmes">16èmes</option>
+                    <option value="8èmes">8èmes</option>
+                    <option value="Quarts">Quarts</option>
+                    <option value="Demis">Demis</option>
+                    <option value="Finale">Finale</option>
+                </select>
+            </div>
+
+            <div class="matches-list" id="matches-list">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Classement -->
+    <section id="classement" class="page">
+        <div class="container">
+            <h1 class="page-title">Classement Général</h1>
+            
+            <div class="ranking-table-container">
+                <table class="ranking-table">
+                    <thead>
+                        <tr>
+                            <th>Rang</th>
+                            <th>Joueur</th>
+                            <th>ELO</th>
+                            <th>Matchs</th>
+                            <th>V</th>
+                            <th>D</th>
+                            <th>%</th>
+                            <th>Sets +/-</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ranking-tbody">
+                        <!-- Rempli dynamiquement -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Palmarès -->
+    <section id="palmares" class="page">
+        <div class="container">
+            <h1 class="page-title">🏆 Palmarès CNF</h1>
+            <p class="page-subtitle">Les champions et prix des tournois CNF</p>
+
+            <div class="palmares-grid">
+                <!-- CNF 1 -->
+                <div class="palmares-card">
+                    <div class="palmares-header">
+                        <h2>CNF 1</h2>
+                        <div class="palmares-date">Premier Tournoi</div>
+                    </div>
+                    <div class="palmares-content">
+                        <div class="champion-section">
+                            <div class="trophy-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                    <path d="M4 22h16"></path>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                                </svg>
+                            </div>
+                            <div class="champion-label">Champion</div>
+                            <div class="champion-name" data-player="Victor Duforest">Victor Duforest</div>
+                            <div style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+                                Vainqueur en finale contre Clément Ricaud (4-0)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CNF 2 -->
+                <div class="palmares-card">
+                    <div class="palmares-header">
+                        <h2>CNF 2</h2>
+                        <div class="palmares-date">Deuxième Tournoi</div>
+                    </div>
+                    <div class="palmares-content">
+                        <div class="champion-section">
+                            <div class="trophy-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                    <path d="M4 22h16"></path>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                                </svg>
+                            </div>
+                            <div class="champion-label">Champion</div>
+                            <div class="champion-name" data-player="Clément Ricaud">Clément Ricaud</div>
+                            <div style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+                                Vainqueur en finale contre Maxime Trépant (4-0)
+                            </div>      
+                        </div>
+                        
+                        <!-- Prix spéciaux avec menu déroulant -->
+                        <div class="prix-section">
+                            <div class="prix-toggle" onclick="togglePrix(this)">
+                                <div class="prix-toggle-header">
+                                    <h3>Prix Spéciaux</h3>
+                                    <svg class="prix-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="prix-list collapsed">
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix de l'émargement</div>
+                                    <div class="prix-winner" data-player="Yassine Aloui">Yassine Aloui</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix du meilleur espoir</div>
+                                    <div class="prix-winner" data-player="Mathias Joly">Mathias Joly</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix Mitroglou</div>
+                                    <div class="prix-winner" data-player="Lilou Frezzato">Lilou Frezzato</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix du meilleur check-out</div>
+                                    <div class="prix-winner" data-player="Théophile Watremez">Théophile Watremez</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix de la meilleure volée</div>
+                                    <div class="prix-winner" data-player="Paul Dauboin">Paul Dauboin</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix du plus beau tir</div>
+                                    <div class="prix-winner" data-player="Stanislas Bruyere">Stanislas Bruyère</div>
+                                </div>
+                                <div class="prix-item">
+                                    <div class="prix-name">Prix du meilleur trashtalker</div>
+                                    <div class="prix-winner" data-player="Benjamin Riegel">Benjamin Riegel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CNF 3 -->
+                <div class="palmares-card palmares-upcoming">
+                    <div class="palmares-header">
+                        <h2>CNF 3</h2>
+                        <div class="palmares-date">À venir - Format Double</div>
+                    </div>
+                    <div class="palmares-content">
+                        <div style="text-align: center; padding: 3rem; color: var(--light);">
+                            <div style="width: 60px; height: 60px; margin: 0 auto 1rem; color: var(--light);">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                            <p>Le tournoi n'a pas encore eu lieu</p>
+                            <p style="margin-top: 1rem; font-size: 0.9rem;">Les champions seront annoncés bientôt !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page CNF 3 -->
+    <section id="cnf3" class="page">
+        <div class="container">
+            <h1 class="page-title">Tournoi CNF 3 - Format Double</h1>
+            <p class="page-subtitle">Tournoi en équipes de 2 joueurs - À venir !</p>
+
+            <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: var(--dark-light); border-radius: 12px; border: 2px solid var(--primary);">
+                <div style="font-size: 1.2rem; color: var(--light); margin-bottom: 1rem;">
+                    <strong>32 poules</strong> · <strong>96 équipes</strong> · <strong>192 joueurs</strong>
+                </div>
+                <div style="font-size: 1rem; color: var(--gray);">
+                    Les matchs n'ont pas encore eu lieu. Les résultats seront ajoutés au fur et à mesure.
+                </div>
+            </div>
+
+            <!-- Onglets -->
+            <div class="cnf3-tabs">
+                <button class="cnf3-tab active" data-tab="equipes">📋 Toutes les équipes</button>
+                <button class="cnf3-tab" data-tab="poules">🎯 Poules du tournoi</button>
+                <button class="cnf3-tab" data-tab="tableau">🏆 Tableau final</button>
+                <button class="cnf3-tab" data-tab="planning">📅 Planning</button>
+            </div>
+
+            <!-- Vue: Toutes les équipes -->
+            <div id="cnf3-equipes" class="cnf3-view active">
+                <div class="filters">
+                    <input type="text" id="search-team" class="search-input" placeholder="🔍 Rechercher une équipe ou un joueur...">
+                    <select id="filter-chapeau" class="filter-select">
+                        <option value="">Tous les chapeaux</option>
+                        <option value="1">Chapeau 1 (Favoris)</option>
+                        <option value="2">Chapeau 2 (Intermédiaires)</option>
+                        <option value="3">Chapeau 3 (Challengers)</option>
+                    </select>
+                </div>
+
+                <div class="teams-grid" id="teams-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+
+            <!-- Vue: Poules -->
+            <div id="cnf3-poules" class="cnf3-view">
+                <div class="poules-grid" id="poules-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+
+            <!-- Vue: Tableau final -->
+            <div id="cnf3-tableau" class="cnf3-view">
+                <div class="bracket-container" id="tableau-cnf3">
+                    <!-- Rempli dynamiquement -->
+                </div>
+            </div>
+
+            <!-- Vue: Planning -->
+            <div id="cnf3-planning" class="cnf3-view">
+                <div class="planning-container">
+                    
+                    <!-- Semaine 1 : 09-13 février -->
+                    <div class="planning-week">
+                        <h2 class="planning-week-title">📅 Semaine 1 : 09-13 février 2025</h2>
+                        
+                        <div class="planning-days">
+                            <!-- Lundi 09/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Lundi 09/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 13, Poule 25, Poule 6, Poule 21, Poule 9, Poule 11</div>
+                                </div>
+                                <div class="day-header evening">
+                                    <div class="day-name">18h15</div>
+                                    <div class="day-info">Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 17</div>
+                                </div>
+                            </div>
+
+                            <!-- Mardi 10/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mardi 10/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Récup Tonus</div>
+                                </div>
+                            </div>
+
+                            <!-- Mercredi 11/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mercredi 11/02</div>
+                                    <div class="day-info">13h • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 1, Poule 4, Poule 2, Poule 5</div>
+                                </div>
+                            </div>
+
+                            <!-- Jeudi 12/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Jeudi 12/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 3, Poule 10, Poule 23, Poule 7, Poule 16, Poule 12</div>
+                                </div>
+                            </div>
+
+                            <!-- Vendredi 13/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Vendredi 13/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 19, Poule 8, Poule 22, Poule 26, Poule 24, Poule 31</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Semaine 2 : 16-20 février -->
+                    <div class="planning-week">
+                        <h2 class="planning-week-title">📅 Semaine 2 : 16-20 février 2025</h2>
+                        
+                        <div class="planning-days">
+                            <!-- Lundi 16/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Lundi 16/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 18, Poule 27, Poule 29, Poule 32, Poule 14, Poule 20</div>
+                                </div>
+                            </div>
+
+                            <!-- Mardi 17/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mardi 17/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Poule 15, Poule 30, Poule 28</div>
+                                </div>
+                            </div>
+
+                            <!-- Mercredi 18/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mercredi 18/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">32èmes de finale</div>
+                                </div>
+                            </div>
+
+                            <!-- Jeudi 19/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Jeudi 19/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">32èmes de finale</div>
+                                </div>
+                            </div>
+
+                            <!-- Vendredi 20/02 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Vendredi 20/02</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">16èmes de finale</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Semaine 3 : 02-05 mars -->
+                    <div class="planning-week">
+                        <h2 class="planning-week-title">📅 Semaine 3 : 02-05 mars 2025</h2>
+                        
+                        <div class="planning-days">
+                            <!-- Lundi 02/03 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Lundi 02/03</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">16èmes de finale et 8èmes</div>
+                                </div>
+                            </div>
+
+                            <!-- Mardi 03/03 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mardi 03/03</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">8èmes de finale</div>
+                                </div>
+                            </div>
+
+                            <!-- Mercredi 04/03 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Mercredi 04/03</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Quarts de finale</div>
+                                </div>
+                            </div>
+
+                            <!-- Jeudi 05/03 -->
+                            <div class="planning-day">
+                                <div class="day-header">
+                                    <div class="day-name">Jeudi 05/03</div>
+                                    <div class="day-info">12h20 • Bat L RDC 04</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot">Joker (à définir)</div>
+                                </div>
+                            </div>
+
+                            <!-- Date finale à définir -->
+                            <div class="planning-day special">
+                                <div class="day-header">
+                                    <div class="day-name">🏆 Phases finales</div>
+                                    <div class="day-info">Date à définir</div>
+                                </div>
+                                <div class="day-matches">
+                                    <div class="match-slot highlight">Demi-finales et FINALE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Prédictions -->
+    <section id="predictions" class="page">
+        <div class="container">
+            <h1 class="page-title">Prédictions Tournoi Double</h1>
+            <p class="page-subtitle">Calculez les chances de victoire d'une équipe en double</p>
+
+            <div class="prediction-selector">
+                <div class="team-selector">
+                    <h3>🎯 Équipe A</h3>
+                    <select id="team-a-player1" class="player-select">
+                        <option value="">Joueur 1</option>
+                    </select>
+                    <select id="team-a-player2" class="player-select">
+                        <option value="">Joueur 2</option>
+                    </select>
+                </div>
+
+                <div class="vs-separator">VS</div>
+
+                <div class="team-selector">
+                    <h3>🎯 Équipe B</h3>
+                    <select id="team-b-player1" class="player-select">
+                        <option value="">Joueur 1</option>
+                    </select>
+                    <select id="team-b-player2" class="player-select">
+                        <option value="">Joueur 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="calculate-prediction" class="btn-primary">Calculer les cotes</button>
+
+            <div id="prediction-result" class="prediction-result hidden">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Comparateur -->
+    <section id="comparateur" class="page">
+        <div class="container">
+            <h1 class="page-title">Comparateur de Joueurs</h1>
+            
+            <div class="compare-selector">
+                <select id="compare-player1" class="player-select">
+                    <option value="">Sélectionner joueur 1</option>
+                </select>
+                <div class="vs-separator">VS</div>
+                <select id="compare-player2" class="player-select">
+                    <option value="">Sélectionner joueur 2</option>
+                </select>
+            </div>
+
+            <div id="comparison-result" class="comparison-result">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Live Scoring -->
+    <section id="live" class="page">
+        <div class="container">
+            <h1 class="page-title"><span class="live-indicator">●</span> Matchs en Direct</h1>
+            <p class="page-subtitle">Suivez les résultats en temps réel</p>
+            
+            <!-- Filtres -->
+            <div class="live-filters">
+                <button class="filter-btn active" data-filter="all" onclick="filtrerMatchsLive('all')">
+                    Tous les matchs
+                </button>
+                <button class="filter-btn" data-filter="poule" onclick="filtrerMatchsLive('poule')">
+                    Matchs de poule
+                </button>
+                <button class="filter-btn" data-filter="tableau" onclick="filtrerMatchsLive('tableau')">
+                    Tableau final
+                </button>
+            </div>
+            
+            <!-- Liste des matchs -->
+            <div id="live-matchs-container" class="live-matchs-grid">
+                <!-- Rempli dynamiquement -->
+            </div>
+            
+            <!-- Message si aucun match -->
+            <div id="live-no-matchs" class="live-no-matchs hidden">
+                <i class="fas fa-calendar-times"></i>
+                <p>Aucun match disponible pour le moment</p>
+                <small>Les résultats s'afficheront dès qu'ils seront ajoutés</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Profil Joueur -->
+    <div id="player-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="player-modal-content">
+                <!-- Rempli dynamiquement -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer avec crédits et contacts -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Section Crédits -->
+            <div class="footer-section">
+                <h3><i class="fas fa-bullseye"></i> Centrale Nantes Fléchettes</h3>
+                <p>Site web officiel de CNF</p>
+                <p class="footer-credits">
+                    Site développé par <strong>Marius Saludjian (et un peu Claude)</strong><br>
+                    Avec <i class="fas fa-heart" style="color: var(--primary);"></i> pour CNF
+                </p>
+            </div>
+
+            <!-- Section Bureau du club -->
+            <div class="footer-section">
+                <h3><i class="fas fa-users"></i> Bureau du Club</h3>
+                <div class="contact-item">
+                    <i class="fas fa-crown"></i> <strong>Président :</strong> Gabin Néron<br>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-coins"></i> <strong>Trésorier :</strong> Octave Chardain<br>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-pen"></i> <strong>Respo Com :</strong> Antoine Lebrat<br>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-hand-point-right"></i> <strong>Speaker :</strong> Elouan Mazoyer<br>
+                </div>
+            </div>
+
+            <!-- Section Réseaux sociaux -->
+            <div class="footer-section">
+                <h3><i class="fas fa-link"></i> Nous suivre</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/centrale_nantes_flechettes" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61573959904434" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="/cdn-cgi/l/email-protection#8af9e9e5e6ebf8e3feefcaefe9a7e4ebe4feeff9a4ecf8" class="social-link">
+                        <i class="fas fa-envelope"></i> Contact
+                    </a>
+                </div>
+                <p style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+                    <i class="fas fa-hand-point-right"></i> Rejoins-nous pour des tournois fléchettes !
+                </p>
+            </div>
+        </div>
+
+        <!-- Ligne de copyright -->
+        <div class="footer-bottom">
+            <p><i class="fas fa-copyright"></i> 2024-2025 Centrale Nantes Fléchettes | Tous droits réservés</p>
+        </div>
+    </footer>  
+
+    <script src="app.js"></script>
+</body>
+</html>
