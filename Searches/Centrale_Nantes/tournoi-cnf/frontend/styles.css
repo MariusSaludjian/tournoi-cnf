@@ -289,7 +289,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 3rem 2rem;
 }
@@ -3124,4 +3124,750 @@ body {
 
 .match-card-cnf3 .match-side.winner:hover {
     background: rgba(255, 215, 0, 0.05);
+}
+
+:root {
+    --primary: #DC143C;
+    --primary-dark: #B8112E;
+    --secondary: #1B5E20;
+    --accent: #FFD700;
+    --dark: #1a1a1a;
+    --dark-light: #2a2a2a;
+    --gray: #555;
+    --light: #f5f5f5;
+    --white: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --success: #4CAF50;
+    --danger: #f44336;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Sécurité pour empêcher les éléments de dépasser la largeur de l'écran */
+    max-width: 100vw; 
+}
+
+body {
+    font-family: 'Work Sans', sans-serif !important;
+    color: var(--light) !important;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden; /* Empêche le scroll horizontal global indésirable */
+    background-image: 
+        linear-gradient(
+            135deg, 
+            rgba(220, 20, 60, 0.4) 0%,   
+            rgba(0, 0, 0, 0.6) 50%,      
+            rgba(27, 94, 32, 0.4) 100%   
+        ),
+        url('image.jpg'); /* Assurez-vous que le nom de l'image est correct ici */
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+.main-nav {
+    background: var(--dark);
+    border-bottom: 3px solid var(--primary);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px var(--shadow);
+    width: 100%;
+}
+
+.nav-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-main {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--primary);
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.logo-sub {
+    font-size: 0.7rem;
+    color: var(--light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 80%;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary);
+}
+
+/* ============================================
+   PAGES & ANIMATIONS
+   ============================================ */
+.page {
+    display: none;
+    animation: fadeIn 0.5s ease;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.page.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Container Global */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    width: 100%;
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero {
+    background: 
+        linear-gradient(135deg, rgba(220, 20, 60, 0.4) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(27, 94, 32, 0.4) 100%),
+        url('bumting.webp'); /* Assurez-vous que l'image existe */
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    width: 100%;
+}
+
+.hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    line-height: 1.1;
+}
+
+.hero-highlight {
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--light);
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 900px;
+    width: 100%;
+    margin: auto auto 0;
+    position: relative;
+    z-index: 2;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    text-align: center;
+    /* Important pour mobile: ne pas dépasser la largeur */
+    min-width: 0; 
+}
+
+.stat-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ============================================
+   TITRES & SECTIONS
+   ============================================ */
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--light);
+    letter-spacing: 2px;
+    border-left: 5px solid var(--primary);
+    padding-left: 1rem;
+}
+
+.page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: var(--light);
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1;
+    word-break: break-word; /* Évite dépassement des longs mots */
+}
+
+.page-subtitle {
+    text-align: center;
+    color: var(--light);
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+}
+
+/* ============================================
+   FILTRES & INPUTS
+   ============================================ */
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.search-input,
+.sort-select,
+.filter-select,
+.player-select {
+    padding: 0.8rem 1rem;
+    background: var(--dark-light);
+    border: 2px solid var(--dark);
+    border-radius: 8px;
+    color: var(--light);
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    flex: 1;
+    min-width: 200px;
+}
+
+/* ============================================
+   GRILLES (Layouts)
+   ============================================ */
+.top-players-grid,
+.players-grid,
+.teams-grid,
+.poules-grid,
+.palmares-grid,
+.planning-days,
+.live-matchs-grid,
+.home-dynamic-grid {
+    display: grid;
+    /* Responsive auto : min 280px sinon passe à la ligne */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.matches-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ============================================
+   CARTES (Joueurs, Teams, etc.)
+   ============================================ */
+.player-card, .team-card, .dynamic-card {
+    background: var(--dark-light);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 2px solid var(--dark);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.player-header, .team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.player-name, .team-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--light);
+    word-break: break-word;
+}
+
+.player-rank {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.player-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.player-stat {
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--dark);
+    border-radius: 8px;
+}
+
+.player-stat-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+/* ============================================
+   TABLEAUX (Classement)
+   ============================================ */
+/* Container crucial pour le mobile */
+.ranking-table-container {
+    background: var(--dark-light);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px var(--shadow);
+    /* Active le scroll horizontal uniquement sur le tableau si besoin */
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px solid var(--dark);
+}
+
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Force une largeur min pour déclencher le scroll sur petit écran */
+    min-width: 600px; 
+}
+
+.ranking-table th, .ranking-table td {
+    padding: 1rem;
+    text-align: left;
+    white-space: nowrap; /* Garde le texte sur une ligne */
+}
+
+.ranking-table thead {
+    background: var(--dark);
+    border-bottom: 3px solid var(--primary);
+}
+
+.ranking-table th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--light);
+}
+
+.rank-cell {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    color: var(--primary);
+}
+
+/* ============================================
+   MATCHS (Design Unifié & Responsive)
+   ============================================ */
+.match-card {
+    background: var(--dark-light);
+    border-radius: 12px;
+    padding: 1.2rem;
+    border: 2px solid var(--dark);
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary);
+    width: 100%;
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.match-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.match-badge-cnf3 { background: linear-gradient(135deg, var(--accent), #FFB347); color: var(--dark); }
+.match-badge-cnf12 { background: var(--primary); color: white; }
+
+.match-date {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+/* Contenu Match (Grille Desktop par défaut) */
+.match-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.match-side {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    /* Centrer le texte pour que ce soit propre */
+    text-align: center; 
+}
+
+.match-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--light);
+}
+
+.match-score {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary);
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Styles Vainqueur / Perdant */
+.match-side.winner .match-name { color: var(--primary); }
+.match-cnf3 .match-side.winner .match-name { color: var(--accent); }
+.match-side.loser { opacity: 0.6; }
+
+/* ============================================
+   PRÉDICTIONS & COMPARATEUR
+   ============================================ */
+.prediction-selector, .compare-selector {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.team-selector {
+    background: var(--dark-light);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid var(--dark);
+}
+
+.vs-separator {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--primary);
+    text-align: center;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+}
+
+/* ============================================
+   LIVE SCORING FORM
+   ============================================ */
+.live-scoring-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--dark);
+    border: 1px solid #333;
+    color: white;
+    border-radius: 6px;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.site-footer {
+    background: var(--dark);
+    border-top: 3px solid var(--primary);
+    margin-top: 4rem;
+    padding: 3rem 1.5rem 1rem;
+    width: 100%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.social-link {
+    color: var(--light);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-link:hover { color: var(--primary); }
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+/* ==========================================================================
+   📱 OPTIMISATIONS MOBILES (Max-width 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    
+    /* 1. Navigation : Scroll Horizontal */
+    .nav-container {
+        flex-direction: column;
+        padding: 0.5rem;
+        gap: 0.5rem;
+        align-items: stretch; /* Prend toute la largeur */
+    }
+
+    .logo {
+        justify-content: center; /* Centre le logo */
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-links {
+        width: 100%;
+        overflow-x: auto; /* Active le scroll horizontal */
+        padding-bottom: 10px; /* Espace pour toucher */
+        gap: 1rem;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start; /* Aligne à gauche pour permettre le scroll */
+        flex-wrap: nowrap; /* Interdit le retour à la ligne */
+    }
+    
+    /* Barre de défilement discrète */
+    .nav-links::-webkit-scrollbar { height: 3px; }
+    .nav-links::-webkit-scrollbar-thumb { background: var(--primary); }
+
+    /* 2. Hero Section Compacte */
+    .hero {
+        min-height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem; /* Taille réduite */
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr; /* Une seule colonne */
+        gap: 1rem;
+    }
+
+    .stat-card {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    /* 3. Matchs : Disposition Verticale */
+    .match-content {
+        grid-template-columns: 1fr; /* Une colonne */
+        gap: 1rem;
+    }
+
+    .match-side {
+        background: rgba(0,0,0,0.2);
+        padding: 0.8rem;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .match-score {
+        padding: 0.2rem 0;
+        font-size: 2rem;
+        background: rgba(220, 20, 60, 0.1);
+        border-radius: 8px;
+        margin: 0.2rem 0;
+        width: 100%;
+    }
+
+    /* 4. VS / Comparateur Vertical */
+    .prediction-selector, .compare-selector {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .vs-separator {
+        transform: rotate(90deg); /* VS vertical */
+        margin: 0.5rem 0;
+        font-size: 2rem;
+    }
+    
+    /* 5. Grilles en 1 colonne */
+    .top-players-grid, 
+    .players-grid, 
+    .teams-grid,
+    .poules-grid,
+    .live-matchs-grid,
+    .planning-days {
+        grid-template-columns: 1fr;
+    }
+
+    /* 6. Footer aligné */
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    /* Ajustements généraux polices */
+    .section-title { font-size: 1.8rem; }
+    .page-title { font-size: 2.2rem; }
 }

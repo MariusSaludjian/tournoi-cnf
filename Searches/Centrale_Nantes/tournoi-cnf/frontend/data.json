@@ -17,14 +17,7 @@
       "elo": 1492.0,
       "elo_max": 1506.0,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Antoine Lebrat",
@@ -42,14 +35,7 @@
       "elo": 1569.0,
       "elo_max": 1585.0,
       "elo_min": 1500,
-      "photo": "photos/antoine-lebrat.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/antoine-lebrat.jpg"
     },
     {
       "nom": "Enzo Leroux",
@@ -67,14 +53,7 @@
       "elo": 1489.0,
       "elo_max": 1502.0,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Victor Morlat",
@@ -92,14 +71,7 @@
       "elo": 1501.0,
       "elo_max": 1517.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Béatrice Revel",
@@ -118,14 +90,7 @@
       "elo": 1540.7,
       "elo_max": 1569.0,
       "elo_min": 1499.0,
-      "photo": "photos/beatrice-revel.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/beatrice-revel.jpg"
     },
     {
       "nom": "Léo Santiquet",
@@ -144,14 +109,7 @@
       "elo": 1602.0,
       "elo_max": 1618.0,
       "elo_min": 1500,
-      "photo": "photos/leo-santiquet.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/leo-santiquet.jpg"
     },
     {
       "nom": "Clément Ricaud",
@@ -170,14 +128,7 @@
       "elo": 1656.0,
       "elo_max": 1656.0,
       "elo_min": 1500,
-      "photo": "photos/clement-ricaud.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/clement-ricaud.jpg"
     },
     {
       "nom": "Paul Dauboin",
@@ -196,14 +147,7 @@
       "elo": 1528.0,
       "elo_max": 1545.0,
       "elo_min": 1484.0,
-      "photo": "photos/paul-dauboin.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/paul-dauboin.jpg"
     },
     {
       "nom": "Axel Garcin",
@@ -222,14 +166,7 @@
       "elo": 1529.0,
       "elo_max": 1545.0,
       "elo_min": 1500,
-      "photo": "photos/axel-garcin.jpg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/axel-garcin.jpg"
     },
     {
       "nom": "Arthur Jamette",
@@ -247,11 +184,7 @@
       "elo": 1468.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "FX Tierny",
@@ -269,13 +202,7 @@
       "elo": 1459.6,
       "elo_max": 1500,
       "elo_min": 1445.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Théo Coltat",
@@ -294,14 +221,7 @@
       "elo": 1499.0,
       "elo_max": 1533.0,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gabin Néron",
@@ -320,14 +240,7 @@
       "elo": 1530.0,
       "elo_max": 1547.0,
       "elo_min": 1500,
-      "photo": "photos/gabin-neron.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/gabin-neron.jpg"
     },
     {
       "nom": "Gabriel Labbé",
@@ -346,14 +259,7 @@
       "elo": 1476.6,
       "elo_max": 1519.0,
       "elo_min": 1462.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maxime Trépant",
@@ -372,14 +278,7 @@
       "elo": 1620.0,
       "elo_max": 1636.0,
       "elo_min": 1500,
-      "photo": "photos/maxime-trepant.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/maxime-trepant.jpg"
     },
     {
       "nom": "Lucas Larroque",
@@ -397,11 +296,7 @@
       "elo": 1468.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Augustin Lesne",
@@ -420,14 +315,7 @@
       "elo": 1575.0,
       "elo_max": 1591.0,
       "elo_min": 1498.0,
-      "photo": "photos/augustin-lesne.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/augustin-lesne.jpg"
     },
     {
       "nom": "Théophile Watremez",
@@ -446,14 +334,7 @@
       "elo": 1563.0,
       "elo_max": 1578.0,
       "elo_min": 1484.0,
-      "photo": "photos/theophile-watremez.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/theophile-watremez.jpg"
     },
     {
       "nom": "Eugénie Roquain",
@@ -472,14 +353,7 @@
       "elo": 1569.5,
       "elo_max": 1569.5,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Pilou Petit",
@@ -497,14 +371,7 @@
       "elo": 1485.0,
       "elo_max": 1517.0,
       "elo_min": 1484.0,
-      "photo": "photos/Pilou-petit.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/Pilou-petit.jpg"
     },
     {
       "nom": "Raphaël Delacote",
@@ -523,14 +390,7 @@
       "elo": 1527.0,
       "elo_max": 1547.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Victor Duforest",
@@ -549,14 +409,7 @@
       "elo": 1635.0,
       "elo_max": 1652.0,
       "elo_min": 1500,
-      "photo": "photos/victor-duforest.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/victor-duforest.jpg"
     },
     {
       "nom": "Bastien Lavaux",
@@ -574,14 +427,7 @@
       "elo": 1502.0,
       "elo_max": 1518.0,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Victor Perron",
@@ -598,11 +444,7 @@
       "elo": 1469.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gauthier Chapelle",
@@ -619,11 +461,7 @@
       "elo": 1501.0,
       "elo_max": 1501.0,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Marius Saludjian",
@@ -642,14 +480,7 @@
       "elo": 1570.0,
       "elo_max": 1584.0,
       "elo_min": 1483.0,
-      "photo": "photos/marius-saludjian.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/marius-saludjian.jpg"
     },
     {
       "nom": "Romain Perrier",
@@ -668,14 +499,7 @@
       "elo": 1427.0,
       "elo_max": 1500,
       "elo_min": 1427.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Octave Chardain",
@@ -694,14 +518,7 @@
       "elo": 1495.0,
       "elo_max": 1517.0,
       "elo_min": 1459.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lucas Bey",
@@ -720,14 +537,7 @@
       "elo": 1552.0,
       "elo_max": 1568.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Benjamin Riegel",
@@ -746,14 +556,7 @@
       "elo": 1536.0,
       "elo_max": 1547.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Julien Reijasse",
@@ -772,14 +575,7 @@
       "elo": 1531.0,
       "elo_max": 1531.0,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Daphné Lesur",
@@ -796,11 +592,7 @@
       "elo": 1469.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Zoé Nemeth",
@@ -819,14 +611,7 @@
       "elo": 1522.7,
       "elo_max": 1551.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Victoire Guth",
@@ -845,14 +630,7 @@
       "elo": 1487.0,
       "elo_max": 1503.0,
       "elo_min": 1484.0,
-      "photo": "photos/victoire-guth.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/victoire-guth.jpg"
     },
     {
       "nom": "Malo Thuillier",
@@ -871,14 +649,7 @@
       "elo": 1596.0,
       "elo_max": 1614.0,
       "elo_min": 1500,
-      "photo": "photos/malo-thuillier.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/malo-thuillier.jpg"
     },
     {
       "nom": "Justine Sellier",
@@ -896,14 +667,7 @@
       "elo": 1453.0,
       "elo_max": 1515.0,
       "elo_min": 1453.0,
-      "photo": "photos/justine-sellier.jpg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/justine-sellier.jpg"
     },
     {
       "nom": "Calixte Parendel",
@@ -922,14 +686,7 @@
       "elo": 1457.0,
       "elo_max": 1500,
       "elo_min": 1454.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Yaël Vincent",
@@ -948,14 +705,7 @@
       "elo": 1542.0,
       "elo_max": 1560.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Thibault Planckeel",
@@ -973,14 +723,7 @@
       "elo": 1471.0,
       "elo_max": 1503.0,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Rémi Charlemagne",
@@ -998,14 +741,7 @@
       "elo": 1519.0,
       "elo_max": 1531.0,
       "elo_min": 1483.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Eryne Trzeciak",
@@ -1024,14 +760,7 @@
       "elo": 1430.0,
       "elo_max": 1500,
       "elo_min": 1430.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Arthur Buffavand",
@@ -1049,11 +778,7 @@
       "elo": 1501.0,
       "elo_max": 1501.0,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Titouan Boulitreau",
@@ -1070,13 +795,7 @@
       "elo": 1499.0,
       "elo_max": 1516.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathias Joly",
@@ -1094,14 +813,7 @@
       "elo": 1558.0,
       "elo_max": 1573.0,
       "elo_min": 1500,
-      "photo": "photos/mathias-joly.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/mathias-joly.jpg"
     },
     {
       "nom": "Timothée Priou Pichon",
@@ -1118,12 +830,7 @@
       "elo": 1454.0,
       "elo_max": 1500,
       "elo_min": 1454.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Matéo Batista",
@@ -1141,14 +848,7 @@
       "elo": 1516.0,
       "elo_max": 1532.0,
       "elo_min": 1500,
-      "photo": "photos/mateo-batista.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/mateo-batista.jpg"
     },
     {
       "nom": "Arthur Peschaire",
@@ -1165,12 +865,7 @@
       "elo": 1454.0,
       "elo_max": 1500,
       "elo_min": 1454.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Audrey Cahuac",
@@ -1188,12 +883,7 @@
       "elo": 1515.0,
       "elo_max": 1517.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Eliott Levy Rondeau",
@@ -1211,14 +901,7 @@
       "elo": 1474.5,
       "elo_max": 1509.0,
       "elo_min": 1461.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Elwan El-Hafaia",
@@ -1235,12 +918,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Léonard Wilson",
@@ -1257,12 +935,7 @@
       "elo": 1452.0,
       "elo_max": 1500,
       "elo_min": 1452.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Jean Debare",
@@ -1280,14 +953,7 @@
       "elo": 1463.5,
       "elo_max": 1508.0,
       "elo_min": 1460.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Chloé Perrier",
@@ -1304,12 +970,7 @@
       "elo": 1486.0,
       "elo_max": 1500.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Ulysse Comte",
@@ -1327,13 +988,7 @@
       "elo": 1502.0,
       "elo_max": 1516.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Coralie Tyrode",
@@ -1350,12 +1005,7 @@
       "elo": 1454.0,
       "elo_max": 1500,
       "elo_min": 1454.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Isaure Chevreau",
@@ -1373,12 +1023,7 @@
       "elo": 1458.0,
       "elo_max": 1500,
       "elo_min": 1458.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "David Carrié",
@@ -1395,12 +1040,7 @@
       "elo": 1519.0,
       "elo_max": 1519.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Tom Lemoine",
@@ -1418,14 +1058,7 @@
       "elo": 1476.5,
       "elo_max": 1511.0,
       "elo_min": 1463.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Guilhem Demesy",
@@ -1443,13 +1076,7 @@
       "elo": 1499.0,
       "elo_max": 1531.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Ulysse Cruz Ramos",
@@ -1466,13 +1093,7 @@
       "elo": 1529.0,
       "elo_max": 1547.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Pierric Léopold",
@@ -1490,12 +1111,7 @@
       "elo": 1485.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lou-Ann Flécher",
@@ -1513,12 +1129,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Philippe Pernet",
@@ -1535,12 +1146,7 @@
       "elo": 1514.0,
       "elo_max": 1530.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Apolline Joire",
@@ -1557,12 +1163,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Oleksandr Segeda",
@@ -1579,14 +1180,7 @@
       "elo": 1485.0,
       "elo_max": 1509.0,
       "elo_min": 1461.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Cheikh Oumar Diarra",
@@ -1604,14 +1198,7 @@
       "elo": 1582.0,
       "elo_max": 1599.0,
       "elo_min": 1500,
-      "photo": "photos/cheikh-oumar-diarra.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/cheikh-oumar-diarra.jpg"
     },
     {
       "nom": "Maëlys Normand",
@@ -1629,12 +1216,7 @@
       "elo": 1456.0,
       "elo_max": 1500,
       "elo_min": 1456.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Justine Bonnamy",
@@ -1652,14 +1234,7 @@
       "elo": 1509.8,
       "elo_max": 1516.0,
       "elo_min": 1461.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lucas Gonçalves",
@@ -1676,13 +1251,7 @@
       "elo": 1503.0,
       "elo_max": 1517.0,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Max Perron",
@@ -1700,12 +1269,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Chloé Lumb",
@@ -1723,13 +1287,7 @@
       "elo": 1503.0,
       "elo_max": 1531.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Nassim Houzali",
@@ -1747,12 +1305,7 @@
       "elo": 1517.0,
       "elo_max": 1517.0,
       "elo_min": 1483.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Antonin Briat",
@@ -1770,12 +1323,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1455.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Siméon Glomot",
@@ -1792,14 +1340,7 @@
       "elo": 1516.0,
       "elo_max": 1540.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Luka Petrovic",
@@ -1817,12 +1358,7 @@
       "elo": 1517.0,
       "elo_max": 1517.0,
       "elo_min": 1485.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Juliette Vialla",
@@ -1839,12 +1375,7 @@
       "elo": 1456.0,
       "elo_max": 1500,
       "elo_min": 1456.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Jack Hascoet",
@@ -1861,12 +1392,7 @@
       "elo": 1485.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/jack-hascoet.jpg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/jack-hascoet.jpg"
     },
     {
       "nom": "Baptiste Fontaine",
@@ -1884,12 +1410,7 @@
       "elo": 1514.0,
       "elo_max": 1530.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathis Patin",
@@ -1906,13 +1427,7 @@
       "elo": 1529.0,
       "elo_max": 1546.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lilou Frezzato",
@@ -1930,12 +1445,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1455.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Yassine Aloui",
@@ -1952,12 +1462,7 @@
       "elo": 1484.0,
       "elo_max": 1516.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Barthélémy Limonne",
@@ -1975,13 +1480,7 @@
       "elo": 1501.0,
       "elo_max": 1516.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lucas Dargère",
@@ -1998,12 +1497,7 @@
       "elo": 1485.0,
       "elo_max": 1501.0,
       "elo_min": 1484.0,
-      "photo": "photos/lucas-dargere.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/lucas-dargere.jpg"
     },
     {
       "nom": "Loan Piquet",
@@ -2020,12 +1514,7 @@
       "elo": 1482.0,
       "elo_max": 1516.0,
       "elo_min": 1482.0,
-      "photo": "photos/loan-piquet.jpg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/loan-piquet.jpg"
     },
     {
       "nom": "Célian Fouchet",
@@ -2042,14 +1531,7 @@
       "elo": 1515.0,
       "elo_max": 1531.0,
       "elo_min": 1498.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Doriann Brossais",
@@ -2067,14 +1549,7 @@
       "elo": 1536.0,
       "elo_max": 1550.0,
       "elo_min": 1500,
-      "photo": "photos/doriann-brossais.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/doriann-brossais.jpg"
     },
     {
       "nom": "Lola Schauterden",
@@ -2091,12 +1566,7 @@
       "elo": 1484.0,
       "elo_max": 1500.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Elouan Mazoyer",
@@ -2114,12 +1584,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1455.0,
-      "photo": "photos/elouan-mazoyer.jpg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/elouan-mazoyer.jpg"
     },
     {
       "nom": "Marius Tournié",
@@ -2136,13 +1601,7 @@
       "elo": 1528.0,
       "elo_max": 1545.0,
       "elo_min": 1500,
-      "photo": "photos/marius-tournie.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/marius-tournie.jpg"
     },
     {
       "nom": "Johannes Engel",
@@ -2159,14 +1618,7 @@
       "elo": 1534.0,
       "elo_max": 1547.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Juliette Plault",
@@ -2184,12 +1636,7 @@
       "elo": 1484.0,
       "elo_max": 1516.0,
       "elo_min": 1484.0,
-      "photo": "photos/juliette-plault.jpg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/juliette-plault.jpg"
     },
     {
       "nom": "Thomas Souprayen",
@@ -2206,13 +1653,7 @@
       "elo": 1501.0,
       "elo_max": 1530.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathilde Lesueur",
@@ -2230,12 +1671,7 @@
       "elo": 1452.0,
       "elo_max": 1500,
       "elo_min": 1452.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Anaé Saubestre",
@@ -2253,12 +1689,7 @@
       "elo": 1484.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Ilias Brumant",
@@ -2276,12 +1707,7 @@
       "elo": 1485.0,
       "elo_max": 1500,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Benjamin Lasserre",
@@ -2298,13 +1724,7 @@
       "elo": 1530.0,
       "elo_max": 1547.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Antoine De La Monneraye",
@@ -2321,12 +1741,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Sacha Claisse",
@@ -2344,14 +1759,7 @@
       "elo": 1488.0,
       "elo_max": 1524.0,
       "elo_min": 1488.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Solène Wang",
@@ -2368,12 +1776,7 @@
       "elo": 1516.0,
       "elo_max": 1532.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Simon Blin",
@@ -2391,12 +1794,7 @@
       "elo": 1487.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Constantin Chalumeau",
@@ -2413,12 +1811,7 @@
       "elo": 1484.0,
       "elo_max": 1517.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Chloé Best-Belpomme",
@@ -2435,12 +1828,7 @@
       "elo": 1484.0,
       "elo_max": 1516.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Malo Mutti",
@@ -2457,12 +1845,7 @@
       "elo": 1487.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Adrien Queffélec",
@@ -2479,13 +1862,7 @@
       "elo": 1499.0,
       "elo_max": 1532.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Yani Debiane",
@@ -2503,14 +1880,7 @@
       "elo": 1499.8,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Edgar Virlogeux",
@@ -2528,14 +1898,7 @@
       "elo": 1508.8,
       "elo_max": 1508.8,
       "elo_min": 1460.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lamia D'Acunto",
@@ -2553,13 +1916,7 @@
       "elo": 1528.0,
       "elo_max": 1545.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Yanis Saa",
@@ -2577,12 +1934,7 @@
       "elo": 1514.0,
       "elo_max": 1531.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathilde Sallé",
@@ -2599,14 +1951,7 @@
       "elo": 1520.0,
       "elo_max": 1544.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Titouan Mahevas",
@@ -2623,12 +1968,7 @@
       "elo": 1456.0,
       "elo_max": 1500,
       "elo_min": 1456.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Axel Shi",
@@ -2645,14 +1985,7 @@
       "elo": 1517.0,
       "elo_max": 1532.0,
       "elo_min": 1500,
-      "photo": "photos/axel-shi.jpg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/axel-shi.jpg"
     },
     {
       "nom": "Thibaud Malvache",
@@ -2669,12 +2002,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Théotime Ponsen",
@@ -2692,12 +2020,7 @@
       "elo": 1485.0,
       "elo_max": 1500,
       "elo_min": 1469.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Matthieu Bouchet",
@@ -2714,14 +2037,7 @@
       "elo": 1516.0,
       "elo_max": 1532.0,
       "elo_min": 1484.0,
-      "photo": "photos/matthieu-bouchet.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/matthieu-bouchet.jpg"
     },
     {
       "nom": "Bastien Pageaud",
@@ -2738,12 +2054,7 @@
       "elo": 1484.0,
       "elo_max": 1516.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Arthur Devouge-Ruvira",
@@ -2760,14 +2071,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1431.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Anthony Gago-Klimenko",
@@ -2784,13 +2088,7 @@
       "elo": 1526.0,
       "elo_max": 1545.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathéo Blain",
@@ -2808,14 +2106,7 @@
       "elo": 1503.8,
       "elo_max": 1531.0,
       "elo_min": 1480.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Louis Charpentier",
@@ -2833,14 +2124,7 @@
       "elo": 1436.5,
       "elo_max": 1500,
       "elo_min": 1433.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Blaise Dubreuil",
@@ -2858,12 +2142,7 @@
       "elo": 1490.0,
       "elo_max": 1500,
       "elo_min": 1474.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Tanguy Fesselet",
@@ -2881,13 +2160,7 @@
       "elo": 1502.0,
       "elo_max": 1531.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Laura Medioni",
@@ -2905,12 +2178,7 @@
       "elo": 1486.0,
       "elo_max": 1500,
       "elo_min": 1470.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Clément Ducottet",
@@ -2928,12 +2196,7 @@
       "elo": 1454.0,
       "elo_max": 1500,
       "elo_min": 1454.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Romain Brechet",
@@ -2950,12 +2213,7 @@
       "elo": 1518.0,
       "elo_max": 1518.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gabin Chausse",
@@ -2972,12 +2230,7 @@
       "elo": 1483.0,
       "elo_max": 1516.0,
       "elo_min": 1483.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Martin Chollet",
@@ -2995,12 +2248,7 @@
       "elo": 1486.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Annaëlle Maigre",
@@ -3018,12 +2266,7 @@
       "elo": 1517.0,
       "elo_max": 1517.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maxence Schwerer",
@@ -3040,13 +2283,7 @@
       "elo": 1500.0,
       "elo_max": 1532.0,
       "elo_min": 1500.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Paul Laurent Verleye",
@@ -3063,12 +2300,7 @@
       "elo": 1453.0,
       "elo_max": 1500,
       "elo_min": 1453.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Rémi Imbert Chevrier",
@@ -3085,14 +2317,7 @@
       "elo": 1515.0,
       "elo_max": 1529.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gianni Mazzone",
@@ -3109,12 +2334,7 @@
       "elo": 1451.0,
       "elo_max": 1500,
       "elo_min": 1451.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lilian Beauvais",
@@ -3132,14 +2352,7 @@
       "elo": 1482.8,
       "elo_max": 1507.0,
       "elo_min": 1459.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Thibault Vo",
@@ -3157,13 +2370,7 @@
       "elo": 1500.0,
       "elo_max": 1531.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Vincent Brun",
@@ -3181,14 +2388,7 @@
       "elo": 1478.8,
       "elo_max": 1500,
       "elo_min": 1430.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maxime De Campos",
@@ -3205,12 +2405,7 @@
       "elo": 1486.0,
       "elo_max": 1500,
       "elo_min": 1470.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Karl Nuyts",
@@ -3227,12 +2422,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1455.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maxime Antoine",
@@ -3249,12 +2439,7 @@
       "elo": 1517.0,
       "elo_max": 1534.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lilou Palud",
@@ -3271,13 +2456,7 @@
       "elo": 1505.0,
       "elo_max": 1519.0,
       "elo_min": 1486.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Bastian Zachary",
@@ -3294,12 +2473,7 @@
       "elo": 1486.0,
       "elo_max": 1500,
       "elo_min": 1468.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Etienne Saudubray",
@@ -3316,12 +2490,7 @@
       "elo": 1483.0,
       "elo_max": 1516.0,
       "elo_min": 1483.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Titouan Leveugle",
@@ -3338,12 +2507,7 @@
       "elo": 1515.0,
       "elo_max": 1515.0,
       "elo_min": 1483.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Alix Nevers",
@@ -3360,14 +2524,7 @@
       "elo": 1517.0,
       "elo_max": 1533.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Emile Sandberg",
@@ -3384,12 +2541,7 @@
       "elo": 1518.0,
       "elo_max": 1518.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Marius Bacle",
@@ -3407,12 +2559,7 @@
       "elo": 1457.0,
       "elo_max": 1500,
       "elo_min": 1457.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Jasper Williamson",
@@ -3429,14 +2576,7 @@
       "elo": 1533.0,
       "elo_max": 1549.0,
       "elo_min": 1499.0,
-      "photo": "photos/jasper-williamson.jpg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/jasper-williamson.jpg"
     },
     {
       "nom": "Bastien Danino",
@@ -3454,14 +2594,7 @@
       "elo": 1525.8,
       "elo_max": 1525.8,
       "elo_min": 1477.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "D",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Brune Paluel-Marmont",
@@ -3478,12 +2611,7 @@
       "elo": 1486.0,
       "elo_max": 1502.0,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Alexandre Poisson",
@@ -3501,14 +2629,7 @@
       "elo": 1614.4,
       "elo_max": 1629.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V",
-        "V",
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Nicolas Dupré",
@@ -3526,12 +2647,7 @@
       "elo": 1455.0,
       "elo_max": 1500,
       "elo_min": 1455.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Thomas Brisset-Bouscarle",
@@ -3549,14 +2665,7 @@
       "elo": 1534.0,
       "elo_max": 1549.0,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "V",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Raphaël Tipaka",
@@ -3574,12 +2683,7 @@
       "elo": 1484.0,
       "elo_max": 1500,
       "elo_min": 1484.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Adrien Quéffelec",
@@ -3596,8 +2700,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Adèle Hamelin",
@@ -3614,8 +2717,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Alexandre Combes",
@@ -3632,11 +2734,7 @@
       "elo": 1512.0,
       "elo_max": 1512.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Anaëlle Pasquet",
@@ -3653,8 +2751,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Angèle Caurant",
@@ -3671,8 +2768,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Anthony Gago--Klimenko",
@@ -3689,8 +2785,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Antoine Bertrand",
@@ -3707,8 +2802,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Antoine Sadowski",
@@ -3725,8 +2819,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Arthur Boularand",
@@ -3743,8 +2836,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Brune Paluel Mormont",
@@ -3761,8 +2853,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Camille Sarmant",
@@ -3779,8 +2870,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Cheikhou Diarra",
@@ -3797,8 +2887,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Clémence Bouscaud",
@@ -3815,8 +2904,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Célian Foucher",
@@ -3833,8 +2921,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Côme Didot",
@@ -3851,11 +2938,7 @@
       "elo": 1510.5,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Eline Samama Brault",
@@ -3872,8 +2955,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Eliot Bonnamy",
@@ -3890,8 +2972,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Elora Stenard",
@@ -3908,8 +2989,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Flora Poncet",
@@ -3926,11 +3006,7 @@
       "elo": 1476.5,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Flore Destremau",
@@ -3947,8 +3023,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Félix Maron",
@@ -3965,8 +3040,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gaetan Hoo",
@@ -3983,8 +3057,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Gaëtan Soury",
@@ -4001,8 +3074,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Grégoire Casassus",
@@ -4019,11 +3091,7 @@
       "elo": 1476.5,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Isild Vrignaud",
@@ -4040,8 +3108,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Juliette Mensch",
@@ -4058,11 +3125,7 @@
       "elo": 1523.7,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Justin Lamarcade",
@@ -4079,8 +3142,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Kevin Corodeanu",
@@ -4097,8 +3159,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Laurette Chambost",
@@ -4115,11 +3176,7 @@
       "elo": 1488.0,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Louis Botin",
@@ -4136,11 +3193,7 @@
       "elo": 1475.4,
       "elo_max": 1524.0,
       "elo_min": 1475.4,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Lucas Besse",
@@ -4157,8 +3210,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maelan Maudet",
@@ -4175,8 +3227,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Margaux Dubois",
@@ -4193,8 +3244,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Margot Chevreuil",
@@ -4211,11 +3261,7 @@
       "elo": 1475.4,
       "elo_max": 1524.0,
       "elo_min": 1475.4,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Marie Lopes Henrique",
@@ -4232,11 +3278,7 @@
       "elo": 1523.7,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Marion Levalet",
@@ -4253,8 +3295,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Martin Brunet Lecomte",
@@ -4271,8 +3312,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Martin Game",
@@ -4289,11 +3329,7 @@
       "elo": 1512.0,
       "elo_max": 1512.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathilde Ducasse",
@@ -4310,11 +3346,7 @@
       "elo": 1488.0,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathurin Roulier",
@@ -4331,8 +3363,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathéo Demongeot",
@@ -4349,8 +3380,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mathéo Robino",
@@ -4367,8 +3397,7 @@
       "elo": 1500.0,
       "elo_max": 1500,
       "elo_min": 1500.0,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Matis Lanuscou",
@@ -4385,8 +3414,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Mattéo Monnerie",
@@ -4403,8 +3431,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Max Laferté-Asensi",
@@ -4421,8 +3448,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Maël Barraut",
@@ -4439,8 +3465,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Nathan Létisse",
@@ -4457,8 +3482,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Noah Kientz",
@@ -4475,8 +3499,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Paul Renault",
@@ -4493,8 +3516,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Paul Saluste",
@@ -4511,8 +3533,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Paul Taillée",
@@ -4529,11 +3550,7 @@
       "elo": 1509.4,
       "elo_max": 1509.4,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "V",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Quentin Offredo",
@@ -4550,8 +3567,7 @@
       "elo": 1500.0,
       "elo_max": 1500,
       "elo_min": 1500.0,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Ronan Le Borgne",
@@ -4568,8 +3584,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Sami Sayouri",
@@ -4586,8 +3601,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Samuel Grall",
@@ -4604,8 +3618,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Syrine Vera",
@@ -4622,8 +3635,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Thomas Pontneau-Amisse",
@@ -4640,8 +3652,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Thomas Régus",
@@ -4658,8 +3669,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Théa El Rostom",
@@ -4676,8 +3686,7 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
-      "photo": "photos/default.svg",
-      "forme_recente": []
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Timothée Prio-Pichon",
@@ -4694,11 +3703,7 @@
       "elo": 1499.8,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Vincent Nezet",
@@ -4715,11 +3720,7 @@
       "elo": 1488.0,
       "elo_max": 1524.0,
       "elo_min": 1488.0,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Juliette Hue",
