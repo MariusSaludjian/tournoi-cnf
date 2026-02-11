@@ -4509,3 +4509,239 @@ button:active,
     opacity: 0.7;
     transform: scale(0.98);
 }
+/* ==========================================
+   CORRECTIFS SUPPLÉMENTAIRES MOBILE
+   À AJOUTER À LA FIN DE styles.css
+   ========================================== */
+
+/* 1. CORRIGER L'IMAGE DE FOND SUR MOBILE */
+@media (max-width: 768px) {
+    body {
+        background-image: 
+            linear-gradient(
+                135deg, 
+                rgba(220, 20, 60, 0.5) 0%,
+                rgba(0, 0, 0, 0.7) 50%,
+                rgba(27, 94, 32, 0.5) 100%
+            ),
+            url('image.jpg');
+        background-size: cover !important;
+        background-position: center center !important;
+        background-attachment: scroll !important; /* Pas fixed sur mobile */
+        /* Alternative : si l'image est trop zoomée */
+        /* background-size: 100% auto !important; */
+    }
+}
+
+/* 2. CORRIGER LE SCROLL DANS LES MODALS (PROFIL JOUEUR) */
+.modal {
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.modal-content {
+    max-height: none !important; /* Enlever la limite de hauteur */
+    overflow-y: visible !important;
+    margin: 1rem auto !important;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        padding: 1rem 0 !important;
+    }
+    
+    .modal-content {
+        max-height: none !important; /* Permettre de scroller */
+        height: auto !important;
+        overflow-y: visible !important;
+        margin: 1rem auto 2rem auto !important; /* Espace en bas */
+        padding-bottom: 2rem !important; /* Padding en bas */
+    }
+    
+    /* S'assurer que l'historique des matchs est visible */
+    #player-modal-content {
+        max-height: none !important;
+        overflow-y: visible !important;
+    }
+    
+    /* Conteneur de l'historique des matchs */
+    #player-modal-content > div[style*="max-height"] {
+        max-height: none !important;
+        overflow-y: visible !important;
+    }
+}
+
+/* 3. CORRIGER LA PAGE CLASSEMENT */
+@media (max-width: 768px) {
+    /* Page classement complète */
+    #classement {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Conteneur de la page classement */
+    #classement .container {
+        overflow: visible !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Tableau de classement */
+    #classement-elo,
+    .ranking-table {
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 2rem !important;
+    }
+}
+
+/* 4. CORRIGER LA PAGE JOUEURS */
+@media (max-width: 768px) {
+    #joueurs {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    #joueurs .container {
+        overflow: visible !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Grille des joueurs */
+    #all-players {
+        padding-bottom: 2rem !important;
+    }
+}
+
+/* 5. TOUTES LES PAGES DOIVENT POUVOIR SCROLLER */
+@media (max-width: 768px) {
+    .page {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        min-height: 100vh !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    .page.active {
+        display: block !important;
+        overflow-y: auto !important;
+    }
+    
+    .container {
+        padding-bottom: 3rem !important;
+    }
+}
+
+/* 6. FIX POUR L'OVERLAY DU MODAL */
+@media (max-width: 768px) {
+    .modal {
+        display: none; /* Caché par défaut */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+        overflow-y: scroll !important; /* Permettre le scroll */
+        -webkit-overflow-scrolling: touch;
+        padding: 0 !important;
+    }
+    
+    .modal.active {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Aligner en haut */
+        padding-top: 2rem !important;
+    }
+    
+    .modal-content {
+        position: relative; /* Pas fixed */
+        width: 95% !important;
+        max-width: 95% !important;
+        max-height: none !important;
+        height: auto !important;
+        margin: 0 auto 3rem auto !important;
+        overflow: visible !important;
+    }
+}
+
+/* 7. HISTORIQUE DES MATCHS DANS LE PROFIL */
+@media (max-width: 768px) {
+    /* Conteneur de l'historique */
+    .player-matches-history {
+        max-height: none !important;
+        overflow-y: visible !important;
+    }
+    
+    /* Chaque match dans l'historique */
+    .match-history-item {
+        margin-bottom: 1rem !important;
+        padding: 1rem !important;
+    }
+}
+
+/* 8. ASSURER QUE LE BODY NE BLOQUE PAS LE SCROLL */
+@media (max-width: 768px) {
+    body {
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        height: auto !important;
+        min-height: 100vh !important;
+    }
+    
+    html {
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+}
+
+/* 9. ALTERNATIVE POUR L'IMAGE DE FOND (SI TOUJOURS ZOOMÉE) */
+@media (max-width: 768px) {
+    /* Option 1 : Image contenue (pas de zoom) */
+    body.bg-contain {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: top center !important;
+    }
+    
+    /* Option 2 : Image en largeur */
+    body.bg-width {
+        background-size: 100% auto !important;
+        background-position: center top !important;
+    }
+    
+    /* Option 3 : Pas d'image sur mobile (meilleure performance) */
+    body.bg-none {
+        background-image: 
+            linear-gradient(
+                135deg, 
+                rgba(220, 20, 60, 0.3) 0%,
+                rgba(0, 0, 0, 0.9) 50%,
+                rgba(27, 94, 32, 0.3) 100%
+            ) !important;
+        background-color: #1a1a1a !important;
+    }
+}
+
+/* 10. FIX GRAPHIQUE ELO DANS LE PROFIL */
+@media (max-width: 768px) {
+    canvas {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Conteneur du graphique */
+    .chart-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: visible !important;
+    }
+}
