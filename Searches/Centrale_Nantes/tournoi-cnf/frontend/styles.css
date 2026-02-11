@@ -3870,4 +3870,642 @@ body {
     /* Ajustements généraux polices */
     .section-title { font-size: 1.8rem; }
     .page-title { font-size: 2.2rem; }
+}/* ==========================================
+   CORRECTIONS MOBILE CRITIQUES
+   À ajouter APRÈS tout le CSS existant
+   ========================================== */
+
+/* 1. EMPÊCHER LE DÉBORDEMENT - RÈGLE UNIVERSELLE */
+html {
+    overflow-x: hidden !important;
+    width: 100%;
+    max-width: 100vw;
+}
+
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+}
+
+* {
+    max-width: 100vw;
+}
+
+/* 2. CONTENEURS GLOBAUX */
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* 3. TABLEAUX RESPONSIFS */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Wrapper pour tous les tableaux */
+table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 4. IMAGES ET MEDIA */
+img, video, iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* ==========================================
+   MEDIA QUERIES MOBILE (< 768px)
+   ========================================== */
+
+@media (max-width: 768px) {
+    
+    /* === NAVIGATION === */
+    .main-nav {
+        position: sticky;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .nav-container {
+        flex-direction: column !important;
+        padding: 0.8rem 1rem !important;
+        gap: 0.8rem !important;
+        align-items: center !important;
+    }
+    
+    .logo {
+        width: 100%;
+        justify-content: center !important;
+        gap: 0.5rem !important;
+    }
+    
+    .logo img {
+        height: 45px !important;
+        width: auto !important;
+    }
+    
+    .logo-main {
+        font-size: 1.8rem !important;
+        letter-spacing: 2px !important;
+    }
+    
+    .logo-sub {
+        font-size: 0.65rem !important;
+        letter-spacing: 1px !important;
+    }
+    
+    .nav-links {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        width: calc(100vw - 2rem) !important;
+        max-width: calc(100vw - 2rem) !important;
+        padding: 0.5rem 0 !important;
+        gap: 0.5rem !important;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+    }
+    
+    .nav-links::-webkit-scrollbar {
+        height: 3px;
+    }
+    
+    .nav-links::-webkit-scrollbar-thumb {
+        background: var(--primary);
+        border-radius: 2px;
+    }
+    
+    .nav-link {
+        font-size: 0.75rem !important;
+        padding: 0.5rem 0.8rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+    }
+    
+    /* === HERO SECTION === */
+    .hero {
+        padding: 2rem 1rem !important;
+        min-height: auto !important;
+    }
+    
+    .hero-content {
+        padding: 1rem !important;
+    }
+    
+    .hero-title {
+        font-size: 2rem !important;
+        flex-direction: column !important;
+        gap: 0.2rem !important;
+        text-align: center !important;
+    }
+    
+    .hero-highlight {
+        font-size: 2.2rem !important;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.95rem !important;
+        text-align: center !important;
+    }
+    
+    .hero-stats {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        padding: 0 !important;
+    }
+    
+    .stat-card {
+        padding: 1rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    
+    .stat-number {
+        font-size: 2rem !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem !important;
+    }
+    
+    /* === TITRES === */
+    .page-title {
+        font-size: 2rem !important;
+        padding: 1rem !important;
+        text-align: center !important;
+        word-wrap: break-word !important;
+    }
+    
+    .section-title {
+        font-size: 1.5rem !important;
+        padding: 1rem !important;
+        text-align: center !important;
+    }
+    
+    /* === GRILLES - TOUJOURS 1 COLONNE === */
+    .top-players-grid,
+    .players-grid,
+    .teams-grid,
+    .poules-grid,
+    .live-matchs-grid,
+    .planning-days,
+    .dynamic-home-stats {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        padding: 0 !important;
+    }
+    
+    /* === CARTES JOUEURS === */
+    .player-card {
+        padding: 1.2rem !important;
+        margin: 0 !important;
+    }
+    
+    .player-header {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 0.8rem !important;
+    }
+    
+    .player-rank {
+        font-size: 2rem !important;
+        position: static !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .player-photo img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    .player-name {
+        font-size: 1.2rem !important;
+        text-align: center !important;
+    }
+    
+    .player-elo {
+        font-size: 1.5rem !important;
+    }
+    
+    .player-stats {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+    
+    .player-stat-value {
+        font-size: 1.3rem !important;
+    }
+    
+    .player-stat-label {
+        font-size: 0.75rem !important;
+    }
+    
+    /* === MATCHS === */
+    .recent-matches {
+        padding: 0 !important;
+    }
+    
+    .match-card {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .match-header {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+        text-align: center !important;
+    }
+    
+    .match-content {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem !important;
+    }
+    
+    .match-side {
+        padding: 0.8rem !important;
+    }
+    
+    .match-player,
+    .match-player-home,
+    .match-player-away {
+        font-size: 1rem !important;
+        padding: 0.8rem !important;
+    }
+    
+    .match-score {
+        font-size: 1.8rem !important;
+        padding: 0.8rem !important;
+        margin: 0.5rem 0 !important;
+    }
+    
+    .match-info {
+        font-size: 0.85rem !important;
+        gap: 0.5rem !important;
+    }
+    
+    /* === FILTRES === */
+    .filters {
+        flex-direction: column !important;
+        gap: 0.8rem !important;
+        padding: 0 !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .search-input,
+    .sort-select,
+    select,
+    input[type="text"],
+    input[type="search"] {
+        width: 100% !important;
+        font-size: 1rem !important;
+        padding: 0.8rem !important;
+    }
+    
+    /* === TABLEAUX === */
+    .ranking-table {
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        display: block !important;
+        margin: 0 !important;
+    }
+    
+    .ranking-table table {
+        min-width: 600px !important;
+        font-size: 0.85rem !important;
+        display: table !important;
+        width: auto !important;
+    }
+    
+    .ranking-table th,
+    .ranking-table td {
+        padding: 0.6rem 0.4rem !important;
+        white-space: nowrap !important;
+    }
+    
+    .ranking-table::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .ranking-table::-webkit-scrollbar-thumb {
+        background: var(--primary);
+        border-radius: 3px;
+    }
+    
+    /* === ÉQUIPES CNF3 === */
+    .team-card,
+    .poule-card {
+        padding: 1.2rem !important;
+    }
+    
+    .team-name {
+        font-size: 1.3rem !important;
+    }
+    
+    .team-players {
+        font-size: 0.95rem !important;
+    }
+    
+    /* === MODAL === */
+    .modal {
+        padding: 0.5rem !important;
+    }
+    
+    .modal-content {
+        width: 95% !important;
+        max-width: 95% !important;
+        margin: 0.5rem auto !important;
+        padding: 1.5rem 1rem !important;
+        max-height: 90vh !important;
+        overflow-y: auto !important;
+    }
+    
+    .modal-close {
+        top: 0.5rem !important;
+        right: 0.5rem !important;
+        font-size: 2rem !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+    
+    /* Profil joueur dans modal */
+    .player-profile-photo img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    .player-stat {
+        padding: 0.8rem !important;
+    }
+    
+    /* === PRÉDICTIONS / COMPARATEUR === */
+    .prediction-selector,
+    .compare-selector {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        padding: 0 !important;
+    }
+    
+    .player-selector {
+        padding: 1rem !important;
+    }
+    
+    .player-selector select {
+        font-size: 1rem !important;
+    }
+    
+    .vs-separator {
+        transform: none !important;
+        font-size: 2rem !important;
+        padding: 0.5rem !important;
+        text-align: center !important;
+    }
+    
+    .prediction-result,
+    .comparison-result {
+        padding: 1.2rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    .probability {
+        font-size: 2.5rem !important;
+    }
+    
+    .comparison-stats {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    /* === LIVE SCORING === */
+    .live-match-card {
+        padding: 1.2rem !important;
+    }
+    
+    .score-display {
+        font-size: 2.5rem !important;
+    }
+    
+    .score-input {
+        font-size: 1.5rem !important;
+        width: 60px !important;
+        padding: 0.5rem !important;
+    }
+    
+    /* === FOOTER === */
+    .site-footer {
+        padding: 2rem 1rem !important;
+    }
+    
+    .footer-container {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+        text-align: center !important;
+    }
+    
+    .footer-section {
+        padding: 0 !important;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.2rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .footer-section p,
+    .footer-section a {
+        font-size: 0.9rem !important;
+    }
+    
+    .footer-credits {
+        font-size: 0.85rem !important;
+    }
+    
+    /* === ONGLETS === */
+    .tabs {
+        flex-wrap: wrap !important;
+        gap: 0.5rem !important;
+        justify-content: center !important;
+    }
+    
+    .tab-button {
+        flex: 1 1 calc(50% - 0.25rem) !important;
+        min-width: 140px !important;
+        font-size: 0.9rem !important;
+        padding: 0.7rem 0.5rem !important;
+    }
+    
+    /* === PALMARÈS === */
+    .palmares-podium {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1rem !important;
+    }
+    
+    .podium-item {
+        width: 100% !important;
+        max-width: 280px !important;
+        margin: 0 !important;
+    }
+    
+    .podium-item.first,
+    .podium-item.second,
+    .podium-item.third {
+        order: 0 !important;
+    }
+    
+    /* === CARTES DYNAMIQUES === */
+    .dynamic-card {
+        padding: 1.2rem !important;
+    }
+    
+    .dynamic-stats {
+        grid-template-columns: 1fr !important;
+        gap: 0.8rem !important;
+    }
+    
+    .progression-card,
+    .forme-card {
+        padding: 1rem !important;
+    }
+}
+
+/* ==========================================
+   TRÈS PETITS ÉCRANS (< 380px)
+   ========================================== */
+
+@media (max-width: 380px) {
+    .logo-main {
+        font-size: 1.5rem !important;
+    }
+    
+    .logo img {
+        height: 40px !important;
+    }
+    
+    .nav-link {
+        font-size: 0.7rem !important;
+        padding: 0.4rem 0.6rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.7rem !important;
+    }
+    
+    .hero-highlight {
+        font-size: 1.9rem !important;
+    }
+    
+    .stat-number {
+        font-size: 1.7rem !important;
+    }
+    
+    .page-title {
+        font-size: 1.7rem !important;
+    }
+    
+    .section-title {
+        font-size: 1.3rem !important;
+    }
+    
+    .player-elo {
+        font-size: 1.3rem !important;
+    }
+    
+    .match-score {
+        font-size: 1.5rem !important;
+    }
+    
+    .modal-content {
+        padding: 1rem 0.8rem !important;
+    }
+    
+    .probability {
+        font-size: 2rem !important;
+    }
+}
+
+/* ==========================================
+   CORRECTIONS SPÉCIFIQUES
+   ========================================== */
+
+/* Empêcher les éléments position: fixed de déborder */
+.main-nav,
+.modal {
+    width: 100%;
+    max-width: 100vw;
+    left: 0;
+    right: 0;
+}
+
+/* S'assurer que les grilles ne dépassent jamais */
+[class*="grid"],
+[class*="Grid"] {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Empêcher les cartes de déborder */
+[class*="card"],
+[class*="Card"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Texte qui pourrait déborder */
+h1, h2, h3, h4, h5, h6,
+.player-name,
+.team-name,
+.match-player {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto;
+}
+
+/* Boutons tactiles (minimum 44x44px) */
+button,
+.btn,
+.tab-button,
+.nav-link {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* ==========================================
+   OPTIMISATIONS PERFORMANCES MOBILE
+   ========================================== */
+
+/* Réduire les animations sur mobile */
+@media (max-width: 768px) {
+    * {
+        animation-duration: 0.3s !important;
+        transition-duration: 0.2s !important;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Touch feedback */
+button:active,
+.btn:active,
+.nav-link:active,
+.player-card:active {
+    opacity: 0.7;
+    transform: scale(0.98);
 }
