@@ -1,1853 +1,6 @@
 {
   "joueurs": [
     {
-      "nom": "Alain Salomon",
-      "matchs_joues": 7,
-      "victoires": 3,
-      "defaites": 4,
-      "sets_gagnes": 10,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 42.9,
-      "ratio_sets": 0.91,
-      "elo": 1492.0,
-      "elo_max": 1506.0,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Antoine Lebrat",
-      "matchs_joues": 9,
-      "victoires": 7,
-      "defaites": 2,
-      "sets_gagnes": 17,
-      "sets_perdus": 12,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 77.8,
-      "ratio_sets": 1.42,
-      "elo": 1569.0,
-      "elo_max": 1585.0,
-      "elo_min": 1500,
-      "photo": "photos/antoine-lebrat.jpg"
-    },
-    {
-      "nom": "Enzo Leroux",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 4,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 40.0,
-      "ratio_sets": 0.5,
-      "elo": 1489.0,
-      "elo_max": 1502.0,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Victor Morlat",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 9,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.29,
-      "elo": 1501.0,
-      "elo_max": 1517.0,
-      "elo_min": 1499.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Béatrice Revel",
-      "matchs_joues": 9,
-      "victoires": 6,
-      "defaites": 3,
-      "sets_gagnes": 16,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.6,
-      "elo": 1540.7,
-      "elo_max": 1569.0,
-      "elo_min": 1499.0,
-      "photo": "photos/beatrice-revel.jpg"
-    },
-    {
-      "nom": "Léo Santiquet",
-      "matchs_joues": 13,
-      "victoires": 10,
-      "defaites": 3,
-      "sets_gagnes": 34,
-      "sets_perdus": 17,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 76.9,
-      "ratio_sets": 2.0,
-      "elo": 1602.0,
-      "elo_max": 1618.0,
-      "elo_min": 1500,
-      "photo": "photos/leo-santiquet.jpg"
-    },
-    {
-      "nom": "Clément Ricaud",
-      "matchs_joues": 15,
-      "victoires": 13,
-      "defaites": 2,
-      "sets_gagnes": 39,
-      "sets_perdus": 16,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 86.7,
-      "ratio_sets": 2.44,
-      "elo": 1656.0,
-      "elo_max": 1656.0,
-      "elo_min": 1500,
-      "photo": "photos/clement-ricaud.jpg"
-    },
-    {
-      "nom": "Paul Dauboin",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 2.2,
-      "elo": 1528.0,
-      "elo_max": 1545.0,
-      "elo_min": 1484.0,
-      "photo": "photos/paul-dauboin.jpg"
-    },
-    {
-      "nom": "Axel Garcin",
-      "matchs_joues": 8,
-      "victoires": 5,
-      "defaites": 3,
-      "sets_gagnes": 13,
-      "sets_perdus": 12,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 62.5,
-      "ratio_sets": 1.08,
-      "elo": 1529.0,
-      "elo_max": 1545.0,
-      "elo_min": 1500,
-      "photo": "photos/axel-garcin.jpg"
-    },
-    {
-      "nom": "Arthur Jamette",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 0,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 1",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1468.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "FX Tierny",
-      "matchs_joues": 4,
-      "victoires": 1,
-      "defaites": 3,
-      "sets_gagnes": 3,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 1",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 25.0,
-      "ratio_sets": 0.5,
-      "elo": 1459.6,
-      "elo_max": 1500,
-      "elo_min": 1445.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Théo Coltat",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 10,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.25,
-      "elo": 1499.0,
-      "elo_max": 1533.0,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Gabin Néron",
-      "matchs_joues": 8,
-      "victoires": 5,
-      "defaites": 3,
-      "sets_gagnes": 11,
-      "sets_perdus": 9,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 62.5,
-      "ratio_sets": 1.22,
-      "elo": 1530.0,
-      "elo_max": 1547.0,
-      "elo_min": 1500,
-      "photo": "photos/gabin-neron.jpg"
-    },
-    {
-      "nom": "Gabriel Labbé",
-      "matchs_joues": 9,
-      "victoires": 4,
-      "defaites": 5,
-      "sets_gagnes": 9,
-      "sets_perdus": 13,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 44.4,
-      "ratio_sets": 0.69,
-      "elo": 1476.6,
-      "elo_max": 1519.0,
-      "elo_min": 1462.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Maxime Trépant",
-      "matchs_joues": 12,
-      "victoires": 10,
-      "defaites": 2,
-      "sets_gagnes": 30,
-      "sets_perdus": 13,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 83.3,
-      "ratio_sets": 2.31,
-      "elo": 1620.0,
-      "elo_max": 1636.0,
-      "elo_min": 1500,
-      "photo": "photos/maxime-trepant.jpg"
-    },
-    {
-      "nom": "Lucas Larroque",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 1,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 1",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.25,
-      "elo": 1468.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Augustin Lesne",
-      "matchs_joues": 11,
-      "victoires": 8,
-      "defaites": 3,
-      "sets_gagnes": 24,
-      "sets_perdus": 14,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 72.7,
-      "ratio_sets": 1.71,
-      "elo": 1575.0,
-      "elo_max": 1591.0,
-      "elo_min": 1498.0,
-      "photo": "photos/augustin-lesne.jpg"
-    },
-    {
-      "nom": "Théophile Watremez",
-      "matchs_joues": 10,
-      "victoires": 7,
-      "defaites": 3,
-      "sets_gagnes": 21,
-      "sets_perdus": 13,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 70.0,
-      "ratio_sets": 1.62,
-      "elo": 1563.0,
-      "elo_max": 1578.0,
-      "elo_min": 1484.0,
-      "photo": "photos/theophile-watremez.jpg"
-    },
-    {
-      "nom": "Eugénie Roquain",
-      "matchs_joues": 10,
-      "victoires": 8,
-      "defaites": 2,
-      "sets_gagnes": 19,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.38,
-      "elo": 1569.5,
-      "elo_max": 1569.5,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Pilou Petit",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 5,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 40.0,
-      "ratio_sets": 0.71,
-      "elo": 1485.0,
-      "elo_max": 1517.0,
-      "elo_min": 1484.0,
-      "photo": "photos/Pilou-petit.jpg"
-    },
-    {
-      "nom": "Raphaël Delacote",
-      "matchs_joues": 8,
-      "victoires": 5,
-      "defaites": 3,
-      "sets_gagnes": 13,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 62.5,
-      "ratio_sets": 1.18,
-      "elo": 1527.0,
-      "elo_max": 1547.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Victor Duforest",
-      "matchs_joues": 12,
-      "victoires": 11,
-      "defaites": 1,
-      "sets_gagnes": 32,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 91.7,
-      "ratio_sets": 2.91,
-      "elo": 1635.0,
-      "elo_max": 1652.0,
-      "elo_min": 1500,
-      "photo": "photos/victor-duforest.jpg"
-    },
-    {
-      "nom": "Bastien Lavaux",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 8,
-      "sets_perdus": 9,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.89,
-      "elo": 1502.0,
-      "elo_max": 1518.0,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Victor Perron",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 1"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.5,
-      "elo": 1469.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Gauthier Chapelle",
-      "matchs_joues": 2,
-      "victoires": 1,
-      "defaites": 1,
-      "sets_gagnes": 3,
-      "sets_perdus": 2,
-      "tournois": [
-        "CNF 1"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.5,
-      "elo": 1501.0,
-      "elo_max": 1501.0,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Marius Saludjian",
-      "matchs_joues": 10,
-      "victoires": 7,
-      "defaites": 3,
-      "sets_gagnes": 24,
-      "sets_perdus": 12,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 70.0,
-      "ratio_sets": 2.0,
-      "elo": 1570.0,
-      "elo_max": 1584.0,
-      "elo_min": 1483.0,
-      "photo": "photos/marius-saludjian.jpg"
-    },
-    {
-      "nom": "Romain Perrier",
-      "matchs_joues": 5,
-      "victoires": 0,
-      "defaites": 5,
-      "sets_gagnes": 1,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.1,
-      "elo": 1427.0,
-      "elo_max": 1500,
-      "elo_min": 1427.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Octave Chardain",
-      "matchs_joues": 7,
-      "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 9,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.28,
-      "elo": 1495.0,
-      "elo_max": 1517.0,
-      "elo_min": 1459.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lucas Bey",
-      "matchs_joues": 10,
-      "victoires": 7,
-      "defaites": 3,
-      "sets_gagnes": 19,
-      "sets_perdus": 14,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 70.0,
-      "ratio_sets": 1.36,
-      "elo": 1552.0,
-      "elo_max": 1568.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Benjamin Riegel",
-      "matchs_joues": 8,
-      "victoires": 5,
-      "defaites": 3,
-      "sets_gagnes": 13,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 62.5,
-      "ratio_sets": 1.18,
-      "elo": 1536.0,
-      "elo_max": 1547.0,
-      "elo_min": 1499.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Julien Reijasse",
-      "matchs_joues": 9,
-      "victoires": 6,
-      "defaites": 3,
-      "sets_gagnes": 15,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.36,
-      "elo": 1531.0,
-      "elo_max": 1531.0,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Daphné Lesur",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 0,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 1"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1469.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Zoé Nemeth",
-      "matchs_joues": 10,
-      "victoires": 6,
-      "defaites": 4,
-      "sets_gagnes": 15,
-      "sets_perdus": 12,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.25,
-      "elo": 1522.7,
-      "elo_max": 1551.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Victoire Guth",
-      "matchs_joues": 7,
-      "victoires": 3,
-      "defaites": 4,
-      "sets_gagnes": 9,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 42.9,
-      "ratio_sets": 0.82,
-      "elo": 1487.0,
-      "elo_max": 1503.0,
-      "elo_min": 1484.0,
-      "photo": "photos/victoire-guth.jpg"
-    },
-    {
-      "nom": "Malo Thuillier",
-      "matchs_joues": 11,
-      "victoires": 9,
-      "defaites": 2,
-      "sets_gagnes": 24,
-      "sets_perdus": 14,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 81.8,
-      "ratio_sets": 1.71,
-      "elo": 1596.0,
-      "elo_max": 1614.0,
-      "elo_min": 1500,
-      "photo": "photos/malo-thuillier.jpg"
-    },
-    {
-      "nom": "Justine Sellier",
-      "matchs_joues": 5,
-      "victoires": 1,
-      "defaites": 4,
-      "sets_gagnes": 4,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 20.0,
-      "ratio_sets": 0.5,
-      "elo": 1453.0,
-      "elo_max": 1515.0,
-      "elo_min": 1453.0,
-      "photo": "photos/justine-sellier.jpg"
-    },
-    {
-      "nom": "Calixte Parendel",
-      "matchs_joues": 5,
-      "victoires": 1,
-      "defaites": 4,
-      "sets_gagnes": 4,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 20.0,
-      "ratio_sets": 0.5,
-      "elo": 1457.0,
-      "elo_max": 1500,
-      "elo_min": 1454.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Yaël Vincent",
-      "matchs_joues": 7,
-      "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.38,
-      "elo": 1542.0,
-      "elo_max": 1560.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Thibault Planckeel",
-      "matchs_joues": 6,
-      "victoires": 2,
-      "defaites": 4,
-      "sets_gagnes": 6,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.6,
-      "elo": 1471.0,
-      "elo_max": 1503.0,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Rémi Charlemagne",
-      "matchs_joues": 7,
-      "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 12,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.2,
-      "elo": 1519.0,
-      "elo_max": 1531.0,
-      "elo_min": 1483.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Eryne Trzeciak",
-      "matchs_joues": 5,
-      "victoires": 0,
-      "defaites": 5,
-      "sets_gagnes": 3,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 1",
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.3,
-      "elo": 1430.0,
-      "elo_max": 1500,
-      "elo_min": 1430.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Arthur Buffavand",
-      "matchs_joues": 2,
-      "victoires": 1,
-      "defaites": 1,
-      "sets_gagnes": 3,
-      "sets_perdus": 2,
-      "tournois": [
-        "CNF 1",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.5,
-      "elo": 1501.0,
-      "elo_max": 1501.0,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Titouan Boulitreau",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.17,
-      "elo": 1499.0,
-      "elo_max": 1516.0,
-      "elo_min": 1499.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Mathias Joly",
-      "matchs_joues": 6,
-      "victoires": 5,
-      "defaites": 1,
-      "sets_gagnes": 15,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 83.3,
-      "ratio_sets": 2.5,
-      "elo": 1558.0,
-      "elo_max": 1573.0,
-      "elo_min": 1500,
-      "photo": "photos/mathias-joly.jpg"
-    },
-    {
-      "nom": "Timothée Priou Pichon",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1454.0,
-      "elo_max": 1500,
-      "elo_min": 1454.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Matéo Batista",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 8,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.6,
-      "elo": 1516.0,
-      "elo_max": 1532.0,
-      "elo_min": 1500,
-      "photo": "photos/mateo-batista.jpg"
-    },
-    {
-      "nom": "Arthur Peschaire",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1454.0,
-      "elo_max": 1500,
-      "elo_min": 1454.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Audrey Cahuac",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1515.0,
-      "elo_max": 1517.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Eliott Levy Rondeau",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 6,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 25.0,
-      "ratio_sets": 0.67,
-      "elo": 1474.5,
-      "elo_max": 1509.0,
-      "elo_min": 1461.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Elwan El-Hafaia",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Léonard Wilson",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1452.0,
-      "elo_max": 1500,
-      "elo_min": 1452.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Jean Debare",
-      "matchs_joues": 5,
-      "victoires": 1,
-      "defaites": 4,
-      "sets_gagnes": 3,
-      "sets_perdus": 9,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 20.0,
-      "ratio_sets": 0.33,
-      "elo": 1463.5,
-      "elo_max": 1508.0,
-      "elo_min": 1460.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Chloé Perrier",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.4,
-      "elo": 1486.0,
-      "elo_max": 1500.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Ulysse Comte",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1502.0,
-      "elo_max": 1516.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Coralie Tyrode",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1454.0,
-      "elo_max": 1500,
-      "elo_min": 1454.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Isaure Chevreau",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1458.0,
-      "elo_max": 1500,
-      "elo_min": 1458.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "David Carrié",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1519.0,
-      "elo_max": 1519.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Tom Lemoine",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 5,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 25.0,
-      "ratio_sets": 0.5,
-      "elo": 1476.5,
-      "elo_max": 1511.0,
-      "elo_min": 1463.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Guilhem Demesy",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.83,
-      "elo": 1499.0,
-      "elo_max": 1531.0,
-      "elo_min": 1499.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Ulysse Cruz Ramos",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 8,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.67,
-      "elo": 1529.0,
-      "elo_max": 1547.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Pierric Léopold",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1485.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lou-Ann Flécher",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Philippe Pernet",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1514.0,
-      "elo_max": 1530.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Apolline Joire",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 2,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.33,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Oleksandr Segeda",
-      "matchs_joues": 5,
-      "victoires": 1,
-      "defaites": 4,
-      "sets_gagnes": 2,
-      "sets_perdus": 9,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 20.0,
-      "ratio_sets": 0.18,
-      "elo": 1485.0,
-      "elo_max": 1509.0,
-      "elo_min": 1461.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Cheikh Oumar Diarra",
-      "matchs_joues": 10,
-      "victoires": 8,
-      "defaites": 2,
-      "sets_gagnes": 25,
-      "sets_perdus": 13,
-      "tournois": [
-        "CNF 1",
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 1.92,
-      "elo": 1582.0,
-      "elo_max": 1599.0,
-      "elo_min": 1500,
-      "photo": "photos/cheikh-oumar-diarra.jpg"
-    },
-    {
-      "nom": "Maëlys Normand",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1456.0,
-      "elo_max": 1500,
-      "elo_min": 1456.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Justine Bonnamy",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 6,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 0.86,
-      "elo": 1509.8,
-      "elo_max": 1516.0,
-      "elo_min": 1461.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lucas Gonçalves",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.4,
-      "elo": 1503.0,
-      "elo_max": 1517.0,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Max Perron",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Chloé Lumb",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.83,
-      "elo": 1503.0,
-      "elo_max": 1531.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Nassim Houzali",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1517.0,
-      "elo_max": 1517.0,
-      "elo_min": 1483.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Antonin Briat",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1455.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Siméon Glomot",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 6,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.6,
-      "ratio_sets": 0.86,
-      "elo": 1516.0,
-      "elo_max": 1540.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Luka Petrovic",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 2,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 2.0,
-      "elo": 1517.0,
-      "elo_max": 1517.0,
-      "elo_min": 1485.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Juliette Vialla",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1456.0,
-      "elo_max": 1500,
-      "elo_min": 1456.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Jack Hascoet",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1485.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/jack-hascoet.jpg"
-    },
-    {
-      "nom": "Baptiste Fontaine",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1514.0,
-      "elo_max": 1530.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Mathis Patin",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 8,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.6,
-      "elo": 1529.0,
-      "elo_max": 1546.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lilou Frezzato",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1455.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Yassine Aloui",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1484.0,
-      "elo_max": 1516.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Barthélémy Limonne",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.83,
-      "elo": 1501.0,
-      "elo_max": 1516.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lucas Dargère",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1485.0,
-      "elo_max": 1501.0,
-      "elo_min": 1484.0,
-      "photo": "photos/lucas-dargere.jpg"
-    },
-    {
-      "nom": "Loan Piquet",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1482.0,
-      "elo_max": 1516.0,
-      "elo_min": 1482.0,
-      "photo": "photos/loan-piquet.jpg"
-    },
-    {
-      "nom": "Célian Fouchet",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 8,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.14,
-      "elo": 1515.0,
-      "elo_max": 1531.0,
-      "elo_min": 1498.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Doriann Brossais",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 10,
-      "sets_perdus": 9,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.11,
-      "elo": 1536.0,
-      "elo_max": 1550.0,
-      "elo_min": 1500,
-      "photo": "photos/doriann-brossais.jpg"
-    },
-    {
-      "nom": "Lola Schauterden",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1484.0,
-      "elo_max": 1500.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Elouan Mazoyer",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1455.0,
-      "photo": "photos/elouan-mazoyer.jpg"
-    },
-    {
-      "nom": "Marius Tournié",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 7,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.75,
-      "elo": 1528.0,
-      "elo_max": 1545.0,
-      "elo_min": 1500,
-      "photo": "photos/marius-tournie.jpg"
-    },
-    {
-      "nom": "Johannes Engel",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 13,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.86,
-      "elo": 1534.0,
-      "elo_max": 1547.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Juliette Plault",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1484.0,
-      "elo_max": 1516.0,
-      "elo_min": 1484.0,
-      "photo": "photos/juliette-plault.jpg"
-    },
-    {
-      "nom": "Thomas Souprayen",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.71,
-      "elo": 1501.0,
-      "elo_max": 1530.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Mathilde Lesueur",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 3,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.5,
-      "elo": 1452.0,
-      "elo_max": 1500,
-      "elo_min": 1452.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Anaé Saubestre",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.6,
-      "elo": 1484.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Ilias Brumant",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 1.0,
-      "elo": 1485.0,
-      "elo_max": 1500,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Benjamin Lasserre",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 8,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.0,
-      "elo": 1530.0,
-      "elo_max": 1547.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Antoine De La Monneraye",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Sacha Claisse",
-      "matchs_joues": 6,
-      "victoires": 2,
-      "defaites": 4,
-      "sets_gagnes": 6,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.6,
-      "elo": 1488.0,
-      "elo_max": 1524.0,
-      "elo_min": 1488.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Solène Wang",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1516.0,
-      "elo_max": 1532.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Simon Blin",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.6,
-      "elo": 1487.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Constantin Chalumeau",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.6,
-      "elo": 1484.0,
-      "elo_max": 1517.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Chloé Best-Belpomme",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1484.0,
-      "elo_max": 1516.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Malo Mutti",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1487.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
       "nom": "Adrien Queffélec",
       "matchs_joues": 4,
       "victoires": 2,
@@ -1862,827 +15,6 @@
       "elo": 1499.0,
       "elo_max": 1532.0,
       "elo_min": 1499.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Yani Debiane",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 7,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.88,
-      "elo": 1499.8,
-      "elo_max": 1524.0,
-      "elo_min": 1476.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Edgar Virlogeux",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.17,
-      "elo": 1508.8,
-      "elo_max": 1508.8,
-      "elo_min": 1460.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lamia D'Acunto",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 7,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.75,
-      "elo": 1528.0,
-      "elo_max": 1545.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Yanis Saa",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 5,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.67,
-      "elo": 1514.0,
-      "elo_max": 1531.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Mathilde Sallé",
-      "matchs_joues": 7,
-      "victoires": 3,
-      "defaites": 4,
-      "sets_gagnes": 11,
-      "sets_perdus": 11,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 43.0,
-      "ratio_sets": 1.0,
-      "elo": 1520.0,
-      "elo_max": 1544.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Titouan Mahevas",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1456.0,
-      "elo_max": 1500,
-      "elo_min": 1456.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Axel Shi",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 9,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.5,
-      "elo": 1517.0,
-      "elo_max": 1532.0,
-      "elo_min": 1500,
-      "photo": "photos/axel-shi.jpg"
-    },
-    {
-      "nom": "Thibaud Malvache",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Théotime Ponsen",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1485.0,
-      "elo_max": 1500,
-      "elo_min": 1469.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Matthieu Bouchet",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 10,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.25,
-      "elo": 1516.0,
-      "elo_max": 1532.0,
-      "elo_min": 1484.0,
-      "photo": "photos/matthieu-bouchet.jpg"
-    },
-    {
-      "nom": "Bastien Pageaud",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.4,
-      "elo": 1484.0,
-      "elo_max": 1516.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Arthur Devouge-Ruvira",
-      "matchs_joues": 5,
-      "victoires": 0,
-      "defaites": 5,
-      "sets_gagnes": 5,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.5,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1431.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Anthony Gago-Klimenko",
-      "matchs_joues": 4,
-      "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 8,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.6,
-      "elo": 1526.0,
-      "elo_max": 1545.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Mathéo Blain",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 7,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1503.8,
-      "elo_max": 1531.0,
-      "elo_min": 1480.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Louis Charpentier",
-      "matchs_joues": 5,
-      "victoires": 0,
-      "defaites": 5,
-      "sets_gagnes": 1,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.1,
-      "elo": 1436.5,
-      "elo_max": 1500,
-      "elo_min": 1433.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Blaise Dubreuil",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1490.0,
-      "elo_max": 1500,
-      "elo_min": 1474.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Tanguy Fesselet",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 4,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.8,
-      "elo": 1502.0,
-      "elo_max": 1531.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Laura Medioni",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.4,
-      "elo": 1486.0,
-      "elo_max": 1500,
-      "elo_min": 1470.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Clément Ducottet",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 2,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.33,
-      "elo": 1454.0,
-      "elo_max": 1500,
-      "elo_min": 1454.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Romain Brechet",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1518.0,
-      "elo_max": 1518.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Gabin Chausse",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1483.0,
-      "elo_max": 1516.0,
-      "elo_min": 1483.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Martin Chollet",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 1.0,
-      "elo": 1486.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Annaëlle Maigre",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1517.0,
-      "elo_max": 1517.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Maxence Schwerer",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.17,
-      "elo": 1500.0,
-      "elo_max": 1532.0,
-      "elo_min": 1500.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Paul Laurent Verleye",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1453.0,
-      "elo_max": 1500,
-      "elo_min": 1453.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Rémi Imbert Chevrier",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 9,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.29,
-      "elo": 1515.0,
-      "elo_max": 1529.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Gianni Mazzone",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 0,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.0,
-      "elo": 1451.0,
-      "elo_max": 1500,
-      "elo_min": 1451.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lilian Beauvais",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 7,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 40.0,
-      "ratio_sets": 1.17,
-      "elo": 1482.8,
-      "elo_max": 1507.0,
-      "elo_min": 1459.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Thibault Vo",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.83,
-      "elo": 1500.0,
-      "elo_max": 1531.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Vincent Brun",
-      "matchs_joues": 5,
-      "victoires": 2,
-      "defaites": 3,
-      "sets_gagnes": 6,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 40.0,
-      "ratio_sets": 0.75,
-      "elo": 1478.8,
-      "elo_max": 1500,
-      "elo_min": 1430.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Maxime De Campos",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.5,
-      "elo": 1486.0,
-      "elo_max": 1500,
-      "elo_min": 1470.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Karl Nuyts",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 2,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.33,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1455.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Maxime Antoine",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1517.0,
-      "elo_max": 1534.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Lilou Palud",
-      "matchs_joues": 4,
-      "victoires": 2,
-      "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.83,
-      "elo": 1505.0,
-      "elo_max": 1519.0,
-      "elo_min": 1486.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Bastian Zachary",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 3,
-      "sets_perdus": 4,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.75,
-      "elo": 1486.0,
-      "elo_max": 1500,
-      "elo_min": 1468.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Etienne Saudubray",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 4,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.8,
-      "elo": 1483.0,
-      "elo_max": 1516.0,
-      "elo_min": 1483.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Titouan Leveugle",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1515.0,
-      "elo_max": 1515.0,
-      "elo_min": 1483.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Alix Nevers",
-      "matchs_joues": 5,
-      "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 8,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 0.88,
-      "elo": 1517.0,
-      "elo_max": 1533.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Emile Sandberg",
-      "matchs_joues": 3,
-      "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 4,
-      "sets_perdus": 3,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.33,
-      "elo": 1518.0,
-      "elo_max": 1518.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Marius Bacle",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 1,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.17,
-      "elo": 1457.0,
-      "elo_max": 1500,
-      "elo_min": 1457.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Jasper Williamson",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.1,
-      "elo": 1533.0,
-      "elo_max": 1549.0,
-      "elo_min": 1499.0,
-      "photo": "photos/jasper-williamson.jpg"
-    },
-    {
-      "nom": "Bastien Danino",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 7,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.57,
-      "elo": 1525.8,
-      "elo_max": 1525.8,
-      "elo_min": 1477.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Brune Paluel-Marmont",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.4,
-      "elo": 1486.0,
-      "elo_max": 1502.0,
-      "elo_min": 1484.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Alexandre Poisson",
-      "matchs_joues": 9,
-      "victoires": 9,
-      "defaites": 0,
-      "sets_gagnes": 24,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 3.67,
-      "elo": 1614.4,
-      "elo_max": 1629.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Nicolas Dupré",
-      "matchs_joues": 3,
-      "victoires": 0,
-      "defaites": 3,
-      "sets_gagnes": 2,
-      "sets_perdus": 6,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.33,
-      "elo": 1455.0,
-      "elo_max": 1500,
-      "elo_min": 1455.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Thomas Brisset-Bouscarle",
-      "matchs_joues": 6,
-      "victoires": 4,
-      "defaites": 2,
-      "sets_gagnes": 14,
-      "sets_perdus": 10,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.4,
-      "elo": 1534.0,
-      "elo_max": 1549.0,
-      "elo_min": 1500,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Raphaël Tipaka",
-      "matchs_joues": 3,
-      "victoires": 1,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 5,
-      "tournois": [
-        "CNF 2",
-        "CNF 3"
-      ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.4,
-      "elo": 1484.0,
-      "elo_max": 1500,
-      "elo_min": 1484.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2720,6 +52,43 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Agathe Guerrini Touchais",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Alain Salomon",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 10,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.91,
+      "elo": 1492.0,
+      "elo_max": 1506.0,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Alexandre Combes",
       "matchs_joues": 2,
       "victoires": 2,
@@ -2734,6 +103,77 @@
       "elo": 1512.0,
       "elo_max": 1512.0,
       "elo_min": 1476.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Alexandre Poisson",
+      "matchs_joues": 9,
+      "victoires": 9,
+      "defaites": 0,
+      "sets_gagnes": 24,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 100.0,
+      "ratio_sets": 3.67,
+      "elo": 1614.4,
+      "elo_max": 1629.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Alix Nevers",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 0.88,
+      "elo": 1517.0,
+      "elo_max": 1533.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Amaury Epineau",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Anaé Saubestre",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2754,6 +194,42 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Anaïs Marcellin",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Andy Queulin-Roy",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
       "nom": "Angèle Caurant",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2771,6 +247,24 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Annaëlle Maigre",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Anthony Gago--Klimenko",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2784,6 +278,23 @@
       ],
       "elo": 1500,
       "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Anthony Gago-Klimenko",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.6,
+      "elo": 1526.0,
+      "elo_max": 1545.0,
       "elo_min": 1500,
       "photo": "photos/default.svg"
     },
@@ -2805,6 +316,41 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Antoine De La Monneraye",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Antoine Lebrat",
+      "matchs_joues": 9,
+      "victoires": 7,
+      "defaites": 2,
+      "sets_gagnes": 17,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 77.8,
+      "ratio_sets": 1.42,
+      "elo": 1569.0,
+      "elo_max": 1585.0,
+      "elo_min": 1500,
+      "photo": "photos/antoine-lebrat.jpg"
+    },
+    {
       "nom": "Antoine Sadowski",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2819,6 +365,59 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Antoine de la Monneraye",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Antonin Briat",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Apolline Joire",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2839,6 +438,366 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Arthur Buffavand",
+      "matchs_joues": 2,
+      "victoires": 1,
+      "defaites": 1,
+      "sets_gagnes": 3,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 1",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.5,
+      "elo": 1501.0,
+      "elo_max": 1501.0,
+      "elo_min": 1485.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Arthur Devouge-Ruvira",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 5,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1431.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Arthur Jamette",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 0,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1468.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Arthur Peschaire",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Audrey Cahuac",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1515.0,
+      "elo_max": 1517.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Augustin Lesne",
+      "matchs_joues": 11,
+      "victoires": 8,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 72.7,
+      "ratio_sets": 1.71,
+      "elo": 1575.0,
+      "elo_max": 1591.0,
+      "elo_min": 1498.0,
+      "photo": "photos/augustin-lesne.jpg"
+    },
+    {
+      "nom": "Aurore Chéret",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Aurore Lahalle",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Axel Garcin",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.08,
+      "elo": 1529.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500,
+      "photo": "photos/axel-garcin.jpg"
+    },
+    {
+      "nom": "Axel Shi",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 9,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.5,
+      "elo": 1517.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500,
+      "photo": "photos/axel-shi.jpg"
+    },
+    {
+      "nom": "Baptiste Bousquet",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1478.0,
+      "elo_max": 1500.0,
+      "elo_min": 1478.0,
+      "photo": "photos/default.svg",
+      "forme_recente": [
+        "D",
+        "D"
+      ]
+    },
+    {
+      "nom": "Baptiste Fontaine",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1514.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Barthélémy Limonne",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1501.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Bastian Zachary",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Bastien Danino",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.57,
+      "elo": 1525.8,
+      "elo_max": 1525.8,
+      "elo_min": 1477.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Bastien Lavaux",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 8,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.89,
+      "elo": 1502.0,
+      "elo_max": 1518.0,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Bastien Pageaud",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Benjamin Lasserre",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.0,
+      "elo": 1530.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Benjamin Riegel",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.18,
+      "elo": 1536.0,
+      "elo_max": 1547.0,
+      "elo_min": 1499.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Blaise Dubreuil",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1490.0,
+      "elo_max": 1500,
+      "elo_min": 1474.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Brune Paluel Mormont",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2853,6 +812,61 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Brune Paluel-Marmont",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1502.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Béatrice Revel",
+      "matchs_joues": 9,
+      "victoires": 6,
+      "defaites": 3,
+      "sets_gagnes": 16,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.6,
+      "elo": 1540.7,
+      "elo_max": 1569.0,
+      "elo_min": 1499.0,
+      "photo": "photos/beatrice-revel.jpg"
+    },
+    {
+      "nom": "Calixte Parendel",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.5,
+      "elo": 1457.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2873,6 +887,24 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Cheikh Oumar Diarra",
+      "matchs_joues": 10,
+      "victoires": 8,
+      "defaites": 2,
+      "sets_gagnes": 25,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 1.92,
+      "elo": 1582.0,
+      "elo_max": 1599.0,
+      "elo_min": 1500,
+      "photo": "photos/cheikh-oumar-diarra.jpg"
+    },
+    {
       "nom": "Cheikhou Diarra",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2887,6 +919,58 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Chloé Best-Belpomme",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Chloé Lumb",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1503.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Chloé Perrier",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1500.0,
+      "elo_min": 1484.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2907,6 +991,77 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Clément Ducottet",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Clément Ricaud",
+      "matchs_joues": 15,
+      "victoires": 13,
+      "defaites": 2,
+      "sets_gagnes": 39,
+      "sets_perdus": 16,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 86.7,
+      "ratio_sets": 2.44,
+      "elo": 1656.0,
+      "elo_max": 1656.0,
+      "elo_min": 1500,
+      "photo": "photos/clement-ricaud.jpg"
+    },
+    {
+      "nom": "Constantin Chalumeau",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1484.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Coralie Tyrode",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Célian Foucher",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2924,6 +1079,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Célian Fouchet",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.14,
+      "elo": 1515.0,
+      "elo_max": 1531.0,
+      "elo_min": 1498.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Côme Didot",
       "matchs_joues": 2,
       "victoires": 2,
@@ -2938,6 +1110,94 @@
       "elo": 1510.5,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Daphné Lesur",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 0,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1469.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "David Carrie",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "David Carrié",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1519.0,
+      "elo_max": 1519.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Doriann Brossais",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 10,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.11,
+      "elo": 1536.0,
+      "elo_max": 1550.0,
+      "elo_min": 1500,
+      "photo": "photos/doriann-brossais.jpg"
+    },
+    {
+      "nom": "Edgar Virlogeux",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.17,
+      "elo": 1508.8,
+      "elo_max": 1508.8,
+      "elo_min": 1460.0,
       "photo": "photos/default.svg"
     },
     {
@@ -2975,6 +1235,24 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Eliott Levy Rondeau",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 6,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 25.0,
+      "ratio_sets": 0.67,
+      "elo": 1474.5,
+      "elo_max": 1509.0,
+      "elo_min": 1461.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Elora Stenard",
       "matchs_joues": 0,
       "victoires": 0,
@@ -2989,6 +1267,167 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Elouan Mazoyer",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0,
+      "photo": "photos/elouan-mazoyer.jpg"
+    },
+    {
+      "nom": "Elwan El-Hafaia",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Emile Sandberg",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1518.0,
+      "elo_max": 1518.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Emmanuel Colson",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Enzo Leroux",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.5,
+      "elo": 1489.0,
+      "elo_max": 1502.0,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Eryne Trzeciak",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 3,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.3,
+      "elo": 1430.0,
+      "elo_max": 1500,
+      "elo_min": 1430.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Etienne Saudubray",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.8,
+      "elo": 1483.0,
+      "elo_max": 1516.0,
+      "elo_min": 1483.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Eugénie Roquain",
+      "matchs_joues": 10,
+      "victoires": 8,
+      "defaites": 2,
+      "sets_gagnes": 19,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 2.38,
+      "elo": 1569.5,
+      "elo_max": 1569.5,
+      "elo_min": 1485.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "FX Tierny",
+      "matchs_joues": 4,
+      "victoires": 1,
+      "defaites": 3,
+      "sets_gagnes": 3,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 1",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 25.0,
+      "ratio_sets": 0.5,
+      "elo": 1459.6,
+      "elo_max": 1500,
+      "elo_min": 1445.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3043,6 +1482,61 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Gabin Chausse",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1483.0,
+      "elo_max": 1516.0,
+      "elo_min": 1483.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Gabin Néron",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 11,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.22,
+      "elo": 1530.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500,
+      "photo": "photos/gabin-neron.jpg"
+    },
+    {
+      "nom": "Gabriel Labbé",
+      "matchs_joues": 9,
+      "victoires": 4,
+      "defaites": 5,
+      "sets_gagnes": 9,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 44.4,
+      "ratio_sets": 0.69,
+      "elo": 1476.6,
+      "elo_max": 1519.0,
+      "elo_min": 1462.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Gaetan Hoo",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3057,6 +1551,23 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Gauthier Chapelle",
+      "matchs_joues": 2,
+      "victoires": 1,
+      "defaites": 1,
+      "sets_gagnes": 3,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 1"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.5,
+      "elo": 1501.0,
+      "elo_max": 1501.0,
+      "elo_min": 1485.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3077,6 +1588,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Gianni Mazzone",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1451.0,
+      "elo_max": 1500,
+      "elo_min": 1451.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Grégoire Casassus",
       "matchs_joues": 2,
       "victoires": 0,
@@ -3091,6 +1619,78 @@
       "elo": 1476.5,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Guilhem Demesy",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1499.0,
+      "elo_max": 1531.0,
+      "elo_min": 1499.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Ilias Brumant",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Inès Olivier",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Isaure Chevreau",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1458.0,
+      "elo_max": 1500,
+      "elo_min": 1458.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3111,6 +1711,169 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Jack Hascoet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/jack-hascoet.jpg"
+    },
+    {
+      "nom": "Jasper Williamson",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.1,
+      "elo": 1533.0,
+      "elo_max": 1549.0,
+      "elo_min": 1499.0,
+      "photo": "photos/jasper-williamson.jpg"
+    },
+    {
+      "nom": "Jean Debare",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 3,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.33,
+      "elo": 1463.5,
+      "elo_max": 1508.0,
+      "elo_min": 1460.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Johannes Engel",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 13,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.86,
+      "elo": 1534.0,
+      "elo_max": 1547.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Judith Todero",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Julie Lemordant",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Julien Lafon",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Julien Reijasse",
+      "matchs_joues": 9,
+      "victoires": 6,
+      "defaites": 3,
+      "sets_gagnes": 15,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.36,
+      "elo": 1531.0,
+      "elo_max": 1531.0,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Juliette Hue",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1476.1,
+      "elo_max": 1500.0,
+      "elo_min": 1476.1,
+      "photo": "photos/default.svg",
+      "forme_recente": [
+        "D",
+        "D"
+      ]
+    },
+    {
       "nom": "Juliette Mensch",
       "matchs_joues": 2,
       "victoires": 2,
@@ -3128,6 +1891,59 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Juliette Plault",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0,
+      "photo": "photos/juliette-plault.jpg"
+    },
+    {
+      "nom": "Juliette Vialla",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Justin Ferrié",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
       "nom": "Justin Lamarcade",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3142,6 +1958,59 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Justine Bonnamy",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 6,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 0.86,
+      "elo": 1509.8,
+      "elo_max": 1516.0,
+      "elo_min": 1461.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Justine Sellier",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 4,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.5,
+      "elo": 1453.0,
+      "elo_max": 1515.0,
+      "elo_min": 1453.0,
+      "photo": "photos/justine-sellier.jpg"
+    },
+    {
+      "nom": "Karl Nuyts",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3162,6 +2031,42 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Lamia D'Acunto",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 7,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.75,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Laura Medioni",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1470.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Laurette Chambost",
       "matchs_joues": 1,
       "victoires": 1,
@@ -3176,6 +2081,111 @@
       "elo": 1488.0,
       "elo_max": 1524.0,
       "elo_min": 1476.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lilian Beauvais",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 1.17,
+      "elo": 1482.8,
+      "elo_max": 1507.0,
+      "elo_min": 1459.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lilou Frezzato",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lilou Palud",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1505.0,
+      "elo_max": 1519.0,
+      "elo_min": 1486.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Loan Piquet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1482.0,
+      "elo_max": 1516.0,
+      "elo_min": 1482.0,
+      "photo": "photos/loan-piquet.jpg"
+    },
+    {
+      "nom": "Lola Schauterden",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1484.0,
+      "elo_max": 1500.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lou-Ann Flécher",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3196,6 +2206,45 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Louis Charpentier",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 1,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.1,
+      "elo": 1436.5,
+      "elo_max": 1500,
+      "elo_min": 1433.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lucas Balanger",
+      "matchs_joues": 2,
+      "victoires": 1,
+      "defaites": 1,
+      "sets_gagnes": 2,
+      "sets_perdus": 3,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.67,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1499.9,
+      "elo_max": 1500.0,
+      "elo_min": 1488.6,
+      "photo": "photos/default.svg",
+      "forme_recente": [
+        "D",
+        "V"
+      ]
+    },
+    {
       "nom": "Lucas Besse",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3210,6 +2259,149 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lucas Bey",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 19,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 1.36,
+      "elo": 1552.0,
+      "elo_max": 1568.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lucas Dargère",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1501.0,
+      "elo_min": 1484.0,
+      "photo": "photos/lucas-dargere.jpg"
+    },
+    {
+      "nom": "Lucas Gonçalves",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.4,
+      "elo": 1503.0,
+      "elo_max": 1517.0,
+      "elo_min": 1485.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Lucas Larroque",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 1,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 1",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.25,
+      "elo": 1468.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Luka Petrovic",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 2,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 2.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1485.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Léo Dubois",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Léo Santiquet",
+      "matchs_joues": 13,
+      "victoires": 10,
+      "defaites": 3,
+      "sets_gagnes": 34,
+      "sets_perdus": 17,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 76.9,
+      "ratio_sets": 2.0,
+      "elo": 1602.0,
+      "elo_max": 1618.0,
+      "elo_min": 1500,
+      "photo": "photos/leo-santiquet.jpg"
+    },
+    {
+      "nom": "Léonard Wilson",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1452.0,
+      "elo_max": 1500,
+      "elo_min": 1452.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3228,6 +2420,42 @@
       "elo_max": 1500,
       "elo_min": 1500,
       "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Malo Mutti",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1487.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Malo Thuillier",
+      "matchs_joues": 11,
+      "victoires": 9,
+      "defaites": 2,
+      "sets_gagnes": 24,
+      "sets_perdus": 14,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 81.8,
+      "ratio_sets": 1.71,
+      "elo": 1596.0,
+      "elo_max": 1614.0,
+      "elo_min": 1500,
+      "photo": "photos/malo-thuillier.jpg"
     },
     {
       "nom": "Margaux Dubois",
@@ -3298,6 +2526,60 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Marius Bacle",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1457.0,
+      "elo_max": 1500,
+      "elo_min": 1457.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Marius Saludjian",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 2.0,
+      "elo": 1570.0,
+      "elo_max": 1584.0,
+      "elo_min": 1483.0,
+      "photo": "photos/marius-saludjian.jpg"
+    },
+    {
+      "nom": "Marius Tournié",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 7,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.75,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1500,
+      "photo": "photos/marius-tournie.jpg"
+    },
+    {
       "nom": "Martin Brunet Lecomte",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3312,6 +2594,24 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Martin Chollet",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 1.0,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1468.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3332,6 +2632,24 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Mathias Joly",
+      "matchs_joues": 6,
+      "victoires": 5,
+      "defaites": 1,
+      "sets_gagnes": 15,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.5,
+      "elo": 1558.0,
+      "elo_max": 1573.0,
+      "elo_min": 1500,
+      "photo": "photos/mathias-joly.jpg"
+    },
+    {
       "nom": "Mathilde Ducasse",
       "matchs_joues": 2,
       "victoires": 1,
@@ -3349,6 +2667,58 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Mathilde Lesueur",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 3,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.5,
+      "elo": 1452.0,
+      "elo_max": 1500,
+      "elo_min": 1452.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Mathilde Sallé",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 11,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 43.0,
+      "ratio_sets": 1.0,
+      "elo": 1520.0,
+      "elo_max": 1544.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Mathis Patin",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.6,
+      "elo": 1529.0,
+      "elo_max": 1546.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Mathurin Roulier",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3363,6 +2733,24 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Mathéo Blain",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 7,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1503.8,
+      "elo_max": 1531.0,
+      "elo_min": 1480.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3417,6 +2805,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Matthieu Bouchet",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 10,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.25,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1484.0,
+      "photo": "photos/matthieu-bouchet.jpg"
+    },
+    {
       "nom": "Mattéo Monnerie",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3432,6 +2837,24 @@
       "elo_max": 1500,
       "elo_min": 1500,
       "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Matéo Batista",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.6,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500,
+      "photo": "photos/mateo-batista.jpg"
     },
     {
       "nom": "Max Laferté-Asensi",
@@ -3451,6 +2874,112 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Max Perron",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Maxence Schwerer",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1500.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Maxime Antoine",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1534.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Maxime Boissière",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Maxime De Campos",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1486.0,
+      "elo_max": 1500,
+      "elo_min": 1470.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Maxime Trépant",
+      "matchs_joues": 12,
+      "victoires": 10,
+      "defaites": 2,
+      "sets_gagnes": 30,
+      "sets_perdus": 13,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.31,
+      "elo": 1620.0,
+      "elo_max": 1636.0,
+      "elo_min": 1500,
+      "photo": "photos/maxime-trepant.jpg"
+    },
+    {
       "nom": "Maël Barraut",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3465,6 +2994,42 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Maëlys Normand",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Nassim Houzali",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1517.0,
+      "elo_max": 1517.0,
+      "elo_min": 1483.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3485,6 +3050,24 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Nicolas Dupré",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 2,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.33,
+      "elo": 1455.0,
+      "elo_max": 1500,
+      "elo_min": 1455.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Noah Kientz",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3499,6 +3082,78 @@
       "elo": 1500,
       "elo_max": 1500,
       "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Octave Chardain",
+      "matchs_joues": 7,
+      "victoires": 4,
+      "defaites": 3,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.28,
+      "elo": 1495.0,
+      "elo_max": 1517.0,
+      "elo_min": 1459.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Oleksandr Segeda",
+      "matchs_joues": 5,
+      "victoires": 1,
+      "defaites": 4,
+      "sets_gagnes": 2,
+      "sets_perdus": 9,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 20.0,
+      "ratio_sets": 0.18,
+      "elo": 1485.0,
+      "elo_max": 1509.0,
+      "elo_min": 1461.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Paul Dauboin",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 2.2,
+      "elo": 1528.0,
+      "elo_max": 1545.0,
+      "elo_min": 1484.0,
+      "photo": "photos/paul-dauboin.jpg"
+    },
+    {
+      "nom": "Paul Laurent Verleye",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 1,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.17,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3553,6 +3208,59 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Philippe Pernet",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1514.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Pierric Léopold",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Pilou Petit",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.71,
+      "elo": 1485.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0,
+      "photo": "photos/Pilou-petit.jpg"
+    },
+    {
       "nom": "Quentin Offredo",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3567,6 +3275,79 @@
       "elo": 1500.0,
       "elo_max": 1500,
       "elo_min": 1500.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Raphaël Delacote",
+      "matchs_joues": 8,
+      "victoires": 5,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.18,
+      "elo": 1527.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Raphaël Tipaka",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
+      "elo": 1484.0,
+      "elo_max": 1500,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Romain Brechet",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.0,
+      "elo": 1518.0,
+      "elo_max": 1518.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Romain Perrier",
+      "matchs_joues": 5,
+      "victoires": 0,
+      "defaites": 5,
+      "sets_gagnes": 1,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.1,
+      "elo": 1427.0,
+      "elo_max": 1500,
+      "elo_min": 1427.0,
       "photo": "photos/default.svg"
     },
     {
@@ -3587,6 +3368,59 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Rémi Charlemagne",
+      "matchs_joues": 7,
+      "victoires": 4,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.2,
+      "elo": 1519.0,
+      "elo_max": 1531.0,
+      "elo_min": 1483.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Rémi Imbert Chevrier",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.29,
+      "elo": 1515.0,
+      "elo_max": 1529.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Sacha Claisse",
+      "matchs_joues": 6,
+      "victoires": 2,
+      "defaites": 4,
+      "sets_gagnes": 6,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1488.0,
+      "elo_max": 1524.0,
+      "elo_min": 1488.0,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Sami Sayouri",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3602,6 +3436,24 @@
       "elo_max": 1500,
       "elo_min": 1500,
       "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Samuel Gaussorgue",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
     },
     {
       "nom": "Samuel Grall",
@@ -3621,6 +3473,94 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Sibenaler Anatole",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Simon Blin",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1487.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Siméon Glomot",
+      "matchs_joues": 5,
+      "victoires": 3,
+      "defaites": 2,
+      "sets_gagnes": 6,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.6,
+      "ratio_sets": 0.86,
+      "elo": 1516.0,
+      "elo_max": 1540.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Solène Wang",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1516.0,
+      "elo_max": 1532.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Stanislas Bruyere",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
       "nom": "Syrine Vera",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3634,6 +3574,95 @@
       ],
       "elo": 1500,
       "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Tanguy Fesselet",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 4,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.8,
+      "elo": 1502.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Thibaud Malvache",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1453.0,
+      "elo_max": 1500,
+      "elo_min": 1453.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Thibault Planckeel",
+      "matchs_joues": 6,
+      "victoires": 2,
+      "defaites": 4,
+      "sets_gagnes": 6,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.6,
+      "elo": 1471.0,
+      "elo_max": 1503.0,
+      "elo_min": 1468.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Thibault Vo",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.83,
+      "elo": 1500.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Thomas Brisset-Bouscarle",
+      "matchs_joues": 6,
+      "victoires": 4,
+      "defaites": 2,
+      "sets_gagnes": 14,
+      "sets_perdus": 10,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.4,
+      "elo": 1534.0,
+      "elo_max": 1549.0,
       "elo_min": 1500,
       "photo": "photos/default.svg"
     },
@@ -3672,6 +3701,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Thomas Souprayen",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.71,
+      "elo": 1501.0,
+      "elo_max": 1530.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Théa El Rostom",
       "matchs_joues": 0,
       "victoires": 0,
@@ -3689,59 +3735,42 @@
       "photo": "photos/default.svg"
     },
     {
-      "nom": "Timothée Prio-Pichon",
-      "matchs_joues": 2,
-      "victoires": 1,
-      "defaites": 1,
-      "sets_gagnes": 3,
-      "sets_perdus": 2,
+      "nom": "Théo Coltat",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 10,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
       "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.5,
-      "tournois": [
-        "CNF 3"
-      ],
-      "elo": 1499.8,
-      "elo_max": 1524.0,
-      "elo_min": 1476.0,
+      "ratio_sets": 1.25,
+      "elo": 1499.0,
+      "elo_max": 1533.0,
+      "elo_min": 1485.0,
       "photo": "photos/default.svg"
     },
     {
-      "nom": "Vincent Nezet",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 1,
-      "sets_perdus": 4,
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.25,
+      "nom": "Théophile Watremez",
+      "matchs_joues": 10,
+      "victoires": 7,
+      "defaites": 3,
+      "sets_gagnes": 21,
+      "sets_perdus": 13,
       "tournois": [
+        "CNF 1",
+        "CNF 2",
         "CNF 3"
       ],
-      "elo": 1488.0,
-      "elo_max": 1524.0,
-      "elo_min": 1488.0,
-      "photo": "photos/default.svg"
-    },
-    {
-      "nom": "Juliette Hue",
-      "matchs_joues": 2,
-      "victoires": 0,
-      "defaites": 2,
-      "sets_gagnes": 2,
-      "sets_perdus": 4,
-      "pourcentage_victoires": 0.0,
-      "ratio_sets": 0.5,
-      "tournois": [
-        "CNF 3"
-      ],
-      "elo": 1476.1,
-      "elo_max": 1500.0,
-      "elo_min": 1476.1,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 1.62,
+      "elo": 1563.0,
+      "elo_max": 1578.0,
+      "elo_min": 1484.0,
+      "photo": "photos/theophile-watremez.jpg"
     },
     {
       "nom": "Théotime Desroques",
@@ -3765,46 +3794,431 @@
       ]
     },
     {
-      "nom": "Lucas Balanger",
+      "nom": "Théotime Ponsen",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 2,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.5,
+      "elo": 1485.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Timothée Prio-Pichon",
       "matchs_joues": 2,
       "victoires": 1,
       "defaites": 1,
-      "sets_gagnes": 2,
-      "sets_perdus": 3,
+      "sets_gagnes": 3,
+      "sets_perdus": 2,
       "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.67,
+      "ratio_sets": 1.5,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1499.9,
-      "elo_max": 1500.0,
-      "elo_min": 1488.6,
-      "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "V"
-      ]
+      "elo": 1499.8,
+      "elo_max": 1524.0,
+      "elo_min": 1476.0,
+      "photo": "photos/default.svg"
     },
     {
-      "nom": "Baptiste Bousquet",
+      "nom": "Timothée Priou Pichon",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1454.0,
+      "elo_max": 1500,
+      "elo_min": 1454.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Titouan Boulitreau",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1499.0,
+      "elo_max": 1516.0,
+      "elo_min": 1499.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Titouan Leveugle",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 4,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.33,
+      "elo": 1515.0,
+      "elo_max": 1515.0,
+      "elo_min": 1483.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Titouan Mahevas",
+      "matchs_joues": 3,
+      "victoires": 0,
+      "defaites": 3,
+      "sets_gagnes": 0,
+      "sets_perdus": 6,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.0,
+      "elo": 1456.0,
+      "elo_max": 1500,
+      "elo_min": 1456.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Tom Lemoine",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 25.0,
+      "ratio_sets": 0.5,
+      "elo": 1476.5,
+      "elo_max": 1511.0,
+      "elo_min": 1463.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Trystan Delemar",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Ulysse Comte",
+      "matchs_joues": 4,
+      "victoires": 2,
+      "defaites": 2,
+      "sets_gagnes": 5,
+      "sets_perdus": 5,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1502.0,
+      "elo_max": 1516.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Ulysse Cruz Ramos",
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 8,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.67,
+      "elo": 1529.0,
+      "elo_max": 1547.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Valentine Dewaele",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Victoire Guth",
+      "matchs_joues": 7,
+      "victoires": 3,
+      "defaites": 4,
+      "sets_gagnes": 9,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.82,
+      "elo": 1487.0,
+      "elo_max": 1503.0,
+      "elo_min": 1484.0,
+      "photo": "photos/victoire-guth.jpg"
+    },
+    {
+      "nom": "Victor Duforest",
+      "matchs_joues": 12,
+      "victoires": 11,
+      "defaites": 1,
+      "sets_gagnes": 32,
+      "sets_perdus": 11,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 91.7,
+      "ratio_sets": 2.91,
+      "elo": 1635.0,
+      "elo_max": 1652.0,
+      "elo_min": 1500,
+      "photo": "photos/victor-duforest.jpg"
+    },
+    {
+      "nom": "Victor Morlat",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 9,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.29,
+      "elo": 1501.0,
+      "elo_max": 1517.0,
+      "elo_min": 1499.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Victor Perron",
       "matchs_joues": 2,
       "victoires": 0,
       "defaites": 2,
       "sets_gagnes": 2,
       "sets_perdus": 4,
+      "tournois": [
+        "CNF 1"
+      ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.5,
+      "elo": 1469.0,
+      "elo_max": 1500,
+      "elo_min": 1469.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Vincent Brun",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 6,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.75,
+      "elo": 1478.8,
+      "elo_max": 1500,
+      "elo_min": 1430.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Vincent Nezet",
+      "matchs_joues": 2,
+      "victoires": 0,
+      "defaites": 2,
+      "sets_gagnes": 1,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 0.0,
+      "ratio_sets": 0.25,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1478.0,
+      "elo": 1488.0,
+      "elo_max": 1524.0,
+      "elo_min": 1488.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Yani Debiane",
+      "matchs_joues": 6,
+      "victoires": 3,
+      "defaites": 3,
+      "sets_gagnes": 7,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.88,
+      "elo": 1499.8,
+      "elo_max": 1524.0,
+      "elo_min": 1476.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Yanis Saa",
+      "matchs_joues": 3,
+      "victoires": 2,
+      "defaites": 1,
+      "sets_gagnes": 5,
+      "sets_perdus": 3,
+      "tournois": [
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.67,
+      "elo": 1514.0,
+      "elo_max": 1531.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Yassine Aloui",
+      "matchs_joues": 3,
+      "victoires": 1,
+      "defaites": 2,
+      "sets_gagnes": 3,
+      "sets_perdus": 4,
+      "tournois": [
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.75,
+      "elo": 1484.0,
+      "elo_max": 1516.0,
+      "elo_min": 1484.0,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Yaël Vincent",
+      "matchs_joues": 7,
+      "victoires": 5,
+      "defaites": 2,
+      "sets_gagnes": 11,
+      "sets_perdus": 8,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 1.38,
+      "elo": 1542.0,
+      "elo_max": 1560.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
+      "nom": "Younès Benazzouz",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
       "elo_max": 1500.0,
-      "elo_min": 1478.0,
+      "elo_min": 1500.0,
       "photo": "photos/default.svg",
-      "forme_recente": [
-        "D",
-        "D"
-      ]
+      "forme_recente": []
+    },
+    {
+      "nom": "Zoé Gaudevin",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
+    },
+    {
+      "nom": "Zoé Nemeth",
+      "matchs_joues": 10,
+      "victoires": 6,
+      "defaites": 4,
+      "sets_gagnes": 15,
+      "sets_perdus": 12,
+      "tournois": [
+        "CNF 1",
+        "CNF 2",
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.25,
+      "elo": 1522.7,
+      "elo_max": 1551.0,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
     }
   ],
   "matchs": [
@@ -7540,7 +7954,7 @@
   ],
   "derniere_maj": "2026-02-10",
   "stats_globales": {
-    "total_joueurs": 216,
+    "total_joueurs": 239,
     "total_matchs": 360,
     "total_sets": 1013
   },
