@@ -3871,190 +3871,111 @@ body {
     .section-title { font-size: 1.8rem; }
     .page-title { font-size: 2.2rem; }
 }/* ==========================================
-   CORRECTIONS MOBILE CRITIQUES
-   À ajouter APRÈS tout le CSS existant
+   CORRECTIFS MOBILE UNIQUEMENT
+   Ne touche PAS au design PC
    ========================================== */
 
-/* 1. EMPÊCHER LE DÉBORDEMENT - RÈGLE UNIVERSELLE */
-html {
-    overflow-x: hidden !important;
-    width: 100%;
-    max-width: 100vw;
-}
-
-body {
-    overflow-x: hidden !important;
-    width: 100%;
-    max-width: 100vw;
-    position: relative;
-}
-
-* {
-    max-width: 100vw;
-}
-
-/* 2. CONTENEURS GLOBAUX */
-.container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-}
-
-/* 3. TABLEAUX RESPONSIFS */
-.table-responsive {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* Wrapper pour tous les tableaux */
-table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* 4. IMAGES ET MEDIA */
-img, video, iframe {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
 /* ==========================================
-   MEDIA QUERIES MOBILE (< 768px)
+   MEDIA QUERY MOBILE (< 768px)
+   Toutes les corrections sont ici
    ========================================== */
 
 @media (max-width: 768px) {
     
-    /* === NAVIGATION === */
-    .main-nav {
-        position: sticky;
+    /* 1. EMPÊCHER LE DÉBORDEMENT HORIZONTAL */
+    html {
+        overflow-x: hidden !important;
         width: 100%;
-        overflow-x: hidden;
+        max-width: 100vw;
     }
     
+    body {
+        overflow-x: hidden !important;
+        width: 100%;
+        max-width: 100vw;
+        /* Image de fond moins zoomée sur mobile */
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+    
+    * {
+        max-width: 100vw;
+    }
+    
+    /* 2. NAVIGATION */
     .nav-container {
         flex-direction: column !important;
         padding: 0.8rem 1rem !important;
         gap: 0.8rem !important;
-        align-items: center !important;
     }
     
     .logo {
-        width: 100%;
         justify-content: center !important;
-        gap: 0.5rem !important;
     }
     
     .logo img {
         height: 45px !important;
-        width: auto !important;
     }
     
     .logo-main {
         font-size: 1.8rem !important;
-        letter-spacing: 2px !important;
     }
     
     .logo-sub {
         font-size: 0.65rem !important;
-        letter-spacing: 1px !important;
     }
     
     .nav-links {
-        display: flex !important;
-        flex-wrap: nowrap !important;
         overflow-x: auto !important;
         width: calc(100vw - 2rem) !important;
-        max-width: calc(100vw - 2rem) !important;
-        padding: 0.5rem 0 !important;
-        gap: 0.5rem !important;
+        flex-wrap: nowrap !important;
         -webkit-overflow-scrolling: touch;
-        scrollbar-width: thin;
-    }
-    
-    .nav-links::-webkit-scrollbar {
-        height: 3px;
-    }
-    
-    .nav-links::-webkit-scrollbar-thumb {
-        background: var(--primary);
-        border-radius: 2px;
     }
     
     .nav-link {
         font-size: 0.75rem !important;
         padding: 0.5rem 0.8rem !important;
         white-space: nowrap !important;
-        flex-shrink: 0 !important;
     }
     
-    /* === HERO SECTION === */
+    /* 3. HERO SECTION */
     .hero {
         padding: 2rem 1rem !important;
         min-height: auto !important;
     }
     
-    .hero-content {
-        padding: 1rem !important;
-    }
-    
     .hero-title {
         font-size: 2rem !important;
         flex-direction: column !important;
-        gap: 0.2rem !important;
-        text-align: center !important;
     }
     
     .hero-highlight {
         font-size: 2.2rem !important;
     }
     
-    .hero-subtitle {
-        font-size: 0.95rem !important;
-        text-align: center !important;
-    }
-    
     .hero-stats {
         grid-template-columns: 1fr !important;
         gap: 1rem !important;
-        padding: 0 !important;
     }
     
     .stat-card {
         padding: 1rem !important;
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
     }
     
     .stat-number {
         font-size: 2rem !important;
-        margin-bottom: 0 !important;
     }
     
-    .stat-label {
-        font-size: 0.9rem !important;
-    }
-    
-    /* === TITRES === */
+    /* 4. TITRES */
     .page-title {
         font-size: 2rem !important;
-        padding: 1rem !important;
-        text-align: center !important;
-        word-wrap: break-word !important;
     }
     
     .section-title {
         font-size: 1.5rem !important;
-        padding: 1rem !important;
-        text-align: center !important;
     }
     
-    /* === GRILLES - TOUJOURS 1 COLONNE === */
+    /* 5. GRILLES - 1 COLONNE */
     .top-players-grid,
     .players-grid,
     .teams-grid,
@@ -4064,26 +3985,23 @@ img, video, iframe {
     .dynamic-home-stats {
         grid-template-columns: 1fr !important;
         gap: 1rem !important;
-        padding: 0 !important;
     }
     
-    /* === CARTES JOUEURS === */
+    /* 6. CARTES JOUEURS */
     .player-card {
         padding: 1.2rem !important;
-        margin: 0 !important;
-    }
-    
-    .player-header {
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        gap: 0.8rem !important;
     }
     
     .player-rank {
         font-size: 2rem !important;
-        position: static !important;
-        margin-bottom: 0.5rem !important;
+    }
+    
+    .player-name {
+        font-size: 1.2rem !important;
+    }
+    
+    .player-elo {
+        font-size: 1.5rem !important;
     }
     
     .player-photo img {
@@ -4091,42 +4009,9 @@ img, video, iframe {
         height: 80px !important;
     }
     
-    .player-name {
-        font-size: 1.2rem !important;
-        text-align: center !important;
-    }
-    
-    .player-elo {
-        font-size: 1.5rem !important;
-    }
-    
-    .player-stats {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.5rem !important;
-    }
-    
-    .player-stat-value {
-        font-size: 1.3rem !important;
-    }
-    
-    .player-stat-label {
-        font-size: 0.75rem !important;
-    }
-    
-    /* === MATCHS === */
-    .recent-matches {
-        padding: 0 !important;
-    }
-    
+    /* 7. MATCHS */
     .match-card {
         padding: 1rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    .match-header {
-        flex-direction: column !important;
-        gap: 0.5rem !important;
-        text-align: center !important;
     }
     
     .match-content {
@@ -4134,13 +4019,7 @@ img, video, iframe {
         gap: 0.5rem !important;
     }
     
-    .match-side {
-        padding: 0.8rem !important;
-    }
-    
-    .match-player,
-    .match-player-home,
-    .match-player-away {
+    .match-player {
         font-size: 1rem !important;
         padding: 0.8rem !important;
     }
@@ -4148,46 +4027,32 @@ img, video, iframe {
     .match-score {
         font-size: 1.8rem !important;
         padding: 0.8rem !important;
-        margin: 0.5rem 0 !important;
     }
     
-    .match-info {
-        font-size: 0.85rem !important;
-        gap: 0.5rem !important;
-    }
-    
-    /* === FILTRES === */
+    /* 8. FILTRES */
     .filters {
         flex-direction: column !important;
         gap: 0.8rem !important;
-        padding: 0 !important;
-        margin-bottom: 1.5rem !important;
     }
     
     .search-input,
     .sort-select,
     select,
-    input[type="text"],
-    input[type="search"] {
+    input[type="text"] {
         width: 100% !important;
         font-size: 1rem !important;
-        padding: 0.8rem !important;
     }
     
-    /* === TABLEAUX === */
+    /* 9. TABLEAUX SCROLLABLES */
     .ranking-table {
         width: 100% !important;
         overflow-x: auto !important;
         -webkit-overflow-scrolling: touch;
-        display: block !important;
-        margin: 0 !important;
     }
     
     .ranking-table table {
         min-width: 600px !important;
         font-size: 0.85rem !important;
-        display: table !important;
-        width: auto !important;
     }
     
     .ranking-table th,
@@ -4196,189 +4061,115 @@ img, video, iframe {
         white-space: nowrap !important;
     }
     
-    .ranking-table::-webkit-scrollbar {
-        height: 6px;
-    }
-    
-    .ranking-table::-webkit-scrollbar-thumb {
-        background: var(--primary);
-        border-radius: 3px;
-    }
-    
-    /* === ÉQUIPES CNF3 === */
-    .team-card,
-    .poule-card {
-        padding: 1.2rem !important;
-    }
-    
-    .team-name {
-        font-size: 1.3rem !important;
-    }
-    
-    .team-players {
-        font-size: 0.95rem !important;
-    }
-    
-    /* === MODAL === */
+    /* 10. MODAL (PROFIL JOUEUR) - CORRECTIONS IMPORTANTES */
     .modal {
-        padding: 0.5rem !important;
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch;
+        padding: 1rem 0 !important;
+    }
+    
+    .modal.active {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-top: 2rem !important;
     }
     
     .modal-content {
         width: 95% !important;
         max-width: 95% !important;
-        margin: 0.5rem auto !important;
+        max-height: none !important;
+        height: auto !important;
+        margin: 0 auto 3rem auto !important;
         padding: 1.5rem 1rem !important;
-        max-height: 90vh !important;
-        overflow-y: auto !important;
+        overflow: visible !important;
     }
     
     .modal-close {
-        top: 0.5rem !important;
-        right: 0.5rem !important;
         font-size: 2rem !important;
-        width: 35px !important;
-        height: 35px !important;
     }
     
-    /* Profil joueur dans modal */
-    .player-profile-photo img {
-        width: 80px !important;
-        height: 80px !important;
+    /* Historique des matchs dans le profil */
+    #player-modal-content > div[style*="max-height"] {
+        max-height: none !important;
+        overflow-y: visible !important;
     }
     
-    .player-stat {
-        padding: 0.8rem !important;
+    /* 11. PAGES - SCROLL VERTICAL */
+    .page {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        min-height: 100vh !important;
+        padding-bottom: 3rem !important;
     }
     
-    /* === PRÉDICTIONS / COMPARATEUR === */
+    /* Page classement */
+    #classement {
+        overflow-y: auto !important;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Page joueurs */
+    #joueurs {
+        overflow-y: auto !important;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    .container {
+        padding: 1rem 0.5rem !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* 12. PRÉDICTIONS / COMPARATEUR */
     .prediction-selector,
     .compare-selector {
         grid-template-columns: 1fr !important;
         gap: 1rem !important;
-        padding: 0 !important;
-    }
-    
-    .player-selector {
-        padding: 1rem !important;
-    }
-    
-    .player-selector select {
-        font-size: 1rem !important;
     }
     
     .vs-separator {
-        transform: none !important;
         font-size: 2rem !important;
         padding: 0.5rem !important;
-        text-align: center !important;
-    }
-    
-    .prediction-result,
-    .comparison-result {
-        padding: 1.2rem !important;
-        margin-top: 1rem !important;
     }
     
     .probability {
         font-size: 2.5rem !important;
     }
     
-    .comparison-stats {
-        grid-template-columns: 1fr !important;
-        gap: 1rem !important;
-    }
-    
-    /* === LIVE SCORING === */
-    .live-match-card {
-        padding: 1.2rem !important;
-    }
-    
-    .score-display {
-        font-size: 2.5rem !important;
-    }
-    
-    .score-input {
-        font-size: 1.5rem !important;
-        width: 60px !important;
-        padding: 0.5rem !important;
-    }
-    
-    /* === FOOTER === */
+    /* 13. FOOTER */
     .site-footer {
         padding: 2rem 1rem !important;
     }
     
     .footer-container {
         grid-template-columns: 1fr !important;
-        gap: 2rem !important;
         text-align: center !important;
     }
     
-    .footer-section {
-        padding: 0 !important;
-    }
-    
-    .footer-section h3 {
-        font-size: 1.2rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    .footer-section p,
-    .footer-section a {
-        font-size: 0.9rem !important;
-    }
-    
-    .footer-credits {
-        font-size: 0.85rem !important;
-    }
-    
-    /* === ONGLETS === */
+    /* 14. ONGLETS */
     .tabs {
         flex-wrap: wrap !important;
         gap: 0.5rem !important;
-        justify-content: center !important;
     }
     
     .tab-button {
         flex: 1 1 calc(50% - 0.25rem) !important;
-        min-width: 140px !important;
         font-size: 0.9rem !important;
         padding: 0.7rem 0.5rem !important;
     }
     
-    /* === PALMARÈS === */
+    /* 15. PALMARÈS PODIUM */
     .palmares-podium {
         flex-direction: column !important;
         align-items: center !important;
-        gap: 1rem !important;
     }
     
     .podium-item {
         width: 100% !important;
         max-width: 280px !important;
-        margin: 0 !important;
-    }
-    
-    .podium-item.first,
-    .podium-item.second,
-    .podium-item.third {
-        order: 0 !important;
-    }
-    
-    /* === CARTES DYNAMIQUES === */
-    .dynamic-card {
-        padding: 1.2rem !important;
-    }
-    
-    .dynamic-stats {
-        grid-template-columns: 1fr !important;
-        gap: 0.8rem !important;
-    }
-    
-    .progression-card,
-    .forme-card {
-        padding: 1rem !important;
     }
 }
 
@@ -4404,10 +4195,6 @@ img, video, iframe {
         font-size: 1.7rem !important;
     }
     
-    .hero-highlight {
-        font-size: 1.9rem !important;
-    }
-    
     .stat-number {
         font-size: 1.7rem !important;
     }
@@ -4416,332 +4203,7 @@ img, video, iframe {
         font-size: 1.7rem !important;
     }
     
-    .section-title {
-        font-size: 1.3rem !important;
-    }
-    
-    .player-elo {
-        font-size: 1.3rem !important;
-    }
-    
     .match-score {
         font-size: 1.5rem !important;
-    }
-    
-    .modal-content {
-        padding: 1rem 0.8rem !important;
-    }
-    
-    .probability {
-        font-size: 2rem !important;
-    }
-}
-
-/* ==========================================
-   CORRECTIONS SPÉCIFIQUES
-   ========================================== */
-
-/* Empêcher les éléments position: fixed de déborder */
-.main-nav,
-.modal {
-    width: 100%;
-    max-width: 100vw;
-    left: 0;
-    right: 0;
-}
-
-/* S'assurer que les grilles ne dépassent jamais */
-[class*="grid"],
-[class*="Grid"] {
-    width: 100%;
-    max-width: 100%;
-}
-
-/* Empêcher les cartes de déborder */
-[class*="card"],
-[class*="Card"] {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-/* Texte qui pourrait déborder */
-h1, h2, h3, h4, h5, h6,
-.player-name,
-.team-name,
-.match-player {
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    hyphens: auto;
-}
-
-/* Boutons tactiles (minimum 44x44px) */
-button,
-.btn,
-.tab-button,
-.nav-link {
-    min-height: 44px;
-    min-width: 44px;
-}
-
-/* ==========================================
-   OPTIMISATIONS PERFORMANCES MOBILE
-   ========================================== */
-
-/* Réduire les animations sur mobile */
-@media (max-width: 768px) {
-    * {
-        animation-duration: 0.3s !important;
-        transition-duration: 0.2s !important;
-    }
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Touch feedback */
-button:active,
-.btn:active,
-.nav-link:active,
-.player-card:active {
-    opacity: 0.7;
-    transform: scale(0.98);
-}
-/* ==========================================
-   CORRECTIFS SUPPLÉMENTAIRES MOBILE
-   À AJOUTER À LA FIN DE styles.css
-   ========================================== */
-
-/* 1. CORRIGER L'IMAGE DE FOND SUR MOBILE */
-@media (max-width: 768px) {
-    body {
-        background-image: 
-            linear-gradient(
-                135deg, 
-                rgba(220, 20, 60, 0.5) 0%,
-                rgba(0, 0, 0, 0.7) 50%,
-                rgba(27, 94, 32, 0.5) 100%
-            ),
-            url('image.jpg');
-        background-size: cover !important;
-        background-position: center center !important;
-        background-attachment: scroll !important; /* Pas fixed sur mobile */
-        /* Alternative : si l'image est trop zoomée */
-        /* background-size: 100% auto !important; */
-    }
-}
-
-/* 2. CORRIGER LE SCROLL DANS LES MODALS (PROFIL JOUEUR) */
-.modal {
-    overflow-y: auto !important;
-    -webkit-overflow-scrolling: touch;
-}
-
-.modal-content {
-    max-height: none !important; /* Enlever la limite de hauteur */
-    overflow-y: visible !important;
-    margin: 1rem auto !important;
-}
-
-@media (max-width: 768px) {
-    .modal {
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch;
-        padding: 1rem 0 !important;
-    }
-    
-    .modal-content {
-        max-height: none !important; /* Permettre de scroller */
-        height: auto !important;
-        overflow-y: visible !important;
-        margin: 1rem auto 2rem auto !important; /* Espace en bas */
-        padding-bottom: 2rem !important; /* Padding en bas */
-    }
-    
-    /* S'assurer que l'historique des matchs est visible */
-    #player-modal-content {
-        max-height: none !important;
-        overflow-y: visible !important;
-    }
-    
-    /* Conteneur de l'historique des matchs */
-    #player-modal-content > div[style*="max-height"] {
-        max-height: none !important;
-        overflow-y: visible !important;
-    }
-}
-
-/* 3. CORRIGER LA PAGE CLASSEMENT */
-@media (max-width: 768px) {
-    /* Page classement complète */
-    #classement {
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch;
-        min-height: 100vh;
-        padding-bottom: 3rem !important;
-    }
-    
-    /* Conteneur de la page classement */
-    #classement .container {
-        overflow: visible !important;
-        padding-bottom: 3rem !important;
-    }
-    
-    /* Tableau de classement */
-    #classement-elo,
-    .ranking-table {
-        width: 100% !important;
-        overflow-x: auto !important;
-        -webkit-overflow-scrolling: touch;
-        margin-bottom: 2rem !important;
-    }
-}
-
-/* 4. CORRIGER LA PAGE JOUEURS */
-@media (max-width: 768px) {
-    #joueurs {
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch;
-        min-height: 100vh;
-        padding-bottom: 3rem !important;
-    }
-    
-    #joueurs .container {
-        overflow: visible !important;
-        padding-bottom: 3rem !important;
-    }
-    
-    /* Grille des joueurs */
-    #all-players {
-        padding-bottom: 2rem !important;
-    }
-}
-
-/* 5. TOUTES LES PAGES DOIVENT POUVOIR SCROLLER */
-@media (max-width: 768px) {
-    .page {
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch;
-        min-height: 100vh !important;
-        padding-bottom: 3rem !important;
-    }
-    
-    .page.active {
-        display: block !important;
-        overflow-y: auto !important;
-    }
-    
-    .container {
-        padding-bottom: 3rem !important;
-    }
-}
-
-/* 6. FIX POUR L'OVERLAY DU MODAL */
-@media (max-width: 768px) {
-    .modal {
-        display: none; /* Caché par défaut */
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        z-index: 9999;
-        overflow-y: scroll !important; /* Permettre le scroll */
-        -webkit-overflow-scrolling: touch;
-        padding: 0 !important;
-    }
-    
-    .modal.active {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start; /* Aligner en haut */
-        padding-top: 2rem !important;
-    }
-    
-    .modal-content {
-        position: relative; /* Pas fixed */
-        width: 95% !important;
-        max-width: 95% !important;
-        max-height: none !important;
-        height: auto !important;
-        margin: 0 auto 3rem auto !important;
-        overflow: visible !important;
-    }
-}
-
-/* 7. HISTORIQUE DES MATCHS DANS LE PROFIL */
-@media (max-width: 768px) {
-    /* Conteneur de l'historique */
-    .player-matches-history {
-        max-height: none !important;
-        overflow-y: visible !important;
-    }
-    
-    /* Chaque match dans l'historique */
-    .match-history-item {
-        margin-bottom: 1rem !important;
-        padding: 1rem !important;
-    }
-}
-
-/* 8. ASSURER QUE LE BODY NE BLOQUE PAS LE SCROLL */
-@media (max-width: 768px) {
-    body {
-        overflow-y: auto !important;
-        overflow-x: hidden !important;
-        height: auto !important;
-        min-height: 100vh !important;
-    }
-    
-    html {
-        overflow-y: auto !important;
-        overflow-x: hidden !important;
-    }
-}
-
-/* 9. ALTERNATIVE POUR L'IMAGE DE FOND (SI TOUJOURS ZOOMÉE) */
-@media (max-width: 768px) {
-    /* Option 1 : Image contenue (pas de zoom) */
-    body.bg-contain {
-        background-size: contain !important;
-        background-repeat: no-repeat !important;
-        background-position: top center !important;
-    }
-    
-    /* Option 2 : Image en largeur */
-    body.bg-width {
-        background-size: 100% auto !important;
-        background-position: center top !important;
-    }
-    
-    /* Option 3 : Pas d'image sur mobile (meilleure performance) */
-    body.bg-none {
-        background-image: 
-            linear-gradient(
-                135deg, 
-                rgba(220, 20, 60, 0.3) 0%,
-                rgba(0, 0, 0, 0.9) 50%,
-                rgba(27, 94, 32, 0.3) 100%
-            ) !important;
-        background-color: #1a1a1a !important;
-    }
-}
-
-/* 10. FIX GRAPHIQUE ELO DANS LE PROFIL */
-@media (max-width: 768px) {
-    canvas {
-        max-width: 100% !important;
-        height: auto !important;
-    }
-    
-    /* Conteneur du graphique */
-    .chart-container {
-        width: 100% !important;
-        max-width: 100% !important;
-        overflow: visible !important;
     }
 }
