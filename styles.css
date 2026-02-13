@@ -4380,3 +4380,102 @@ body {
             overflow: visible !important;
         }
     }
+
+    /* ============================================
+   STYLES POUR LE BADGE "NOUVEAU" ET MATCHS DU JOUR
+   A ajouter dans styles.css
+   ============================================ */
+
+/* Badge NOUVEAU */
+.badge-nouveau {
+    background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    animation: pulse-badge 2s infinite;
+}
+
+@keyframes pulse-badge {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+}
+
+/* Animation pour les matchs nouveaux */
+.live-match-card.match-nouveau {
+    animation: glow-card 2s ease-in-out 3;
+    border-left: 4px solid #00ff88;
+}
+
+@keyframes glow-card {
+    0%, 100% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(0, 255, 136, 0.4);
+    }
+}
+
+/* Message "Aucun match aujourd'hui" plus visible */
+.live-no-matchs {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    border: 2px dashed var(--gray);
+}
+
+.live-no-matchs i {
+    font-size: 4rem;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.live-no-matchs p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.live-no-matchs small {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+/* Ajuster l'affichage de l'heure */
+.live-match-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .badge-nouveau {
+        font-size: 0.65rem;
+        padding: 3px 8px;
+    }
+    
+    .live-no-matchs {
+        padding: 3rem 1.5rem;
+    }
+    
+    .live-no-matchs i {
+        font-size: 3rem;
+    }
+    
+    .live-no-matchs p {
+        font-size: 1.2rem;
+    }
+}

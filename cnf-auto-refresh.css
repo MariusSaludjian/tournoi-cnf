@@ -1,0 +1,222 @@
+/**
+ * Styles pour l'auto-refresh et les notifications CNF 3
+ */
+
+/* Animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 255, 136, 0.8), 0 0 30px rgba(0, 255, 136, 0.4);
+    }
+}
+
+/* Notification */
+.cnf-notification {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cnf-notification-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cnf-notification-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.cnf-notification-text {
+    flex: 1;
+}
+
+.cnf-notification-text strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.cnf-notification-text small {
+    display: block;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.cnf-notification-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.cnf-notification-close:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Badge Live */
+.cnf-live-badge {
+    display: inline-block;
+    background: #ff0044;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 11px;
+    margin-left: 5px;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+}
+
+/* Indicateur de connexion */
+.cnf-connection-status {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.cnf-connection-status.connected {
+    background: rgba(0, 255, 136, 0.2);
+    color: #00ff88;
+    border: 1px solid #00ff88;
+}
+
+.cnf-connection-status.disconnected {
+    background: rgba(255, 0, 68, 0.2);
+    color: #ff0044;
+    border: 1px solid #ff0044;
+}
+
+/* Effet sur les nouveaux matchs */
+.live-match-item.live-new {
+    animation: glow 2s ease-in-out 3;
+    background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(0, 204, 106, 0.1) 100%);
+    border-left: 4px solid #00ff88;
+}
+
+.live-badge {
+    background: #00ff88;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: pulse 1s infinite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cnf-notification {
+        top: 60px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
+    
+    .cnf-connection-status {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+/* Indicateur de chargement */
+.cnf-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(0, 255, 136, 0.3);
+    border-top-color: #00ff88;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Bouton de rafraîchissement manuel */
+.cnf-refresh-button {
+    background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cnf-refresh-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 255, 136, 0.4);
+}
+
+.cnf-refresh-button:active {
+    transform: translateY(0);
+}
+
+.cnf-refresh-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Timestamp du dernier refresh */
+.cnf-last-update {
+    font-size: 12px;
+    color: #888;
+    margin-left: 10px;
+}
