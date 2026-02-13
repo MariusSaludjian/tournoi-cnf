@@ -1,0 +1,108 @@
+name: Sync CNF 3 Results from Google Sheets
+
+on:
+  # Exécution automatique toutes les 5 minutes
+  schedule:
+    - cron: '*/5 * * * *'
+  
+  # Permet de lancer manuellement depuis l'interface GitHub
+  workflow_dispatch:
+  
+  # Optionnel: exécute aussi à chaque push sur main
+  push:
+    branches:
+      - main
+    paths:
+      - 'sync_google_sheets.py'
+      - '.github/workflows/sync.yml'
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Récupère tout l'historique
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 🔐 Create credentials file
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          echo "$GOOGLE_CREDENTIALS" > credentials.json
+          chmod 600 credentials.json
+      
+      - name: 🔄 Sync Google Sheets data
+        run: |
+          python sync_google_sheets.py
+      
+      - name: 📊 Recalculate ELO ratings
+        run: |
+          if [ -f "recalculer_elo_cnf3.py" ]; then
+            python recalculer_elo_cnf3.py
+          else
+            echo "⚠️ recalculer_elo_cnf3.py non trouvé, ELO non recalculé"
+          fi
+      
+      - name: 🗑️ Clean up credentials
+        if: always()
+        run: |
+          rm -f credentials.json
+      
+      - name: 📤 Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "CNF Sync Bot"
+          
+          # Ajoute les fichiers modifiés
+          git add data.json
+          
+          # Vérifie s'il y a des changements
+          if git diff --staged --quiet; then
+            echo "✅ Aucun changement détecté"
+            exit 0
+          fi
+          
+          # Compte les nouveaux matchs
+          NEW_MATCHES=$(git diff --staged data.json | grep -c '"live": true' || echo 0)
+          
+          # Commit avec un message détaillé
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          git commit -m "🎯 Auto-sync: Update CNF 3 results
+
+          - Synchronisation: ${TIMESTAMP}
+          - Nouveaux matchs: ${NEW_MATCHES}
+          
+          [skip ci]"
+          
+          git push
+          
+          echo "🎉 Données synchronisées et poussées avec succès!"
+      
+      - name: 📊 Summary
+        if: always()
+        run: |
+          echo "## 🎯 Synchronisation CNF 3" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date**: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+          echo "**Status**: ✅ Terminé" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "sync.log" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Logs" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            tail -20 sync.log >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi
