@@ -1510,35 +1510,56 @@ function afficherStatsLive() {
     }
 }
 
+// ============================================
+// MODIFICATION POUR AFFICHER UNIQUEMENT LES MATCHS DU JOUR
+// A remplacer dans app.js (ligne 1513-1591)
+// ============================================
+
 function afficherMatchsLive() {
     const container = document.getElementById('live-matchs-container');
     const noMatchs = document.getElementById('live-no-matchs');
     
     if (!container || !noMatchs) {
-        console.log('⚠️ Éléments live-matchs-container ou live-no-matchs non trouvés');
+        console.log('Elements live-matchs-container ou live-no-matchs non trouves');
         return;
     }
     
-    // Filtrer les matchs
-    let matchsFiltres = matchsCNF3;
+    // Obtenir la date du jour (sans l'heure)
+    const aujourdhui = new Date();
+    aujourdhui.setHours(0, 0, 0, 0);
+    
+    // Filtrer d'abord par date (seulement les matchs du jour)
+    let matchsDuJour = matchsCNF3.filter(m => {
+        const dateMatch = new Date(m.date);
+        dateMatch.setHours(0, 0, 0, 0);
+        return dateMatch.getTime() === aujourdhui.getTime();
+    });
+    
+    // Puis appliquer le filtre type (poule/tableau)
+    let matchsFiltres = matchsDuJour;
     if (filtreMatchsActuel === 'poule') {
-        matchsFiltres = matchsCNF3.filter(m => m.type === 'poule');
+        matchsFiltres = matchsDuJour.filter(m => m.type === 'poule');
     } else if (filtreMatchsActuel === 'tableau') {
-        matchsFiltres = matchsCNF3.filter(m => m.type === 'tableau');
+        matchsFiltres = matchsDuJour.filter(m => m.type === 'tableau');
     }
     
     if (matchsFiltres.length === 0) {
         container.innerHTML = '';
         noMatchs.classList.remove('hidden');
+        // Modifier le message pour indiquer qu'il n'y a pas de matchs aujourd'hui
+        noMatchs.innerHTML = `
+            <i class="fas fa-calendar-times"></i>
+            <p>Aucun match aujourd'hui</p>
+            <small>Les resultats d'aujourd'hui s'afficheront ici en temps reel</small>
+        `;
         return;
     }
     
     noMatchs.classList.add('hidden');
     
-    // Trier par date (plus récent en premier) + limiter à 4
+    // Trier par heure (plus recent en premier) mais sans limiter a 4
     const matchsTries = [...matchsFiltres]
-        .sort((a, b) => new Date(b.date) - new Date(a.date))
-        .slice(0, 4);
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
     
     container.innerHTML = matchsTries.map(match => {
         const date = new Date(match.date);
@@ -1547,15 +1568,27 @@ function afficherMatchsLive() {
             month: 'short'
         });
         
+        // Afficher aussi l'heure si disponible
+        const heureStr = date.toLocaleTimeString('fr-FR', {
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
         const estPoule = match.type === 'poule';
         const phaseLabel = estPoule ? `Poule ${match.poule}` : match.phase;
         const phaseClass = estPoule ? 'phase-poule' : 'phase-tableau';
         
+        // Badge "NOUVEAU" pour les matchs recents (moins de 30 min)
+        const maintenant = new Date();
+        const diffMinutes = (maintenant - date) / 1000 / 60;
+        const estNouveau = diffMinutes < 30 && match.live;
+        
         return `
-            <div class="live-match-card" data-type="${match.type}">
+            <div class="live-match-card ${estNouveau ? 'match-nouveau' : ''}" data-type="${match.type}">
                 <div class="live-match-header">
                     <span class="live-match-phase ${phaseClass}">${phaseLabel}</span>
-                    <span class="live-match-date">${dateStr}</span>
+                    <span class="live-match-date">${heureStr}</span>
+                    ${estNouveau ? '<span class="badge-nouveau">NOUVEAU</span>' : ''}
                 </div>
                 
                 <div class="live-match-content">
@@ -1587,7 +1620,7 @@ function afficherMatchsLive() {
         `;
     }).join('');
     
-    console.log('✅ Matchs affichés:', matchsFiltres.length);
+    console.log(`Matchs d'aujourd'hui affiches: ${matchsFiltres.length}`);
 }
 
 function filtrerMatchsLive(filtre) {

@@ -23,6 +23,23 @@
       ]
     },
     {
+      "nom": "Adrien Quéffelec",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1500,
+      "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Adèle Hamelin",
       "matchs_joues": 0,
       "victoires": 0,
@@ -276,6 +293,23 @@
         "D",
         "D"
       ]
+    },
+    {
+      "nom": "Anthony Gago--Klimenko",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1500,
+      "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Anthony Gago-Klimenko",
@@ -823,6 +857,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Brune Paluel Mormont",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1500,
+      "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Brune Paluel-Marmont",
       "matchs_joues": 3,
       "victoires": 1,
@@ -920,6 +971,23 @@
         "V",
         "V"
       ]
+    },
+    {
+      "nom": "Cheikhou Diarra",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1500,
+      "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
     },
     {
       "nom": "Chloé Best-Belpomme",
@@ -1070,6 +1138,23 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Célian Foucher",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "elo": 1500,
+      "elo_max": 1500,
+      "elo_min": 1500,
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Célian Fouchet",
       "matchs_joues": 5,
       "victoires": 3,
@@ -1119,6 +1204,24 @@
       "elo_max": 1500,
       "elo_min": 1469.0,
       "photo": "photos/default.svg"
+    },
+    {
+      "nom": "David Carrie",
+      "matchs_joues": 0,
+      "victoires": 0,
+      "defaites": 0,
+      "sets_gagnes": 0,
+      "sets_perdus": 0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "pourcentage_victoires": 0,
+      "ratio_sets": 0,
+      "elo": 1500.0,
+      "elo_max": 1500.0,
+      "elo_min": 1500.0,
+      "photo": "photos/default.svg",
+      "forme_recente": []
     },
     {
       "nom": "David Carrié",
@@ -3378,29 +3481,24 @@
       "photo": "photos/default.svg"
     },
     {
-    "nom": "Pierre-Louis Petit",
-    "matchs_joues": 7,
-    "victoires": 4,
-    "defaites": 3,
-    "sets_gagnes": 9,
-    "sets_perdus": 8,
-    "tournois": [
-      "CNF 1",
-      "CNF 2",
-      "CNF 3"
-    ],
-    "pourcentage_victoires": 57.14,
-    "ratio_sets": 1.13,
-    "elo": 1522.64,
-    "elo_max": 1522.64,
-    "elo_min": 1484.0,
-    "forme_recente": [
-      "V",
-      "V"
-    ],
-    "photo": "photos/pierre-louis-petit.jpg"
-  },
-  {
+      "nom": "Pilou Petit",
+      "matchs_joues": 5,
+      "victoires": 2,
+      "defaites": 3,
+      "sets_gagnes": 5,
+      "sets_perdus": 7,
+      "tournois": [
+        "CNF 1",
+        "CNF 2"
+      ],
+      "pourcentage_victoires": 40.0,
+      "ratio_sets": 0.71,
+      "elo": 1485.0,
+      "elo_max": 1517.0,
+      "elo_min": 1484.0,
+      "photo": "photos/Pilou-petit.jpg"
+    },
+    {
       "nom": "Quentin Offredo",
       "matchs_joues": 2,
       "victoires": 0,
@@ -4436,6 +4534,27 @@
       "photo": "photos/default.svg"
     },
     {
+      "nom": "Pierre-Louis Petit",
+      "matchs_joues": 2,
+      "victoires": 2,
+      "defaites": 0,
+      "sets_gagnes": 4,
+      "sets_perdus": 1,
+      "pourcentage_victoires": 100.0,
+      "ratio_sets": 4.0,
+      "elo": 1522.6430299558942,
+      "elo_max": 1522.6430299558942,
+      "elo_min": 1500.0,
+      "tournois": [
+        "CNF 3"
+      ],
+      "forme_recente": [
+        "V",
+        "V"
+      ],
+      "photo": "photos/default.svg"
+    },
+    {
       "nom": "Siméon Glomot ",
       "matchs_joues": 1,
       "victoires": 1,
@@ -4713,7 +4832,7 @@
       "tournoi": "CNF 1",
       "phase": "Poules",
       "date": "2025-04",
-      "joueur1": "Pierre-Louis Petit",
+      "joueur1": "Pilou Petit",
       "joueur2": "Raphaël Delacote",
       "score1": 0,
       "score2": 2,
@@ -4735,11 +4854,11 @@
       "tournoi": "CNF 1",
       "phase": "Poules",
       "date": "2025-04",
-      "joueur1": "Pierre-Louis Petit",
+      "joueur1": "Pilou Petit",
       "joueur2": "Victor Perron",
       "score1": 2,
       "score2": 1,
-      "gagnant": "Pierre-Louis Petit"
+      "gagnant": "Pilou Petit"
     },
     {
       "id": 25,
@@ -5813,11 +5932,11 @@
       "tournoi": "CNF 2",
       "phase": "Poules",
       "date": "2025-10",
-      "joueur1": "Pierre-Louis Petit",
+      "joueur1": "Pilou Petit",
       "joueur2": "Antonin Briat",
       "score1": 2,
       "score2": 0,
-      "gagnant": "Pierre-Louis Petit"
+      "gagnant": "Pilou Petit"
     },
     {
       "id": 123,
@@ -5835,7 +5954,7 @@
       "tournoi": "CNF 2",
       "phase": "Poules",
       "date": "2025-10",
-      "joueur1": "Pierre-Louis Petit",
+      "joueur1": "Pilou Petit",
       "joueur2": "Siméon Glomot",
       "score1": 1,
       "score2": 2,
@@ -5858,7 +5977,7 @@
       "phase": "Poules",
       "date": "2025-10",
       "joueur1": "Eugénie Roquain",
-      "joueur2": "Pierre-Louis Petit",
+      "joueur2": "Pilou Petit",
       "score1": 2,
       "score2": 0,
       "gagnant": "Eugénie Roquain"
@@ -8216,7 +8335,7 @@
   "equipes": [
     {
       "nom": "Pastis et Cassoulet",
-      "joueur1": "Pierre-Louis Petit",
+      "joueur1": "Pilou Petit",
       "joueur2": "Axel Garcin",
       "tournoi": "CNF 3",
       "chapeau": 1
@@ -8704,7 +8823,7 @@
       "equipes": [
         {
           "nom": "Pastis et Cassoulet",
-          "joueur1": "Pierre-Louis Petit",
+          "joueur1": "Pilou Petit",
           "joueur2": "Axel Garcin"
         },
         {
