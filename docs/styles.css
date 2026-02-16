@@ -566,6 +566,36 @@ body {
     color: var(--primary);
 }
 
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .match-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .match-score {
+        padding: 0.5rem 0;
+    }
+    
+    .match-side {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .match-header {
+        justify-content: center;
+    }
+    
+    .match-date {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Filters */
 .filters {
     display: flex;
@@ -951,6 +981,41 @@ body {
     transform: rotate(90deg);
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .prediction-selector,
+    .compare-selector,
+    .comparison-header {
+        grid-template-columns: 1fr;
+    }
+
+    .vs-separator,
+    .comparison-vs {
+        transform: rotate(90deg);
+    }
+
+    .match-card {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .prediction-teams {
+        grid-template-columns: 1fr;
+    }
+
+    .prediction-separator {
+        transform: rotate(90deg);
+    }
+}
 
 /* Animations pour le chargement */
 @keyframes pulse {
@@ -1322,6 +1387,17 @@ body {
     z-index: 1;
 }
 
+/* Responsive bracket */
+@media (max-width: 768px) {
+    .phase-matches {
+        grid-template-columns: 1fr;
+    }
+    
+    .champion-name {
+        font-size: 2.5rem;
+    }
+}
+
 /* ============================================
    PHOTOS DES JOUEURS
    ============================================ */
@@ -1376,6 +1452,18 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .player-profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .player-card-photo {
+        height: 150px;
+    }
 }
 
 /* Footer avec icônes */
@@ -1520,6 +1608,17 @@ body {
     margin-right: 0.5rem;
 }
 
+/* Responsive footer */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .site-footer {
+        padding: 2rem 1rem 1rem;
+    }
+}
 /* ============================================
    PAGE PALMARÈS
    ============================================ */
@@ -1671,6 +1770,27 @@ body {
     color: var(--primary);
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .palmares-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .palmares-header h2 {
+        font-size: 2rem;
+    }
+    
+    .champion-name {
+        font-size: 1.8rem;
+    }
+    
+    .prix-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
 /* ============================================
    PLANNING CNF 3
    ============================================ */
@@ -1766,6 +1886,17 @@ body {
     border-left-color: var(--accent);
     font-weight: 600;
     color: var(--accent);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .planning-days {
+        grid-template-columns: 1fr;
+    }
+    
+    .planning-week-title {
+        font-size: 1.5rem;
+    }
 }
 
 /* Menu déroulant Prix */
@@ -2317,6 +2448,25 @@ body {
     }
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .home-dynamic-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .live-scoring-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .elo-stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ============================================
    PAGE LIVE (LECTURE SEULE)
    ============================================ */
@@ -2647,6 +2797,20 @@ body {
     50% { transform: translateY(-20px); }
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .live-matchs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .phase-matchs {
+        grid-template-columns: 1fr;
+    }
+    
+    .live-stats {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* ============================================
    MATCHS CNF3 DANS PAGE ACCUEIL
@@ -2887,6 +3051,41 @@ body {
     color: var(--gray);
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .match-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .match-score {
+        padding: 0.5rem 0;
+        justify-content: center;
+    }
+    
+    .match-side {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .match-players {
+        justify-content: center;
+    }
+    
+    .match-header {
+        justify-content: center;
+    }
+    
+    .match-date {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* ============================================
@@ -3492,11 +3691,482 @@ body {
     color: var(--gray);
 }
 
+/* ==========================================================================
+   📱 OPTIMISATIONS MOBILES (Max-width 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    
+    /* 1. Navigation : Scroll Horizontal */
+    .nav-container {
+        flex-direction: column;
+        padding: 0.5rem;
+        gap: 0.5rem;
+        align-items: stretch; /* Prend toute la largeur */
+    }
+
+    .logo {
+        justify-content: center; /* Centre le logo */
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-links {
+        width: 100%;
+        overflow-x: auto; /* Active le scroll horizontal */
+        padding-bottom: 10px; /* Espace pour toucher */
+        gap: 1rem;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start; /* Aligne à gauche pour permettre le scroll */
+        flex-wrap: nowrap; /* Interdit le retour à la ligne */
+    }
+    
+    /* Barre de défilement discrète */
+    .nav-links::-webkit-scrollbar { height: 3px; }
+    .nav-links::-webkit-scrollbar-thumb { background: var(--primary); }
+
+    /* 2. Hero Section Compacte */
+    .hero {
+        min-height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem; /* Taille réduite */
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr; /* Une seule colonne */
+        gap: 1rem;
+    }
+
+    .stat-card {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    /* 3. Matchs : Disposition Verticale */
+    .match-content {
+        grid-template-columns: 1fr; /* Une colonne */
+        gap: 1rem;
+    }
+
+    .match-side {
+        background: rgba(0,0,0,0.2);
+        padding: 0.8rem;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .match-score {
+        padding: 0.2rem 0;
+        font-size: 2rem;
+        background: rgba(220, 20, 60, 0.1);
+        border-radius: 8px;
+        margin: 0.2rem 0;
+        width: 100%;
+    }
+
+    /* 4. VS / Comparateur Vertical */
+    .prediction-selector, .compare-selector {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .vs-separator {
+        transform: rotate(90deg); /* VS vertical */
+        margin: 0.5rem 0;
+        font-size: 2rem;
+    }
+    
+    /* 5. Grilles en 1 colonne */
+    .top-players-grid, 
+    .players-grid, 
+    .teams-grid,
+    .poules-grid,
+    .live-matchs-grid,
+    .planning-days {
+        grid-template-columns: 1fr;
+    }
+
+    /* 6. Footer aligné */
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    /* Ajustements généraux polices */
+    .section-title { font-size: 1.8rem; }
+    .page-title { font-size: 2.2rem; }
+}/* ==========================================
+   CORRECTIFS MOBILE UNIQUEMENT
+   Ne touche PAS au design PC
+   ========================================== */
+
+/* ==========================================
+   MEDIA QUERY MOBILE (< 768px)
+   Toutes les corrections sont ici
+   ========================================== */
+
+@media (max-width: 768px) {
+    
+    /* 1. EMPÊCHER LE DÉBORDEMENT HORIZONTAL */
+    html {
+        overflow-x: hidden !important;
+        width: 100%;
+        max-width: 100vw;
+    }
+    
+    body {
+        overflow-x: hidden !important;
+        width: 100%;
+        max-width: 100vw;
+        /* Image de fond moins zoomée sur mobile */
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+    
+    * {
+        max-width: 100vw;
+    }
+    
+    /* 2. NAVIGATION */
+    .nav-container {
+        flex-direction: column !important;
+        padding: 0.8rem 1rem !important;
+        gap: 0.8rem !important;
+    }
+    
+    .logo {
+        justify-content: center !important;
+    }
+    
+    .logo img {
+        height: 45px !important;
+    }
+    
+    .logo-main {
+        font-size: 1.8rem !important;
+    }
+    
+    .logo-sub {
+        font-size: 0.65rem !important;
+    }
+    
+    .nav-links {
+        overflow-x: auto !important;
+        width: calc(100vw - 2rem) !important;
+        flex-wrap: nowrap !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .nav-link {
+        font-size: 0.75rem !important;
+        padding: 0.5rem 0.8rem !important;
+        white-space: nowrap !important;
+    }
+    
+    /* 3. HERO SECTION */
+    .hero {
+        padding: 2rem 1rem !important;
+        min-height: auto !important;
+    }
+    
+    .hero-title {
+        font-size: 2rem !important;
+        flex-direction: column !important;
+    }
+    
+    .hero-highlight {
+        font-size: 2.2rem !important;
+    }
+    
+    .hero-stats {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    .stat-card {
+        padding: 1rem !important;
+    }
+    
+    .stat-number {
+        font-size: 2rem !important;
+    }
+    
+    /* 4. TITRES */
+    .page-title {
+        font-size: 2rem !important;
+    }
+    
+    .section-title {
+        font-size: 1.5rem !important;
+    }
+    
+    /* 5. GRILLES - 1 COLONNE */
+    .top-players-grid,
+    .players-grid,
+    .teams-grid,
+    .poules-grid,
+    .live-matchs-grid,
+    .planning-days,
+    .dynamic-home-stats {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    /* 6. CARTES JOUEURS */
+    .player-card {
+        padding: 1.2rem !important;
+    }
+    
+    .player-rank {
+        font-size: 2rem !important;
+    }
+    
+    .player-name {
+        font-size: 1.2rem !important;
+    }
+    
+    .player-elo {
+        font-size: 1.5rem !important;
+    }
+    
+    .player-photo img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    /* 7. MATCHS */
+    .match-card {
+        padding: 1rem !important;
+    }
+    
+    .match-content {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem !important;
+    }
+    
+    .match-player {
+        font-size: 1rem !important;
+        padding: 0.8rem !important;
+    }
+    
+    .match-score {
+        font-size: 1.8rem !important;
+        padding: 0.8rem !important;
+    }
+    
+    /* 8. FILTRES */
+    .filters {
+        flex-direction: column !important;
+        gap: 0.8rem !important;
+    }
+    
+    .search-input,
+    .sort-select,
+    select,
+    input[type="text"] {
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+    
+    /* 9. TABLEAUX SCROLLABLES */
+    .ranking-table {
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .ranking-table table {
+        min-width: 600px !important;
+        font-size: 0.85rem !important;
+    }
+    
+    .ranking-table th,
+    .ranking-table td {
+        padding: 0.6rem 0.4rem !important;
+        white-space: nowrap !important;
+    }
+    
+    /* 10. MODAL (PROFIL JOUEUR) - CORRECTIONS IMPORTANTES */
+    .modal {
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch;
+        padding: 1rem 0 !important;
+    }
+    
+    .modal.active {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start !important;
+        padding-top: 2rem !important;
+    }
+    
+    .modal-content {
+        width: 95% !important;
+        max-width: 95% !important;
+        max-height: none !important;
+        height: auto !important;
+        margin: 0 auto 3rem auto !important;
+        padding: 1.5rem 1rem !important;
+        overflow: visible !important;
+    }
+    
+    .modal-close {
+        font-size: 2rem !important;
+    }
+    
+    /* Historique des matchs dans le profil */
+    #player-modal-content > div[style*="max-height"] {
+        max-height: none !important;
+        overflow-y: visible !important;
+    }
+    
+    /* 11. PAGES - SCROLL VERTICAL */
+    .page {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
+        min-height: 100vh !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Page classement */
+    #classement {
+        overflow-y: auto !important;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* Page joueurs */
+    #joueurs {
+        overflow-y: auto !important;
+        min-height: 100vh;
+        padding-bottom: 3rem !important;
+    }
+    
+    .container {
+        padding: 1rem 0.5rem !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    /* 12. PRÉDICTIONS / COMPARATEUR */
+    .prediction-selector,
+    .compare-selector {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    .vs-separator {
+        font-size: 2rem !important;
+        padding: 0.5rem !important;
+    }
+    
+    .probability {
+        font-size: 2.5rem !important;
+    }
+    
+    /* 13. FOOTER */
+    .site-footer {
+        padding: 2rem 1rem !important;
+    }
+    
+    .footer-container {
+        grid-template-columns: 1fr !important;
+        text-align: center !important;
+    }
+    
+    /* 14. ONGLETS */
+    .tabs {
+        flex-wrap: wrap !important;
+        gap: 0.5rem !important;
+    }
+    
+    .tab-button {
+        flex: 1 1 calc(50% - 0.25rem) !important;
+        font-size: 0.9rem !important;
+        padding: 0.7rem 0.5rem !important;
+    }
+    
+    /* 15. PALMARÈS PODIUM */
+    .palmares-podium {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    .podium-item {
+        width: 100% !important;
+        max-width: 280px !important;
+    }
+}
+
+/* ==========================================
+   TRÈS PETITS ÉCRANS (< 380px)
+   ========================================== */
+
+@media (max-width: 380px) {
+    .logo-main {
+        font-size: 1.5rem !important;
+    }
+    
+    .logo img {
+        height: 40px !important;
+    }
+    
+    .nav-link {
+        font-size: 0.7rem !important;
+        padding: 0.4rem 0.6rem !important;
+    }
+    
+    .hero-title {
+        font-size: 1.7rem !important;
+    }
+    
+    .stat-number {
+        font-size: 1.7rem !important;
+    }
+    
+    .page-title {
+        font-size: 1.7rem !important;
+    }
+    
+    .match-score {
+        font-size: 1.5rem !important;
+    }
+}
+
 /* ==========================================
     CORRECTIFS SUPPLÉMENTAIRES MOBILE
     À AJOUTER À LA FIN DE styles.css
     ========================================== */
 
+    /* 1. CORRIGER L'IMAGE DE FOND SUR MOBILE */
+    @media (max-width: 768px) {
+        body {
+            background-image: 
+                linear-gradient(
+                    135deg, 
+                    rgba(220, 20, 60, 0.5) 0%,
+                    rgba(0, 0, 0, 0.7) 50%,
+                    rgba(27, 94, 32, 0.5) 100%
+                ),
+                url('image.jpg');
+            background-size: cover !important;
+            background-position: center center !important;
+            background-attachment: scroll !important; /* Pas fixed sur mobile */
+            /* Alternative : si l'image est trop zoomée */
+            /* background-size: 100% auto !important; */
+        }
+    }
 
     /* 2. CORRIGER LE SCROLL DANS LES MODALS (PROFIL JOUEUR) */
     .modal {
@@ -3510,6 +4180,206 @@ body {
         margin: 1rem auto !important;
     }
 
+    @media (max-width: 768px) {
+        .modal {
+            overflow-y: auto !important;
+            -webkit-overflow-scrolling: touch;
+            padding: 1rem 0 !important;
+        }
+        
+        .modal-content {
+            max-height: none !important; /* Permettre de scroller */
+            height: auto !important;
+            overflow-y: visible !important;
+            margin: 1rem auto 2rem auto !important; /* Espace en bas */
+            padding-bottom: 2rem !important; /* Padding en bas */
+        }
+        
+        /* S'assurer que l'historique des matchs est visible */
+        #player-modal-content {
+            max-height: none !important;
+            overflow-y: visible !important;
+        }
+        
+        /* Conteneur de l'historique des matchs */
+        #player-modal-content > div[style*="max-height"] {
+            max-height: none !important;
+            overflow-y: visible !important;
+        }
+    }
+
+    /* 3. CORRIGER LA PAGE CLASSEMENT */
+    @media (max-width: 768px) {
+        /* Page classement complète */
+        #classement {
+            overflow-y: auto !important;
+            -webkit-overflow-scrolling: touch;
+            min-height: 100vh;
+            padding-bottom: 3rem !important;
+        }
+        
+        /* Conteneur de la page classement */
+        #classement .container {
+            overflow: visible !important;
+            padding-bottom: 3rem !important;
+        }
+        
+        /* Tableau de classement */
+        #classement-elo,
+        .ranking-table {
+            width: 100% !important;
+            overflow-x: auto !important;
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 2rem !important;
+        }
+    }
+
+    /* 4. CORRIGER LA PAGE JOUEURS */
+    @media (max-width: 768px) {
+        #joueurs {
+            overflow-y: auto !important;
+            -webkit-overflow-scrolling: touch;
+            min-height: 100vh;
+            padding-bottom: 3rem !important;
+        }
+        
+        #joueurs .container {
+            overflow: visible !important;
+            padding-bottom: 3rem !important;
+        }
+        
+        /* Grille des joueurs */
+        #all-players {
+            padding-bottom: 2rem !important;
+        }
+    }
+
+    /* 5. TOUTES LES PAGES DOIVENT POUVOIR SCROLLER */
+    @media (max-width: 768px) {
+        .page {
+            overflow-y: auto !important;
+            -webkit-overflow-scrolling: touch;
+            min-height: 100vh !important;
+            padding-bottom: 3rem !important;
+        }
+        
+        .page.active {
+            display: block !important;
+            overflow-y: auto !important;
+        }
+        
+        .container {
+            padding-bottom: 3rem !important;
+        }
+    }
+
+    /* 6. FIX POUR L'OVERLAY DU MODAL */
+    @media (max-width: 768px) {
+        .modal {
+            display: none; /* Caché par défaut */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            overflow-y: scroll !important; /* Permettre le scroll */
+            -webkit-overflow-scrolling: touch;
+            padding: 0 !important;
+        }
+        
+        .modal.active {
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Aligner en haut */
+            padding-top: 2rem !important;
+        }
+        
+        .modal-content {
+            position: relative; /* Pas fixed */
+            width: 95% !important;
+            max-width: 95% !important;
+            max-height: none !important;
+            height: auto !important;
+            margin: 0 auto 3rem auto !important;
+            overflow: visible !important;
+        }
+    }
+
+    /* 7. HISTORIQUE DES MATCHS DANS LE PROFIL */
+    @media (max-width: 768px) {
+        /* Conteneur de l'historique */
+        .player-matches-history {
+            max-height: none !important;
+            overflow-y: visible !important;
+        }
+        
+        /* Chaque match dans l'historique */
+        .match-history-item {
+            margin-bottom: 1rem !important;
+            padding: 1rem !important;
+        }
+    }
+
+    /* 8. ASSURER QUE LE BODY NE BLOQUE PAS LE SCROLL */
+    @media (max-width: 768px) {
+        body {
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
+            height: auto !important;
+            min-height: 100vh !important;
+        }
+        
+        html {
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
+        }
+    }
+
+    /* 9. ALTERNATIVE POUR L'IMAGE DE FOND (SI TOUJOURS ZOOMÉE) */
+    @media (max-width: 768px) {
+        /* Option 1 : Image contenue (pas de zoom) */
+        body.bg-contain {
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            background-position: top center !important;
+        }
+        
+        /* Option 2 : Image en largeur */
+        body.bg-width {
+            background-size: 100% auto !important;
+            background-position: center top !important;
+        }
+        
+        /* Option 3 : Pas d'image sur mobile (meilleure performance) */
+        body.bg-none {
+            background-image: 
+                linear-gradient(
+                    135deg, 
+                    rgba(220, 20, 60, 0.3) 0%,
+                    rgba(0, 0, 0, 0.9) 50%,
+                    rgba(27, 94, 32, 0.3) 100%
+                ) !important;
+            background-color: #1a1a1a !important;
+        }
+    }
+
+    /* 10. FIX GRAPHIQUE ELO DANS LE PROFIL */
+    @media (max-width: 768px) {
+        canvas {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+        
+        /* Conteneur du graphique */
+        .chart-container {
+            width: 100% !important;
+            max-width: 100% !important;
+            overflow: visible !important;
+        }
+    }
 
     /* ============================================
    STYLES POUR LE BADGE "NOUVEAU" ET MATCHS DU JOUR
@@ -3588,6 +4458,26 @@ body {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--primary);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .badge-nouveau {
+        font-size: 0.65rem;
+        padding: 3px 8px;
+    }
+    
+    .live-no-matchs {
+        padding: 3rem 1.5rem;
+    }
+    
+    .live-no-matchs i {
+        font-size: 3rem;
+    }
+    
+    .live-no-matchs p {
+        font-size: 1.2rem;
+    }
 }
 
 /* ============================================ */
@@ -4248,10 +5138,45 @@ body {
     color: var(--accent);
 }
 
-/* ============================================ */
-/* CORRECTIONS MOBILE + DENSITÉ */
-/* Remplacer le CSS responsive existant dans calculateur_avance.css */
-/* ============================================ */
+/* Responsive */
+@media (max-width: 768px) {
+    .game-config {
+        grid-template-columns: 1fr;
+    }
+    
+    .volee-courante {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .volee-total {
+        grid-column: 1 / -1;
+    }
+    
+    .keyboard-row {
+        flex-wrap: wrap;
+    }
+    
+    .key-btn {
+        min-width: 60px;
+    }
+    
+    .actions {
+        grid-template-columns: 1fr;
+    }
+    
+    .historique-item-calc {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .vol-reste {
+        text-align: left;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Image de fond pour le calculateur */
 #calculateur {
@@ -4290,621 +5215,4 @@ body {
     backdrop-filter: blur(5px);
     background: rgba(21, 25, 36, 0.3);
     border-radius: 16px;
-}
-
-/* ============================================ */
-/* OPTIMISATIONS MOBILE GLOBALES */
-/* À ajouter à la fin de styles.css */
-/* Remplace et améliore tous les @media existants */
-/* ============================================ */
-
-/* ============================================ */
-/* MOBILE GLOBAL (< 768px) */
-/* ============================================ */
-
-@media (max-width: 768px) {
-    
-    /* ========== NAVIGATION ========== */
-    .nav-container {
-        padding: 0.75rem 1rem;
-        flex-wrap: wrap;
-    }
-    
-    .logo img {
-        height: 50px !important;
-    }
-    
-    .logo-main {
-        font-size: 1.8rem;
-        letter-spacing: 2px;
-    }
-    
-    .logo-sub {
-        font-size: 0.65rem;
-        letter-spacing: 1px;
-    }
-    
-    .nav-links {
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        margin-top: 0.5rem;
-    }
-    
-    .nav-link {
-        font-size: 0.75rem;
-        padding: 0.4rem 0.6rem;
-        letter-spacing: 0.5px;
-    }
-    
-    /* ========== PAGES ========== */
-    .page {
-        padding: 1rem 0.5rem;
-    }
-    
-    .container {
-        padding: 1rem;
-    }
-    
-    /* ========== TITRES ========== */
-    .page-title {
-        font-size: 2rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    .page-subtitle {
-        font-size: 0.9rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    h2 {
-        font-size: 1.5rem !important;
-    }
-    
-    h3 {
-        font-size: 1.2rem !important;
-    }
-    
-    /* ========== HERO ========== */
-    .hero {
-        padding: 2rem 1rem;
-        min-height: auto;
-    }
-    
-    .hero-title {
-        font-size: 2.5rem !important;
-    }
-    
-    .hero-subtitle {
-        font-size: 1rem !important;
-    }
-    
-    .hero-stats {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        margin-top: 2rem;
-    }
-    
-    .hero-stat-number {
-        font-size: 2rem !important;
-    }
-    
-    .hero-stat-label {
-        font-size: 0.75rem !important;
-    }
-    
-    /* ========== CARDS ========== */
-    .card,
-    .player-card,
-    .match-card,
-    .stat-card {
-        padding: 1rem !important;
-        margin-bottom: 1rem;
-    }
-    
-    /* ========== GRIDS ========== */
-    .players-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 0.75rem;
-    }
-    
-    .stats-grid {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
-    }
-    
-    /* ========== PLAYER CARDS ========== */
-    .player-card {
-        padding: 0.75rem !important;
-    }
-    
-    .player-photo {
-        width: 60px !important;
-        height: 60px !important;
-    }
-    
-    .player-name {
-        font-size: 1rem !important;
-    }
-    
-    .player-elo {
-        font-size: 1.5rem !important;
-    }
-    
-    .player-stat {
-        font-size: 0.75rem !important;
-    }
-    
-    /* ========== MATCH CARDS ========== */
-    .match-card {
-        padding: 0.75rem !important;
-    }
-    
-    .match-content {
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-    }
-    
-    .match-side {
-        text-align: center;
-        align-items: center;
-    }
-    
-    .match-player-name {
-        font-size: 0.9rem !important;
-    }
-    
-    .match-score {
-        font-size: 1.5rem !important;
-        padding: 0.5rem;
-    }
-    
-    .match-header {
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        justify-content: center;
-    }
-    
-    .match-badge {
-        font-size: 0.7rem !important;
-        padding: 0.3rem 0.6rem !important;
-    }
-    
-    .match-phase {
-        font-size: 0.75rem !important;
-    }
-    
-    .match-date {
-        font-size: 0.7rem !important;
-        margin-left: 0;
-        width: 100%;
-        text-align: center;
-    }
-    
-    /* ========== RANKING TABLE ========== */
-    .ranking-table {
-        font-size: 0.85rem;
-    }
-    
-    .ranking-table th,
-    .ranking-table td {
-        padding: 0.6rem 0.4rem;
-    }
-    
-    .rank-number {
-        font-size: 1.2rem !important;
-    }
-    
-    .player-info {
-        gap: 0.5rem;
-    }
-    
-    .player-name-rank {
-        font-size: 0.9rem !important;
-    }
-    
-    .elo-score {
-        font-size: 1.3rem !important;
-    }
-    
-    /* Masquer colonnes non essentielles */
-    .ranking-table th:nth-child(4),
-    .ranking-table td:nth-child(4),
-    .ranking-table th:nth-child(5),
-    .ranking-table td:nth-child(5) {
-        display: none;
-    }
-    
-    /* ========== FILTERS ========== */
-    .filters {
-        gap: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    .search-input,
-    .sort-select,
-    .filter-select,
-    .player-select {
-        padding: 0.6rem 0.8rem;
-        font-size: 0.85rem;
-        min-width: 120px;
-    }
-    
-    /* ========== BUTTONS ========== */
-    button,
-    .btn,
-    .btn-primary,
-    .btn-secondary {
-        padding: 0.6rem 1rem !important;
-        font-size: 0.85rem !important;
-    }
-    
-    .btn i,
-    button i {
-        font-size: 0.9rem !important;
-    }
-    
-    /* ========== MODAL ========== */
-    .modal-content {
-        padding: 1.5rem !important;
-        width: 95% !important;
-        max-height: 90vh;
-        margin: 1rem;
-    }
-    
-    .modal-content h2 {
-        font-size: 1.5rem !important;
-    }
-    
-    .modal-close {
-        font-size: 1.5rem !important;
-        right: 1rem !important;
-        top: 0.75rem !important;
-    }
-    
-    /* ========== PLAYER PROFILE ========== */
-    .player-profile-photo img {
-        width: 80px !important;
-        height: 80px !important;
-    }
-    
-    .player-stat-value {
-        font-size: 2rem !important;
-    }
-    
-    .player-stat-label {
-        font-size: 0.75rem !important;
-    }
-    
-    /* ========== PREDICTIONS ========== */
-    .prediction-card {
-        padding: 1rem !important;
-    }
-    
-    .prediction-players {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .prediction-vs {
-        transform: rotate(90deg);
-        margin: 0.5rem 0;
-    }
-    
-    .win-probability {
-        font-size: 1.5rem !important;
-    }
-    
-    /* ========== CNF3 ========== */
-    .cnf3-selector {
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-    }
-    
-    .cnf3-tab {
-        padding: 0.75rem !important;
-        font-size: 0.85rem !important;
-    }
-    
-    .doubles-table {
-        font-size: 0.75rem;
-    }
-    
-    .doubles-table th,
-    .doubles-table td {
-        padding: 0.5rem 0.3rem;
-    }
-    
-    .team-badge {
-        font-size: 0.7rem !important;
-        padding: 0.2rem 0.4rem !important;
-    }
-    
-    /* ========== PALMARES ========== */
-    .palmares-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    
-    .tournament-card {
-        padding: 1rem !important;
-    }
-    
-    .tournament-title {
-        font-size: 1.5rem !important;
-    }
-    
-    .winner-card {
-        padding: 1rem !important;
-    }
-    
-    .winner-photo {
-        width: 60px !important;
-        height: 60px !important;
-    }
-    
-    .winner-name {
-        font-size: 1.1rem !important;
-    }
-    
-    /* ========== LIVE INDICATOR ========== */
-    .live-indicator {
-        font-size: 0.8rem;
-    }
-    
-    /* ========== BADGES ========== */
-    .badge,
-    .badge-primary,
-    .badge-success,
-    .badge-danger {
-        font-size: 0.7rem !important;
-        padding: 0.25rem 0.5rem !important;
-    }
-    
-    /* ========== STATS CARDS ========== */
-    .stat-card {
-        padding: 0.75rem !important;
-    }
-    
-    .stat-value {
-        font-size: 1.8rem !important;
-    }
-    
-    .stat-label {
-        font-size: 0.75rem !important;
-    }
-    
-    /* ========== FORM ELEMENTS ========== */
-    input,
-    select,
-    textarea {
-        font-size: 0.9rem !important;
-        padding: 0.6rem !important;
-    }
-    
-    /* ========== SPACING ========== */
-    .mb-1 { margin-bottom: 0.5rem !important; }
-    .mb-2 { margin-bottom: 0.75rem !important; }
-    .mb-3 { margin-bottom: 1rem !important; }
-    .mt-1 { margin-top: 0.5rem !important; }
-    .mt-2 { margin-top: 0.75rem !important; }
-    .mt-3 { margin-top: 1rem !important; }
-    .p-1 { padding: 0.5rem !important; }
-    .p-2 { padding: 0.75rem !important; }
-    .p-3 { padding: 1rem !important; }
-    
-    /* ========== IMAGES ========== */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    /* ========== ICONS ========== */
-    i.fas,
-    i.far {
-        font-size: 0.9rem !important;
-    }
-    
-    /* Icons dans les titres */
-    h1 i, h2 i, h3 i {
-        font-size: 1rem !important;
-    }
-    
-    /* ========== SCROLLBAR ========== */
-    ::-webkit-scrollbar {
-        width: 6px;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: var(--primary);
-        border-radius: 3px;
-    }
-}
-
-/* ============================================ */
-/* TRÈS PETIT MOBILE (< 400px) */
-/* ============================================ */
-
-@media (max-width: 400px) {
-    
-    /* Navigation ultra-compacte */
-    .logo img {
-        height: 40px !important;
-    }
-    
-    .logo-main {
-        font-size: 1.5rem;
-    }
-    
-    .logo-sub {
-        font-size: 0.6rem;
-    }
-    
-    .nav-link {
-        font-size: 0.65rem;
-        padding: 0.3rem 0.4rem;
-    }
-    
-    /* Titres */
-    .page-title {
-        font-size: 1.5rem !important;
-    }
-    
-    .hero-title {
-        font-size: 2rem !important;
-    }
-    
-    /* Cards */
-    .player-card,
-    .match-card {
-        padding: 0.5rem !important;
-    }
-    
-    /* Photos */
-    .player-photo {
-        width: 50px !important;
-        height: 50px !important;
-    }
-    
-    /* Grids */
-    .players-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    /* Stats */
-    .hero-stats {
-        grid-template-columns: 1fr;
-    }
-    
-    /* Table */
-    .ranking-table {
-        font-size: 0.75rem;
-    }
-    
-    .ranking-table th,
-    .ranking-table td {
-        padding: 0.4rem 0.2rem;
-    }
-}
-
-/* ============================================ */
-/* TABLETTE (768px - 1024px) */
-/* ============================================ */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    
-    .nav-container {
-        padding: 1rem 1.5rem;
-    }
-    
-    .container {
-        padding: 2rem;
-    }
-    
-    .players-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-    
-    .hero-stats {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* ============================================ */
-/* DESKTOP LARGE (> 1400px) */
-/* ============================================ */
-
-@media (min-width: 1400px) {
-    
-    .container {
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-    
-    .players-grid {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
-    
-    .hero-stats {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-/* ============================================ */
-/* OPTIMISATIONS PERFORMANCE MOBILE */
-/* ============================================ */
-
-@media (max-width: 768px) {
-    
-    /* Désactiver animations lourdes */
-    * {
-        animation-duration: 0.2s !important;
-        transition-duration: 0.2s !important;
-    }
-    
-    /* Réduire opacité fond */
-    body {
-        background-attachment: scroll !important;
-    }
-    
-    /* Simplifier shadows */
-    .card,
-    .player-card,
-    .match-card {
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
-    }
-    
-    /* Désactiver blur si performant */
-    .backdrop-blur {
-        backdrop-filter: none !important;
-    }
-}
-
-/* ============================================ */
-/* ORIENTATION PAYSAGE MOBILE */
-/* ============================================ */
-
-@media (max-width: 768px) and (orientation: landscape) {
-    
-    .hero {
-        padding: 1rem;
-        min-height: auto;
-    }
-    
-    .hero-stats {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.5rem;
-    }
-    
-    .modal-content {
-        max-height: 85vh;
-        overflow-y: auto;
-    }
-}
-
-/* ============================================ */
-/* PRINT (pour impression) */
-/* ============================================ */
-
-@media print {
-    
-    .main-nav,
-    .filters,
-    button,
-    .modal {
-        display: none !important;
-    }
-    
-    body {
-        background: white !important;
-        color: black !important;
-    }
-    
-    .card,
-    .player-card,
-    .match-card {
-        border: 1px solid #ccc !important;
-        page-break-inside: avoid;
-    }
 }
