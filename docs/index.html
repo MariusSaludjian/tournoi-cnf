@@ -32,7 +32,7 @@
                 <li><a href="#palmares" class="nav-link" data-page="palmares">Palmarès</a></li>
                 <li><a href="#cnf3" class="nav-link" data-page="cnf3">CNF 3 </a></li>
                 <li><a href="#predictions" class="nav-link" data-page="predictions">Prédictions</a></li>
-                <li><a href="#comparateur" class="nav-link" data-page="comparateur">Comparateur</a></li>
+                <li><a href="#calculateur" class="nav-link" data-page="calculateur">Jouer</a></li>
             </ul>
         </div>
     </nav>
@@ -580,26 +580,211 @@
         </div>
     </section>
 
-    <!-- Page Comparateur -->
-    <section id="comparateur" class="page">
+    <!-- Page Calculateur -->
+    <section id="calculateur" class="page">
         <div class="container">
-            <h1 class="page-title">Comparateur de Joueurs</h1>
+            <h1 class="page-title"><i class="fas fa-calculator"></i> Calculateur de Fléchettes</h1>
             
-            <div class="compare-selector">
-                <select id="compare-player1" class="player-select">
-                    <option value="">Sélectionner joueur 1</option>
-                </select>
-                <div class="vs-separator">VS</div>
-                <select id="compare-player2" class="player-select">
-                    <option value="">Sélectionner joueur 2</option>
-                </select>
+            <!-- Configuration de la partie -->
+            <div class="game-config">
+                <div class="config-section">
+                    <label>Type de finish</label>
+                    <div class="finish-type-selector">
+                        <button class="finish-btn active" data-finish="double" onclick="changerFinishType('double')">
+                            <i class="fas fa-bullseye"></i> Double Out
+                        </button>
+                        <button class="finish-btn" data-finish="simple" onclick="changerFinishType('simple')">
+                            <i class="fas fa-circle"></i> Simple Out
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="config-section">
+                    <label>Nombre de joueurs</label>
+                    <div class="players-selector">
+                        <button onclick="changerNbJoueurs(1)" class="player-btn active" data-players="1">1</button>
+                        <button onclick="changerNbJoueurs(2)" class="player-btn" data-players="2">2</button>
+                        <button onclick="changerNbJoueurs(3)" class="player-btn" data-players="3">3</button>
+                        <button onclick="changerNbJoueurs(4)" class="player-btn" data-players="4">4</button>
+                    </div>
+                </div>
+                
+                <div class="config-section">
+                    <label>Score de départ</label>
+                    <select id="score-depart" onchange="changerScoreDepart()">
+                        <option value="301">301</option>
+                        <option value="501" selected>501</option>
+                        <option value="701">701</option>
+                    </select>
+                </div>
             </div>
-
-            <div id="comparison-result" class="comparison-result">
-                <!-- Rempli dynamiquement -->
+            
+            <!-- Zone de jeu multi-joueurs -->
+            <div id="zone-joueurs" class="zone-joueurs">
+                <!-- Généré dynamiquement -->
+            </div>
+            
+            <!-- Joueur actif -->
+            <div id="joueur-actif" class="joueur-actif">
+                <div class="joueur-info">
+                    <div class="joueur-nom">Joueur 1</div>
+                    <div class="joueur-score-restant">
+                        <span class="label">Score restant</span>
+                        <span class="score-big" id="score-actuel">501</span>
+                    </div>
+                </div>
+                
+                <!-- Suggestion de finish -->
+                <div id="suggestion-finish" class="suggestion-finish" style="display: none;">
+                    <div class="suggestion-header">
+                        <i class="fas fa-lightbulb"></i> Finish possible !
+                    </div>
+                    <div id="suggestion-content" class="suggestion-content">
+                        <!-- Généré dynamiquement -->
+                    </div>
+                </div>
+                
+                <!-- Saisie avec clavier de cible -->
+                <div class="input-zone">
+                    <div class="fleche-actuelle">
+                        <div class="fleche-numero">Flèche <span id="fleche-num">1</span>/3</div>
+                        <div class="fleche-value" id="fleche-value">-</div>
+                    </div>
+                    
+                    <!-- Multiplicateur -->
+                    <div class="multiplicateur-selector">
+                        <button class="mult-btn active" data-mult="1" onclick="selectionnerMultiplicateur(1)">
+                            Simple
+                        </button>
+                        <button class="mult-btn" data-mult="2" onclick="selectionnerMultiplicateur(2)">
+                            Double
+                        </button>
+                        <button class="mult-btn" data-mult="3" onclick="selectionnerMultiplicateur(3)">
+                            Triple
+                        </button>
+                    </div>
+                    
+                    <!-- Clavier de la cible -->
+                    <div class="dartboard-keyboard">
+                        <div class="keyboard-row">
+                            <button class="key-btn" onclick="ajouterScore(20)">20</button>
+                            <button class="key-btn" onclick="ajouterScore(1)">1</button>
+                            <button class="key-btn" onclick="ajouterScore(18)">18</button>
+                            <button class="key-btn" onclick="ajouterScore(4)">4</button>
+                            <button class="key-btn" onclick="ajouterScore(13)">13</button>
+                        </div>
+                        <div class="keyboard-row">
+                            <button class="key-btn" onclick="ajouterScore(6)">6</button>
+                            <button class="key-btn" onclick="ajouterScore(10)">10</button>
+                            <button class="key-btn" onclick="ajouterScore(15)">15</button>
+                            <button class="key-btn" onclick="ajouterScore(2)">2</button>
+                            <button class="key-btn" onclick="ajouterScore(17)">17</button>
+                        </div>
+                        <div class="keyboard-row">
+                            <button class="key-btn" onclick="ajouterScore(3)">3</button>
+                            <button class="key-btn" onclick="ajouterScore(19)">19</button>
+                            <button class="key-btn" onclick="ajouterScore(7)">7</button>
+                            <button class="key-btn" onclick="ajouterScore(16)">16</button>
+                            <button class="key-btn" onclick="ajouterScore(8)">8</button>
+                        </div>
+                        <div class="keyboard-row">
+                            <button class="key-btn" onclick="ajouterScore(11)">11</button>
+                            <button class="key-btn" onclick="ajouterScore(14)">14</button>
+                            <button class="key-btn bull" onclick="ajouterScore(25)">
+                                <i class="fas fa-circle"></i> Bull
+                            </button>
+                            <button class="key-btn" onclick="ajouterScore(9)">9</button>
+                            <button class="key-btn" onclick="ajouterScore(12)">12</button>
+                        </div>
+                        <div class="keyboard-row">
+                            <button class="key-btn" onclick="ajouterScore(5)">5</button>
+                            <button class="key-btn miss" onclick="ajouterScore(0)">
+                                <i class="fas fa-times"></i> Miss
+                            </button>
+                            <button class="key-btn undo" onclick="annulerDernierScore()">
+                                <i class="fas fa-undo"></i> Annuler
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Volée en cours -->
+                    <div class="volee-courante">
+                        <div class="fleche-item" id="fleche-display-1">-</div>
+                        <div class="fleche-item" id="fleche-display-2">-</div>
+                        <div class="fleche-item" id="fleche-display-3">-</div>
+                        <div class="volee-total">
+                            Total: <span id="volee-total">0</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Actions -->
+                    <div class="actions">
+                        <button onclick="validerVolee()" class="btn-valider" id="btn-valider" disabled>
+                            <i class="fas fa-check"></i> Valider la volée
+                        </button>
+                        <button onclick="passerTour()" class="btn-passer">
+                            <i class="fas fa-forward"></i> Passer le tour
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Historique du joueur actif -->
+                <div class="historique-joueur">
+                    <h3>Historique</h3>
+                    <div id="historique-actif" class="historique-list">
+                        <p style="text-align: center; color: var(--gray);">Aucune volée</p>
+                    </div>
+                    <div class="stats-rapides">
+                        <div class="stat-quick">
+                            <span class="label">Moyenne</span>
+                            <span class="value" id="stat-moyenne">0</span>
+                        </div>
+                        <div class="stat-quick">
+                            <span class="label">Meilleures</span>
+                            <span class="value" id="stat-meilleure">0</span>
+                        </div>
+                        <div class="stat-quick">
+                            <span class="label">Volées</span>
+                            <span class="value" id="stat-vollees">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Actions globales -->
+            <div class="actions-globales">
+                <button onclick="nouvellePartie()" class="btn-nouvelle-partie">
+                    <i class="fas fa-plus"></i> Nouvelle partie
+                </button>
+                <button onclick="afficherStatistiques()" class="btn-stats">
+                    <i class="fas fa-chart-bar"></i> Statistiques détaillées
+                </button>
             </div>
         </div>
     </section>
+
+    <!-- Modal Statistiques -->
+    <div id="modal-stats" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="fermerStats()">&times;</span>
+            <h2>Statistiques de la partie</h2>
+            <div id="stats-detaillees"></div>
+        </div>
+    </div>
+
+    <!-- Modal Victoire -->
+    <div id="modal-victoire" class="modal">
+        <div class="modal-content victoire">
+            <div class="victoire-animation">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <h2 id="victoire-titre">Victoire !</h2>
+            <div id="victoire-stats"></div>
+            <button onclick="fermerVictoire()" class="btn-primary">
+                Nouvelle partie
+            </button>
+        </div>
+    </div>
 
     <!-- Page Live Scoring -->
     <section id="live" class="page">

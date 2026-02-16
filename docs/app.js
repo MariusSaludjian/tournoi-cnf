@@ -39,7 +39,6 @@ function initialiserSite() {
     afficherTableauCNF3();
     initialiserOngletsCNF3();
     initialiserPredictions();
-    initialiserComparateur();
     initialiserNavigation();
     initialiserRecherche();
     initialiserLiveScoring();
@@ -638,70 +637,6 @@ function calculerStatsEquipe(joueurNoms) {
     return { moyVictoires, moySets, moyPourcentage, moyRatio, force };
 }
 
-// Initialiser le comparateur
-function initialiserComparateur() {
-    const options = joueurs
-        .sort((a, b) => a.nom.localeCompare(b.nom))
-        .map(j => `<option value="${j.nom}">${j.nom}</option>`)
-        .join('');
-    
-    document.getElementById('compare-player1').innerHTML = '<option value="">Sélectionner joueur 1</option>' + options;
-    document.getElementById('compare-player2').innerHTML = '<option value="">Sélectionner joueur 2</option>' + options;
-    
-    document.getElementById('compare-player1').addEventListener('change', afficherComparaison);
-    document.getElementById('compare-player2').addEventListener('change', afficherComparaison);
-}
-
-function afficherComparaison() {
-    const nom1 = document.getElementById('compare-player1').value;
-    const nom2 = document.getElementById('compare-player2').value;
-    
-    if (!nom1 || !nom2) return;
-    
-    const j1 = joueurs.find(j => j.nom === nom1);
-    const j2 = joueurs.find(j => j.nom === nom2);
-    
-    const container = document.getElementById('comparison-result');
-    
-    container.innerHTML = `
-        <div class="comparison-header">
-            <div class="comparison-player">
-                <h2>${j1.nom}</h2>
-            </div>
-            <div class="comparison-vs">VS</div>
-            <div class="comparison-player">
-                <h2>${j2.nom}</h2>
-            </div>
-        </div>
-        
-        <div class="comparison-stats">
-            ${creerLigneComparaison('Victoires', j1.victoires, j2.victoires)}
-            ${creerLigneComparaison('Défaites', j1.defaites, j2.defaites, true)}
-            ${creerLigneComparaison('Pourcentage', j1.pourcentage_victoires + '%', j2.pourcentage_victoires + '%', false, j1.pourcentage_victoires, j2.pourcentage_victoires)}
-            ${creerLigneComparaison('Sets gagnés', j1.sets_gagnes, j2.sets_gagnes)}
-            ${creerLigneComparaison('Sets perdus', j1.sets_perdus, j2.sets_perdus, true)}
-            ${creerLigneComparaison('Ratio sets', j1.ratio_sets, j2.ratio_sets)}
-            ${creerLigneComparaison('Matchs joués', j1.matchs_joues, j2.matchs_joues)}
-        </div>
-    `;
-}
-
-function creerLigneComparaison(label, val1, val2, inversé = false, comp1, comp2) {
-    // Si pas de valeurs de comparaison fournies, utiliser val1 et val2
-    if (comp1 === undefined) comp1 = val1;
-    if (comp2 === undefined) comp2 = val2;
-    
-    let meilleur1 = inversé ? comp1 < comp2 : comp1 > comp2;
-    let meilleur2 = inversé ? comp2 < comp1 : comp2 > comp1;
-    
-    return `
-        <div class="comparison-stat-row">
-            <div class="comparison-stat-value ${meilleur1 ? 'better' : ''}">${val1}</div>
-            <div class="comparison-stat-label">${label}</div>
-            <div class="comparison-stat-value ${meilleur2 ? 'better' : ''}">${val2}</div>
-        </div>
-    `;
-}
 
 // Initialiser la recherche
 function initialiserRecherche() {
@@ -1721,4 +1656,765 @@ document.addEventListener('DOMContentLoaded', () => {
             afficherTableauCNF3Complet();
         }
     }, 1000);
+});
+
+// ============================================
+// CALCULATEUR AVANCE DE FLECHETTES
+// A ajouter dans app.js
+// ============================================
+
+// Configuration de la partie
+let config = {
+    nbJoueurs: 1,
+    scoreDepart: 501,
+    finishType: 'double' // 'double' ou 'simple'
+};
+
+// Joueurs
+let joueursnom = [];
+let joueurActifIndex = 0;
+
+// Volée en cours
+let voleeEnCours = {
+    fleches: [],
+    multiplicateur: 1
+};
+
+// Tables de finish optimales
+const finishsDoubles = {
+    170: ['T20', 'T20', 'D25'],
+    167: ['T20', 'T19', 'D25'],
+    164: ['T20', 'T18', 'D25'],
+    161: ['T20', 'T17', 'D25'],
+    160: ['T20', 'T20', 'D20'],
+    158: ['T20', 'T20', 'D19'],
+    157: ['T20', 'T19', 'D20'],
+    156: ['T20', 'T20', 'D18'],
+    155: ['T20', 'T19', 'D19'],
+    154: ['T20', 'T18', 'D20'],
+    153: ['T20', 'T19', 'D18'],
+    152: ['T20', 'T20', 'D16'],
+    151: ['T20', 'T17', 'D20'],
+    150: ['T20', 'T18', 'D18'],
+    149: ['T20', 'T19', 'D16'],
+    148: ['T20', 'T16', 'D20'],
+    147: ['T20', 'T17', 'D18'],
+    146: ['T20', 'T18', 'D16'],
+    145: ['T20', 'T15', 'D20'],
+    144: ['T20', 'T20', 'D12'],
+    143: ['T20', 'T17', 'D16'],
+    142: ['T20', 'T14', 'D20'],
+    141: ['T20', 'T19', 'D12'],
+    140: ['T20', 'T20', 'D10'],
+    139: ['T20', 'T13', 'D20'],
+    138: ['T20', 'T18', 'D12'],
+    137: ['T20', 'T19', 'D10'],
+    136: ['T20', 'T20', 'D8'],
+    135: ['T20', 'T17', 'D12'],
+    134: ['T20', 'T14', 'D16'],
+    133: ['T20', 'T19', 'D8'],
+    132: ['T20', 'T16', 'D12'],
+    131: ['T20', 'T13', 'D16'],
+    130: ['T20', 'T18', 'D8'],
+    129: ['T19', 'T16', 'D12'],
+    128: ['T18', 'T14', 'D16'],
+    127: ['T20', 'T17', 'D8'],
+    126: ['T19', 'T19', 'D6'],
+    125: ['T20', 'T15', 'D10'],
+    124: ['T20', 'T16', 'D8'],
+    123: ['T19', 'T16', 'D9'],
+    122: ['T18', 'T18', 'D7'],
+    121: ['T20', 'T11', 'D14'],
+    120: ['T20', 'S20', 'D20'],
+    119: ['T19', 'T12', 'D13'],
+    118: ['T20', 'S18', 'D20'],
+    117: ['T20', 'S17', 'D20'],
+    116: ['T20', 'S16', 'D20'],
+    115: ['T20', 'S15', 'D20'],
+    114: ['T20', 'S14', 'D20'],
+    113: ['T20', 'S13', 'D20'],
+    112: ['T20', 'S12', 'D20'],
+    111: ['T20', 'S19', 'D16'],
+    110: ['T20', 'S10', 'D20'],
+    109: ['T20', 'S9', 'D20'],
+    108: ['T20', 'S16', 'D16'],
+    107: ['T19', 'S10', 'D20'],
+    106: ['T20', 'S10', 'D18'],
+    105: ['T20', 'S5', 'D20'],
+    104: ['T18', 'S10', 'D20'],
+    103: ['T20', 'S3', 'D20'],
+    102: ['T20', 'S10', 'D16'],
+    101: ['T20', 'S1', 'D20'],
+    100: ['T20', 'D20'],
+    98: ['T20', 'D19'],
+    96: ['T20', 'D18'],
+    94: ['T18', 'D20'],
+    92: ['T20', 'D16'],
+    90: ['T18', 'D18'],
+    88: ['T16', 'D20'],
+    86: ['T18', 'D16'],
+    84: ['T20', 'D12'],
+    82: ['D25', 'D16'],
+    80: ['T20', 'D10'],
+    78: ['T18', 'D12'],
+    76: ['T20', 'D8'],
+    74: ['T14', 'D16'],
+    72: ['T16', 'D12'],
+    70: ['T10', 'D20'],
+    68: ['T20', 'D4'],
+    66: ['T10', 'D18'],
+    64: ['T16', 'D8'],
+    62: ['T10', 'D16'],
+    60: ['S20', 'D20'],
+    58: ['S18', 'D20'],
+    56: ['T16', 'D4'],
+    54: ['S14', 'D20'],
+    52: ['S12', 'D20'],
+    50: ['S10', 'D20'],
+    48: ['S8', 'D20'],
+    46: ['S6', 'D20'],
+    44: ['S12', 'D16'],
+    42: ['S10', 'D16'],
+    40: ['D20'],
+    38: ['D19'],
+    36: ['D18'],
+    34: ['D17'],
+    32: ['D16'],
+    30: ['D15'],
+    28: ['D14'],
+    26: ['D13'],
+    24: ['D12'],
+    22: ['D11'],
+    20: ['D10'],
+    18: ['D9'],
+    16: ['D8'],
+    14: ['D7'],
+    12: ['D6'],
+    10: ['D5'],
+    8: ['D4'],
+    6: ['D3'],
+    4: ['D2'],
+    2: ['D1']
+};
+
+// Finishs optimaux pour Simple Out (pas besoin de double)
+const finishsSimples = {
+    180: ['T20', 'T20', 'T20'],
+    177: ['T20', 'T19', 'T20'],
+    174: ['T20', 'T18', 'T20'],
+    171: ['T20', 'T19', 'T18'],
+    170: ['T20', 'T20', 'S10'],
+    168: ['T20', 'T20', 'T16'],
+    167: ['T20', 'T19', 'S10'],
+    166: ['T20', 'T20', 'S6'],
+    165: ['T20', 'T19', 'S8'],
+    164: ['T20', 'T20', 'S4'],
+    163: ['T20', 'T19', 'S6'],
+    162: ['T20', 'T20', 'S2'],
+    161: ['T20', 'T19', 'S4'],
+    160: ['T20', 'T20', 'T20'],
+    159: ['T20', 'T19', 'S2'],
+    158: ['T20', 'T19', 'T20'],
+    157: ['T20', 'T19', 'T20'],
+    156: ['T20', 'T20', 'T12'],
+    155: ['T20', 'T19', 'T18'],
+    154: ['T20', 'T18', 'T18'],
+    153: ['T20', 'T19', 'T16'],
+    152: ['T20', 'T20', 'T12'],
+    151: ['T20', 'T17', 'T20'],
+    150: ['T20', 'T18', 'T18'],
+    149: ['T20', 'T19', 'T10'],
+    148: ['T20', 'T20', 'S8'],
+    147: ['T20', 'T19', 'T10'],
+    146: ['T20', 'T18', 'T10'],
+    145: ['T20', 'T19', 'S8'],
+    144: ['T20', 'T20', 'S4'],
+    143: ['T20', 'T19', 'S6'],
+    142: ['T20', 'T20', 'S2'],
+    141: ['T20', 'T19', 'S4'],
+    140: ['T20', 'T20', 'T20'],
+    139: ['T20', 'T19', 'S2'],
+    138: ['T20', 'T19', 'T20'],
+    137: ['T19', 'T20', 'T20'],
+    136: ['T20', 'T20', 'S16'],
+    135: ['T20', 'T19', 'T18'],
+    134: ['T20', 'T18', 'T18'],
+    133: ['T20', 'T19', 'S16'],
+    132: ['T20', 'T20', 'S12'],
+    131: ['T20', 'T17', 'T20'],
+    130: ['T20', 'T20', 'S10'],
+    129: ['T19', 'T20', 'S12'],
+    128: ['T20', 'T18', 'S10'],
+    127: ['T20', 'T17', 'S10'],
+    126: ['T19', 'T19', 'S12'],
+    125: ['T20', 'S25', 'T20'],
+    124: ['T20', 'T16', 'S8'],
+    123: ['T19', 'T18', 'S12'],
+    122: ['T20', 'T18', 'S8'],
+    121: ['T20', 'T17', 'S10'],
+    120: ['T20', 'S20', 'T20'],
+    119: ['T19', 'T20', 'S2'],
+    118: ['T20', 'S18', 'T20'],
+    117: ['T20', 'S17', 'T20'],
+    116: ['T20', 'S16', 'T20'],
+    115: ['T20', 'S15', 'T20'],
+    114: ['T20', 'S14', 'T20'],
+    113: ['T20', 'S13', 'T20'],
+    112: ['T20', 'S12', 'T20'],
+    111: ['T20', 'S11', 'T20'],
+    110: ['T20', 'S10', 'T20'],
+    109: ['T20', 'S9', 'T20'],
+    108: ['T20', 'S8', 'T20'],
+    107: ['T20', 'S7', 'T20'],
+    106: ['T20', 'S6', 'T20'],
+    105: ['T20', 'S5', 'T20'],
+    104: ['T20', 'S4', 'T20'],
+    103: ['T20', 'S3', 'T20'],
+    102: ['T20', 'S2', 'T20'],
+    101: ['T20', 'S1', 'T20'],
+    100: ['T20', 'T20'],
+    99: ['T19', 'T20'],
+    98: ['T20', 'S18', 'S20'],
+    97: ['T19', 'S20', 'S20'],
+    96: ['T20', 'T12'],
+    95: ['T19', 'S18', 'S20'],
+    94: ['T18', 'S20', 'S20'],
+    93: ['T19', 'T12'],
+    92: ['T20', 'S12', 'S20'],
+    91: ['T17', 'S20', 'S20'],
+    90: ['T20', 'T10'],
+    89: ['T19', 'S12', 'S20'],
+    88: ['T20', 'S8', 'S20'],
+    87: ['T17', 'T12'],
+    86: ['T18', 'S12', 'S20'],
+    85: ['T15', 'S20', 'S20'],
+    84: ['T20', 'S12', 'S12'],
+    83: ['T17', 'S12', 'S20'],
+    82: ['T20', 'S11', 'S11'],
+    81: ['T19', 'S12', 'S12'],
+    80: ['T20', 'S20'],
+    79: ['T19', 'S11', 'S11'],
+    78: ['T18', 'S12', 'S12'],
+    77: ['T19', 'S20'],
+    76: ['T20', 'S16'],
+    75: ['T15', 'S15', 'S15'],
+    74: ['T14', 'S16', 'S16'],
+    73: ['T19', 'S16'],
+    72: ['T20', 'S12'],
+    71: ['T13', 'S16', 'S16'],
+    70: ['T20', 'S10'],
+    69: ['T19', 'S12'],
+    68: ['T20', 'S8'],
+    67: ['T17', 'S16'],
+    66: ['T10', 'S18', 'S18'],
+    65: ['T15', 'S20'],
+    64: ['T16', 'S16'],
+    63: ['T13', 'S12', 'S12'],
+    62: ['T10', 'S16', 'S16'],
+    61: ['T15', 'S16'],
+    60: ['T20'],
+    59: ['S19', 'S20', 'S20'],
+    58: ['S18', 'S20', 'S20'],
+    57: ['T19'],
+    56: ['S16', 'S20', 'S20'],
+    55: ['S15', 'S20', 'S20'],
+    54: ['T18'],
+    53: ['S13', 'S20', 'S20'],
+    52: ['S12', 'S20', 'S20'],
+    51: ['T17'],
+    50: ['S10', 'S20', 'S20'],
+    49: ['S9', 'S20', 'S20'],
+    48: ['T16'],
+    47: ['S7', 'S20', 'S20'],
+    46: ['S6', 'S20', 'S20'],
+    45: ['T15'],
+    44: ['S4', 'S20', 'S20'],
+    43: ['S3', 'S20', 'S20'],
+    42: ['T14'],
+    41: ['S1', 'S20', 'S20'],
+    40: ['S20', 'S20'],
+    39: ['T13'],
+    38: ['S18', 'S20'],
+    37: ['S17', 'S20'],
+    36: ['T12'],
+    35: ['S15', 'S20'],
+    34: ['S14', 'S20'],
+    33: ['T11'],
+    32: ['S12', 'S20'],
+    31: ['S11', 'S20'],
+    30: ['T10'],
+    29: ['S9', 'S20'],
+    28: ['S8', 'S20'],
+    27: ['T9'],
+    26: ['S6', 'S20'],
+    25: ['S25'],
+    24: ['T8'],
+    23: ['S3', 'S20'],
+    22: ['S2', 'S20'],
+    21: ['T7'],
+    20: ['S20'],
+    19: ['S19'],
+    18: ['T6'],
+    17: ['S17'],
+    16: ['S16'],
+    15: ['T5'],
+    14: ['S14'],
+    13: ['S13'],
+    12: ['T4'],
+    11: ['S11'],
+    10: ['S10'],
+    9: ['T3'],
+    8: ['S8'],
+    7: ['S7'],
+    6: ['T2'],
+    5: ['S5'],
+    4: ['S4'],
+    3: ['T1'],
+    2: ['S2'],
+    1: ['S1']
+};
+
+// ============================================
+// INITIALISATION
+// ============================================
+
+function initialiserCalculateur() {
+    creerJoueurs(config.nbJoueurs);
+    afficherJoueurs();
+    afficherJoueurActif();
+    verifierSuggestionFinish();
+}
+
+function creerJoueurs(nb) {
+    joueursnom = [];
+    for (let i = 0; i < nb; i++) {
+        joueursnom.push({
+            nom: `Joueur ${i + 1}`,
+            score: config.scoreDepart,
+            historique: [],
+            stats: {
+                moyenne: 0,
+                meilleure: 0,
+                vollees: 0
+            }
+        });
+    }
+    joueurActifIndex = 0;
+}
+
+function afficherJoueurs() {
+    const container = document.getElementById('zone-joueurs');
+    
+    container.innerHTML = joueursnom.map((joueur, index) => `
+        <div class="joueur-card ${index === joueurActifIndex ? 'actif' : ''}">
+            <div class="joueur-header">
+                <span class="joueur-nom">${joueur.nom}</span>
+                ${index === joueurActifIndex ? '<span class="badge-actif">En jeu</span>' : ''}
+            </div>
+            <div class="joueur-score">${joueur.score}</div>
+            <div class="joueur-stats-mini">
+                <span>Moy: ${joueur.stats.moyenne}</span>
+                <span>Volées: ${joueur.stats.vollees}</span>
+            </div>
+        </div>
+    `).join('');
+}
+
+// ============================================
+// CONFIGURATION
+// ============================================
+
+function changerFinishType(type) {
+    config.finishType = type;
+    document.querySelectorAll('.finish-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-finish="${type}"]`).classList.add('active');
+    verifierSuggestionFinish();
+}
+
+function changerNbJoueurs(nb) {
+    config.nbJoueurs = nb;
+    document.querySelectorAll('.player-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-players="${nb}"]`).classList.add('active');
+    nouvellePartie();
+}
+
+function changerScoreDepart() {
+    config.scoreDepart = parseInt(document.getElementById('score-depart').value);
+    nouvellePartie();
+}
+
+function nouvellePartie() {
+    if (joueursnom.length > 0 && joueursnom[0].historique.length > 0) {
+        if (!confirm('Voulez-vous vraiment recommencer une nouvelle partie ?')) {
+            return;
+        }
+    }
+    
+    initialiserCalculateur();
+    resetVoleeEnCours();
+}
+
+// ============================================
+// SAISIE DES SCORES
+// ============================================
+
+function selectionnerMultiplicateur(mult) {
+    voleeEnCours.multiplicateur = mult;
+    document.querySelectorAll('.mult-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-mult="${mult}"]`).classList.add('active');
+}
+
+function ajouterScore(base) {
+    if (voleeEnCours.fleches.length >= 3) {
+        return;
+    }
+    
+    const mult = voleeEnCours.multiplicateur;
+    const score = base * mult;
+    
+    // Vérifier validité
+    if (!verifierScoreValide(base, mult)) {
+        alert('Score invalide ! Le bull en triple n\'existe pas.');
+        return;
+    }
+    
+    // Ajouter la flèche
+    voleeEnCours.fleches.push({
+        base: base,
+        multiplicateur: mult,
+        score: score
+    });
+    
+    afficherVoleeEnCours();
+    verifierBoutonValider();
+    
+    // Reset multiplicateur à simple après chaque flèche
+    selectionnerMultiplicateur(1);
+}
+
+function verifierScoreValide(base, mult) {
+    // Le bull (25) ne peut être que simple ou double, pas triple
+    if (base === 25 && mult === 3) {
+        return false;
+    }
+    return true;
+}
+
+function annulerDernierScore() {
+    if (voleeEnCours.fleches.length > 0) {
+        voleeEnCours.fleches.pop();
+        afficherVoleeEnCours();
+        verifierBoutonValider();
+    }
+}
+
+function afficherVoleeEnCours() {
+    const fleches = voleeEnCours.fleches;
+    
+    // Afficher les flèches
+    for (let i = 0; i < 3; i++) {
+        const display = document.getElementById(`fleche-display-${i + 1}`);
+        if (fleches[i]) {
+            const f = fleches[i];
+            let label = '';
+            if (f.multiplicateur === 2) label = 'D';
+            if (f.multiplicateur === 3) label = 'T';
+            if (f.multiplicateur === 1) label = 'S';
+            display.textContent = `${label}${f.base}`;
+            display.classList.add('filled');
+        } else {
+            display.textContent = '-';
+            display.classList.remove('filled');
+        }
+    }
+    
+    // Total de la volée
+    const total = fleches.reduce((sum, f) => sum + f.score, 0);
+    document.getElementById('volee-total').textContent = total;
+    
+    // Numéro de flèche actuelle
+    document.getElementById('fleche-num').textContent = fleches.length + 1;
+    
+    // Valeur de la prochaine flèche
+    if (fleches.length < 3) {
+        const mult = voleeEnCours.multiplicateur;
+        let label = mult === 1 ? 'S' : (mult === 2 ? 'D' : 'T');
+        document.getElementById('fleche-value').textContent = `${label}?`;
+    } else {
+        document.getElementById('fleche-value').textContent = 'Complet';
+    }
+}
+
+function verifierBoutonValider() {
+    const btn = document.getElementById('btn-valider');
+    // On peut valider dès qu'il y a au moins une flèche
+    if (voleeEnCours.fleches.length > 0) {
+        btn.disabled = false;
+    } else {
+        btn.disabled = true;
+    }
+}
+
+function resetVoleeEnCours() {
+    voleeEnCours = {
+        fleches: [],
+        multiplicateur: 1
+    };
+    selectionnerMultiplicateur(1);
+    afficherVoleeEnCours();
+    verifierBoutonValider();
+}
+
+// ============================================
+// VALIDATION ET TOUR
+// ============================================
+
+function validerVolee() {
+    const joueur = joueursnom[joueurActifIndex];
+    const fleches = voleeEnCours.fleches;
+    const total = fleches.reduce((sum, f) => sum + f.score, 0);
+    
+    // Vérifier si le score reste >= 0
+    const nouveauScore = joueur.score - total;
+    if (nouveauScore < 0) {
+        alert('Bust ! Score impossible. Le score ne peut pas être négatif.');
+        return;
+    }
+    
+    // Vérifier la règle du finish
+    if (nouveauScore === 0) {
+        const derniereF = fleches[fleches.length - 1];
+        
+        if (config.finishType === 'double' && derniereF.multiplicateur !== 2) {
+            alert('Bust ! Vous devez finir sur un double.');
+            return;
+        }
+        
+        // Victoire !
+        joueur.score = 0;
+        enregistrerVolee(joueur, fleches, total);
+        afficherVictoire(joueur);
+        return;
+    }
+    
+    // Vérifier qu'on ne reste pas sur 1 (impossible de finir)
+    if (nouveauScore === 1 && config.finishType === 'double') {
+        alert('Bust ! Vous ne pouvez pas rester sur 1 point.');
+        return;
+    }
+    
+    // Mise à jour du score
+    joueur.score = nouveauScore;
+    enregistrerVolee(joueur, fleches, total);
+    
+    // Passer au joueur suivant
+    passerAuJoueurSuivant();
+}
+
+function passerTour() {
+    if (voleeEnCours.fleches.length > 0) {
+        if (!confirm('Voulez-vous vraiment passer votre tour ? Les flèches saisies seront perdues.')) {
+            return;
+        }
+    }
+    passerAuJoueurSuivant();
+}
+
+function passerAuJoueurSuivant() {
+    resetVoleeEnCours();
+    joueurActifIndex = (joueurActifIndex + 1) % joueursnom.length;
+    afficherJoueurs();
+    afficherJoueurActif();
+    verifierSuggestionFinish();
+}
+
+function enregistrerVolee(joueur, fleches, total) {
+    joueur.historique.push({
+        fleches: fleches.map(f => ({ ...f })),
+        total: total,
+        reste: joueur.score
+    });
+    
+    // Mettre à jour les stats
+    const totalFleches = joueur.historique.reduce((sum, v) => sum + v.fleches.length, 0);
+    const totalPoints = joueur.historique.reduce((sum, v) => sum + v.total, 0);
+    joueur.stats.moyenne = totalFleches > 0 ? (totalPoints / totalFleches * 3).toFixed(1) : 0;
+    joueur.stats.meilleure = Math.max(...joueur.historique.map(v => v.total), 0);
+    joueur.stats.vollees = joueur.historique.length;
+}
+
+// ============================================
+// AFFICHAGE DU JOUEUR ACTIF
+// ============================================
+
+function afficherJoueurActif() {
+    const joueur = joueursnom[joueurActifIndex];
+    
+    document.querySelector('.joueur-nom').textContent = joueur.nom;
+    document.getElementById('score-actuel').textContent = joueur.score;
+    
+    // Historique
+    afficherHistoriqueJoueur(joueur);
+    
+    // Stats rapides
+    document.getElementById('stat-moyenne').textContent = joueur.stats.moyenne;
+    document.getElementById('stat-meilleure').textContent = joueur.stats.meilleure;
+    document.getElementById('stat-vollees').textContent = joueur.stats.vollees;
+}
+
+function afficherHistoriqueJoueur(joueur) {
+    const container = document.getElementById('historique-actif');
+    
+    if (joueur.historique.length === 0) {
+        container.innerHTML = '<p style="text-align: center; color: var(--gray);">Aucune volée</p>';
+        return;
+    }
+    
+    container.innerHTML = joueur.historique.map((v, index) => {
+        const flechesText = v.fleches.map(f => {
+            let label = f.multiplicateur === 1 ? 'S' : (f.multiplicateur === 2 ? 'D' : 'T');
+            return `${label}${f.base}`;
+        }).join(' + ');
+        
+        return `
+            <div class="historique-item-calc">
+                <div class="vol-num">#${index + 1}</div>
+                <div class="vol-detail">${flechesText} = ${v.total}</div>
+                <div class="vol-reste">Reste: ${v.reste}</div>
+            </div>
+        `;
+    }).reverse().join('');
+}
+
+// ============================================
+// SUGGESTION DE FINISH
+// ============================================
+
+function verifierSuggestionFinish() {
+    const joueur = joueursnom[joueurActifIndex];
+    const score = joueur.score;
+    
+    const suggestionDiv = document.getElementById('suggestion-finish');
+    const content = document.getElementById('suggestion-content');
+    
+    let finish = null;
+    let maxScore = 0;
+    
+    // Déterminer la base de données et le score max selon le type de finish
+    if (config.finishType === 'double') {
+        finish = finishsDoubles[score];
+        maxScore = 170;
+    } else {
+        finish = finishsSimples[score];
+        maxScore = 180;
+    }
+    
+    // Vérifier si un finish est possible
+    if (finish && score <= maxScore) {
+        content.innerHTML = `
+            <div class="finish-suggestion">
+                ${finish.map(f => `<span class="finish-dart">${f}</span>`).join('<i class="fas fa-arrow-right"></i>')}
+            </div>
+            <div class="finish-info">
+                Score: ${score} points - Finish en ${finish.length} fléchette${finish.length > 1 ? 's' : ''}
+                ${config.finishType === 'simple' ? ' (Simple Out)' : ' (Double Out)'}
+            </div>
+        `;
+        suggestionDiv.style.display = 'block';
+    } else {
+        suggestionDiv.style.display = 'none';
+    }
+}
+
+// ============================================
+// VICTOIRE ET STATISTIQUES
+// ============================================
+
+function afficherVictoire(joueur) {
+    const modal = document.getElementById('modal-victoire');
+    const titre = document.getElementById('victoire-titre');
+    const stats = document.getElementById('victoire-stats');
+    
+    titre.textContent = `🏆 ${joueur.nom} a gagné !`;
+    
+    stats.innerHTML = `
+        <div class="victoire-stat">
+            <span class="label">Moyenne par volée</span>
+            <span class="value">${joueur.stats.moyenne}</span>
+        </div>
+        <div class="victoire-stat">
+            <span class="label">Meilleure volée</span>
+            <span class="value">${joueur.stats.meilleure}</span>
+        </div>
+        <div class="victoire-stat">
+            <span class="label">Nombre de volées</span>
+            <span class="value">${joueur.stats.vollees}</span>
+        </div>
+    `;
+    
+    modal.style.display = 'flex';
+}
+
+function fermerVictoire() {
+    document.getElementById('modal-victoire').style.display = 'none';
+    nouvellePartie();
+}
+
+function afficherStatistiques() {
+    const modal = document.getElementById('modal-stats');
+    const content = document.getElementById('stats-detaillees');
+    
+    content.innerHTML = joueursnom.map((joueur, index) => `
+        <div class="stats-joueur">
+            <h3>${joueur.nom}</h3>
+            <div class="stats-grid">
+                <div class="stat-detail">
+                    <span class="label">Score restant</span>
+                    <span class="value">${joueur.score}</span>
+                </div>
+                <div class="stat-detail">
+                    <span class="label">Moyenne</span>
+                    <span class="value">${joueur.stats.moyenne}</span>
+                </div>
+                <div class="stat-detail">
+                    <span class="label">Meilleure volée</span>
+                    <span class="value">${joueur.stats.meilleure}</span>
+                </div>
+                <div class="stat-detail">
+                    <span class="label">Volées jouées</span>
+                    <span class="value">${joueur.stats.vollees}</span>
+                </div>
+            </div>
+        </div>
+    `).join('');
+    
+    modal.style.display = 'flex';
+}
+
+function fermerStats() {
+    document.getElementById('modal-stats').style.display = 'none';
+}
+
+// ============================================
+// INITIALISATION AU CHARGEMENT
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialiser quand on arrive sur la page calculateur
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (link.dataset.page === 'calculateur') {
+                if (joueursnom.length === 0) {
+                    initialiserCalculateur();
+                }
+            }
+        });
+    });
 });

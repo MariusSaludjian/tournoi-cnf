@@ -1,6 +1,6 @@
 à faire :
 -> faire une page photos
--> site de jack
+
 -> lien pour mettre les matchs à distance (pas sûr)
 -> arranger le site web pour le téléphone --OK
 -> ajouter les joueurs manquants --OK
@@ -11,7 +11,6 @@
 -> modifier sur téléphone car c'est moche la
 
 Siméon Glomot, Jean debare, Priou Pichot
-Pilou petit, 
 
 
 --- > comment faire pour que ça se mette à jour en ligne ??
