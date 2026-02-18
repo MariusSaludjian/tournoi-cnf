@@ -728,22 +728,23 @@
     },
     {
       "nom": "Barthélémy Limonne",
-      "matchs_joues": 5,
-      "victoires": 3,
+      "matchs_joues": 6,
+      "victoires": 4,
       "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 7,
+      "sets_gagnes": 9,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.0,
-      "elo": 1511.3136680655318,
-      "elo_max": 1516.0,
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.12,
+      "elo": 1521.794100798014,
+      "elo_max": 1521.794100798014,
       "elo_min": 1484.0,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
         "V"
       ]
     },
@@ -859,22 +860,23 @@
     },
     {
       "nom": "Blaise Dubreuil",
-      "matchs_joues": 4,
-      "victoires": 2,
+      "matchs_joues": 5,
+      "victoires": 3,
       "defaites": 2,
-      "sets_gagnes": 5,
-      "sets_perdus": 5,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1500.3136680655318,
-      "elo_max": 1500.3136680655318,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.17,
+      "elo": 1510.794100798014,
+      "elo_max": 1510.794100798014,
       "elo_min": 1474.0,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
         "V"
       ]
     },
@@ -3720,23 +3722,24 @@
     },
     {
       "nom": "Romain Brechet",
-      "matchs_joues": 4,
+      "matchs_joues": 5,
       "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 6,
-      "sets_perdus": 5,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 7,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.2,
-      "elo": 1528.666203978197,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.0,
+      "elo": 1518.185771245715,
       "elo_max": 1528.666203978197,
       "elo_min": 1484.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4067,24 +4070,25 @@
     },
     {
       "nom": "Thibault Planckeel",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 3,
-      "defaites": 4,
-      "sets_gagnes": 8,
-      "sets_perdus": 11,
+      "defaites": 5,
+      "sets_gagnes": 9,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 42.9,
-      "ratio_sets": 0.73,
-      "elo": 1481.666203978197,
+      "pourcentage_victoires": 37.5,
+      "ratio_sets": 0.69,
+      "elo": 1471.185771245715,
       "elo_max": 1503.0,
       "elo_min": 1468.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -8615,8 +8619,8 @@
   "derniere_maj": "2026-02-18",
   "stats_globales": {
     "total_joueurs": 238,
-    "total_matchs": 443,
-    "total_sets": 1221
+    "total_matchs": 444,
+    "total_sets": 1224
   },
   "equipes": [
     {
@@ -11732,6 +11736,24 @@
       "joueur2_eq2": "Lucas Besse",
       "score1": 2,
       "score2": 1,
+      "gagnant": "Les pioupiou",
+      "live": true
+    },
+    {
+      "id": 105,
+      "type": "poule",
+      "tournoi": "CNF 3",
+      "phase": "Poules",
+      "poule": "32",
+      "date": "2026-02-18",
+      "equipe1": "Les dobermans",
+      "equipe2": "Les pioupiou",
+      "joueur1_eq1": "Thibault Planckeel",
+      "joueur2_eq1": "Romain Brechet",
+      "joueur1_eq2": "Blaise Dubreuil",
+      "joueur2_eq2": "Barthélémy Limonne",
+      "score1": 1,
+      "score2": 2,
       "gagnant": "Les pioupiou",
       "live": true
     }
