@@ -1,0 +1,56 @@
+name: Sync Tableau Final CNF3
+
+on:
+  schedule:
+    # Toutes les 15 minutes pendant les matchs du tableau final
+    # Format : minute heure jour mois jour_semaine
+    # GitHub utilise UTC, Paris = UTC+1
+    
+    # Pendant les phases finales (exemple : 14h-18h Paris = 13h-17h UTC)
+    - cron: '0,15,30,45 13-17 * * 1-5'  # Lundi à vendredi, 14h-18h Paris
+    
+    # Week-end (10h-20h Paris = 9h-19h UTC)
+    - cron: '0,15,30,45 9-19 * * 6-0'  # Samedi-dimanche
+  
+  workflow_dispatch:  # Permet execution manuelle
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Create CSV and credentials
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          TABLEAU_FINAL_CSV: ${{ secrets.TABLEAU_FINAL_CSV }}
+        run: |
+          cd backend
+          # Créer le fichier CSV du tableau final depuis le secret
+          echo "$TABLEAU_FINAL_CSV" > Tournoi_CNF_3_-_Tableau_final.csv
+          # Créer le fichier credentials
+          echo "$GOOGLE_CREDENTIALS" > credentials.json
+      
+      - name: Run sync tableau final
+        run: |
+          cd backend
+          python sync_tableau_final_cnf3.py
+      
+      - name: Copy to frontend
+        run: |
+          cp backend/data.json docs/data.json
+      
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CNF3 Tableau Bot"
+          git add docs/data.json backend/data.json
+          git diff --staged --quiet || git commit -m "Update CNF3 tableau final"
+          git push
