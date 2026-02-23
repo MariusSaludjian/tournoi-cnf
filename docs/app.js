@@ -17,7 +17,12 @@ async function chargerDonnees() {
         poulesCNF3 = data.poules_cnf3 || [];
         statsGlobales = data.stats_globales;
         
-        window.data = data; 
+        window.data = data;
+        
+        // Alimenter matchsCNF3 dès le chargement
+        if (data.matchs_cnf3) {
+            matchsCNF3 = data.matchs_cnf3;
+        }
         
         initialiserSite();
     } catch (error) {
@@ -31,6 +36,7 @@ function initialiserSite() {
     afficherPageAccueilDynamique();
     afficherTopJoueurs();
     afficherDerniersMatchs();
+    afficherBracketAccueil();
     afficherTousJoueurs();
     afficherTousMatchs();
     afficherClassement();
@@ -1034,94 +1040,212 @@ function initialiserOngletsCNF3() {
     });
 }
 
-// Afficher le tableau final CNF 3
+// ============================================
+// TABLEAU FINAL CNF 3 - SYSTÈME BRACKET
+// ============================================
+
+/**
+ * Construit l'arbre des matchs du tableau final à partir de matchs_cnf3
+ * Source unique : window.data.matchs_cnf3 (type = 'tableau')
+ */
+function getMatchsTableau() {
+    const source = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3 : [];
+    return source.filter(m => m.type === 'tableau');
+}
+
+/**
+ * Normalise le nom de phase pour la comparaison
+ */
+function normaliserPhase(p) {
+    if (!p) return '';
+    const map = {
+        '32ème': '32èmes', '32èmes de finale': '32èmes',
+        '16ème': '16èmes', '16èmes de finale': '16èmes',
+        '8ème': '8èmes', 'huitièmes': '8èmes', 'huitièmes de finale': '8èmes',
+        'quart': 'Quarts', 'quart de finale': 'Quarts', 'quarts de finale': 'Quarts',
+        'demi': 'Demis', 'demi-finale': 'Demis', 'demi-finales': 'Demis',
+        'finale': 'Finale'
+    };
+    return map[p.toLowerCase()] || p;
+}
+
+/**
+ * Génère le HTML d'une carte match dans le bracket
+ */
+function renderBracketMatch(match, compact = false) {
+    if (!match) {
+        return `<div class="bracket-match bracket-match-tbd">
+            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">-</span></div>
+            <div class="bt-divider"></div>
+            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">-</span></div>
+        </div>`;
+    }
+
+    const joue = match.score1 !== null && match.score1 !== undefined && match.score2 !== null;
+    const w1 = joue && match.score1 > match.score2;
+    const w2 = joue && match.score2 > match.score1;
+    const s1 = joue ? match.score1 : '-';
+    const s2 = joue ? match.score2 : '-';
+    const seed1 = match.seed1 ? `<span class="bt-seed">${match.seed1}</span>` : '';
+    const seed2 = match.seed2 ? `<span class="bt-seed">${match.seed2}</span>` : '';
+    const maxLen = compact ? 16 : 22;
+    const n1 = (match.equipe1 || 'TBD').length > maxLen ? (match.equipe1 || 'TBD').substring(0, maxLen) + '…' : (match.equipe1 || 'TBD');
+    const n2 = (match.equipe2 || 'TBD').length > maxLen ? (match.equipe2 || 'TBD').substring(0, maxLen) + '…' : (match.equipe2 || 'TBD');
+
+    return `<div class="bracket-match ${joue ? 'bracket-match-played' : 'bracket-match-pending'}">
+        <div class="bracket-team ${w1 ? 'bt-winner' : joue ? 'bt-loser' : ''}" title="${match.equipe1 || ''}">
+            ${seed1}<span class="bt-name">${n1}</span><span class="bt-score">${s1}</span>
+        </div>
+        <div class="bt-divider"></div>
+        <div class="bracket-team ${w2 ? 'bt-winner' : joue ? 'bt-loser' : ''}" title="${match.equipe2 || ''}">
+            ${seed2}<span class="bt-name">${n2}</span><span class="bt-score">${s2}</span>
+        </div>
+    </div>`;
+}
+
+/**
+ * Affiche le tableau final dans l'onglet CNF 3 (vue complète scrollable)
+ */
 function afficherTableauCNF3() {
     const container = document.getElementById('tableau-cnf3');
     if (!container) return;
-    
-    // Récupérer les matchs du CNF 3 dans les phases finales
-    const matchsCNF3 = matchs.filter(m => m.tournoi === 'CNF 3' && m.phase !== 'Poules');
-    
-    // Organiser par phase
-    const phases = {
-        '32èmes': matchsCNF3.filter(m => m.phase === '32èmes' || m.phase === '32ème'),
-        '16èmes': matchsCNF3.filter(m => m.phase === '16èmes' || m.phase === '16ème'),
-        '8èmes': matchsCNF3.filter(m => m.phase === '8èmes' || m.phase === '8ème'),
-        'Quarts': matchsCNF3.filter(m => m.phase === 'Quarts' || m.phase === 'Quart'),
-        'Demis': matchsCNF3.filter(m => m.phase === 'Demis' || m.phase === 'Demi'),
-        'Finale': matchsCNF3.filter(m => m.phase === 'Finale')
+
+    const matchsTableau = getMatchsTableau();
+    const PHASES = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
+    const LABELS = {
+        '32èmes': '32èmes de finale', '16èmes': '16èmes de finale',
+        '8èmes': 'Huitièmes', 'Quarts': 'Quarts de finale',
+        'Demis': 'Demi-finales', 'Finale': 'Finale 🏆'
     };
-    
-    // Si aucun match n'est joué
-    if (matchsCNF3.length === 0) {
+
+    // Grouper par phase normalisée
+    const parPhase = {};
+    PHASES.forEach(p => { parPhase[p] = []; });
+    matchsTableau.forEach(m => {
+        const p = normaliserPhase(m.phase);
+        if (parPhase[p]) parPhase[p].push(m);
+    });
+
+    // Si aucune donnée
+    if (matchsTableau.length === 0) {
         container.innerHTML = `
-            <div style="text-align: center; padding: 4rem; color: var(--gray);">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
-                <h3 style="color: var(--light); margin-bottom: 1rem;">Tableau final à venir</h3>
-                <p>Les phases finales commenceront après les matchs de poules.</p>
-                <p style="margin-top: 1rem; font-size: 0.9rem;">
-                    Les 32 premiers de chaque poule s'affronteront en 32èmes de finale.
-                </p>
-            </div>
-        `;
+            <div class="bracket-empty">
+                <div class="bracket-empty-icon">🏆</div>
+                <h3>Tableau final à venir</h3>
+                <p>Les 32 premiers de poule s'affronteront en phases finales.</p>
+            </div>`;
         return;
     }
-    
-    // Afficher les phases avec matchs
-    let html = '<div class="phases-finales">';
-    
-    const phaseOrder = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
-    
-    for (const phaseName of phaseOrder) {
-        const phaseMatches = phases[phaseName];
-        
-        if (phaseMatches.length > 0) {
-            html += `
-                <div class="phase-section">
-                    <h3 class="phase-title">${phaseName} de finale</h3>
-                    <div class="phase-matches">
-            `;
-            
-            phaseMatches.forEach(match => {
-                const winner = match.gagnant;
-                const isJ1Winner = match.joueur1 === winner;
-                const isJ2Winner = match.joueur2 === winner;
-                
-                html += `
-                    <div class="bracket-match">
-                        <div class="bracket-team ${isJ1Winner ? 'winner' : ''}">
-                            <span class="bracket-team-name">${match.joueur1}</span>
-                            <span class="bracket-team-score">${match.score1}</span>
-                        </div>
-                        <div class="bracket-team ${isJ2Winner ? 'winner' : ''}">
-                            <span class="bracket-team-name">${match.joueur2}</span>
-                            <span class="bracket-team-score">${match.score2}</span>
-                        </div>
-                    </div>
-                `;
-            });
-            
-            html += `
-                    </div>
-                </div>
-            `;
-        }
-    }
-    
-    html += '</div>';
-    
-    // Si on a un champion (finale jouée)
-    const finale = phases['Finale'][0];
-    if (finale) {
-        html += `
-            <div class="champion-section">
-                <div class="champion-trophy">🏆</div>
-                <div class="champion-title">Champion CNF 3</div>
-                <div class="champion-name">${finale.gagnant}</div>
+
+    // Trouver le champion
+    const finale = parPhase['Finale'][0];
+    const champion = finale && finale.gagnant ? finale.gagnant : null;
+
+    // Construire le bracket horizontal scrollable
+    let html = `<div class="bracket-wrapper">`;
+
+    // Phases actives (avec au moins 1 match)
+    const phasesActives = PHASES.filter(p => parPhase[p].length > 0);
+
+    phasesActives.forEach(phase => {
+        const matches = parPhase[phase];
+        html += `<div class="bracket-round">
+            <div class="bracket-round-label">${LABELS[phase]}</div>
+            <div class="bracket-round-matches">`;
+        matches.forEach(m => {
+            html += renderBracketMatch(m, false);
+        });
+        html += `</div></div>`;
+    });
+
+    // Champion
+    if (champion) {
+        html += `<div class="bracket-champion">
+            <div class="bracket-round-label">Champion</div>
+            <div class="champion-card-bracket">
+                <div class="champion-trophy-bracket">🏆</div>
+                <div class="champion-name-bracket">${champion}</div>
             </div>
-        `;
+        </div>`;
     }
-    
+
+    html += `</div>`;
+
+    // Stats rapides du tableau
+    const joues = matchsTableau.filter(m => m.gagnant).length;
+    const restants = matchsTableau.filter(m => !m.gagnant).length;
+    html = `<div class="bracket-header-stats">
+        <span>🎯 <strong>${joues}</strong> matchs joués</span>
+        <span>⏳ <strong>${restants}</strong> matchs restants</span>
+        <span>📋 <strong>${matchsTableau.length}</strong> matchs au total</span>
+    </div>` + html;
+
+    container.innerHTML = html;
+}
+
+/**
+ * Affiche un bracket compact sur la page d'accueil (phases avancées uniquement)
+ */
+function afficherBracketAccueil() {
+    const container = document.getElementById('bracket-accueil');
+    if (!container) return;
+
+    const matchsTableau = getMatchsTableau();
+    if (matchsTableau.length === 0) {
+        container.innerHTML = `<div class="bracket-empty-home">
+            <p>Le tableau final démarrera après les poules</p>
+        </div>`;
+        return;
+    }
+
+    const PHASES = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
+    const LABELS = {
+        '32èmes': '32èmes', '16èmes': '16èmes', '8èmes': 'Huitièmes',
+        'Quarts': 'Quarts', 'Demis': 'Demis', 'Finale': '🏆 Finale'
+    };
+
+    const parPhase = {};
+    PHASES.forEach(p => { parPhase[p] = []; });
+    matchsTableau.forEach(m => {
+        const p = normaliserPhase(m.phase);
+        if (parPhase[p]) parPhase[p].push(m);
+    });
+
+    // Sur l'accueil : montrer les phases à partir des 8èmes (plus compact)
+    // Si seulement des 32èmes joués, montrer quand même un résumé des 32èmes
+    const phasesDisponibles = PHASES.filter(p => parPhase[p].length > 0);
+    const phasesAvancees = phasesDisponibles.filter(p => ['8èmes','Quarts','Demis','Finale'].includes(p));
+    const phasesAfichees = phasesAvancees.length > 0 ? phasesAvancees : phasesDisponibles.slice(0, 1);
+
+    const finale = parPhase['Finale'][0];
+    const champion = finale && finale.gagnant ? finale.gagnant : null;
+
+    let html = `<div class="bracket-accueil-wrapper">`;
+
+    phasesAfichees.forEach(phase => {
+        const matches = parPhase[phase];
+        const joues = matches.filter(m => m.gagnant);
+        html += `<div class="bracket-accueil-round">
+            <div class="bar-label">${LABELS[phase]}</div>
+            <div class="bar-matches">`;
+        matches.forEach(m => {
+            html += renderBracketMatch(m, true);
+        });
+        html += `</div></div>`;
+    });
+
+    if (champion) {
+        html += `<div class="bracket-accueil-champion">
+            <div class="bar-label">Champion</div>
+            <div class="champion-mini">🏆 ${champion}</div>
+        </div>`;
+    }
+
+    html += `</div>
+    <div class="bracket-accueil-link" onclick="document.querySelector('[data-page=cnf3]').click(); setTimeout(() => document.querySelector('[data-tab=tableau]').click(), 100)">
+        Voir le tableau complet →
+    </div>`;
+
     container.innerHTML = html;
 }
 
@@ -1576,69 +1700,9 @@ function filtrerMatchsLive(filtre) {
 // TABLEAU FINAL CNF3
 // ============================================
 
+// Ancienne fonction remplacée - redirige vers la nouvelle
 function afficherTableauCNF3Complet() {
-    const container = document.getElementById('tableau-cnf3');
-    if (!container) {
-        console.log('⚠️ Élément tableau-cnf3 non trouvé');
-        return;
-    }
-    
-    // Récupérer les matchs du tableau
-    const matchsTableau = matchsCNF3.filter(m => m.type === 'tableau');
-    
-    if (matchsTableau.length === 0) {
-        container.innerHTML = `
-            <div style="text-align: center; padding: 3rem; color: var(--gray);">
-                <i class="fas fa-hourglass-half" style="font-size: 3rem; margin-bottom: 1rem;"></i>
-                <p>Le tableau final sera disponible après les phases de poules</p>
-            </div>
-        `;
-        return;
-    }
-    
-    // Grouper par phase
-    const phases = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
-    const matchsParPhase = {};
-    
-    phases.forEach(phase => {
-        matchsParPhase[phase] = matchsTableau.filter(m => m.phase === phase);
-    });
-    
-    // Afficher le tableau
-    container.innerHTML = `
-        <div class="tableau-final-container">
-            ${phases.filter(phase => matchsParPhase[phase].length > 0).map(phase => `
-                <div class="phase-section">
-                    <h3 class="phase-title">${phase}</h3>
-                    <div class="phase-matchs">
-                        ${matchsParPhase[phase].map(match => `
-                            <div class="tableau-match">
-                                <div class="tableau-team ${match.gagnant === match.equipe1 ? 'qualified' : 'eliminated'}">
-                                    <span class="team-name-tableau">${match.equipe1}</span>
-                                    <span class="team-score-tableau">${match.score1}</span>
-                                </div>
-                                <div class="tableau-separator"></div>
-                                <div class="tableau-team ${match.gagnant === match.equipe2 ? 'qualified' : 'eliminated'}">
-                                    <span class="team-name-tableau">${match.equipe2}</span>
-                                    <span class="team-score-tableau">${match.score2}</span>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `).join('')}
-        </div>
-        
-        ${matchsParPhase['Finale'] && matchsParPhase['Finale'].length > 0 ? `
-            <div class="champion-section-cnf3">
-                <div class="champion-trophy">🏆</div>
-                <div class="champion-title">Champions CNF 3</div>
-                <div class="champion-name-cnf3">${matchsParPhase['Finale'][0].gagnant}</div>
-            </div>
-        ` : ''}
-    `;
-    
-    console.log('✅ Tableau final affiché avec', matchsTableau.length, 'matchs');
+    afficherTableauCNF3();
 }
 
 // ============================================

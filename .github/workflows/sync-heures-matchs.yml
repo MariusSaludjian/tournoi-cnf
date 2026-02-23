@@ -53,6 +53,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "CNF3 Bot"
-          git add docs/data.json
+          git add docs/data.json backend/data.json
           git diff --staged --quiet || git commit -m "Update CNF3 data"
           git push
