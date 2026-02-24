@@ -13,7 +13,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1498.4,
+      "elo": 1497.2,
       "elo_max": 1543.0,
       "elo_min": 1493.2,
       "photo": "photos/default.svg",
@@ -37,9 +37,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1499.2,
-      "elo_max": 1517.8,
-      "elo_min": 1499.2,
+      "elo": 1499.5,
+      "elo_max": 1513.5,
+      "elo_min": 1499.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -58,8 +58,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.67,
-      "elo": 1525.1,
-      "elo_max": 1525.1,
+      "elo": 1518.9,
+      "elo_max": 1518.9,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -82,7 +82,7 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.73,
-      "elo": 1463.6,
+      "elo": 1470.9,
       "elo_max": 1516.7,
       "elo_min": 1463.6,
       "photo": "photos/default.svg",
@@ -106,8 +106,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1507.6,
-      "elo_max": 1532.0,
+      "elo": 1506.2,
+      "elo_max": 1524.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -129,8 +129,8 @@
       ],
       "pourcentage_victoires": 100.0,
       "ratio_sets": 3.86,
-      "elo": 1710.9,
-      "elo_max": 1710.9,
+      "elo": 1702.2,
+      "elo_max": 1702.2,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -177,9 +177,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1471.6,
+      "elo": 1478.6,
       "elo_max": 1500.0,
-      "elo_min": 1471.6,
+      "elo_min": 1478.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -199,9 +199,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.33,
-      "elo": 1445.1,
+      "elo": 1452.7,
       "elo_max": 1500.0,
-      "elo_min": 1445.1,
+      "elo_min": 1452.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -223,9 +223,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1499.9,
+      "elo": 1499.8,
       "elo_max": 1500.0,
-      "elo_min": 1483.8,
+      "elo_min": 1487.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -244,9 +244,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1472.8,
+      "elo": 1479.5,
       "elo_max": 1500.0,
-      "elo_min": 1472.8,
+      "elo_min": 1479.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -265,9 +265,9 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.25,
-      "elo": 1514.8,
-      "elo_max": 1514.8,
-      "elo_min": 1494.7,
+      "elo": 1510.8,
+      "elo_max": 1510.8,
+      "elo_min": 1496.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -287,9 +287,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1467.3,
+      "elo": 1475.3,
       "elo_max": 1500.0,
-      "elo_min": 1467.3,
+      "elo_min": 1475.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -309,7 +309,7 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.75,
-      "elo": 1487.0,
+      "elo": 1494.1,
       "elo_max": 1515.9,
       "elo_min": 1476.0,
       "photo": "photos/default.svg",
@@ -334,7 +334,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.11,
-      "elo": 1504.6,
+      "elo": 1511.3,
       "elo_max": 1557.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -358,9 +358,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1513.6,
-      "elo_max": 1515.7,
-      "elo_min": 1497.6,
+      "elo": 1510.0,
+      "elo_max": 1511.9,
+      "elo_min": 1498.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -404,7 +404,7 @@
       ],
       "pourcentage_victoires": 75.0,
       "ratio_sets": 1.53,
-      "elo": 1589.8,
+      "elo": 1586.3,
       "elo_max": 1602.6,
       "elo_min": 1500.0,
       "photo": "photos/antoine-lebrat.jpg",
@@ -428,9 +428,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1477.4,
+      "elo": 1483.0,
       "elo_max": 1500.0,
-      "elo_min": 1477.4,
+      "elo_min": 1483.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -449,9 +449,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1475.0,
+      "elo": 1481.1,
       "elo_max": 1500.0,
-      "elo_min": 1475.0,
+      "elo_min": 1481.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -471,7 +471,7 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.67,
-      "elo": 1463.7,
+      "elo": 1457.5,
       "elo_max": 1500.0,
       "elo_min": 1439.0,
       "photo": "photos/default.svg",
@@ -496,9 +496,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.3,
-      "elo": 1412.8,
+      "elo": 1419.5,
       "elo_max": 1500.0,
-      "elo_min": 1412.8,
+      "elo_min": 1419.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -520,9 +520,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1476.4,
-      "elo_max": 1514.5,
-      "elo_min": 1476.4,
+      "elo": 1481.9,
+      "elo_max": 1510.8,
+      "elo_min": 1481.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -543,8 +543,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.2,
-      "elo": 1503.1,
-      "elo_max": 1517.4,
+      "elo": 1503.9,
+      "elo_max": 1514.7,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -567,9 +567,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.5,
-      "elo": 1423.1,
+      "elo": 1429.4,
       "elo_max": 1500.0,
-      "elo_min": 1423.1,
+      "elo_min": 1429.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -635,9 +635,9 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.71,
-      "elo": 1481.4,
+      "elo": 1489.9,
       "elo_max": 1518.9,
-      "elo_min": 1481.4,
+      "elo_min": 1489.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -661,8 +661,8 @@
       ],
       "pourcentage_victoires": 78.6,
       "ratio_sets": 2.21,
-      "elo": 1651.0,
-      "elo_max": 1651.0,
+      "elo": 1640.5,
+      "elo_max": 1641.6,
       "elo_min": 1493.6,
       "photo": "photos/augustin-lesne.jpg",
       "forme_recente": [
@@ -685,8 +685,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.67,
-      "elo": 1514.8,
-      "elo_max": 1534.9,
+      "elo": 1511.6,
+      "elo_max": 1526.3,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -707,9 +707,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.5,
-      "elo": 1478.1,
+      "elo": 1483.6,
       "elo_max": 1500.0,
-      "elo_min": 1478.1,
+      "elo_min": 1483.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -730,8 +730,8 @@
       ],
       "pourcentage_victoires": 72.7,
       "ratio_sets": 1.43,
-      "elo": 1570.8,
-      "elo_max": 1570.8,
+      "elo": 1558.8,
+      "elo_max": 1558.8,
       "elo_min": 1500.0,
       "photo": "photos/axel-garcin.jpg",
       "forme_recente": [
@@ -778,9 +778,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1474.9,
+      "elo": 1481.2,
       "elo_max": 1500.0,
-      "elo_min": 1474.9,
+      "elo_min": 1481.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -800,9 +800,9 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.71,
-      "elo": 1485.7,
+      "elo": 1493.1,
       "elo_max": 1540.0,
-      "elo_min": 1485.7,
+      "elo_min": 1493.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -825,8 +825,8 @@
       ],
       "pourcentage_victoires": 57.1,
       "ratio_sets": 0.91,
-      "elo": 1504.8,
-      "elo_max": 1524.5,
+      "elo": 1503.1,
+      "elo_max": 1518.3,
       "elo_min": 1475.6,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -872,8 +872,8 @@
       ],
       "pourcentage_victoires": 57.1,
       "ratio_sets": 1.3,
-      "elo": 1522.4,
-      "elo_max": 1538.9,
+      "elo": 1519.6,
+      "elo_max": 1531.7,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -968,8 +968,8 @@
       ],
       "pourcentage_victoires": 70.0,
       "ratio_sets": 1.42,
-      "elo": 1574.3,
-      "elo_max": 1574.3,
+      "elo": 1567.1,
+      "elo_max": 1567.1,
       "elo_min": 1485.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -993,8 +993,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 0.89,
-      "elo": 1501.7,
-      "elo_max": 1521.4,
+      "elo": 1500.0,
+      "elo_max": 1514.6,
       "elo_min": 1470.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1018,9 +1018,9 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.62,
-      "elo": 1473.5,
+      "elo": 1473.7,
       "elo_max": 1500.0,
-      "elo_min": 1473.5,
+      "elo_min": 1473.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1044,7 +1044,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.6,
-      "elo": 1554.7,
+      "elo": 1555.6,
       "elo_max": 1579.4,
       "elo_min": 1493.8,
       "photo": "photos/beatrice-revel.jpg",
@@ -1070,7 +1070,7 @@
       ],
       "pourcentage_victoires": 42.9,
       "ratio_sets": 1.0,
-      "elo": 1486.8,
+      "elo": 1477.3,
       "elo_max": 1500.0,
       "elo_min": 1437.8,
       "photo": "photos/default.svg",
@@ -1094,9 +1094,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1483.0,
-      "elo_max": 1513.9,
-      "elo_min": 1483.0,
+      "elo": 1487.1,
+      "elo_max": 1510.4,
+      "elo_min": 1487.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -1118,7 +1118,7 @@
       ],
       "pourcentage_victoires": 76.9,
       "ratio_sets": 1.76,
-      "elo": 1610.8,
+      "elo": 1610.1,
       "elo_max": 1636.7,
       "elo_min": 1500.0,
       "photo": "photos/cheikh-oumar-diarra.jpg",
@@ -1165,8 +1165,8 @@
       ],
       "pourcentage_victoires": 71.4,
       "ratio_sets": 1.71,
-      "elo": 1557.0,
-      "elo_max": 1557.0,
+      "elo": 1545.3,
+      "elo_max": 1545.3,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1190,8 +1190,8 @@
       ],
       "pourcentage_victoires": 60.0,
       "ratio_sets": 1.2,
-      "elo": 1513.8,
-      "elo_max": 1513.8,
+      "elo": 1504.3,
+      "elo_max": 1504.3,
       "elo_min": 1474.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1214,9 +1214,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1467.3,
+      "elo": 1475.3,
       "elo_max": 1500.0,
-      "elo_min": 1467.3,
+      "elo_min": 1475.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1236,7 +1236,7 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.62,
-      "elo": 1451.6,
+      "elo": 1449.2,
       "elo_max": 1500.0,
       "elo_min": 1441.4,
       "photo": "photos/default.svg",
@@ -1262,8 +1262,8 @@
       ],
       "pourcentage_victoires": 88.9,
       "ratio_sets": 2.88,
-      "elo": 1823.0,
-      "elo_max": 1823.0,
+      "elo": 1816.4,
+      "elo_max": 1816.4,
       "elo_min": 1500.0,
       "photo": "photos/clement-ricaud.jpg",
       "forme_recente": [
@@ -1354,8 +1354,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1526.3,
-      "elo_max": 1526.3,
+      "elo": 1519.8,
+      "elo_max": 1519.8,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1419,7 +1419,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.08,
-      "elo": 1547.4,
+      "elo": 1546.4,
       "elo_max": 1574.4,
       "elo_min": 1494.5,
       "photo": "photos/doriann-brossais.jpg",
@@ -1444,8 +1444,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.67,
-      "elo": 1529.5,
-      "elo_max": 1529.5,
+      "elo": 1517.7,
+      "elo_max": 1517.7,
       "elo_min": 1481.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1468,9 +1468,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1492.2,
-      "elo_max": 1508.8,
-      "elo_min": 1488.7,
+      "elo": 1494.1,
+      "elo_max": 1506.5,
+      "elo_min": 1491.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1490,9 +1490,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1484.5,
+      "elo": 1488.0,
       "elo_max": 1500.0,
-      "elo_min": 1484.5,
+      "elo_min": 1488.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1513,8 +1513,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.29,
-      "elo": 1511.8,
-      "elo_max": 1511.8,
+      "elo": 1505.4,
+      "elo_max": 1505.4,
       "elo_min": 1464.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1537,8 +1537,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1513.3,
-      "elo_max": 1529.3,
+      "elo": 1510.4,
+      "elo_max": 1522.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1560,9 +1560,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.22,
-      "elo": 1435.4,
+      "elo": 1435.1,
       "elo_max": 1500.0,
-      "elo_min": 1419.5,
+      "elo_min": 1423.3,
       "photo": "photos/elouan-mazoyer.jpg",
       "forme_recente": [
         "D",
@@ -1628,8 +1628,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.25,
-      "elo": 1510.3,
-      "elo_max": 1531.3,
+      "elo": 1508.0,
+      "elo_max": 1523.5,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1652,9 +1652,9 @@
       ],
       "pourcentage_victoires": 28.6,
       "ratio_sets": 0.5,
-      "elo": 1446.4,
+      "elo": 1453.5,
       "elo_max": 1500.0,
-      "elo_min": 1446.4,
+      "elo_min": 1453.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -1678,9 +1678,9 @@
       ],
       "pourcentage_victoires": 12.5,
       "ratio_sets": 0.31,
-      "elo": 1394.5,
+      "elo": 1398.1,
       "elo_max": 1500.0,
-      "elo_min": 1394.5,
+      "elo_min": 1398.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1726,7 +1726,7 @@
       ],
       "pourcentage_victoires": 80.0,
       "ratio_sets": 2.11,
-      "elo": 1602.2,
+      "elo": 1595.7,
       "elo_max": 1615.7,
       "elo_min": 1482.3,
       "photo": "photos/default.svg",
@@ -1751,9 +1751,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.33,
-      "elo": 1446.4,
+      "elo": 1449.0,
       "elo_max": 1500.0,
-      "elo_min": 1446.4,
+      "elo_min": 1449.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1775,9 +1775,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1448.0,
+      "elo": 1460.1,
       "elo_max": 1500.0,
-      "elo_min": 1448.0,
+      "elo_min": 1460.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1797,9 +1797,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1499.7,
-      "elo_max": 1515.1,
-      "elo_min": 1499.7,
+      "elo": 1499.9,
+      "elo_max": 1511.3,
+      "elo_min": 1499.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -1818,9 +1818,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1472.5,
+      "elo": 1479.2,
       "elo_max": 1500.0,
-      "elo_min": 1472.5,
+      "elo_min": 1479.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1863,7 +1863,7 @@
       ],
       "pourcentage_victoires": 70.0,
       "ratio_sets": 1.5,
-      "elo": 1556.9,
+      "elo": 1549.7,
       "elo_max": 1559.0,
       "elo_min": 1493.6,
       "photo": "photos/gabin-neron.jpg",
@@ -1889,7 +1889,7 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.56,
-      "elo": 1460.2,
+      "elo": 1462.8,
       "elo_max": 1518.2,
       "elo_min": 1452.4,
       "photo": "photos/default.svg",
@@ -1913,9 +1913,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1465.4,
+      "elo": 1473.9,
       "elo_max": 1500.0,
-      "elo_min": 1465.4,
+      "elo_min": 1473.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1955,9 +1955,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1497.3,
+      "elo": 1497.9,
       "elo_max": 1500.0,
-      "elo_min": 1482.6,
+      "elo_min": 1487.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -1998,9 +1998,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1448.0,
+      "elo": 1460.1,
       "elo_max": 1500.0,
-      "elo_min": 1448.0,
+      "elo_min": 1460.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2021,7 +2021,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.29,
-      "elo": 1525.5,
+      "elo": 1517.8,
       "elo_max": 1539.8,
       "elo_min": 1494.7,
       "photo": "photos/default.svg",
@@ -2046,8 +2046,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.25,
-      "elo": 1515.5,
-      "elo_max": 1515.5,
+      "elo": 1508.6,
+      "elo_max": 1508.6,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2070,9 +2070,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1468.8,
+      "elo": 1476.5,
       "elo_max": 1500.0,
-      "elo_min": 1468.8,
+      "elo_min": 1476.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2092,9 +2092,9 @@
       ],
       "pourcentage_victoires": 16.7,
       "ratio_sets": 0.36,
-      "elo": 1431.5,
+      "elo": 1433.4,
       "elo_max": 1500.0,
-      "elo_min": 1428.0,
+      "elo_min": 1430.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2116,9 +2116,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1464.3,
+      "elo": 1473.1,
       "elo_max": 1500.0,
-      "elo_min": 1464.3,
+      "elo_min": 1473.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2184,9 +2184,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.33,
-      "elo": 1446.1,
+      "elo": 1452.4,
       "elo_max": 1500.0,
-      "elo_min": 1446.1,
+      "elo_min": 1452.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2209,7 +2209,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.36,
-      "elo": 1531.4,
+      "elo": 1537.9,
       "elo_max": 1583.4,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
@@ -2233,9 +2233,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1468.8,
+      "elo": 1476.5,
       "elo_max": 1500.0,
-      "elo_min": 1468.8,
+      "elo_min": 1476.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2254,9 +2254,9 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 2.0,
-      "elo": 1514.5,
-      "elo_max": 1514.5,
-      "elo_min": 1494.6,
+      "elo": 1511.0,
+      "elo_max": 1511.0,
+      "elo_min": 1496.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -2276,9 +2276,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1469.7,
+      "elo": 1477.1,
       "elo_max": 1500.0,
-      "elo_min": 1469.7,
+      "elo_min": 1477.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2299,8 +2299,8 @@
       ],
       "pourcentage_victoires": 70.0,
       "ratio_sets": 1.64,
-      "elo": 1573.2,
-      "elo_max": 1573.2,
+      "elo": 1559.9,
+      "elo_max": 1559.9,
       "elo_min": 1458.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2323,9 +2323,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1472.3,
+      "elo": 1478.9,
       "elo_max": 1500.0,
-      "elo_min": 1472.3,
+      "elo_min": 1478.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2344,8 +2344,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1513.7,
-      "elo_max": 1535.3,
+      "elo": 1510.4,
+      "elo_max": 1526.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2367,9 +2367,9 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.67,
-      "elo": 1475.2,
+      "elo": 1475.5,
       "elo_max": 1524.0,
-      "elo_min": 1475.2,
+      "elo_min": 1475.5,
       "photo": "photos/juliette-plault.jpg",
       "forme_recente": [
         "V",
@@ -2413,8 +2413,8 @@
       ],
       "pourcentage_victoires": 100.0,
       "ratio_sets": 7.0,
-      "elo": 1557.3,
-      "elo_max": 1557.3,
+      "elo": 1543.1,
+      "elo_max": 1543.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2435,9 +2435,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1496.6,
+      "elo": 1497.3,
       "elo_max": 1500.0,
-      "elo_min": 1479.9,
+      "elo_min": 1485.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2457,8 +2457,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.29,
-      "elo": 1522.6,
-      "elo_max": 1522.6,
+      "elo": 1510.8,
+      "elo_max": 1518.7,
       "elo_min": 1474.1,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2528,9 +2528,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1465.4,
+      "elo": 1473.9,
       "elo_max": 1500.0,
-      "elo_min": 1465.4,
+      "elo_min": 1473.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2550,7 +2550,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.43,
-      "elo": 1535.4,
+      "elo": 1535.2,
       "elo_max": 1561.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -2575,7 +2575,7 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.62,
-      "elo": 1475.0,
+      "elo": 1474.8,
       "elo_max": 1500.0,
       "elo_min": 1455.1,
       "photo": "photos/default.svg",
@@ -2599,9 +2599,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1484.0,
-      "elo_max": 1514.5,
-      "elo_min": 1484.0,
+      "elo": 1488.0,
+      "elo_max": 1510.9,
+      "elo_min": 1488.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -2622,8 +2622,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.25,
-      "elo": 1504.7,
-      "elo_max": 1504.7,
+      "elo": 1499.7,
+      "elo_max": 1500.0,
       "elo_min": 1461.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2647,9 +2647,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.22,
-      "elo": 1432.3,
+      "elo": 1432.9,
       "elo_max": 1500.0,
-      "elo_min": 1432.3,
+      "elo_min": 1432.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2695,7 +2695,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1495.8,
+      "elo": 1491.3,
       "elo_max": 1524.0,
       "elo_min": 1478.6,
       "photo": "photos/loan-piquet.jpg",
@@ -2742,9 +2742,9 @@
       ],
       "pourcentage_victoires": 16.7,
       "ratio_sets": 0.25,
-      "elo": 1428.4,
+      "elo": 1430.0,
       "elo_max": 1500.0,
-      "elo_min": 1427.8,
+      "elo_min": 1429.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2766,9 +2766,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1467.2,
+      "elo": 1475.3,
       "elo_max": 1500.0,
-      "elo_min": 1467.2,
+      "elo_min": 1475.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2788,9 +2788,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.1,
-      "elo": 1417.5,
+      "elo": 1423.8,
       "elo_max": 1500.0,
-      "elo_min": 1417.5,
+      "elo_min": 1423.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2812,9 +2812,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1512.9,
-      "elo_max": 1512.9,
-      "elo_min": 1494.6,
+      "elo": 1509.5,
+      "elo_max": 1509.8,
+      "elo_min": 1496.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -2834,9 +2834,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1471.8,
+      "elo": 1478.8,
       "elo_max": 1500.0,
-      "elo_min": 1471.8,
+      "elo_min": 1478.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -2857,7 +2857,7 @@
       ],
       "pourcentage_victoires": 69.2,
       "ratio_sets": 1.39,
-      "elo": 1566.2,
+      "elo": 1564.0,
       "elo_max": 1605.9,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -2904,7 +2904,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.43,
-      "elo": 1514.0,
+      "elo": 1513.2,
       "elo_max": 1530.6,
       "elo_min": 1483.5,
       "photo": "photos/default.svg",
@@ -2929,8 +2929,8 @@
       ],
       "pourcentage_victoires": 60.0,
       "ratio_sets": 2.0,
-      "elo": 1501.4,
-      "elo_max": 1501.4,
+      "elo": 1490.9,
+      "elo_max": 1500.0,
       "elo_min": 1457.4,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2954,8 +2954,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 0.86,
-      "elo": 1501.9,
-      "elo_max": 1542.3,
+      "elo": 1507.6,
+      "elo_max": 1537.9,
       "elo_min": 1476.6,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -2978,9 +2978,9 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.6,
-      "elo": 1485.7,
-      "elo_max": 1505.6,
-      "elo_min": 1485.3,
+      "elo": 1489.2,
+      "elo_max": 1504.0,
+      "elo_min": 1489.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3002,7 +3002,7 @@
       ],
       "pourcentage_victoires": 80.0,
       "ratio_sets": 2.24,
-      "elo": 1682.6,
+      "elo": 1675.3,
       "elo_max": 1702.9,
       "elo_min": 1500.0,
       "photo": "photos/leo-santiquet.jpg",
@@ -3048,8 +3048,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1547.3,
-      "elo_max": 1547.3,
+      "elo": 1536.3,
+      "elo_max": 1536.3,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3071,8 +3071,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1507.5,
-      "elo_max": 1507.5,
+      "elo": 1501.3,
+      "elo_max": 1501.3,
       "elo_min": 1452.3,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3097,7 +3097,7 @@
       ],
       "pourcentage_victoires": 84.6,
       "ratio_sets": 1.75,
-      "elo": 1629.4,
+      "elo": 1625.7,
       "elo_max": 1664.1,
       "elo_min": 1500.0,
       "photo": "photos/malo-thuillier.jpg",
@@ -3121,9 +3121,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1464.3,
+      "elo": 1473.1,
       "elo_max": 1500.0,
-      "elo_min": 1464.3,
+      "elo_min": 1473.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3142,9 +3142,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1467.2,
+      "elo": 1475.3,
       "elo_max": 1500.0,
-      "elo_min": 1467.2,
+      "elo_min": 1475.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3163,8 +3163,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1513.7,
-      "elo_max": 1535.3,
+      "elo": 1510.4,
+      "elo_max": 1526.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3185,9 +3185,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1500.9,
-      "elo_max": 1500.9,
-      "elo_min": 1485.0,
+      "elo": 1500.6,
+      "elo_max": 1500.6,
+      "elo_min": 1488.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3207,7 +3207,7 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.64,
-      "elo": 1457.0,
+      "elo": 1454.1,
       "elo_max": 1500.0,
       "elo_min": 1443.7,
       "photo": "photos/default.svg",
@@ -3233,7 +3233,7 @@
       ],
       "pourcentage_victoires": 76.9,
       "ratio_sets": 2.38,
-      "elo": 1661.6,
+      "elo": 1654.2,
       "elo_max": 1663.7,
       "elo_min": 1479.7,
       "photo": "photos/marius-saludjian.jpg",
@@ -3280,8 +3280,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1524.7,
-      "elo_max": 1524.7,
+      "elo": 1518.5,
+      "elo_max": 1518.5,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3303,8 +3303,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.12,
-      "elo": 1492.8,
-      "elo_max": 1514.8,
+      "elo": 1492.1,
+      "elo_max": 1508.4,
       "elo_min": 1462.7,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3327,8 +3327,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1507.6,
-      "elo_max": 1532.0,
+      "elo": 1506.2,
+      "elo_max": 1524.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3350,7 +3350,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.64,
-      "elo": 1558.3,
+      "elo": 1564.7,
       "elo_max": 1610.1,
       "elo_min": 1500.0,
       "photo": "photos/mathias-joly.jpg",
@@ -3374,9 +3374,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1484.0,
-      "elo_max": 1514.5,
-      "elo_min": 1484.0,
+      "elo": 1488.0,
+      "elo_max": 1510.9,
+      "elo_min": 1488.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -3397,9 +3397,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.3,
-      "elo": 1413.0,
+      "elo": 1420.6,
       "elo_max": 1500.0,
-      "elo_min": 1413.0,
+      "elo_min": 1420.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3422,7 +3422,7 @@
       ],
       "pourcentage_victoires": 42.9,
       "ratio_sets": 1.0,
-      "elo": 1499.5,
+      "elo": 1506.1,
       "elo_max": 1550.1,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
@@ -3469,9 +3469,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1471.1,
+      "elo": 1478.2,
       "elo_max": 1500.0,
-      "elo_min": 1471.1,
+      "elo_min": 1478.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3491,9 +3491,9 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1512.7,
+      "elo": 1512.8,
       "elo_max": 1545.8,
-      "elo_min": 1494.8,
+      "elo_min": 1499.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -3515,9 +3515,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1477.4,
+      "elo": 1483.0,
       "elo_max": 1500.0,
-      "elo_min": 1477.4,
+      "elo_min": 1483.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3536,9 +3536,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1469.0,
+      "elo": 1476.6,
       "elo_max": 1500.0,
-      "elo_min": 1469.0,
+      "elo_min": 1476.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3557,9 +3557,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1487.8,
+      "elo": 1490.7,
       "elo_max": 1500.0,
-      "elo_min": 1483.4,
+      "elo_min": 1487.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3603,9 +3603,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1483.7,
-      "elo_max": 1501.9,
-      "elo_min": 1483.7,
+      "elo": 1487.3,
+      "elo_max": 1501.3,
+      "elo_min": 1487.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3626,8 +3626,8 @@
       ],
       "pourcentage_victoires": 75.0,
       "ratio_sets": 2.5,
-      "elo": 1574.0,
-      "elo_max": 1574.0,
+      "elo": 1561.5,
+      "elo_max": 1561.5,
       "elo_min": 1500.0,
       "photo": "photos/mateo-batista.jpg",
       "forme_recente": [
@@ -3650,9 +3650,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1498.2,
-      "elo_max": 1515.4,
-      "elo_min": 1498.2,
+      "elo": 1498.8,
+      "elo_max": 1511.4,
+      "elo_min": 1498.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -3672,7 +3672,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.14,
-      "elo": 1486.3,
+      "elo": 1473.8,
       "elo_max": 1500.0,
       "elo_min": 1434.6,
       "photo": "photos/default.svg",
@@ -3697,9 +3697,9 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.8,
-      "elo": 1471.4,
+      "elo": 1479.0,
       "elo_max": 1542.7,
-      "elo_min": 1471.4,
+      "elo_min": 1479.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -3743,8 +3743,8 @@
       ],
       "pourcentage_victoires": 100.0,
       "ratio_sets": 7.0,
-      "elo": 1557.3,
-      "elo_max": 1557.3,
+      "elo": 1543.1,
+      "elo_max": 1543.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3789,7 +3789,7 @@
       ],
       "pourcentage_victoires": 86.7,
       "ratio_sets": 2.64,
-      "elo": 1696.6,
+      "elo": 1689.2,
       "elo_max": 1743.4,
       "elo_min": 1500.0,
       "photo": "photos/maxime-trepant.jpg",
@@ -3813,9 +3813,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1513.6,
-      "elo_max": 1515.7,
-      "elo_min": 1497.6,
+      "elo": 1510.0,
+      "elo_max": 1511.9,
+      "elo_min": 1498.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -3836,9 +3836,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.33,
-      "elo": 1441.5,
+      "elo": 1441.4,
       "elo_max": 1500.0,
-      "elo_min": 1425.4,
+      "elo_min": 1429.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3861,8 +3861,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1502.6,
-      "elo_max": 1532.4,
+      "elo": 1505.5,
+      "elo_max": 1527.5,
       "elo_min": 1473.8,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3885,9 +3885,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1470.0,
+      "elo": 1477.4,
       "elo_max": 1500.0,
-      "elo_min": 1470.0,
+      "elo_min": 1477.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -3907,7 +3907,7 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.62,
-      "elo": 1453.9,
+      "elo": 1451.5,
       "elo_max": 1500.0,
       "elo_min": 1443.7,
       "photo": "photos/default.svg",
@@ -3931,8 +3931,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1510.5,
-      "elo_max": 1528.8,
+      "elo": 1508.3,
+      "elo_max": 1521.8,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3955,8 +3955,8 @@
       ],
       "pourcentage_victoires": 62.5,
       "ratio_sets": 1.71,
-      "elo": 1529.6,
-      "elo_max": 1529.6,
+      "elo": 1516.3,
+      "elo_max": 1524.9,
       "elo_min": 1473.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3980,9 +3980,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.22,
-      "elo": 1440.8,
+      "elo": 1448.7,
       "elo_max": 1500.0,
-      "elo_min": 1440.8,
+      "elo_min": 1448.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4006,8 +4006,8 @@
       ],
       "pourcentage_victoires": 77.8,
       "ratio_sets": 3.6,
-      "elo": 1574.5,
-      "elo_max": 1574.5,
+      "elo": 1567.9,
+      "elo_max": 1570.7,
       "elo_min": 1481.3,
       "photo": "photos/paul-dauboin.jpg",
       "forme_recente": [
@@ -4031,9 +4031,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.3,
-      "elo": 1409.7,
+      "elo": 1416.2,
       "elo_max": 1500.0,
-      "elo_min": 1409.7,
+      "elo_min": 1416.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4055,8 +4055,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1546.9,
-      "elo_max": 1546.9,
+      "elo": 1535.6,
+      "elo_max": 1535.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4077,9 +4077,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1469.9,
+      "elo": 1477.2,
       "elo_max": 1500.0,
-      "elo_min": 1469.9,
+      "elo_min": 1477.2,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4098,8 +4098,8 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1536.4,
-      "elo_max": 1536.4,
+      "elo": 1527.7,
+      "elo_max": 1527.7,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4143,7 +4143,7 @@
       ],
       "pourcentage_victoires": 40.0,
       "ratio_sets": 0.57,
-      "elo": 1483.1,
+      "elo": 1482.2,
       "elo_max": 1500.0,
       "elo_min": 1454.9,
       "photo": "photos/default.svg",
@@ -4169,7 +4169,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1497.8,
+      "elo": 1493.3,
       "elo_max": 1520.3,
       "elo_min": 1476.0,
       "photo": "photos/Pilou-petit.jpg",
@@ -4193,9 +4193,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1469.0,
+      "elo": 1476.6,
       "elo_max": 1500.0,
-      "elo_min": 1469.0,
+      "elo_min": 1476.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4216,7 +4216,7 @@
       ],
       "pourcentage_victoires": 60.0,
       "ratio_sets": 1.07,
-      "elo": 1521.6,
+      "elo": 1523.3,
       "elo_max": 1572.4,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -4241,9 +4241,9 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.36,
-      "elo": 1464.0,
+      "elo": 1465.6,
       "elo_max": 1500.0,
-      "elo_min": 1463.4,
+      "elo_min": 1465.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -4266,8 +4266,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.43,
-      "elo": 1541.8,
-      "elo_max": 1541.8,
+      "elo": 1535.1,
+      "elo_max": 1535.1,
       "elo_min": 1476.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4292,7 +4292,7 @@
       ],
       "pourcentage_victoires": 28.6,
       "ratio_sets": 0.5,
-      "elo": 1429.1,
+      "elo": 1421.8,
       "elo_max": 1500.0,
       "elo_min": 1399.0,
       "photo": "photos/default.svg",
@@ -4316,9 +4316,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1496.6,
+      "elo": 1497.3,
       "elo_max": 1500.0,
-      "elo_min": 1479.9,
+      "elo_min": 1485.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4363,9 +4363,9 @@
       ],
       "pourcentage_victoires": 42.9,
       "ratio_sets": 0.91,
-      "elo": 1488.4,
+      "elo": 1496.0,
       "elo_max": 1544.0,
-      "elo_min": 1488.4,
+      "elo_min": 1496.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -4388,9 +4388,9 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.6,
-      "elo": 1464.1,
+      "elo": 1471.7,
       "elo_max": 1518.7,
-      "elo_min": 1464.1,
+      "elo_min": 1471.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4412,9 +4412,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1497.3,
+      "elo": 1497.9,
       "elo_max": 1500.0,
-      "elo_min": 1482.6,
+      "elo_min": 1487.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4433,9 +4433,9 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.6,
-      "elo": 1485.7,
-      "elo_max": 1505.6,
-      "elo_min": 1485.3,
+      "elo": 1489.2,
+      "elo_max": 1504.0,
+      "elo_min": 1489.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4455,9 +4455,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1473.0,
+      "elo": 1479.4,
       "elo_max": 1500.0,
-      "elo_min": 1473.0,
+      "elo_min": 1479.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4477,8 +4477,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.25,
-      "elo": 1510.3,
-      "elo_max": 1531.3,
+      "elo": 1508.0,
+      "elo_max": 1523.5,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4500,8 +4500,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.25,
-      "elo": 1526.7,
-      "elo_max": 1526.7,
+      "elo": 1515.4,
+      "elo_max": 1515.4,
       "elo_min": 1459.2,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4525,8 +4525,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.0,
-      "elo": 1526.7,
-      "elo_max": 1526.7,
+      "elo": 1523.3,
+      "elo_max": 1523.6,
       "elo_min": 1476.4,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4571,9 +4571,9 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.25,
-      "elo": 1514.8,
-      "elo_max": 1514.8,
-      "elo_min": 1494.7,
+      "elo": 1510.8,
+      "elo_max": 1510.8,
+      "elo_min": 1496.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -4593,9 +4593,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1483.0,
-      "elo_max": 1513.9,
-      "elo_min": 1483.0,
+      "elo": 1487.1,
+      "elo_max": 1510.4,
+      "elo_min": 1487.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -4616,9 +4616,9 @@
       ],
       "pourcentage_victoires": 42.9,
       "ratio_sets": 0.82,
-      "elo": 1482.1,
+      "elo": 1485.6,
       "elo_max": 1545.1,
-      "elo_min": 1482.1,
+      "elo_min": 1485.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4664,7 +4664,7 @@
       ],
       "pourcentage_victoires": 44.4,
       "ratio_sets": 0.92,
-      "elo": 1480.8,
+      "elo": 1474.1,
       "elo_max": 1500.5,
       "elo_min": 1452.5,
       "photo": "photos/default.svg",
@@ -4689,7 +4689,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 0.78,
-      "elo": 1498.1,
+      "elo": 1497.2,
       "elo_max": 1539.7,
       "elo_min": 1494.3,
       "photo": "photos/default.svg",
@@ -4714,7 +4714,7 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.07,
-      "elo": 1514.3,
+      "elo": 1522.8,
       "elo_max": 1574.7,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -4738,9 +4738,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1487.8,
+      "elo": 1490.7,
       "elo_max": 1500.0,
-      "elo_min": 1483.4,
+      "elo_min": 1487.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4760,9 +4760,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1471.8,
+      "elo": 1478.8,
       "elo_max": 1500.0,
-      "elo_min": 1471.8,
+      "elo_min": 1478.8,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4804,9 +4804,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1476.4,
-      "elo_max": 1514.5,
-      "elo_min": 1476.4,
+      "elo": 1481.9,
+      "elo_max": 1510.8,
+      "elo_min": 1481.9,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -4828,7 +4828,7 @@
       ],
       "pourcentage_victoires": 62.5,
       "ratio_sets": 1.56,
-      "elo": 1536.6,
+      "elo": 1528.9,
       "elo_max": 1548.4,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
@@ -4854,7 +4854,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.44,
-      "elo": 1585.7,
+      "elo": 1587.4,
       "elo_max": 1626.0,
       "elo_min": 1480.5,
       "photo": "photos/theophile-watremez.jpg",
@@ -4878,9 +4878,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1468.1,
+      "elo": 1476.0,
       "elo_max": 1500.0,
-      "elo_min": 1468.1,
+      "elo_min": 1476.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4900,8 +4900,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 0.75,
-      "elo": 1484.4,
-      "elo_max": 1509.4,
+      "elo": 1483.4,
+      "elo_max": 1501.8,
       "elo_min": 1454.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4924,9 +4924,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1520.2,
-      "elo_max": 1520.2,
-      "elo_min": 1485.3,
+      "elo": 1515.2,
+      "elo_max": 1515.2,
+      "elo_min": 1489.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -4969,7 +4969,7 @@
       ],
       "pourcentage_victoires": 57.1,
       "ratio_sets": 1.44,
-      "elo": 1521.6,
+      "elo": 1516.4,
       "elo_max": 1524.0,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -4994,8 +4994,8 @@
       ],
       "pourcentage_victoires": 60.0,
       "ratio_sets": 1.4,
-      "elo": 1518.1,
-      "elo_max": 1518.1,
+      "elo": 1517.3,
+      "elo_max": 1517.3,
       "elo_min": 1472.7,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5019,9 +5019,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.1,
-      "elo": 1406.3,
+      "elo": 1413.3,
       "elo_max": 1500.0,
-      "elo_min": 1406.3,
+      "elo_min": 1413.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -5044,9 +5044,9 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.14,
-      "elo": 1510.5,
-      "elo_max": 1510.5,
-      "elo_min": 1471.9,
+      "elo": 1504.1,
+      "elo_max": 1505.4,
+      "elo_min": 1475.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -5068,8 +5068,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.2,
-      "elo": 1517.2,
-      "elo_max": 1517.2,
+      "elo": 1512.7,
+      "elo_max": 1512.7,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5091,8 +5091,8 @@
       ],
       "pourcentage_victoires": 71.4,
       "ratio_sets": 2.0,
-      "elo": 1551.8,
-      "elo_max": 1551.8,
+      "elo": 1540.1,
+      "elo_max": 1540.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5138,8 +5138,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.67,
-      "elo": 1514.8,
-      "elo_max": 1534.9,
+      "elo": 1511.6,
+      "elo_max": 1526.3,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5162,8 +5162,8 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 1.0,
-      "elo": 1504.7,
-      "elo_max": 1504.7,
+      "elo": 1497.8,
+      "elo_max": 1500.0,
       "elo_min": 1468.0,
       "photo": "photos/victoire-guth.jpg",
       "forme_recente": [
@@ -5188,7 +5188,7 @@
       ],
       "pourcentage_victoires": 92.9,
       "ratio_sets": 2.77,
-      "elo": 1752.3,
+      "elo": 1748.6,
       "elo_max": 1780.8,
       "elo_min": 1500.0,
       "photo": "photos/victor-duforest.jpg",
@@ -5214,9 +5214,9 @@
       ],
       "pourcentage_victoires": 37.5,
       "ratio_sets": 1.0,
-      "elo": 1479.3,
+      "elo": 1486.4,
       "elo_max": 1528.8,
-      "elo_min": 1479.3,
+      "elo_min": 1486.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -5260,7 +5260,7 @@
       ],
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.73,
-      "elo": 1452.5,
+      "elo": 1449.7,
       "elo_max": 1500.0,
       "elo_min": 1439.9,
       "photo": "photos/default.svg",
@@ -5284,9 +5284,9 @@
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1469.0,
+      "elo": 1476.6,
       "elo_max": 1500.0,
-      "elo_min": 1469.0,
+      "elo_min": 1476.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -5306,9 +5306,9 @@
       ],
       "pourcentage_victoires": 50.0,
       "ratio_sets": 0.88,
-      "elo": 1494.4,
+      "elo": 1494.5,
       "elo_max": 1518.7,
-      "elo_min": 1476.5,
+      "elo_min": 1481.1,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -5331,8 +5331,8 @@
       ],
       "pourcentage_victoires": 83.3,
       "ratio_sets": 3.0,
-      "elo": 1566.9,
-      "elo_max": 1566.9,
+      "elo": 1555.9,
+      "elo_max": 1555.9,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5356,9 +5356,9 @@
       ],
       "pourcentage_victoires": 20.0,
       "ratio_sets": 0.5,
-      "elo": 1450.6,
+      "elo": 1458.0,
       "elo_max": 1524.0,
-      "elo_min": 1450.6,
+      "elo_min": 1458.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
@@ -5382,7 +5382,7 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 1.27,
-      "elo": 1536.3,
+      "elo": 1537.1,
       "elo_max": 1566.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -5406,8 +5406,8 @@
       ],
       "pourcentage_victoires": 66.7,
       "ratio_sets": 2.0,
-      "elo": 1520.9,
-      "elo_max": 1520.9,
+      "elo": 1515.7,
+      "elo_max": 1515.7,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -5428,9 +5428,9 @@
       ],
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.5,
-      "elo": 1478.1,
+      "elo": 1483.6,
       "elo_max": 1500.0,
-      "elo_min": 1478.1,
+      "elo_min": 1483.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
@@ -5451,7 +5451,7 @@
       ],
       "pourcentage_victoires": 60.0,
       "ratio_sets": 1.25,
-      "elo": 1516.5,
+      "elo": 1517.4,
       "elo_max": 1551.8,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -5472,8 +5472,8 @@
       "sets_perdus": 1,
       "pourcentage_victoires": 100.0,
       "ratio_sets": 4.0,
-      "elo": 1530.2,
-      "elo_max": 1530.2,
+      "elo": 1522.7,
+      "elo_max": 1522.7,
       "elo_min": 1500.0,
       "tournois": [
         "CNF 3"
@@ -5525,9 +5525,9 @@
       "sets_perdus": 5,
       "pourcentage_victoires": 33.3,
       "ratio_sets": 0.4,
-      "elo": 1477.0,
-      "elo_max": 1517.4,
-      "elo_min": 1477.0,
+      "elo": 1482.7,
+      "elo_max": 1513.0,
+      "elo_min": 1482.7,
       "tournois": [
         "CNF 3"
       ],
@@ -5563,9 +5563,9 @@
       "sets_perdus": 4,
       "pourcentage_victoires": 0.0,
       "ratio_sets": 0.25,
-      "elo": 1475.0,
+      "elo": 1481.1,
       "elo_max": 1500.0,
-      "elo_min": 1475.0,
+      "elo_min": 1481.1,
       "tournois": [
         "CNF 3"
       ],
@@ -5577,9 +5577,9 @@
     },
     {
       "nom": "Adrien Quéffelec",
-      "elo": 1483.5,
+      "elo": 1487.6,
       "elo_max": 1500.0,
-      "elo_min": 1483.5,
+      "elo_min": 1487.6,
       "matchs_joues": 1,
       "victoires": 0,
       "defaites": 1,
