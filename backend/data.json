@@ -1021,7 +1021,7 @@
       "elo": 1473.5,
       "elo_max": 1500.0,
       "elo_min": 1473.5,
-      "photo": "photos/default.svg",
+      "photo": "photos/brune-paluel-marmont.jpg",
       "forme_recente": [
         "D",
         "V",
@@ -4156,7 +4156,7 @@
       ]
     },
     {
-      "nom": "Pilou Petit",
+      "nom": "Pierre-Louis Petit",
       "matchs_joues": 6,
       "victoires": 3,
       "defaites": 3,
@@ -4172,7 +4172,7 @@
       "elo": 1497.8,
       "elo_max": 1520.3,
       "elo_min": 1476.0,
-      "photo": "photos/pilou-petit.jpg",
+      "photo": "photos/pierre-louis-petit.jpg",
       "forme_recente": [
         "V",
         "V",
@@ -5801,7 +5801,7 @@
       "tournoi": "CNF 1",
       "phase": "Poules",
       "date": "2025-04",
-      "joueur1": "Pilou Petit",
+      "joueur1": "Pierre-Louis Petit",
       "joueur2": "Raphaël Delacote",
       "score1": 0,
       "score2": 2,
@@ -5823,11 +5823,11 @@
       "tournoi": "CNF 1",
       "phase": "Poules",
       "date": "2025-04",
-      "joueur1": "Pilou Petit",
+      "joueur1": "Pierre-Louis Petit",
       "joueur2": "Victor Perron",
       "score1": 2,
       "score2": 1,
-      "gagnant": "Pilou Petit"
+      "gagnant": "Pierre-Louis Petit"
     },
     {
       "id": 25,
@@ -6901,11 +6901,11 @@
       "tournoi": "CNF 2",
       "phase": "Poules",
       "date": "2025-10",
-      "joueur1": "Pilou Petit",
+      "joueur1": "Pierre-Louis Petit",
       "joueur2": "Antonin Briat",
       "score1": 2,
       "score2": 0,
-      "gagnant": "Pilou Petit"
+      "gagnant": "Pierre-Louis Petit"
     },
     {
       "id": 123,
@@ -6923,7 +6923,7 @@
       "tournoi": "CNF 2",
       "phase": "Poules",
       "date": "2025-10",
-      "joueur1": "Pilou Petit",
+      "joueur1": "Pierre-Louis Petit",
       "joueur2": "Siméon Glomot",
       "score1": 1,
       "score2": 2,
@@ -6946,7 +6946,7 @@
       "phase": "Poules",
       "date": "2025-10",
       "joueur1": "Eugénie Roquain",
-      "joueur2": "Pilou Petit",
+      "joueur2": "Pierre-Louis Petit",
       "score1": 2,
       "score2": 0,
       "gagnant": "Eugénie Roquain"
@@ -9304,7 +9304,7 @@
   "equipes": [
     {
       "nom": "Pastis et Cassoulet",
-      "joueur1": "Pilou Petit",
+      "joueur1": "Pierre-Louis Petit",
       "joueur2": "Axel Garcin",
       "tournoi": "CNF 3",
       "chapeau": 1
@@ -9911,7 +9911,7 @@
       "equipes": [
         {
           "nom": "Pastis et Cassoulet",
-          "joueur1": "Pilou Petit",
+          "joueur1": "Pierre-Louis Petit",
           "joueur2": "Axel Garcin"
         },
         {
@@ -12670,7 +12670,7 @@
       "date": "2026-02-24",
       "equipe1": "Pastis et Cassoulet",
       "equipe2": "Zizi mou",
-      "joueur1_eq1": "Pilou Petit",
+      "joueur1_eq1": "Pierre-Louis Petit",
       "joueur2_eq1": "Axel Garcin",
       "joueur1_eq2": "Mathias Joly",
       "joueur2_eq2": "Samuel Grall",
