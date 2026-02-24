@@ -1294,27 +1294,32 @@ function togglePrix(element) {
 function afficherFormeRecente(nomJoueur) {
     if (!nomJoueur) return '';
     
-    // 1. On récupère les résultats des matchs simples (Vrai/Faux)
+    // 1. Matchs simples (uniquement avec un gagnant)
     const formeSimples = matchs
-        .filter(m => m.joueur1 === nomJoueur || m.joueur2 === nomJoueur)
+        .filter(m => (m.joueur1 === nomJoueur || m.joueur2 === nomJoueur) && m.gagnant)
         .map(m => m.gagnant === nomJoueur);
 
-    // 2. On récupère les résultats du CNF 3 (Vrai/Faux)
+    // 2. Matchs CNF 3 doubles (uniquement JOUÉS : gagnant non null)
     const sourceCNF3 = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3 : [];
     const formeDoubles = sourceCNF3
-        .filter(m => m.joueur1_eq1 === nomJoueur || m.joueur2_eq1 === nomJoueur || 
-                     m.joueur1_eq2 === nomJoueur || m.joueur2_eq2 === nomJoueur)
+        .filter(m =>
+            // Match joué uniquement
+            m.gagnant !== null && m.gagnant !== undefined &&
+            // Le joueur participe au match
+            (m.joueur1_eq1 === nomJoueur || m.joueur2_eq1 === nomJoueur ||
+             m.joueur1_eq2 === nomJoueur || m.joueur2_eq2 === nomJoueur)
+        )
         .map(m => {
             const estDansEq1 = (m.joueur1_eq1 === nomJoueur || m.joueur2_eq1 === nomJoueur);
             return m.gagnant === (estDansEq1 ? m.equipe1 : m.equipe2);
         });
 
-    // 3. On fusionne (Simples d'abord, CNF3 après) et on garde les 5 derniers
+    // 3. Fusionner et garder les 5 derniers
     const historiqueTotal = [...formeSimples, ...formeDoubles].slice(-5);
 
     if (historiqueTotal.length === 0) return 'Aucun match';
 
-    // 4. On génère les pastilles
+    // 4. Générer les pastilles
     return `
         <div class="forme-recent">
             ${historiqueTotal.map(victoire => `

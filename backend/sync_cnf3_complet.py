@@ -27,8 +27,13 @@ IGNORED_SHEETS = ['Chapeaux', 'Planning matchs', 'Premiers', 'Deuxiemes', 'Poule
 # Parametres ELO
 K_FACTOR_DOUBLE = 24
 PHASE_MULTIPLIERS = {
-    "Poules": 1.0, "32emes": 1.2, "16emes": 1.4, "8emes": 1.6,
-    "Quarts": 1.8, "Demis": 2.2, "Finale": 3.0, "Tableau": 1.5
+    # Poules
+    "Poules": 1.0,
+    # Phases finales - avec accents (noms produits par parse_tableau_final_sheet)
+    "32èmes": 1.2, "16èmes": 1.4, "8èmes": 1.6,
+    "Quarts": 1.8, "Demis": 2.2, "Finale": 3.0,
+    # Alias sans accents (sécurité)
+    "32emes": 1.2, "16emes": 1.4, "8emes": 1.6,
 }
 
 def calculer_nouveau_elo_complexe(elo_joueur, elo_adversaire, s_gagnes, s_perdus, phase):
@@ -115,7 +120,7 @@ class CNF3SyncOptimise:
         for m in self.data.get("matchs", []):
             total_sets += m.get("score1", 0) + m.get("score2", 0)
         for m in self.data.get("matchs_cnf3", []):
-            total_sets += m.get("score1", 0) + m.get("score2", 0)
+            total_sets += (m.get("score1") or 0) + (m.get("score2") or 0)
         self.data["stats_globales"] = {
             "total_joueurs": nb_joueurs,
             "total_matchs": nb_matchs_simples + nb_matchs_doubles,
@@ -502,9 +507,6 @@ class CNF3SyncOptimise:
             if sheet_new == 0:
                 print("[OK] A jour")
         
-        # -------------------------------------------------------
-        # TABLEAU FINAL
-        # -------------------------------------------------------
         print()
         print("[TABLEAU] Synchronisation du Tableau final...")
         rows_tableau = self.get_tableau_final_data()
@@ -514,54 +516,55 @@ class CNF3SyncOptimise:
             nouveaux_tableau = 0
             updates_tableau = 0
             
+            # ── Construire aussi tableau_cnf3 pour le visuel bracket ───────
+            tableau_cnf3 = {k: [] for k in ['32emes','16emes','8emes','quarts','demis','finale']}
+            PHASE_TO_KEY = {
+                '32èmes': '32emes', '16èmes': '16emes', '8èmes': '8emes',
+                'Quarts': 'quarts', 'Demis': 'demis', 'Finale': 'finale',
+            }
+            for m in matchs_tableau:
+                key = PHASE_TO_KEY.get(m['phase'])
+                if key:
+                    tableau_cnf3[key].append({
+                        'match_num': len(tableau_cnf3[key]) + 1,
+                        'seed1': m.get('seed1'), 'equipe1': m['equipe1'], 'score1': m['score1'],
+                        'seed2': m.get('seed2'), 'equipe2': m['equipe2'], 'score2': m['score2'],
+                        'gagnant': m['gagnant'],
+                    })
+            self.data['tableau_cnf3'] = tableau_cnf3
+            # ───────────────────────────────────────────────────────────────
+
             for match_data in matchs_tableau:
                 if not self.match_tableau_exists(match_data):
-                    # Nouveau match (meme sans score - on stocke le bracket vide)
                     if match_data.get('gagnant'):
+                        # Match joue pour la premiere fois → ELO + stats
                         delta = self.traiter_match_tableau(match_data)
                         nouveaux_matchs += 1
                         nouveaux_tableau += 1
                         print(f"  [NOUVEAU] [{match_data['phase']}] {match_data['equipe1']} {match_data['score1']}-{match_data['score2']} {match_data['equipe2']}")
-                    else:
-                        # Stocker le match sans score pour le visuel du bracket
-                        if 'matchs_cnf3' not in self.data:
-                            self.data['matchs_cnf3'] = []
-                        self.data['matchs_cnf3'].append({
-                            "id": len(self.data['matchs_cnf3']) + 1,
-                            "type": "tableau", "tournoi": "CNF 3",
-                            "phase": match_data['phase'],
-                            "seed1": match_data.get('seed1'),
-                            "seed2": match_data.get('seed2'),
-                            "date": datetime.now().strftime("%Y-%m-%d"),
-                            "equipe1": match_data['equipe1'],
-                            "equipe2": match_data['equipe2'],
-                            "joueur1_eq1": match_data['joueur1_eq1'],
-                            "joueur2_eq1": match_data['joueur2_eq1'],
-                            "joueur1_eq2": match_data['joueur1_eq2'],
-                            "joueur2_eq2": match_data['joueur2_eq2'],
-                            "score1": None, "score2": None, "gagnant": None,
-                        })
-                        nouveaux_tableau += 1
+                    # Les matchs sans score NE sont PAS stockes dans matchs_cnf3
+                    # (ils sont uniquement dans tableau_cnf3 pour le visuel)
                 elif self.match_tableau_score_changed(match_data):
-                    # Score vient d'apparaitre pour un match existant
+                    # Un score vient d'apparaitre → update ELO
                     self.mettre_a_jour_score_tableau(match_data)
                     nouveaux_matchs += 1
                     updates_tableau += 1
             
             if nouveaux_tableau > 0:
-                print(f"[OK] Tableau final: {nouveaux_tableau} nouveaux matchs/slots")
+                print(f"[OK] Tableau final: {nouveaux_tableau} nouveau(x) match(s) joue(s)")
             if updates_tableau > 0:
-                print(f"[OK] Tableau final: {updates_tableau} score(s) mis a jour")
+                print(f"[OK] Tableau final: {updates_tableau} score(s) mis a jour et ELO recalcule")
             if nouveaux_tableau == 0 and updates_tableau == 0:
                 print("[OK] Tableau final: a jour")
         
         print()
+        # Toujours sauvegarder : tableau_cnf3 est mis a jour a chaque sync
+        self._save_data()
         if nouveaux_matchs > 0:
-            self._save_data()
-            print(f"[SUCCESS] {nouveaux_matchs} nouveau(x) match(s) synchronise(s)")
+            print(f"[SUCCESS] {nouveaux_matchs} match(s) mis a jour (ELO recalcule)")
             return True
         else:
-            print("[OK] Aucun nouveau match")
+            print("[OK] Aucun nouveau match de poule ou tableau")
             return False
 
 def main():
