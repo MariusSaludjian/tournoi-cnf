@@ -123,6 +123,7 @@ function afficherTopJoueurs() {
     container.innerHTML = topJoueurs.map((joueur, index) => `
         <div class="player-card rank-${index + 1}" onclick="afficherProfilJoueur('${joueur.nom}')">
             <div class="player-header">
+                <img src="${joueur.photo || 'photos/default.jpg'}" alt="${joueur.nom}" class="top-player-photo" onerror="this.src='photos/default.jpg'">
                 <div class="player-name">${joueur.nom}</div>
                 <div class="player-rank">#${index + 1}</div>
             </div>
@@ -482,7 +483,10 @@ function afficherClassement() {
         return `
             <tr onclick="afficherProfilJoueur('${joueur.nom}')" style="cursor: pointer;">
                 <td><span class="rank-cell ${index < 3 ? 'top-3' : ''}">${index + 1}</span></td>
-                <td class="player-name-cell">${joueur.nom}</td>
+                <td class="player-name-cell">
+                    <img src="${joueur.photo || 'photos/default.jpg'}" alt="${joueur.nom}" class="classement-photo" onerror="this.src='photos/default.jpg'">
+                    ${joueur.nom}
+                </td>
                 <td><span class="${eloClass}" style="font-weight: 700; font-size: 1.1rem;">${Math.round(joueur.elo)} <span style="font-size: 0.8rem;">${eloTrend}</span></span></td>
                 <td>${joueur.matchs_joues}</td>
                 <td class="positive">${joueur.victoires}</td>

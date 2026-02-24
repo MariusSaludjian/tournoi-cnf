@@ -1700,7 +1700,7 @@ body {
 
 .champion-label {
     font-size: 0.9rem;
-    color: var(--gray);
+    color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
@@ -5929,4 +5929,24 @@ body {
     .bt-name { font-size: 0.65rem; }
     .bt-score { font-size: 0.72rem; }
     .bracket-round-label, .bar-label { font-size: 0.6rem; }
+}
+/* Photos top joueurs + classement */
+.top-player-photo {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+.classement-photo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 8px;
+    border: 1.5px solid #3a3a3a;
 }

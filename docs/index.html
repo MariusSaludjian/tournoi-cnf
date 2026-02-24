@@ -69,8 +69,14 @@
         </div>
 
         <div class="container">
+
             <h2 class="section-title">🏆 Top Joueurs</h2>
             <div class="top-players-grid" id="top-players">
+                <!-- Rempli dynamiquement -->
+            </div>
+
+            <h2 class="section-title">🏆 Tableau Final CNF 3</h2>
+            <div class="bracket-accueil-container" id="bracket-accueil">
                 <!-- Rempli dynamiquement -->
             </div>
 
@@ -79,10 +85,6 @@
                 <!-- Rempli dynamiquement -->
             </div>
 
-            <h2 class="section-title">🏆 Tableau Final CNF 3</h2>
-            <div class="bracket-accueil-container" id="bracket-accueil">
-                <!-- Rempli dynamiquement -->
-            </div>
         </div>
     </section>
 
@@ -556,24 +558,36 @@
             <div class="prediction-selector">
                 <div class="team-selector">
                     <h3>🎯 Équipe A</h3>
-                    <select id="team-a-player1" class="player-select">
-                        <option value="">Joueur 1</option>
-                    </select>
-                    <select id="team-a-player2" class="player-select">
-                        <option value="">Joueur 2</option>
-                    </select>
+                    <div class="pred-select-row">
+                        <img id="photo-a1" class="pred-photo hidden" src="" alt="" onerror="this.src='photos/default.jpg'">
+                        <select id="team-a-player1" class="player-select" onchange="afficherPhotoPred('a1', this.value)">
+                            <option value="">Joueur 1</option>
+                        </select>
+                    </div>
+                    <div class="pred-select-row">
+                        <img id="photo-a2" class="pred-photo hidden" src="" alt="" onerror="this.src='photos/default.jpg'">
+                        <select id="team-a-player2" class="player-select" onchange="afficherPhotoPred('a2', this.value)">
+                            <option value="">Joueur 2</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div class="vs-separator">VS</div>
 
                 <div class="team-selector">
                     <h3>🎯 Équipe B</h3>
-                    <select id="team-b-player1" class="player-select">
-                        <option value="">Joueur 1</option>
-                    </select>
-                    <select id="team-b-player2" class="player-select">
-                        <option value="">Joueur 2</option>
-                    </select>
+                    <div class="pred-select-row">
+                        <img id="photo-b1" class="pred-photo hidden" src="" alt="" onerror="this.src='photos/default.jpg'">
+                        <select id="team-b-player1" class="player-select" onchange="afficherPhotoPred('b1', this.value)">
+                            <option value="">Joueur 1</option>
+                        </select>
+                    </div>
+                    <div class="pred-select-row">
+                        <img id="photo-b2" class="pred-photo hidden" src="" alt="" onerror="this.src='photos/default.jpg'">
+                        <select id="team-b-player2" class="player-select" onchange="afficherPhotoPred('b2', this.value)">
+                            <option value="">Joueur 2</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
