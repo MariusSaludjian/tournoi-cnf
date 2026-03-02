@@ -36,7 +36,6 @@ function initialiserSite() {
     afficherPageAccueilDynamique();
     afficherTopJoueurs();
     afficherDerniersMatchs();
-    afficherBracketAccueil();
     afficherTousJoueurs();
     afficherTousMatchs();
     afficherClassement();
@@ -120,13 +119,18 @@ function afficherTopJoueurs() {
         })
         .slice(0, 6);
     
+    const rankMedals = ['🥇','🥈','🥉','4','5','6'];
     container.innerHTML = topJoueurs.map((joueur, index) => `
         <div class="player-card rank-${index + 1}" onclick="afficherProfilJoueur('${joueur.nom}')">
-            <div class="player-header">
-                <img src="${joueur.photo || 'photos/default.jpg'}" alt="${joueur.nom}" class="top-player-photo" onerror="this.src='photos/default.jpg'">
+            <div class="player-card-top">
+                <div class="player-photo-wrapper rank-${index + 1}-photo">
+                    <img src="${joueur.photo || 'photos/default.svg'}" alt="${joueur.nom}" class="player-photo-circle" onerror="this.src='photos/default.svg'">
+                    <div class="player-medal">${index < 3 ? rankMedals[index] : '<span class=\'rank-num\'>#' + (index+1) + '</span>'}</div>
+                </div>
                 <div class="player-name">${joueur.nom}</div>
                 <div class="player-rank">#${index + 1}</div>
             </div>
+            <div class="player-header">
             <div class="player-stats">
                 <div class="player-stat">
                     <div class="player-stat-value">${Math.round(joueur.elo)}</div>
@@ -484,8 +488,10 @@ function afficherClassement() {
             <tr onclick="afficherProfilJoueur('${joueur.nom}')" style="cursor: pointer;">
                 <td><span class="rank-cell ${index < 3 ? 'top-3' : ''}">${index + 1}</span></td>
                 <td class="player-name-cell">
-                    <img src="${joueur.photo || 'photos/default.jpg'}" alt="${joueur.nom}" class="classement-photo" onerror="this.src='photos/default.jpg'">
-                    ${joueur.nom}
+                    <div class="classement-name-with-photo">
+                        <img src="${joueur.photo || 'photos/default.svg'}" alt="${joueur.nom}" class="classement-photo" onerror="this.src='photos/default.svg'">
+                        <span>${joueur.nom}</span>
+                    </div>
                 </td>
                 <td><span class="${eloClass}" style="font-weight: 700; font-size: 1.1rem;">${Math.round(joueur.elo)} <span style="font-size: 0.8rem;">${eloTrend}</span></span></td>
                 <td>${joueur.matchs_joues}</td>
@@ -517,6 +523,20 @@ function initialiserPredictions() {
     
     // Bouton calculer
     document.getElementById('calculate-prediction').addEventListener('click', calculerPrediction);
+}
+
+function afficherPhotoPred(id, nomJoueur) {
+    const img = document.getElementById('photo-' + id);
+    if (!img) return;
+    if (!nomJoueur) {
+        img.src = '';
+        img.classList.add('hidden');
+        return;
+    }
+    const joueur = joueurs.find(j => j.nom === nomJoueur);
+    const photo = joueur && joueur.photo ? joueur.photo : 'photos/default.jpg';
+    img.src = photo;
+    img.classList.remove('hidden');
 }
 
 function calculerPrediction() {
@@ -1053,9 +1073,67 @@ function initialiserOngletsCNF3() {
  * Source unique : window.data.matchs_cnf3 (type = 'tableau')
  */
 function getMatchsTableau() {
+    const tableau = window.data && window.data.tableau_cnf3;
+
+    const PHASE_MAP = {
+        '32emes': '32èmes', '16emes': '16èmes', '8emes': '8èmes',
+        'quarts': 'Quarts', 'demis': 'Demis', 'finale': 'Finale'
+    };
+    // Nombre de matchs attendus par phase dans un tableau de 32
+    const EXPECTED = {
+        '32èmes': 32, '16èmes': 16, '8èmes': 8,
+        'Quarts': 4, 'Demis': 2, 'Finale': 1
+    };
+
+    if (tableau) {
+        const result = [];
+        for (const [key, matchsList] of Object.entries(tableau)) {
+            const phase = PHASE_MAP[key] || key;
+            // Ajouter les matchs existants
+            matchsList.forEach(m => {
+                result.push({
+                    type: 'tableau', phase,
+                    equipe1: m.equipe1 || null,
+                    equipe2: m.equipe2 || null,
+                    score1:  m.score1 !== undefined ? m.score1 : null,
+                    score2:  m.score2 !== undefined ? m.score2 : null,
+                    gagnant: m.gagnant || null,
+                    seed1:   m.seed1 || null,
+                    seed2:   m.seed2 || null,
+                });
+            });
+            // Compléter avec des slots vides jusqu'au nombre attendu
+            const expected = EXPECTED[phase] || 0;
+            for (let i = matchsList.length; i < expected; i++) {
+                result.push({
+                    type: 'tableau', phase,
+                    equipe1: null, equipe2: null,
+                    score1: null, score2: null,
+                    gagnant: null, seed1: null, seed2: null,
+                });
+            }
+        }
+        // Toujours afficher les 16èmes si les 32èmes existent mais 16èmes absents
+        const has32 = result.some(m => m.phase === '32èmes');
+        const has16 = result.some(m => m.phase === '16èmes');
+        if (has32 && !has16) {
+            for (let i = 0; i < 16; i++) {
+                result.push({
+                    type: 'tableau', phase: '16èmes',
+                    equipe1: null, equipe2: null,
+                    score1: null, score2: null,
+                    gagnant: null, seed1: null, seed2: null,
+                });
+            }
+        }
+        return result;
+    }
+
+    // Fallback : matchs_cnf3 (ne contient que les joués)
     const source = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3 : [];
     return source.filter(m => m.type === 'tableau');
 }
+
 
 /**
  * Normalise le nom de phase pour la comparaison
@@ -1077,19 +1155,29 @@ function normaliserPhase(p) {
  * Génère le HTML d'une carte match dans le bracket
  */
 function renderBracketMatch(match, compact = false) {
+    // Match null
     if (!match) {
         return `<div class="bracket-match bracket-match-tbd">
-            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">-</span></div>
+            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">—</span></div>
             <div class="bt-divider"></div>
-            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">-</span></div>
+            <div class="bracket-team bracket-tbd"><span class="bt-seed">?</span><span class="bt-name">À déterminer</span><span class="bt-score">—</span></div>
+        </div>`;
+    }
+
+    // Slot vide (qualifié inconnu — ex: 16èmes dont le 32ème n'est pas joué)
+    if (!match.equipe1 && !match.equipe2) {
+        return `<div class="bracket-match bracket-match-tbd">
+            <div class="bracket-team bracket-tbd"><span class="bt-name">À déterminer</span><span class="bt-score">—</span></div>
+            <div class="bt-divider"></div>
+            <div class="bracket-team bracket-tbd"><span class="bt-name">À déterminer</span><span class="bt-score">—</span></div>
         </div>`;
     }
 
     const joue = match.score1 !== null && match.score1 !== undefined && match.score2 !== null;
     const w1 = joue && match.score1 > match.score2;
     const w2 = joue && match.score2 > match.score1;
-    const s1 = joue ? match.score1 : '-';
-    const s2 = joue ? match.score2 : '-';
+    const s1 = joue ? match.score1 : '—';
+    const s2 = joue ? match.score2 : '—';
     const seed1 = match.seed1 ? `<span class="bt-seed">${match.seed1}</span>` : '';
     const seed2 = match.seed2 ? `<span class="bt-seed">${match.seed2}</span>` : '';
     const maxLen = compact ? 16 : 22;
@@ -1114,144 +1202,202 @@ function afficherTableauCNF3() {
     const container = document.getElementById('tableau-cnf3');
     if (!container) return;
 
-    const matchsTableau = getMatchsTableau();
-    const PHASES = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
-    const LABELS = {
-        '32èmes': '32èmes de finale', '16èmes': '16èmes de finale',
-        '8èmes': 'Huitièmes', 'Quarts': 'Quarts de finale',
-        'Demis': 'Demi-finales', 'Finale': 'Finale 🏆'
+    const sourceData = window.data.tableau_cnf3;
+    if (!sourceData) return;
+
+    // 1. RECONSTRUCTION MATHÉMATIQUE DE L'ARBRE DU TOURNOI
+    const ROUNDS = [
+        { id: '32emes', label: '32èmes', count: 32 },
+        { id: '16emes', label: '16èmes', count: 16 },
+        { id: '8emes', label: '8èmes', count: 8 },
+        { id: 'quarts', label: 'Quarts', count: 4 },
+        { id: 'demis', label: 'Demis', count: 2 },
+        { id: 'finale', label: 'Finale', count: 1 }
+    ];
+
+    const bracket = {};
+    
+    // Initialiser tous les emplacements (slots) du tournoi à vide
+    ROUNDS.forEach(r => {
+        bracket[r.id] = Array.from({ length: r.count }, (_, i) => ({
+            match_num: i + 1,
+            equipe1: null, equipe2: null,
+            score1: null, score2: null, gagnant: null
+        }));
+    });
+
+    // ÉTAPE A : Remplir la base (Les 32èmes) à partir du JSON
+    if (sourceData['32emes']) {
+        sourceData['32emes'].forEach(m => {
+            if (m.match_num >= 1 && m.match_num <= 32) {
+                bracket['32emes'][m.match_num - 1] = { 
+                    match_num: m.match_num,
+                    equipe1: m.equipe1, equipe2: m.equipe2,
+                    score1: m.score1, score2: m.score2, gagnant: m.gagnant 
+                };
+            }
+        });
+    }
+
+    // ÉTAPE B : Calculer la suite de l'arbre (Propagation des gagnants)
+    for (let r = 1; r < ROUNDS.length; r++) {
+        const currentRound = ROUNDS[r].id;
+        const prevRound = ROUNDS[r-1].id;
+        const jsonMatches = sourceData[currentRound] || []; // Les matchs joués dans le JSON
+
+        for (let i = 0; i < ROUNDS[r].count; i++) {
+            // Dans un arbre binaire, le match i du tour actuel provient des matchs i*2 et i*2+1 du tour précédent
+            const matchPrecedent1 = bracket[prevRound][i * 2];
+            const matchPrecedent2 = bracket[prevRound][i * 2 + 1];
+
+            // Qui est censé jouer ici ? (Soit un gagnant, soit null si pas encore joué)
+            const expectedEq1 = matchPrecedent1 ? matchPrecedent1.gagnant : null;
+            const expectedEq2 = matchPrecedent2 ? matchPrecedent2.gagnant : null;
+
+            let matchData = {
+                match_num: i + 1,
+                equipe1: expectedEq1,
+                equipe2: expectedEq2,
+                score1: null, score2: null, gagnant: null
+            };
+
+            // Si on connaît les 2 équipes, on cherche dans le JSON si elles se sont affrontées
+            // Cela permet de retrouver leurs scores même si ton backend les a mal rangées
+            if (expectedEq1 && expectedEq2) {
+                const playedMatch = jsonMatches.find(m => 
+                    (m.equipe1 === expectedEq1 && m.equipe2 === expectedEq2) ||
+                    (m.equipe1 === expectedEq2 && m.equipe2 === expectedEq1)
+                );
+                
+                if (playedMatch) {
+                    // Mettre les scores dans le même ordre que notre arbre (Eq1 en haut, Eq2 en bas)
+                    if (playedMatch.equipe1 === expectedEq1) {
+                        matchData.score1 = playedMatch.score1;
+                        matchData.score2 = playedMatch.score2;
+                    } else {
+                        matchData.score1 = playedMatch.score2;
+                        matchData.score2 = playedMatch.score1;
+                    }
+                    matchData.gagnant = playedMatch.gagnant;
+                }
+            }
+            bracket[currentRound][i] = matchData;
+        }
+    }
+
+    // 2. GÉNÉRATION DU VISUEL (Le fameux miroir)
+    let html = `<div class="wc-bracket-container">`;
+
+    // Petite fonction locale pour dessiner proprement une carte match
+    const renderMatch = (m) => {
+        const eq1 = m.equipe1 || 'À déterminer';
+        const eq2 = m.equipe2 || 'À déterminer';
+        const s1 = m.score1 !== null ? m.score1 : '—';
+        const s2 = m.score2 !== null ? m.score2 : '—';
+        const w1 = m.gagnant && m.gagnant === m.equipe1;
+        const w2 = m.gagnant && m.gagnant === m.equipe2;
+        const played = m.score1 !== null && m.score2 !== null;
+
+        return `
+            <div class="bracket-match ${played ? 'bracket-match-played' : 'bracket-match-pending'}">
+                <div class="bracket-team ${w1 ? 'bt-winner' : (played && !w1 ? 'bt-loser' : '')}">
+                    <span class="bt-name" title="${eq1}">${eq1}</span>
+                    <span class="bt-score">${s1}</span>
+                </div>
+                <div class="bt-divider"></div>
+                <div class="bracket-team ${w2 ? 'bt-winner' : (played && !w2 ? 'bt-loser' : '')}">
+                    <span class="bt-name" title="${eq2}">${eq2}</span>
+                    <span class="bt-score">${s2}</span>
+                </div>
+            </div>
+        `;
     };
 
-    // Grouper par phase normalisée
-    const parPhase = {};
-    PHASES.forEach(p => { parPhase[p] = []; });
-    matchsTableau.forEach(m => {
-        const p = normaliserPhase(m.phase);
-        if (parPhase[p]) parPhase[p].push(m);
-    });
+    const PHASES_COTES = ROUNDS.slice(0, 5); // 32èmes jusqu'aux Demis
 
-    // Si aucune donnée
-    if (matchsTableau.length === 0) {
-        container.innerHTML = `
-            <div class="bracket-empty">
-                <div class="bracket-empty-icon">🏆</div>
-                <h3>Tableau final à venir</h3>
-                <p>Les 32 premiers de poule s'affronteront en phases finales.</p>
-            </div>`;
-        return;
-    }
-
-    // Trouver le champion
-    const finale = parPhase['Finale'][0];
-    const champion = finale && finale.gagnant ? finale.gagnant : null;
-
-    // Construire le bracket horizontal scrollable
-    let html = `<div class="bracket-wrapper">`;
-
-    // Phases actives (avec au moins 1 match)
-    const phasesActives = PHASES.filter(p => parPhase[p].length > 0);
-
-    phasesActives.forEach(phase => {
-        const matches = parPhase[phase];
-        html += `<div class="bracket-round">
-            <div class="bracket-round-label">${LABELS[phase]}</div>
-            <div class="bracket-round-matches">`;
-        matches.forEach(m => {
-            html += renderBracketMatch(m, false);
-        });
+    // --- AILE GAUCHE ---
+    html += `<div class="wc-bracket-half left-side">`;
+    PHASES_COTES.forEach(phase => {
+        const halfCount = phase.count / 2;
+        html += `<div class="wc-round"><div class="bracket-round-label">${phase.label}</div><div class="wc-matches-column">`;
+        for (let i = 0; i < halfCount; i++) {
+            html += renderMatch(bracket[phase.id][i]);
+        }
         html += `</div></div>`;
     });
+    html += `</div>`;
 
-    // Champion
-    if (champion) {
-        html += `<div class="bracket-champion">
-            <div class="bracket-round-label">Champion</div>
-            <div class="champion-card-bracket">
-                <div class="champion-trophy-bracket">🏆</div>
-                <div class="champion-name-bracket">${champion}</div>
-            </div>
-        </div>`;
-    }
+    // --- CENTRE ---
+    const finale = bracket['finale'][0];
+    html += `<div class="wc-center">
+        <div class="wc-trophy">🏆</div>
+        <div class="bracket-round-label finale-label">FINALE</div>`;
+    html += renderMatch(finale);
+    if (finale.gagnant) html += `<div class="champion-card-bracket mt-3">👑 ${finale.gagnant}</div>`;
+    html += `</div>`;
+
+    // --- AILE DROITE ---
+    html += `<div class="wc-bracket-half right-side">`;
+    [...PHASES_COTES].reverse().forEach(phase => {
+        const halfCount = phase.count / 2;
+        html += `<div class="wc-round"><div class="bracket-round-label">${phase.label}</div><div class="wc-matches-column">`;
+        // On récupère la seconde moitié du tableau calculé
+        for (let i = halfCount; i < phase.count; i++) {
+            html += renderMatch(bracket[phase.id][i]);
+        }
+        html += `</div></div>`;
+    });
+    html += `</div>`;
 
     html += `</div>`;
 
-    // Stats rapides du tableau
-    const joues = matchsTableau.filter(m => m.gagnant).length;
-    const restants = matchsTableau.filter(m => !m.gagnant).length;
-    html = `<div class="bracket-header-stats">
-        <span>🎯 <strong>${joues}</strong> matchs joués</span>
-        <span>⏳ <strong>${restants}</strong> matchs restants</span>
-        <span>📋 <strong>${matchsTableau.length}</strong> matchs au total</span>
-    </div>` + html;
+    
+    // À AJOUTER À LA FIN de ta fonction afficherTableauCNF3(), juste avant "container.innerHTML = html;"
+    // Ou mieux, juste après avoir injecté le HTML :
+    function ajouterEvenementsHighlight() {
+        const teams = document.querySelectorAll('.bracket-team');
+        
+        teams.forEach(team => {
+            team.addEventListener('mouseenter', () => {
+                const teamName = team.querySelector('.bt-name').textContent.trim();
+                if (teamName === 'À déterminer' || teamName === '—') return;
 
-    container.innerHTML = html;
-}
+                // On cherche tous les blocs qui ont le même nom d'équipe
+                document.querySelectorAll('.bracket-team').forEach(el => {
+                    if (el.querySelector('.bt-name').textContent.trim() === teamName) {
+                        el.classList.add('highlight-path');
+                    }
+                });
+            });
 
-/**
- * Affiche un bracket compact sur la page d'accueil (phases avancées uniquement)
- */
-function afficherBracketAccueil() {
-    const container = document.getElementById('bracket-accueil');
-    if (!container) return;
-
-    const matchsTableau = getMatchsTableau();
-    if (matchsTableau.length === 0) {
-        container.innerHTML = `<div class="bracket-empty-home">
-            <p>Le tableau final démarrera après les poules</p>
-        </div>`;
-        return;
-    }
-
-    const PHASES = ['32èmes', '16èmes', '8èmes', 'Quarts', 'Demis', 'Finale'];
-    const LABELS = {
-        '32èmes': '32èmes', '16èmes': '16èmes', '8èmes': 'Huitièmes',
-        'Quarts': 'Quarts', 'Demis': 'Demis', 'Finale': '🏆 Finale'
-    };
-
-    const parPhase = {};
-    PHASES.forEach(p => { parPhase[p] = []; });
-    matchsTableau.forEach(m => {
-        const p = normaliserPhase(m.phase);
-        if (parPhase[p]) parPhase[p].push(m);
-    });
-
-    // Sur l'accueil : montrer les phases à partir des 8èmes (plus compact)
-    // Si seulement des 32èmes joués, montrer quand même un résumé des 32èmes
-    const phasesDisponibles = PHASES.filter(p => parPhase[p].length > 0);
-    const phasesAvancees = phasesDisponibles.filter(p => ['8èmes','Quarts','Demis','Finale'].includes(p));
-    const phasesAfichees = phasesAvancees.length > 0 ? phasesAvancees : phasesDisponibles.slice(0, 1);
-
-    const finale = parPhase['Finale'][0];
-    const champion = finale && finale.gagnant ? finale.gagnant : null;
-
-    let html = `<div class="bracket-accueil-wrapper">`;
-
-    phasesAfichees.forEach(phase => {
-        const matches = parPhase[phase];
-        const joues = matches.filter(m => m.gagnant);
-        html += `<div class="bracket-accueil-round">
-            <div class="bar-label">${LABELS[phase]}</div>
-            <div class="bar-matches">`;
-        matches.forEach(m => {
-            html += renderBracketMatch(m, true);
+            team.addEventListener('mouseleave', () => {
+                document.querySelectorAll('.highlight-path').forEach(el => {
+                    el.classList.remove('highlight-path');
+                });
+            });
         });
-        html += `</div></div>`;
-    });
-
-    if (champion) {
-        html += `<div class="bracket-accueil-champion">
-            <div class="bar-label">Champion</div>
-            <div class="champion-mini">🏆 ${champion}</div>
-        </div>`;
     }
-
-    html += `</div>
-    <div class="bracket-accueil-link" onclick="document.querySelector('[data-page=cnf3]').click(); setTimeout(() => document.querySelector('[data-tab=tableau]').click(), 100)">
-        Voir le tableau complet →
-    </div>`;
 
     container.innerHTML = html;
 }
+
+// Fonction pour aller directement à l'onglet "Tableau" de la page CNF 3
+function ouvrirTableauFinal() {
+    // 1. On clique sur le lien de navigation CNF 3
+    const navCnf3 = document.querySelector('[data-page="cnf3"]');
+    if (navCnf3) navCnf3.click();
+
+    // 2. On attend un court instant que la page s'affiche, puis on clique sur l'onglet Tableau
+    setTimeout(() => {
+        const tabTableau = document.querySelector('[data-tab="tableau"]'); // Vérifie que ton bouton d'onglet a bien ce data-tab
+        if (tabTableau) tabTableau.click();
+        
+        // Optionnel : Scroll fluide jusqu'au tableau
+        document.getElementById('tableau-cnf3').scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+}
+
+// N'oublie pas d'appeler ajouterEvenementsHighlight() à la toute fin de afficherTableauCNF3() !
 
 // Rendre les noms de champions et prix cliquables sur la page Palmarès
 function initialiserPalmares() {

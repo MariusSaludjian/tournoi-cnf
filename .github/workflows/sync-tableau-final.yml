@@ -2,55 +2,57 @@ name: Sync Tableau Final CNF3
 
 on:
   schedule:
-    # Toutes les 15 minutes pendant les matchs du tableau final
-    # Format : minute heure jour mois jour_semaine
-    # GitHub utilise UTC, Paris = UTC+1
-    
-    # Pendant les phases finales (exemple : 14h-18h Paris = 13h-17h UTC)
-    - cron: '0,15,30,45 13-17 * * 1-5'  # Lundi à vendredi, 14h-18h Paris
-    
-    # Week-end (10h-20h Paris = 9h-19h UTC)
-    - cron: '0,15,30,45 9-19 * * 6-0'  # Samedi-dimanche
-  
-  workflow_dispatch:  # Permet execution manuelle
+    # Toutes les 10 minutes en semaine (11h45 → 20h15 Paris = 10h45 → 19h15 UTC)
+    - cron: '45,55 10 * * 1-5'
+    - cron: '5,15,25,35,45,55 11-18 * * 1-5'
+    - cron: '5,15 19 * * 1-5'
+
+    # Week-end toutes les 10 min (10h → 22h Paris = 9h → 21h UTC)
+    - cron: '0,10,20,30,40,50 9-20 * * 6,0'
+    - cron: '0 21 * * 6,0'
+
+  workflow_dispatch:  # Permet l'exécution manuelle depuis GitHub Actions
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
-      - name: Create CSV and credentials
+
+      - name: Install dependencies
+        run: |
+          pip install gspread google-auth
+
+      - name: Create credentials
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-          TABLEAU_FINAL_CSV: ${{ secrets.TABLEAU_FINAL_CSV }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         run: |
           cd backend
-          # Créer le fichier CSV du tableau final depuis le secret
-          echo "$TABLEAU_FINAL_CSV" > Tournoi_CNF_3_-_Tableau_final.csv
-          # Créer le fichier credentials
           echo "$GOOGLE_CREDENTIALS" > credentials.json
-      
+          # Injecte l'ID du spreadsheet si le script utilise un placeholder
+          sed -i "s/VOTRE_SHEET_ID/$SPREADSHEET_ID/g" sync_tableau_final_cnf3.py 2>/dev/null || true
+
       - name: Run sync tableau final
         run: |
           cd backend
           python sync_tableau_final_cnf3.py
-      
-      - name: Copy to frontend
+
+      - name: Copy data.json to frontend
         run: |
           cp backend/data.json docs/data.json
-      
-      - name: Commit and push
+
+      - name: Commit and push si changements
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "CNF3 Tableau Bot"
           git add docs/data.json backend/data.json
-          git diff --staged --quiet || git commit -m "Update CNF3 tableau final"
+          git diff --staged --quiet || git commit -m "🏆 Update CNF3 tableau final [bot]"
           git push
