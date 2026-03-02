@@ -540,26 +540,27 @@
     },
     {
       "nom": "Arthur Buffavand",
-      "matchs_joues": 4,
-      "victoires": 2,
+      "matchs_joues": 6,
+      "victoires": 4,
       "defaites": 2,
-      "sets_gagnes": 6,
-      "sets_perdus": 5,
+      "sets_gagnes": 12,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 1",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.2,
-      "elo": 1503.1,
-      "elo_max": 1517.4,
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.5,
+      "elo": 1532.9,
+      "elo_max": 1532.9,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
+        "V",
         "D",
         "V",
-        "V",
-        "D"
+        "V"
       ]
     },
     {
@@ -1352,24 +1353,25 @@
     },
     {
       "nom": "Côme Didot",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 3,
-      "defaites": 0,
-      "sets_gagnes": 7,
-      "sets_perdus": 1,
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 7.0,
+      "defaites": 1,
+      "sets_gagnes": 9,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.25,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1539.0,
+      "elo": 1523.4,
       "elo_max": 1539.0,
       "elo_min": 1500.0,
       "photo": "photos/come-didot.jpg",
       "forme_recente": [
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -1725,28 +1727,28 @@
     },
     {
       "nom": "Eugénie Roquain",
-      "matchs_joues": 11,
+      "matchs_joues": 12,
       "victoires": 9,
-      "defaites": 2,
-      "sets_gagnes": 22,
-      "sets_perdus": 9,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 81.8,
-      "ratio_sets": 2.44,
-      "elo": 1614.9,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.0,
+      "elo": 1599.3,
       "elo_max": 1615.7,
       "elo_min": 1482.3,
       "photo": "photos/eugenie-roquain.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2023,27 +2025,27 @@
     },
     {
       "nom": "Guilhem Demesy",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 8,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 11,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.38,
-      "elo": 1533.2800209551501,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.09,
+      "elo": 1519.0,
       "elo_max": 1539.8,
       "elo_min": 1494.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4849,28 +4851,28 @@
     },
     {
       "nom": "Théo Coltat",
-      "matchs_joues": 9,
+      "matchs_joues": 10,
       "victoires": 6,
-      "defaites": 3,
-      "sets_gagnes": 16,
-      "sets_perdus": 10,
+      "defaites": 4,
+      "sets_gagnes": 17,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.6,
-      "elo": 1544.38002095515,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.31,
+      "elo": 1530.1,
       "elo_max": 1548.4,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -5407,28 +5409,28 @@
     },
     {
       "nom": "Yaël Vincent",
-      "matchs_joues": 9,
-      "victoires": 6,
+      "matchs_joues": 11,
+      "victoires": 8,
       "defaites": 3,
-      "sets_gagnes": 14,
-      "sets_perdus": 11,
+      "sets_gagnes": 20,
+      "sets_perdus": 14,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.27,
-      "elo": 1536.3,
+      "pourcentage_victoires": 72.7,
+      "ratio_sets": 1.43,
+      "elo": 1566.1,
       "elo_max": 1566.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
+        "D",
         "V",
         "D",
         "V",
-        "D"
+        "V"
       ]
     },
     {
@@ -13457,6 +13459,44 @@
       "score2": 3,
       "gagnant": "Force à Pierric",
       "live": true
+    },
+    {
+      "id": 150,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "32èmes",
+      "seed1": 47,
+      "seed2": 18,
+      "date": "2026-03-02",
+      "equipe1": "Les endartcampés",
+      "equipe2": "Cetelem",
+      "joueur1_eq1": "Yaël Vincent",
+      "joueur2_eq1": "Arthur Buffavand",
+      "joueur1_eq2": "Théo Coltat",
+      "joueur2_eq2": "Guilhem Demesy",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Les endartcampés",
+      "live": true
+    },
+    {
+      "id": 151,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 15,
+      "seed2": 47,
+      "date": "2026-03-02",
+      "equipe1": "FartVador",
+      "equipe2": "Les endartcampés",
+      "joueur1_eq1": "Eugénie Roquain",
+      "joueur2_eq1": "Côme Didot",
+      "joueur1_eq2": "Yaël Vincent",
+      "joueur2_eq2": "Arthur Buffavand",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Les endartcampés",
+      "live": true
     }
   ],
   "tableau_cnf3": {
@@ -13755,11 +13795,11 @@
         "match_num": 30,
         "seed1": 47,
         "equipe1": "Les endartcampés",
-        "score1": null,
+        "score1": 3,
         "seed2": 18,
         "equipe2": "Cetelem",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Les endartcampés"
       },
       {
         "match_num": 31,
@@ -13932,6 +13972,16 @@
         "equipe2": "La penthouse rose",
         "score2": null,
         "gagnant": null
+      },
+      {
+        "match_num": 16,
+        "seed1": 15,
+        "equipe1": "FartVador",
+        "score1": 2,
+        "seed2": 47,
+        "equipe2": "Les endartcampés",
+        "score2": 3,
+        "gagnant": "Les endartcampés"
       }
     ],
     "8emes": [
