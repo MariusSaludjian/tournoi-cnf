@@ -121,18 +121,18 @@
     },
     {
       "nom": "Alexandre Poisson",
-      "matchs_joues": 12,
-      "victoires": 11,
+      "matchs_joues": 13,
+      "victoires": 12,
       "defaites": 1,
-      "sets_gagnes": 32,
+      "sets_gagnes": 34,
       "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 91.7,
-      "ratio_sets": 2.67,
-      "elo": 1703.7,
+      "pourcentage_victoires": 92.3,
+      "ratio_sets": 2.83,
+      "elo": 1718.8561214705214,
       "elo_max": 1722.2,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -140,8 +140,8 @@
         "V",
         "V",
         "V",
-        "V",
-        "D"
+        "D",
+        "V"
       ]
     },
     {
@@ -4127,17 +4127,17 @@
     },
     {
       "nom": "Paul Taillée",
-      "matchs_joues": 5,
-      "victoires": 4,
+      "matchs_joues": 6,
+      "victoires": 5,
       "defaites": 1,
-      "sets_gagnes": 12,
+      "sets_gagnes": 14,
       "sets_perdus": 6,
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.0,
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.33,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1529.3,
+      "elo": 1544.4561214705213,
       "elo_max": 1547.8,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -4145,8 +4145,8 @@
         "V",
         "V",
         "V",
-        "V",
-        "D"
+        "D",
+        "V"
       ]
     },
     {
@@ -4173,26 +4173,26 @@
     },
     {
       "nom": "Pierric Léopold",
-      "matchs_joues": 8,
+      "matchs_joues": 9,
       "victoires": 4,
-      "defaites": 4,
+      "defaites": 5,
       "sets_gagnes": 10,
-      "sets_perdus": 13,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.77,
-      "elo": 1502.1,
+      "pourcentage_victoires": 44.4,
+      "ratio_sets": 0.67,
+      "elo": 1486.9438785294785,
       "elo_max": 1514.1,
       "elo_min": 1454.9,
       "photo": "photos/pierric-leopold.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
+        "D",
         "D"
       ]
     },
@@ -4721,26 +4721,26 @@
     },
     {
       "nom": "Thibault Vo",
-      "matchs_joues": 9,
+      "matchs_joues": 10,
       "victoires": 5,
-      "defaites": 4,
+      "defaites": 5,
       "sets_gagnes": 13,
-      "sets_perdus": 15,
+      "sets_perdus": 17,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 55.6,
-      "ratio_sets": 0.87,
-      "elo": 1517.1,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.76,
+      "elo": 1501.9438785294785,
       "elo_max": 1539.7,
       "elo_min": 1494.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
+        "D",
         "D"
       ]
     },
@@ -9393,8 +9393,8 @@
   "derniere_maj": "2026-03-03",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 491,
-    "total_sets": 1388
+    "total_matchs": 501,
+    "total_sets": 1430
   },
   "equipes": [
     {
@@ -13696,6 +13696,24 @@
       "score2": 4,
       "gagnant": "Fléchettes Famille Patrie",
       "live": true
+    },
+    {
+      "id": 162,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 59,
+      "seed2": 7,
+      "date": "2026-03-03",
+      "equipe1": "Force à Pierric",
+      "equipe2": "Big Fish",
+      "joueur1_eq1": "Thibault Vo",
+      "joueur2_eq1": "Pierric Léopold",
+      "joueur1_eq2": "Alexandre Poisson",
+      "joueur2_eq2": "Paul Taillée",
+      "score1": 0,
+      "score2": 2,
+      "gagnant": "Big Fish"
     }
   ],
   "tableau_cnf3": {
@@ -14189,53 +14207,84 @@
         "seed1": 1,
         "equipe1": "Les dartistes",
         "score1": null,
-        "seed2": 25,
-        "equipe2": "Octave je te baise",
+        "seed2": 49,
+        "equipe2": "Les dobermans",
         "score2": null,
         "gagnant": null
       },
       {
         "match_num": 2,
-        "seed1": 5,
-        "equipe1": "Zara Dartsson",
+        "seed1": 25,
+        "equipe1": "Octave je te baise",
         "score1": null,
-        "seed2": 21,
-        "equipe2": "Le poulailler",
+        "seed2": 5,
+        "equipe2": "Zara Dartsson",
         "score2": null,
         "gagnant": null
       },
       {
         "match_num": 3,
-        "seed1": 4,
-        "equipe1": "Zéro zéro bull",
+        "seed1": 21,
+        "equipe1": "Le poulailler",
         "score1": null,
-        "seed2": 59,
-        "equipe2": "Force à Pierric",
+        "seed2": 52,
+        "equipe2": "C'est darty mon kiki 2",
         "score2": null,
         "gagnant": null
       },
       {
         "match_num": 4,
-        "seed1": 11,
-        "equipe1": "La corridart",
-        "score1": 4,
-        "seed2": 59,
-        "equipe2": "Force à Pierric",
-        "score2": 0,
-        "gagnant": "La corridart"
+        "seed1": 4,
+        "equipe1": "Zéro zéro bull",
+        "score1": null,
+        "seed2": 3,
+        "equipe2": "C'est à cause d'mon dard",
+        "score2": null,
+        "gagnant": null
       },
       {
         "match_num": 5,
-        "seed1": 7,
-        "equipe1": "Big Fish",
-        "score1": 2,
-        "seed2": 10,
-        "equipe2": "Fléchettes Famille Patrie",
+        "seed1": 19,
+        "equipe1": "Pastis et Cassoulet",
+        "score1": null,
+        "seed2": 11,
+        "equipe2": "La corridart",
         "score2": 4,
-        "gagnant": "Fléchettes Famille Patrie"
+        "gagnant": null
+      },
+      {
+        "match_num": 6,
+        "seed1": 59,
+        "equipe1": "Force à Pierric",
+        "score1": 0,
+        "seed2": 7,
+        "equipe2": "Big Fish",
+        "score2": 2,
+        "gagnant": "Big Fish"
+      },
+      {
+        "match_num": 7,
+        "seed1": 10,
+        "equipe1": "Fléchettes Famille Patrie",
+        "score1": 4,
+        "seed2": 47,
+        "equipe2": "Les endartcampés",
+        "score2": null,
+        "gagnant": null
       }
     ],
-    "quarts": [],
+    "quarts": [
+      {
+        "match_num": 1,
+        "seed1": 11,
+        "equipe1": "La corridart",
+        "score1": null,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
+        "score2": null,
+        "gagnant": null
+      }
+    ],
     "demis": [],
     "finale": []
   }
