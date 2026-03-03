@@ -2823,26 +2823,26 @@
     },
     {
       "nom": "Lucas Balanger",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 3,
-      "defaites": 2,
+      "defaites": 3,
       "sets_gagnes": 7,
-      "sets_perdus": 8,
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 0.88,
+      "sets_perdus": 11,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.64,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1510.7884193238356,
+      "elo": 1493.5734166585505,
       "elo_max": 1512.9,
-      "elo_min": 1494.6,
+      "elo_min": 1493.5734166585505,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4077,21 +4077,22 @@
     },
     {
       "nom": "Paul Renault",
-      "matchs_joues": 4,
-      "victoires": 4,
+      "matchs_joues": 5,
+      "victoires": 5,
       "defaites": 0,
-      "sets_gagnes": 9,
+      "sets_gagnes": 12,
       "sets_perdus": 3,
       "pourcentage_victoires": 100.0,
-      "ratio_sets": 3.0,
+      "ratio_sets": 4.0,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1559.9016979909957,
-      "elo_max": 1559.9016979909957,
+      "elo": 1577.1167006562807,
+      "elo_max": 1577.1167006562807,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
         "V",
         "V",
         "V",
@@ -4522,19 +4523,19 @@
     },
     {
       "nom": "Simon Blin",
-      "matchs_joues": 7,
-      "victoires": 5,
+      "matchs_joues": 8,
+      "victoires": 6,
       "defaites": 2,
-      "sets_gagnes": 12,
+      "sets_gagnes": 15,
       "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.5,
-      "elo": 1539.7016979909956,
-      "elo_max": 1539.7016979909956,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.88,
+      "elo": 1556.9167006562807,
+      "elo_max": 1556.9167006562807,
       "elo_min": 1459.2,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4547,27 +4548,27 @@
     },
     {
       "nom": "Siméon Glomot",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 4,
-      "defaites": 2,
+      "defaites": 3,
       "sets_gagnes": 9,
-      "sets_perdus": 9,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1526.7,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 0.75,
+      "elo": 1509.484997334715,
       "elo_max": 1526.7,
       "elo_min": 1476.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "V",
-        "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -9380,11 +9381,11 @@
       "gagnant": "Clément Ricaud"
     }
   ],
-  "derniere_maj": "2026-03-02",
+  "derniere_maj": "2026-03-03",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 485,
-    "total_sets": 1366
+    "total_matchs": 491,
+    "total_sets": 1388
   },
   "equipes": [
     {
@@ -13497,6 +13498,24 @@
       "score2": 3,
       "gagnant": "Les endartcampés",
       "live": true
+    },
+    {
+      "id": 152,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 21,
+      "seed2": 53,
+      "date": "2026-03-03",
+      "equipe1": "Le poulailler",
+      "equipe2": "Darty dancing",
+      "joueur1_eq1": "Simon Blin",
+      "joueur2_eq1": "Paul Renault",
+      "joueur1_eq2": "Lucas Balanger",
+      "joueur2_eq2": "Siméon Glomot",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Le poulailler"
     }
   ],
   "tableau_cnf3": {
@@ -13860,7 +13879,7 @@
         "score1": 3,
         "seed2": 57,
         "equipe2": "Les menaces",
-        "score2": 0,
+        "score2": 1,
         "gagnant": "Octave je te baise"
       },
       {
@@ -13877,11 +13896,11 @@
         "match_num": 6,
         "seed1": 21,
         "equipe1": "Le poulailler",
-        "score1": null,
+        "score1": 3,
         "seed2": 53,
         "equipe2": "Darty dancing",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "Le poulailler"
       },
       {
         "match_num": 7,
@@ -13965,16 +13984,6 @@
       },
       {
         "match_num": 15,
-        "seed1": 34,
-        "equipe1": "Les kebabeurs",
-        "score1": null,
-        "seed2": 2,
-        "equipe2": "La penthouse rose",
-        "score2": null,
-        "gagnant": null
-      },
-      {
-        "match_num": 16,
         "seed1": 15,
         "equipe1": "FartVador",
         "score1": 2,
@@ -13982,6 +13991,16 @@
         "equipe2": "Les endartcampés",
         "score2": 3,
         "gagnant": "Les endartcampés"
+      },
+      {
+        "match_num": 16,
+        "seed1": 34,
+        "equipe1": "Les kebabeurs",
+        "score1": null,
+        "seed2": 2,
+        "equipe2": "La penthouse rose",
+        "score2": null,
+        "gagnant": null
       }
     ],
     "8emes": [
@@ -13990,8 +14009,28 @@
         "seed1": 1,
         "equipe1": "Les dartistes",
         "score1": null,
-        "seed2": 5,
-        "equipe2": "Zara Dartsson",
+        "seed2": 25,
+        "equipe2": "Octave je te baise",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 2,
+        "seed1": 5,
+        "equipe1": "Zara Dartsson",
+        "score1": null,
+        "seed2": 21,
+        "equipe2": "Le poulailler",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 3,
+        "seed1": 4,
+        "equipe1": "Zéro zéro bull",
+        "score1": null,
+        "seed2": 59,
+        "equipe2": "Force à Pierric",
         "score2": null,
         "gagnant": null
       }
