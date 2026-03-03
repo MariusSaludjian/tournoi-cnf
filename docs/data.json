@@ -2052,27 +2052,27 @@
     },
     {
       "nom": "Ilias Brumant",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 3,
-      "defaites": 3,
+      "defaites": 4,
       "sets_gagnes": 10,
-      "sets_perdus": 8,
+      "sets_perdus": 11,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.25,
-      "elo": 1515.5,
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.91,
+      "elo": 1497.7,
       "elo_max": 1515.5,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -3647,24 +3647,24 @@
     },
     {
       "nom": "Matéo Batista",
-      "matchs_joues": 8,
-      "victoires": 6,
+      "matchs_joues": 9,
+      "victoires": 7,
       "defaites": 2,
-      "sets_gagnes": 15,
+      "sets_gagnes": 18,
       "sets_perdus": 6,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.5,
-      "elo": 1574.0,
-      "elo_max": 1574.0,
+      "pourcentage_victoires": 77.8,
+      "ratio_sets": 3.0,
+      "elo": 1591.8,
+      "elo_max": 1591.8,
       "elo_min": 1500.0,
       "photo": "photos/mateo-batista.jpg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3693,24 +3693,24 @@
     },
     {
       "nom": "Max Perron",
-      "matchs_joues": 6,
-      "victoires": 3,
+      "matchs_joues": 7,
+      "victoires": 4,
       "defaites": 3,
-      "sets_gagnes": 8,
+      "sets_gagnes": 11,
       "sets_perdus": 7,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.14,
-      "elo": 1486.3,
-      "elo_max": 1500.0,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.57,
+      "elo": 1504.1,
+      "elo_max": 1504.1,
       "elo_min": 1434.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
+        "V",
         "V",
         "V",
         "V"
@@ -5196,28 +5196,28 @@
     },
     {
       "nom": "Victoire Guth",
-      "matchs_joues": 10,
+      "matchs_joues": 11,
       "victoires": 5,
-      "defaites": 5,
+      "defaites": 6,
       "sets_gagnes": 15,
-      "sets_perdus": 15,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1504.7,
+      "pourcentage_victoires": 45.5,
+      "ratio_sets": 0.83,
+      "elo": 1486.9,
       "elo_max": 1504.7,
       "elo_min": 1468.0,
       "photo": "photos/victoire-guth.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -13714,6 +13714,25 @@
       "score1": 0,
       "score2": 2,
       "gagnant": "Big Fish"
+    },
+    {
+      "id": 163,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 9,
+      "seed2": 41,
+      "date": "2026-03-03",
+      "equipe1": "Le brancard",
+      "equipe2": "Les pouilleux",
+      "joueur1_eq1": "Max Perron",
+      "joueur2_eq1": "Matéo Batista",
+      "joueur1_eq2": "Victoire Guth",
+      "joueur2_eq2": "Ilias Brumant",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Le brancard",
+      "live": true
     }
   ],
   "tableau_cnf3": {
@@ -14064,11 +14083,11 @@
         "match_num": 3,
         "seed1": 9,
         "equipe1": "Le brancard",
-        "score1": null,
+        "score1": 3,
         "seed2": 41,
         "equipe2": "Les pouilleux",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "Le brancard"
       },
       {
         "match_num": 4,
