@@ -27,45 +27,47 @@
     },
     {
       "nom": "Adèle Hamelin",
-      "matchs_joues": 2,
+      "matchs_joues": 3,
       "victoires": 1,
-      "defaites": 1,
+      "defaites": 2,
       "sets_gagnes": 2,
-      "sets_perdus": 2,
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
+      "sets_perdus": 5,
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.4,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1499.2,
+      "elo": 1486.534876785811,
       "elo_max": 1517.8,
-      "elo_min": 1499.2,
+      "elo_min": 1486.534876785811,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
+        "D",
         "D"
       ]
     },
     {
       "nom": "Agathe Guerrini Touchais",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 5,
-      "sets_perdus": 3,
+      "defaites": 2,
+      "sets_gagnes": 6,
+      "sets_perdus": 6,
       "tournois": [
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.67,
-      "elo": 1525.1,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1509.123354926165,
       "elo_max": 1525.1,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -119,19 +121,19 @@
     },
     {
       "nom": "Alexandre Poisson",
-      "matchs_joues": 10,
-      "victoires": 10,
-      "defaites": 0,
-      "sets_gagnes": 27,
-      "sets_perdus": 7,
+      "matchs_joues": 12,
+      "victoires": 11,
+      "defaites": 1,
+      "sets_gagnes": 32,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 3.86,
-      "elo": 1710.9,
-      "elo_max": 1710.9,
+      "pourcentage_victoires": 91.7,
+      "ratio_sets": 2.67,
+      "elo": 1703.7285119163778,
+      "elo_max": 1722.250732980162,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -139,7 +141,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -259,25 +261,25 @@
     },
     {
       "nom": "Andy Queulin-Roy",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 7,
+      "defaites": 3,
+      "sets_gagnes": 8,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 3"
       ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.0,
-      "elo": 1510.9681879273885,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.8,
+      "elo": 1503.0131366436428,
       "elo_max": 1523.969885918384,
       "elo_min": 1494.7,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
+        "D",
         "D"
       ]
     },
@@ -354,17 +356,17 @@
     },
     {
       "nom": "Antoine Bertrand",
-      "matchs_joues": 4,
+      "matchs_joues": 5,
       "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 7,
-      "sets_perdus": 4,
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.75,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 7,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.14,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1523.955862015985,
+      "elo": 1512.6051290358232,
       "elo_max": 1523.955862015985,
       "elo_min": 1497.6,
       "photo": "photos/default.svg",
@@ -372,7 +374,8 @@
         "V",
         "D",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -467,27 +470,27 @@
     },
     {
       "nom": "Antonin Briat",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 2,
-      "defaites": 4,
-      "sets_gagnes": 6,
-      "sets_perdus": 9,
+      "defaites": 5,
+      "sets_gagnes": 7,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 33.3,
-      "ratio_sets": 0.67,
-      "elo": 1463.7,
+      "pourcentage_victoires": 28.6,
+      "ratio_sets": 0.58,
+      "elo": 1448.7177708201275,
       "elo_max": 1500.0,
       "elo_min": 1439.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -539,26 +542,27 @@
     },
     {
       "nom": "Arthur Buffavand",
-      "matchs_joues": 4,
-      "victoires": 2,
+      "matchs_joues": 6,
+      "victoires": 4,
       "defaites": 2,
-      "sets_gagnes": 6,
-      "sets_perdus": 5,
+      "sets_gagnes": 12,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 1",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.2,
-      "elo": 1503.1,
-      "elo_max": 1517.4,
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.5,
+      "elo": 1532.9081532146065,
+      "elo_max": 1532.9081532146065,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
+        "V",
         "D",
         "V",
-        "V",
-        "D"
+        "V"
       ]
     },
     {
@@ -725,25 +729,25 @@
     },
     {
       "nom": "Axel Garcin",
-      "matchs_joues": 11,
-      "victoires": 8,
+      "matchs_joues": 12,
+      "victoires": 9,
       "defaites": 3,
-      "sets_gagnes": 20,
-      "sets_perdus": 14,
+      "sets_gagnes": 23,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 72.7,
-      "ratio_sets": 1.43,
-      "elo": 1570.8,
-      "elo_max": 1570.8,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.53,
+      "elo": 1587.4601609135793,
+      "elo_max": 1587.4601609135793,
       "elo_min": 1500.0,
       "photo": "photos/axel-garcin.jpg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -963,24 +967,24 @@
     },
     {
       "nom": "Benjamin Riegel",
-      "matchs_joues": 12,
-      "victoires": 9,
+      "matchs_joues": 14,
+      "victoires": 11,
       "defaites": 3,
-      "sets_gagnes": 22,
-      "sets_perdus": 12,
+      "sets_gagnes": 29,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.83,
-      "elo": 1595.797975745587,
-      "elo_max": 1595.797975745587,
+      "pourcentage_victoires": 78.6,
+      "ratio_sets": 1.93,
+      "elo": 1626.4806773883781,
+      "elo_max": 1626.4806773883781,
       "elo_min": 1485.9,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -1161,27 +1165,27 @@
     },
     {
       "nom": "Chloé Lumb",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 12,
-      "sets_perdus": 7,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.71,
-      "elo": 1557.0,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.3,
+      "elo": 1540.3398390864206,
       "elo_max": 1557.0,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -1351,23 +1355,25 @@
     },
     {
       "nom": "Côme Didot",
-      "matchs_joues": 2,
-      "victoires": 2,
-      "defaites": 0,
-      "sets_gagnes": 4,
-      "sets_perdus": 1,
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 4.0,
+      "matchs_joues": 4,
+      "victoires": 3,
+      "defaites": 1,
+      "sets_gagnes": 9,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.25,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1526.3,
-      "elo_max": 1526.3,
+      "elo": 1523.3995381990478,
+      "elo_max": 1538.965123214189,
       "elo_min": 1500.0,
       "photo": "photos/come-didot.jpg",
       "forme_recente": [
         "V",
-        "V"
+        "V",
+        "V",
+        "D"
       ]
     },
     {
@@ -1440,27 +1446,27 @@
     },
     {
       "nom": "Edgar Virlogeux",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 12,
-      "sets_perdus": 7,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.71,
-      "elo": 1537.991160152458,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.3,
+      "elo": 1520.8816700540135,
       "elo_max": 1537.991160152458,
       "elo_min": 1481.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -1510,25 +1516,25 @@
     },
     {
       "nom": "Eliott Levy Rondeau",
-      "matchs_joues": 6,
-      "victoires": 3,
+      "matchs_joues": 7,
+      "victoires": 4,
       "defaites": 3,
-      "sets_gagnes": 9,
-      "sets_perdus": 7,
+      "sets_gagnes": 12,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.29,
-      "elo": 1511.8,
-      "elo_max": 1511.8,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.5,
+      "elo": 1526.7822291798725,
+      "elo_max": 1526.7822291798725,
       "elo_min": 1464.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
         "V",
         "D",
+        "V",
         "V",
         "V"
       ]
@@ -1723,28 +1729,28 @@
     },
     {
       "nom": "Eugénie Roquain",
-      "matchs_joues": 10,
-      "victoires": 8,
-      "defaites": 2,
-      "sets_gagnes": 19,
-      "sets_perdus": 9,
+      "matchs_joues": 12,
+      "victoires": 9,
+      "defaites": 3,
+      "sets_gagnes": 24,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.11,
-      "elo": 1602.2,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.0,
+      "elo": 1599.299538199048,
       "elo_max": 1615.7,
       "elo_min": 1482.3,
       "photo": "photos/eugenie-roquain.jpg",
       "forme_recente": [
-        "V",
-        "V",
         "D",
         "V",
-        "V"
+        "V",
+        "V",
+        "D"
       ]
     },
     {
@@ -1862,24 +1868,24 @@
     },
     {
       "nom": "Gabin Néron",
-      "matchs_joues": 12,
-      "victoires": 9,
+      "matchs_joues": 14,
+      "victoires": 11,
       "defaites": 3,
-      "sets_gagnes": 20,
-      "sets_perdus": 10,
+      "sets_gagnes": 27,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.0,
-      "elo": 1578.3979757455872,
-      "elo_max": 1578.3979757455872,
+      "pourcentage_victoires": 78.6,
+      "ratio_sets": 2.08,
+      "elo": 1609.0806773883783,
+      "elo_max": 1609.0806773883783,
       "elo_min": 1493.6,
       "photo": "photos/gabin-neron.jpg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -2021,52 +2027,52 @@
     },
     {
       "nom": "Guilhem Demesy",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 8,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 11,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.38,
-      "elo": 1533.2800209551501,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.09,
+      "elo": 1519.0374527556846,
       "elo_max": 1539.8,
       "elo_min": 1494.7,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
       "nom": "Ilias Brumant",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 3,
-      "defaites": 3,
+      "defaites": 4,
       "sets_gagnes": 10,
-      "sets_perdus": 8,
+      "sets_perdus": 11,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.25,
-      "elo": 1515.5,
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.91,
+      "elo": 1497.6894822282004,
       "elo_max": 1515.5,
       "elo_min": 1481.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2299,20 +2305,20 @@
     },
     {
       "nom": "Julien Reijasse",
-      "matchs_joues": 12,
-      "victoires": 9,
+      "matchs_joues": 13,
+      "victoires": 10,
       "defaites": 3,
-      "sets_gagnes": 22,
-      "sets_perdus": 11,
+      "sets_gagnes": 25,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.0,
-      "elo": 1594.4581769058427,
-      "elo_max": 1594.4581769058427,
+      "pourcentage_victoires": 76.9,
+      "ratio_sets": 2.08,
+      "elo": 1607.8945936034816,
+      "elo_max": 1607.8945936034816,
       "elo_min": 1458.9,
       "photo": "photos/julien-reijasse.jpg",
       "forme_recente": [
@@ -2371,26 +2377,26 @@
     },
     {
       "nom": "Juliette Plault",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 2,
-      "defaites": 3,
+      "defaites": 4,
       "sets_gagnes": 4,
-      "sets_perdus": 6,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 40.0,
-      "ratio_sets": 0.67,
-      "elo": 1475.2,
+      "pourcentage_victoires": 33.3,
+      "ratio_sets": 0.44,
+      "elo": 1462.534876785811,
       "elo_max": 1524.0,
-      "elo_min": 1475.2,
+      "elo_min": 1462.534876785811,
       "photo": "photos/juliette-plault.jpg",
       "forme_recente": [
-        "V",
         "D",
         "D",
         "V",
+        "D",
         "D"
       ]
     },
@@ -2462,27 +2468,27 @@
     },
     {
       "nom": "Justine Bonnamy",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 8,
+      "defaites": 3,
+      "sets_gagnes": 12,
+      "sets_perdus": 11,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.38,
-      "elo": 1531.0911601524579,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.09,
+      "elo": 1513.9816700540134,
       "elo_max": 1531.0911601524579,
       "elo_min": 1474.1,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2700,27 +2706,27 @@
     },
     {
       "nom": "Loan Piquet",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 9,
-      "sets_perdus": 9,
+      "defaites": 4,
+      "sets_gagnes": 10,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1495.8,
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.83,
+      "elo": 1483.639519420993,
       "elo_max": 1524.0,
       "elo_min": 1478.6,
       "photo": "photos/loan-piquet.jpg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2819,26 +2825,26 @@
     },
     {
       "nom": "Lucas Balanger",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 3,
-      "defaites": 2,
+      "defaites": 3,
       "sets_gagnes": 7,
-      "sets_perdus": 8,
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 0.88,
+      "sets_perdus": 11,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.64,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1510.7884193238356,
+      "elo": 1493.5734166585505,
       "elo_max": 1512.9,
-      "elo_min": 1494.6,
+      "elo_min": 1493.5734166585505,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -3057,72 +3063,73 @@
     },
     {
       "nom": "Maelan Maudet",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 3,
-      "defaites": 0,
-      "sets_gagnes": 7,
-      "sets_perdus": 1,
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 7.0,
+      "defaites": 1,
+      "sets_gagnes": 9,
+      "sets_perdus": 4,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 2.25,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1547.3,
+      "elo": 1538.1162241888392,
       "elo_max": 1547.3,
       "elo_min": 1500.0,
       "photo": "photos/maelan-maudet.jpg",
       "forme_recente": [
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
       "nom": "Malo Mutti",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 7,
-      "sets_perdus": 7,
+      "defaites": 4,
+      "sets_gagnes": 8,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1507.5,
+      "pourcentage_victoires": 42.9,
+      "ratio_sets": 0.8,
+      "elo": 1491.523354926165,
       "elo_max": 1507.5,
       "elo_min": 1452.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
       "nom": "Malo Thuillier",
-      "matchs_joues": 14,
-      "victoires": 12,
+      "matchs_joues": 15,
+      "victoires": 13,
       "defaites": 2,
-      "sets_gagnes": 31,
-      "sets_perdus": 16,
+      "sets_gagnes": 34,
+      "sets_perdus": 17,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 85.7,
-      "ratio_sets": 1.94,
-      "elo": 1638.020093959615,
+      "pourcentage_victoires": 86.7,
+      "ratio_sets": 2.0,
+      "elo": 1645.9751452433607,
       "elo_max": 1664.1,
       "elo_min": 1500.0,
       "photo": "photos/malo-thuillier.jpg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3244,25 +3251,25 @@
     },
     {
       "nom": "Marius Saludjian",
-      "matchs_joues": 13,
-      "victoires": 10,
+      "matchs_joues": 15,
+      "victoires": 12,
       "defaites": 3,
-      "sets_gagnes": 31,
-      "sets_perdus": 13,
+      "sets_gagnes": 38,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 76.9,
-      "ratio_sets": 2.38,
-      "elo": 1661.6,
-      "elo_max": 1663.7,
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 2.53,
+      "elo": 1682.7484791928919,
+      "elo_max": 1682.7484791928919,
       "elo_min": 1479.7,
       "photo": "photos/marius-saludjian.jpg",
       "forme_recente": [
         "V",
-        "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3293,24 +3300,25 @@
     },
     {
       "nom": "Martin Brunet Lecomte",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 5,
-      "sets_perdus": 3,
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.67,
+      "defaites": 2,
+      "sets_gagnes": 6,
+      "sets_perdus": 6,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1524.7,
+      "elo": 1509.7177708201275,
       "elo_max": 1524.7,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -3639,24 +3647,24 @@
     },
     {
       "nom": "Matéo Batista",
-      "matchs_joues": 8,
-      "victoires": 6,
+      "matchs_joues": 9,
+      "victoires": 7,
       "defaites": 2,
-      "sets_gagnes": 15,
+      "sets_gagnes": 18,
       "sets_perdus": 6,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 2.5,
-      "elo": 1574.0,
-      "elo_max": 1574.0,
+      "pourcentage_victoires": 77.8,
+      "ratio_sets": 3.0,
+      "elo": 1591.8105177717996,
+      "elo_max": 1591.8105177717996,
       "elo_min": 1500.0,
       "photo": "photos/mateo-batista.jpg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3685,24 +3693,24 @@
     },
     {
       "nom": "Max Perron",
-      "matchs_joues": 6,
-      "victoires": 3,
+      "matchs_joues": 7,
+      "victoires": 4,
       "defaites": 3,
-      "sets_gagnes": 8,
+      "sets_gagnes": 11,
       "sets_perdus": 7,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.14,
-      "elo": 1486.3,
-      "elo_max": 1500.0,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.57,
+      "elo": 1504.1105177717996,
+      "elo_max": 1504.1105177717996,
       "elo_min": 1434.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3802,25 +3810,25 @@
     },
     {
       "nom": "Maxime Trépant",
-      "matchs_joues": 15,
-      "victoires": 13,
+      "matchs_joues": 17,
+      "victoires": 15,
       "defaites": 2,
-      "sets_gagnes": 37,
-      "sets_perdus": 14,
+      "sets_gagnes": 44,
+      "sets_perdus": 16,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 86.7,
-      "ratio_sets": 2.64,
-      "elo": 1696.6,
+      "pourcentage_victoires": 88.2,
+      "ratio_sets": 2.75,
+      "elo": 1717.7484791928919,
       "elo_max": 1743.4,
       "elo_min": 1500.0,
       "photo": "photos/maxime-trepant.jpg",
       "forme_recente": [
         "V",
-        "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3828,17 +3836,17 @@
     },
     {
       "nom": "Maël Barraut",
-      "matchs_joues": 4,
+      "matchs_joues": 5,
       "victoires": 3,
-      "defaites": 1,
-      "sets_gagnes": 7,
-      "sets_perdus": 4,
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.75,
+      "defaites": 2,
+      "sets_gagnes": 8,
+      "sets_perdus": 7,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.14,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1523.955862015985,
+      "elo": 1512.6051290358232,
       "elo_max": 1523.955862015985,
       "elo_min": 1497.6,
       "photo": "photos/default.svg",
@@ -3846,7 +3854,8 @@
         "V",
         "D",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -3971,20 +3980,20 @@
     },
     {
       "nom": "Octave Chardain",
-      "matchs_joues": 10,
-      "victoires": 7,
+      "matchs_joues": 11,
+      "victoires": 8,
       "defaites": 3,
-      "sets_gagnes": 16,
-      "sets_perdus": 7,
+      "sets_gagnes": 19,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 70.0,
-      "ratio_sets": 2.29,
-      "elo": 1550.8581769058426,
-      "elo_max": 1550.8581769058426,
+      "pourcentage_victoires": 72.7,
+      "ratio_sets": 2.38,
+      "elo": 1564.2945936034814,
+      "elo_max": 1564.2945936034814,
       "elo_min": 1473.9,
       "photo": "photos/octave-chardain.jpg",
       "forme_recente": [
@@ -4073,21 +4082,22 @@
     },
     {
       "nom": "Paul Renault",
-      "matchs_joues": 4,
-      "victoires": 4,
+      "matchs_joues": 5,
+      "victoires": 5,
       "defaites": 0,
-      "sets_gagnes": 9,
+      "sets_gagnes": 12,
       "sets_perdus": 3,
       "pourcentage_victoires": 100.0,
-      "ratio_sets": 3.0,
+      "ratio_sets": 4.0,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1559.9016979909957,
-      "elo_max": 1559.9016979909957,
+      "elo": 1577.1167006562807,
+      "elo_max": 1577.1167006562807,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
+        "V",
         "V",
         "V",
         "V",
@@ -4117,24 +4127,26 @@
     },
     {
       "nom": "Paul Taillée",
-      "matchs_joues": 3,
-      "victoires": 3,
-      "defaites": 0,
-      "sets_gagnes": 7,
-      "sets_perdus": 1,
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 7.0,
+      "matchs_joues": 5,
+      "victoires": 4,
+      "defaites": 1,
+      "sets_gagnes": 12,
+      "sets_perdus": 6,
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 2.0,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1536.4,
-      "elo_max": 1536.4,
+      "elo": 1529.2285119163778,
+      "elo_max": 1547.750732980162,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "V",
-        "V"
+        "V",
+        "V",
+        "D"
       ]
     },
     {
@@ -4161,52 +4173,52 @@
     },
     {
       "nom": "Pierric Léopold",
-      "matchs_joues": 6,
-      "victoires": 3,
-      "defaites": 3,
-      "sets_gagnes": 7,
-      "sets_perdus": 8,
+      "matchs_joues": 8,
+      "victoires": 4,
+      "defaites": 4,
+      "sets_gagnes": 10,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
       "pourcentage_victoires": 50.0,
-      "ratio_sets": 0.88,
-      "elo": 1496.9768065003973,
-      "elo_max": 1500.0,
+      "ratio_sets": 0.77,
+      "elo": 1502.1215932171106,
+      "elo_max": 1514.0862965988417,
       "elo_min": 1454.9,
       "photo": "photos/pierric-leopold.jpg",
       "forme_recente": [
+        "V",
         "D",
         "V",
         "V",
-        "D",
-        "V"
+        "D"
       ]
     },
     {
       "nom": "Pierre-Louis Petit",
-      "matchs_joues": 6,
-      "victoires": 3,
+      "matchs_joues": 7,
+      "victoires": 4,
       "defaites": 3,
-      "sets_gagnes": 8,
-      "sets_perdus": 8,
+      "sets_gagnes": 11,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1497.8,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.22,
+      "elo": 1514.4601609135793,
       "elo_max": 1520.3,
       "elo_min": 1476.0,
       "photo": "photos/pierre-louis-petit.jpg",
       "forme_recente": [
         "V",
+        "D",
+        "D",
         "V",
-        "D",
-        "D",
         "V"
       ]
     },
@@ -4284,26 +4296,26 @@
     },
     {
       "nom": "Romain Brechet",
-      "matchs_joues": 6,
-      "victoires": 4,
+      "matchs_joues": 7,
+      "victoires": 5,
       "defaites": 2,
-      "sets_gagnes": 10,
-      "sets_perdus": 7,
+      "sets_gagnes": 13,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.43,
-      "elo": 1541.8,
-      "elo_max": 1541.8,
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 1.62,
+      "elo": 1557.776645073835,
+      "elo_max": 1557.776645073835,
       "elo_min": 1476.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "V",
-        "V",
         "D",
+        "V",
         "V"
       ]
     },
@@ -4518,19 +4530,19 @@
     },
     {
       "nom": "Simon Blin",
-      "matchs_joues": 7,
-      "victoires": 5,
+      "matchs_joues": 8,
+      "victoires": 6,
       "defaites": 2,
-      "sets_gagnes": 12,
+      "sets_gagnes": 15,
       "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 1.5,
-      "elo": 1539.7016979909956,
-      "elo_max": 1539.7016979909956,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.88,
+      "elo": 1556.9167006562807,
+      "elo_max": 1556.9167006562807,
       "elo_min": 1459.2,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -4543,27 +4555,27 @@
     },
     {
       "nom": "Siméon Glomot",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 4,
-      "defaites": 2,
+      "defaites": 3,
       "sets_gagnes": 9,
-      "sets_perdus": 9,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.0,
-      "elo": 1526.7,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 0.75,
+      "elo": 1509.484997334715,
       "elo_max": 1526.7,
       "elo_min": 1476.4,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "V",
-        "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4590,25 +4602,25 @@
     },
     {
       "nom": "Stanislas Bruyere",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 3,
-      "defaites": 2,
-      "sets_gagnes": 7,
-      "sets_perdus": 7,
+      "defaites": 3,
+      "sets_gagnes": 8,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 3"
       ],
-      "pourcentage_victoires": 60.0,
-      "ratio_sets": 1.0,
-      "elo": 1510.9681879273885,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.8,
+      "elo": 1503.0131366436428,
       "elo_max": 1523.969885918384,
       "elo_min": 1494.7,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
+        "D",
         "D"
       ]
     },
@@ -4683,53 +4695,53 @@
     },
     {
       "nom": "Thibault Planckeel",
-      "matchs_joues": 9,
-      "victoires": 4,
+      "matchs_joues": 10,
+      "victoires": 5,
       "defaites": 5,
-      "sets_gagnes": 12,
-      "sets_perdus": 13,
+      "sets_gagnes": 15,
+      "sets_perdus": 14,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 44.4,
-      "ratio_sets": 0.92,
-      "elo": 1480.8,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.07,
+      "elo": 1496.776645073835,
       "elo_max": 1500.5,
       "elo_min": 1452.5,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "D",
+        "V",
         "V"
       ]
     },
     {
       "nom": "Thibault Vo",
-      "matchs_joues": 7,
-      "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 10,
-      "sets_perdus": 10,
+      "matchs_joues": 9,
+      "victoires": 5,
+      "defaites": 4,
+      "sets_gagnes": 13,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.0,
-      "elo": 1511.9768065003973,
+      "pourcentage_victoires": 55.6,
+      "ratio_sets": 0.87,
+      "elo": 1517.1215932171106,
       "elo_max": 1539.7,
       "elo_min": 1494.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
-        "D",
         "V",
         "D",
-        "V"
+        "V",
+        "V",
+        "D"
       ]
     },
     {
@@ -4847,28 +4859,28 @@
     },
     {
       "nom": "Théo Coltat",
-      "matchs_joues": 9,
+      "matchs_joues": 10,
       "victoires": 6,
-      "defaites": 3,
-      "sets_gagnes": 16,
-      "sets_perdus": 10,
+      "defaites": 4,
+      "sets_gagnes": 17,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.6,
-      "elo": 1544.38002095515,
+      "pourcentage_victoires": 60.0,
+      "ratio_sets": 1.31,
+      "elo": 1530.1374527556845,
       "elo_max": 1548.4,
       "elo_min": 1482.6,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4991,27 +5003,27 @@
     },
     {
       "nom": "Titouan Boulitreau",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 13,
-      "sets_perdus": 9,
+      "defaites": 4,
+      "sets_gagnes": 14,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.44,
-      "elo": 1521.6,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1508.163583302361,
       "elo_max": 1524.0,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -5066,74 +5078,75 @@
     },
     {
       "nom": "Tom Lemoine",
-      "matchs_joues": 6,
-      "victoires": 3,
+      "matchs_joues": 7,
+      "victoires": 4,
       "defaites": 3,
-      "sets_gagnes": 8,
-      "sets_perdus": 7,
+      "sets_gagnes": 11,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.14,
-      "elo": 1510.5,
-      "elo_max": 1510.5,
+      "pourcentage_victoires": 57.1,
+      "ratio_sets": 1.38,
+      "elo": 1525.4822291798725,
+      "elo_max": 1525.4822291798725,
       "elo_min": 1471.9,
       "photo": "photos/tom-lemoine.jpg",
       "forme_recente": [
+        "D",
+        "D",
         "V",
-        "D",
-        "D",
         "V",
         "V"
       ]
     },
     {
       "nom": "Trystan Delemar",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 6,
-      "sets_perdus": 5,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.2,
-      "elo": 1517.2,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 0.88,
+      "elo": 1505.0395194209932,
       "elo_max": 1517.2,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
       "nom": "Ulysse Comte",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 12,
-      "sets_perdus": 6,
+      "defaites": 3,
+      "sets_gagnes": 13,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 2.0,
-      "elo": 1551.8,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.44,
+      "elo": 1535.1398390864206,
       "elo_max": 1551.8,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -5183,51 +5196,51 @@
     },
     {
       "nom": "Victoire Guth",
-      "matchs_joues": 10,
+      "matchs_joues": 11,
       "victoires": 5,
-      "defaites": 5,
+      "defaites": 6,
       "sets_gagnes": 15,
-      "sets_perdus": 15,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.0,
-      "elo": 1504.7,
+      "pourcentage_victoires": 45.5,
+      "ratio_sets": 0.83,
+      "elo": 1486.8894822282004,
       "elo_max": 1504.7,
       "elo_min": 1468.0,
       "photo": "photos/victoire-guth.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
       "nom": "Victor Duforest",
-      "matchs_joues": 15,
-      "victoires": 14,
+      "matchs_joues": 16,
+      "victoires": 15,
       "defaites": 1,
-      "sets_gagnes": 39,
-      "sets_perdus": 13,
+      "sets_gagnes": 42,
+      "sets_perdus": 14,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 93.3,
+      "pourcentage_victoires": 93.8,
       "ratio_sets": 3.0,
-      "elo": 1760.9200939596149,
+      "elo": 1768.8751452433605,
       "elo_max": 1780.8,
       "elo_min": 1500.0,
       "photo": "photos/victor-duforest.jpg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -5355,27 +5368,27 @@
     },
     {
       "nom": "Yanis Saa",
-      "matchs_joues": 6,
+      "matchs_joues": 7,
       "victoires": 5,
-      "defaites": 1,
-      "sets_gagnes": 12,
-      "sets_perdus": 4,
+      "defaites": 2,
+      "sets_gagnes": 14,
+      "sets_perdus": 7,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 83.3,
-      "ratio_sets": 3.0,
-      "elo": 1566.9,
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 2.0,
+      "elo": 1557.7162241888393,
       "elo_max": 1566.9,
       "elo_min": 1500.0,
       "photo": "photos/yanis-saa.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -5405,50 +5418,51 @@
     },
     {
       "nom": "Yaël Vincent",
-      "matchs_joues": 9,
-      "victoires": 6,
+      "matchs_joues": 11,
+      "victoires": 8,
       "defaites": 3,
-      "sets_gagnes": 14,
-      "sets_perdus": 11,
+      "sets_gagnes": 20,
+      "sets_perdus": 14,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.27,
-      "elo": 1536.3,
+      "pourcentage_victoires": 72.7,
+      "ratio_sets": 1.43,
+      "elo": 1566.1081532146065,
       "elo_max": 1566.6,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
+        "D",
         "V",
         "D",
         "V",
-        "D"
+        "V"
       ]
     },
     {
       "nom": "Younès Benazzouz",
-      "matchs_joues": 3,
+      "matchs_joues": 4,
       "victoires": 2,
-      "defaites": 1,
-      "sets_gagnes": 6,
-      "sets_perdus": 3,
+      "defaites": 2,
+      "sets_gagnes": 7,
+      "sets_perdus": 6,
       "tournois": [
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 2.0,
-      "elo": 1520.9,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.17,
+      "elo": 1507.4635833023613,
       "elo_max": 1520.9,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
       "forme_recente": [
         "V",
         "D",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -9376,11 +9390,11 @@
       "gagnant": "Clément Ricaud"
     }
   ],
-  "derniere_maj": "2026-03-02",
+  "derniere_maj": "2026-03-04",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 485,
-    "total_sets": 1366
+    "total_matchs": 501,
+    "total_sets": 1431
   },
   "equipes": [
     {
@@ -13398,6 +13412,294 @@
       "score1": 0,
       "score2": 3,
       "gagnant": "Zéro zéro bull"
+    },
+    {
+      "id": 147,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "32èmes",
+      "seed1": 15,
+      "seed2": 50,
+      "date": "2026-03-04",
+      "equipe1": "FartVador",
+      "equipe2": "Les fléchouettes",
+      "joueur1_eq1": "Eugénie Roquain",
+      "joueur2_eq1": "Côme Didot",
+      "joueur1_eq2": "Adèle Hamelin",
+      "joueur2_eq2": "Juliette Plault",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "FartVador"
+    },
+    {
+      "id": 148,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "32èmes",
+      "seed1": 47,
+      "seed2": 18,
+      "date": "2026-03-04",
+      "equipe1": "Les endartcampés",
+      "equipe2": "Cetelem",
+      "joueur1_eq1": "Yaël Vincent",
+      "joueur2_eq1": "Arthur Buffavand",
+      "joueur1_eq2": "Théo Coltat",
+      "joueur2_eq2": "Guilhem Demesy",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Les endartcampés"
+    },
+    {
+      "id": 149,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 48,
+      "seed2": 49,
+      "date": "2026-03-04",
+      "equipe1": "On va chez Darty",
+      "equipe2": "Les dobermans",
+      "joueur1_eq1": "Agathe Guerrini Touchais",
+      "joueur2_eq1": "Malo Mutti",
+      "joueur1_eq2": "Romain Brechet",
+      "joueur2_eq2": "Thibault Planckeel",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Les dobermans"
+    },
+    {
+      "id": 150,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 9,
+      "seed2": 41,
+      "date": "2026-03-04",
+      "equipe1": "Le brancard",
+      "equipe2": "Les pouilleux",
+      "joueur1_eq1": "Max Perron",
+      "joueur2_eq1": "Matéo Batista",
+      "joueur1_eq2": "Victoire Guth",
+      "joueur2_eq2": "Ilias Brumant",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Le brancard"
+    },
+    {
+      "id": 151,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 25,
+      "seed2": 57,
+      "date": "2026-03-04",
+      "equipe1": "Octave je te baise",
+      "equipe2": "Les menaces",
+      "joueur1_eq1": "Malo Thuillier",
+      "joueur2_eq1": "Victor Duforest",
+      "joueur1_eq2": "Andy Queulin-Roy",
+      "joueur2_eq2": "Stanislas Bruyere",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Octave je te baise"
+    },
+    {
+      "id": 152,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 21,
+      "seed2": 53,
+      "date": "2026-03-04",
+      "equipe1": "Le poulailler",
+      "equipe2": "Darty dancing",
+      "joueur1_eq1": "Simon Blin",
+      "joueur2_eq1": "Paul Renault",
+      "joueur1_eq2": "Lucas Balanger",
+      "joueur2_eq2": "Siméon Glomot",
+      "score1": 3,
+      "score2": 0,
+      "gagnant": "Le poulailler"
+    },
+    {
+      "id": 153,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 52,
+      "seed2": 45,
+      "date": "2026-03-04",
+      "equipe1": "C'est darty mon kiki 2",
+      "equipe2": "Littler fan club",
+      "joueur1_eq1": "Eliott Levy Rondeau",
+      "joueur2_eq1": "Tom Lemoine",
+      "joueur1_eq2": "Antonin Briat",
+      "joueur2_eq2": "Martin Brunet Lecomte",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "C'est darty mon kiki 2"
+    },
+    {
+      "id": 154,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 3,
+      "seed2": 35,
+      "date": "2026-03-04",
+      "equipe1": "C'est à cause d'mon dard",
+      "equipe2": "Le plus dur c'était van Darts",
+      "joueur1_eq1": "Julien Reijasse",
+      "joueur2_eq1": "Octave Chardain",
+      "joueur1_eq2": "Titouan Boulitreau",
+      "joueur2_eq2": "Younès Benazzouz",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "C'est à cause d'mon dard"
+    },
+    {
+      "id": 155,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 19,
+      "seed2": 14,
+      "date": "2026-03-04",
+      "equipe1": "Pastis et Cassoulet",
+      "equipe2": "Tchu Tchu",
+      "joueur1_eq1": "Pierre-Louis Petit",
+      "joueur2_eq1": "Axel Garcin",
+      "joueur1_eq2": "Chloé Lumb",
+      "joueur2_eq2": "Ulysse Comte",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Pastis et Cassoulet"
+    },
+    {
+      "id": 156,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 11,
+      "seed2": 22,
+      "date": "2026-03-04",
+      "equipe1": "La corridart",
+      "equipe2": "Jayson Dartum",
+      "joueur1_eq1": "Marius Saludjian",
+      "joueur2_eq1": "Maxime Trépant",
+      "joueur1_eq2": "Yanis Saa",
+      "joueur2_eq2": "Maelan Maudet",
+      "score1": 3,
+      "score2": 2,
+      "gagnant": "La corridart"
+    },
+    {
+      "id": 157,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 27,
+      "seed2": 59,
+      "date": "2026-03-04",
+      "equipe1": "Team famille",
+      "equipe2": "Force à Pierric",
+      "joueur1_eq1": "Justine Bonnamy",
+      "joueur2_eq1": "Edgar Virlogeux",
+      "joueur1_eq2": "Thibault Vo",
+      "joueur2_eq2": "Pierric Léopold",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Force à Pierric"
+    },
+    {
+      "id": 158,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 7,
+      "seed2": 39,
+      "date": "2026-03-04",
+      "equipe1": "Big Fish",
+      "equipe2": "Les dartcooliques",
+      "joueur1_eq1": "Alexandre Poisson",
+      "joueur2_eq1": "Paul Taillée",
+      "joueur1_eq2": "Maël Barraut",
+      "joueur2_eq2": "Antoine Bertrand",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Big Fish"
+    },
+    {
+      "id": 159,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 42,
+      "seed2": 10,
+      "date": "2026-03-04",
+      "equipe1": "Double out",
+      "equipe2": "Fléchettes Famille Patrie",
+      "joueur1_eq1": "Loan Piquet",
+      "joueur2_eq1": "Trystan Delemar",
+      "joueur1_eq2": "Gabin Néron",
+      "joueur2_eq2": "Benjamin Riegel",
+      "score1": 1,
+      "score2": 3,
+      "gagnant": "Fléchettes Famille Patrie"
+    },
+    {
+      "id": 160,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 15,
+      "seed2": 47,
+      "date": "2026-03-04",
+      "equipe1": "FartVador",
+      "equipe2": "Les endartcampés",
+      "joueur1_eq1": "Eugénie Roquain",
+      "joueur2_eq1": "Côme Didot",
+      "joueur1_eq2": "Yaël Vincent",
+      "joueur2_eq2": "Arthur Buffavand",
+      "score1": 2,
+      "score2": 3,
+      "gagnant": "Les endartcampés"
+    },
+    {
+      "id": 161,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 11,
+      "seed2": 59,
+      "date": "2026-03-04",
+      "equipe1": "La corridart",
+      "equipe2": "Force à Pierric",
+      "joueur1_eq1": "Marius Saludjian",
+      "joueur2_eq1": "Maxime Trépant",
+      "joueur1_eq2": "Thibault Vo",
+      "joueur2_eq2": "Pierric Léopold",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "La corridart"
+    },
+    {
+      "id": 162,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 7,
+      "seed2": 10,
+      "date": "2026-03-04",
+      "equipe1": "Big Fish",
+      "equipe2": "Fléchettes Famille Patrie",
+      "joueur1_eq1": "Alexandre Poisson",
+      "joueur2_eq1": "Paul Taillée",
+      "joueur1_eq2": "Gabin Néron",
+      "joueur2_eq2": "Benjamin Riegel",
+      "score1": 2,
+      "score2": 4,
+      "gagnant": "Fléchettes Famille Patrie"
     }
   ],
   "tableau_cnf3": {
@@ -13686,21 +13988,21 @@
         "match_num": 29,
         "seed1": 15,
         "equipe1": "FartVador",
-        "score1": null,
+        "score1": 3,
         "seed2": 50,
         "equipe2": "Les fléchouettes",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "FartVador"
       },
       {
         "match_num": 30,
         "seed1": 47,
         "equipe1": "Les endartcampés",
-        "score1": null,
+        "score1": 3,
         "seed2": 18,
         "equipe2": "Cetelem",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Les endartcampés"
       },
       {
         "match_num": 31,
@@ -13738,31 +14040,31 @@
         "match_num": 2,
         "seed1": 48,
         "equipe1": "On va chez Darty",
-        "score1": null,
+        "score1": 1,
         "seed2": 49,
         "equipe2": "Les dobermans",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "Les dobermans"
       },
       {
         "match_num": 3,
         "seed1": 9,
         "equipe1": "Le brancard",
-        "score1": null,
+        "score1": 3,
         "seed2": 41,
         "equipe2": "Les pouilleux",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "Le brancard"
       },
       {
         "match_num": 4,
         "seed1": 25,
         "equipe1": "Octave je te baise",
-        "score1": null,
+        "score1": 3,
         "seed2": 57,
         "equipe2": "Les menaces",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Octave je te baise"
       },
       {
         "match_num": 5,
@@ -13778,21 +14080,21 @@
         "match_num": 6,
         "seed1": 21,
         "equipe1": "Le poulailler",
-        "score1": null,
+        "score1": 3,
         "seed2": 53,
         "equipe2": "Darty dancing",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "Le poulailler"
       },
       {
         "match_num": 7,
         "seed1": 52,
         "equipe1": "C'est darty mon kiki 2",
-        "score1": null,
+        "score1": 3,
         "seed2": 45,
         "equipe2": "Littler fan club",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "C'est darty mon kiki 2"
       },
       {
         "match_num": 8,
@@ -13808,64 +14110,74 @@
         "match_num": 9,
         "seed1": 3,
         "equipe1": "C'est à cause d'mon dard",
-        "score1": null,
+        "score1": 3,
         "seed2": 35,
         "equipe2": "Le plus dur c'était van Darts",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "C'est à cause d'mon dard"
       },
       {
         "match_num": 10,
         "seed1": 19,
         "equipe1": "Pastis et Cassoulet",
-        "score1": null,
+        "score1": 3,
         "seed2": 14,
         "equipe2": "Tchu Tchu",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Pastis et Cassoulet"
       },
       {
         "match_num": 11,
         "seed1": 11,
         "equipe1": "La corridart",
-        "score1": null,
+        "score1": 3,
         "seed2": 22,
         "equipe2": "Jayson Dartum",
-        "score2": null,
-        "gagnant": null
+        "score2": 2,
+        "gagnant": "La corridart"
       },
       {
         "match_num": 12,
         "seed1": 27,
         "equipe1": "Team famille",
-        "score1": null,
+        "score1": 1,
         "seed2": 59,
         "equipe2": "Force à Pierric",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "Force à Pierric"
       },
       {
         "match_num": 13,
         "seed1": 7,
         "equipe1": "Big Fish",
-        "score1": null,
+        "score1": 3,
         "seed2": 39,
         "equipe2": "Les dartcooliques",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Big Fish"
       },
       {
         "match_num": 14,
         "seed1": 42,
         "equipe1": "Double out",
-        "score1": null,
+        "score1": 1,
         "seed2": 10,
         "equipe2": "Fléchettes Famille Patrie",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "Fléchettes Famille Patrie"
       },
       {
         "match_num": 15,
+        "seed1": 15,
+        "equipe1": "FartVador",
+        "score1": 2,
+        "seed2": 47,
+        "equipe2": "Les endartcampés",
+        "score2": 3,
+        "gagnant": "Les endartcampés"
+      },
+      {
+        "match_num": 16,
         "seed1": 34,
         "equipe1": "Les kebabeurs",
         "score1": null,
@@ -13881,13 +14193,84 @@
         "seed1": 1,
         "equipe1": "Les dartistes",
         "score1": null,
-        "seed2": 5,
-        "equipe2": "Zara Dartsson",
+        "seed2": 49,
+        "equipe2": "Les dobermans",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 2,
+        "seed1": 9,
+        "equipe1": "Le brancard",
+        "score1": null,
+        "seed2": 25,
+        "equipe2": "Octave je te baise",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 3,
+        "seed1": 5,
+        "equipe1": "Zara Dartsson",
+        "score1": null,
+        "seed2": 21,
+        "equipe2": "Le poulailler",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 4,
+        "seed1": 52,
+        "equipe1": "C'est darty mon kiki 2",
+        "score1": null,
+        "seed2": 4,
+        "equipe2": "Zéro zéro bull",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 5,
+        "seed1": 3,
+        "equipe1": "C'est à cause d'mon dard",
+        "score1": null,
+        "seed2": 19,
+        "equipe2": "Pastis et Cassoulet",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 6,
+        "seed1": 11,
+        "equipe1": "La corridart",
+        "score1": 4,
+        "seed2": 59,
+        "equipe2": "Force à Pierric",
+        "score2": 0,
+        "gagnant": "La corridart"
+      },
+      {
+        "match_num": 7,
+        "seed1": 7,
+        "equipe1": "Big Fish",
+        "score1": 2,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
+        "score2": 4,
+        "gagnant": "Fléchettes Famille Patrie"
+      }
+    ],
+    "quarts": [
+      {
+        "match_num": 1,
+        "seed1": 11,
+        "equipe1": "La corridart",
+        "score1": null,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
         "score2": null,
         "gagnant": null
       }
     ],
-    "quarts": [],
     "demis": [],
     "finale": []
   }
