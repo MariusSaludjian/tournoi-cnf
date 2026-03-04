@@ -1261,19 +1261,19 @@
     },
     {
       "nom": "Clément Ricaud",
-      "matchs_joues": 18,
+      "matchs_joues": 19,
       "victoires": 16,
-      "defaites": 2,
-      "sets_gagnes": 46,
-      "sets_perdus": 16,
+      "defaites": 3,
+      "sets_gagnes": 47,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 88.9,
-      "ratio_sets": 2.88,
-      "elo": 1823.0,
+      "pourcentage_victoires": 84.2,
+      "ratio_sets": 2.47,
+      "elo": 1799.7647347757904,
       "elo_max": 1823.0,
       "elo_min": 1500.0,
       "photo": "photos/clement-ricaud.jpg",
@@ -1282,7 +1282,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -2633,24 +2633,24 @@
     },
     {
       "nom": "Lilian Beauvais",
-      "matchs_joues": 7,
-      "victoires": 4,
+      "matchs_joues": 8,
+      "victoires": 5,
       "defaites": 3,
-      "sets_gagnes": 12,
-      "sets_perdus": 8,
+      "sets_gagnes": 15,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.5,
-      "elo": 1518.16502956712,
-      "elo_max": 1518.16502956712,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.67,
+      "elo": 1541.4002947913295,
+      "elo_max": 1541.4002947913295,
       "elo_min": 1461.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
+        "V",
         "V",
         "V",
         "V"
@@ -3015,24 +3015,24 @@
     },
     {
       "nom": "Léo Santiquet",
-      "matchs_joues": 17,
-      "victoires": 14,
+      "matchs_joues": 18,
+      "victoires": 15,
       "defaites": 3,
-      "sets_gagnes": 44,
+      "sets_gagnes": 48,
       "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 82.4,
-      "ratio_sets": 2.32,
-      "elo": 1709.833427906194,
-      "elo_max": 1709.833427906194,
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 2.53,
+      "elo": 1730.435274137337,
+      "elo_max": 1730.435274137337,
       "elo_min": 1500.0,
       "photo": "photos/leo-santiquet.jpg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -3111,28 +3111,28 @@
     },
     {
       "nom": "Malo Thuillier",
-      "matchs_joues": 15,
+      "matchs_joues": 16,
       "victoires": 13,
-      "defaites": 2,
-      "sets_gagnes": 34,
-      "sets_perdus": 17,
+      "defaites": 3,
+      "sets_gagnes": 37,
+      "sets_perdus": 21,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 86.7,
-      "ratio_sets": 2.0,
-      "elo": 1645.9751452433607,
+      "pourcentage_victoires": 81.2,
+      "ratio_sets": 1.76,
+      "elo": 1623.9238698465447,
       "elo_max": 1664.1,
       "elo_min": 1500.0,
       "photo": "photos/malo-thuillier.jpg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -3647,23 +3647,23 @@
     },
     {
       "nom": "Matéo Batista",
-      "matchs_joues": 9,
-      "victoires": 7,
+      "matchs_joues": 10,
+      "victoires": 8,
       "defaites": 2,
-      "sets_gagnes": 18,
-      "sets_perdus": 6,
+      "sets_gagnes": 22,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 77.8,
-      "ratio_sets": 3.0,
-      "elo": 1591.8105177717996,
-      "elo_max": 1591.8105177717996,
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 2.44,
+      "elo": 1613.8617931686156,
+      "elo_max": 1613.8617931686156,
       "elo_min": 1500.0,
       "photo": "photos/mateo-batista.jpg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -3693,23 +3693,23 @@
     },
     {
       "nom": "Max Perron",
-      "matchs_joues": 7,
-      "victoires": 4,
+      "matchs_joues": 8,
+      "victoires": 5,
       "defaites": 3,
-      "sets_gagnes": 11,
-      "sets_perdus": 7,
+      "sets_gagnes": 15,
+      "sets_perdus": 10,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.57,
-      "elo": 1504.1105177717996,
-      "elo_max": 1504.1105177717996,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.5,
+      "elo": 1526.1617931686155,
+      "elo_max": 1526.1617931686155,
       "elo_min": 1434.6,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -4031,28 +4031,28 @@
     },
     {
       "nom": "Paul Dauboin",
-      "matchs_joues": 9,
+      "matchs_joues": 10,
       "victoires": 7,
-      "defaites": 2,
-      "sets_gagnes": 18,
-      "sets_perdus": 5,
+      "defaites": 3,
+      "sets_gagnes": 19,
+      "sets_perdus": 8,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 77.8,
-      "ratio_sets": 3.6,
-      "elo": 1574.5,
+      "pourcentage_victoires": 70.0,
+      "ratio_sets": 2.38,
+      "elo": 1551.2647347757904,
       "elo_max": 1574.5,
       "elo_min": 1481.3,
       "photo": "photos/paul-dauboin.jpg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4082,17 +4082,17 @@
     },
     {
       "nom": "Paul Renault",
-      "matchs_joues": 5,
+      "matchs_joues": 6,
       "victoires": 5,
-      "defaites": 0,
+      "defaites": 1,
       "sets_gagnes": 12,
-      "sets_perdus": 3,
-      "pourcentage_victoires": 100.0,
-      "ratio_sets": 4.0,
+      "sets_perdus": 7,
+      "pourcentage_victoires": 83.3,
+      "ratio_sets": 1.71,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1577.1167006562807,
+      "elo": 1556.5148544251376,
       "elo_max": 1577.1167006562807,
       "elo_min": 1500.0,
       "photo": "photos/default.svg",
@@ -4101,7 +4101,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -4321,24 +4321,24 @@
     },
     {
       "nom": "Romain Perrier",
-      "matchs_joues": 9,
-      "victoires": 4,
+      "matchs_joues": 10,
+      "victoires": 5,
       "defaites": 5,
-      "sets_gagnes": 11,
+      "sets_gagnes": 15,
       "sets_perdus": 12,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 44.4,
-      "ratio_sets": 0.92,
-      "elo": 1456.333427906194,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.25,
+      "elo": 1476.935274137337,
       "elo_max": 1500.0,
       "elo_min": 1399.0,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -4530,18 +4530,18 @@
     },
     {
       "nom": "Simon Blin",
-      "matchs_joues": 8,
+      "matchs_joues": 9,
       "victoires": 6,
-      "defaites": 2,
+      "defaites": 3,
       "sets_gagnes": 15,
-      "sets_perdus": 8,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.88,
-      "elo": 1556.9167006562807,
+      "pourcentage_victoires": 66.7,
+      "ratio_sets": 1.25,
+      "elo": 1536.3148544251376,
       "elo_max": 1556.9167006562807,
       "elo_min": 1459.2,
       "photo": "photos/default.svg",
@@ -4550,7 +4550,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -4957,22 +4957,23 @@
     },
     {
       "nom": "Timothée Prio-Pichon",
-      "matchs_joues": 3,
-      "victoires": 2,
+      "matchs_joues": 4,
+      "victoires": 3,
       "defaites": 1,
-      "sets_gagnes": 6,
-      "sets_perdus": 4,
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.5,
+      "sets_gagnes": 9,
+      "sets_perdus": 5,
+      "pourcentage_victoires": 75.0,
+      "ratio_sets": 1.8,
       "tournois": [
         "CNF 3"
       ],
-      "elo": 1520.2,
-      "elo_max": 1520.2,
+      "elo": 1543.4352652242096,
+      "elo_max": 1543.4352652242096,
       "elo_min": 1485.3,
       "photo": "photos/default.svg",
       "forme_recente": [
         "D",
+        "V",
         "V",
         "V"
       ]
@@ -5222,28 +5223,28 @@
     },
     {
       "nom": "Victor Duforest",
-      "matchs_joues": 16,
+      "matchs_joues": 17,
       "victoires": 15,
-      "defaites": 1,
-      "sets_gagnes": 42,
-      "sets_perdus": 14,
+      "defaites": 2,
+      "sets_gagnes": 45,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 93.8,
-      "ratio_sets": 3.0,
-      "elo": 1768.8751452433605,
+      "pourcentage_victoires": 88.2,
+      "ratio_sets": 2.5,
+      "elo": 1746.8238698465445,
       "elo_max": 1780.8,
       "elo_min": 1500.0,
       "photo": "photos/victor-duforest.jpg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -9393,8 +9394,8 @@
   "derniere_maj": "2026-03-04",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 501,
-    "total_sets": 1431
+    "total_matchs": 504,
+    "total_sets": 1446
   },
   "equipes": [
     {
@@ -13700,6 +13701,60 @@
       "score1": 2,
       "score2": 4,
       "gagnant": "Fléchettes Famille Patrie"
+    },
+    {
+      "id": 163,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "16èmes",
+      "seed1": 34,
+      "seed2": 2,
+      "date": "2026-03-04",
+      "equipe1": "Les kebabeurs",
+      "equipe2": "La penthouse rose",
+      "joueur1_eq1": "Lilian Beauvais",
+      "joueur2_eq1": "Timothée Prio-Pichon",
+      "joueur1_eq2": "Clément Ricaud",
+      "joueur2_eq2": "Paul Dauboin",
+      "score1": 3,
+      "score2": 1,
+      "gagnant": "Les kebabeurs"
+    },
+    {
+      "id": 164,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 9,
+      "seed2": 25,
+      "date": "2026-03-04",
+      "equipe1": "Le brancard",
+      "equipe2": "Octave je te baise",
+      "joueur1_eq1": "Max Perron",
+      "joueur2_eq1": "Matéo Batista",
+      "joueur1_eq2": "Malo Thuillier",
+      "joueur2_eq2": "Victor Duforest",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "Le brancard"
+    },
+    {
+      "id": 165,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 5,
+      "seed2": 21,
+      "date": "2026-03-04",
+      "equipe1": "Zara Dartsson",
+      "equipe2": "Le poulailler",
+      "joueur1_eq1": "Léo Santiquet",
+      "joueur2_eq1": "Romain Perrier",
+      "joueur1_eq2": "Simon Blin",
+      "joueur2_eq2": "Paul Renault",
+      "score1": 4,
+      "score2": 0,
+      "gagnant": "Zara Dartsson"
     }
   ],
   "tableau_cnf3": {
@@ -14180,11 +14235,11 @@
         "match_num": 16,
         "seed1": 34,
         "equipe1": "Les kebabeurs",
-        "score1": null,
+        "score1": 3,
         "seed2": 2,
         "equipe2": "La penthouse rose",
-        "score2": null,
-        "gagnant": null
+        "score2": 1,
+        "gagnant": "Les kebabeurs"
       }
     ],
     "8emes": [
@@ -14202,21 +14257,21 @@
         "match_num": 2,
         "seed1": 9,
         "equipe1": "Le brancard",
-        "score1": null,
+        "score1": 4,
         "seed2": 25,
         "equipe2": "Octave je te baise",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "Le brancard"
       },
       {
         "match_num": 3,
         "seed1": 5,
         "equipe1": "Zara Dartsson",
-        "score1": null,
+        "score1": 4,
         "seed2": 21,
         "equipe2": "Le poulailler",
-        "score2": null,
-        "gagnant": null
+        "score2": 0,
+        "gagnant": "Zara Dartsson"
       },
       {
         "match_num": 4,
@@ -14257,9 +14312,40 @@
         "equipe2": "Fléchettes Famille Patrie",
         "score2": 4,
         "gagnant": "Fléchettes Famille Patrie"
+      },
+      {
+        "match_num": 8,
+        "seed1": 47,
+        "equipe1": "Les endartcampés",
+        "score1": null,
+        "seed2": 34,
+        "equipe2": "Les kebabeurs",
+        "score2": null,
+        "gagnant": null
       }
     ],
-    "quarts": [],
+    "quarts": [
+      {
+        "match_num": 1,
+        "seed1": 9,
+        "equipe1": "Le brancard",
+        "score1": null,
+        "seed2": 5,
+        "equipe2": "Zara Dartsson",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 2,
+        "seed1": 11,
+        "equipe1": "La corridart",
+        "score1": null,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
+        "score2": null,
+        "gagnant": null
+      }
+    ],
     "demis": [],
     "finale": []
   }
