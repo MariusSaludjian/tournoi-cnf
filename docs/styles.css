@@ -6620,59 +6620,48 @@ body {
   .page-subtitle { font-size: 0.8rem !important; margin-bottom: 0.75rem !important; }
   .container { padding: 0.75rem 0.5rem 2rem !important; }
 
-  /* === TOP PLAYERS — layout horizontal sur mobile === */
+  /* === TOP PLAYERS — 2 colonnes, vertical, stats lisibles === */
   .top-players-grid {
-    grid-template-columns: 1fr !important;
-    gap: 0.5rem !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.6rem !important;
     margin-bottom: 1.5rem !important;
   }
-  /* Carte horizontale : photo à gauche, infos à droite */
   .player-card {
-    padding: 0.6rem 0.75rem !important;
+    padding: 0.85rem 0.65rem !important;
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
     align-items: center !important;
-    gap: 0.75rem !important;
+    gap: 0 !important;
   }
   .player-card::before { display: none !important; }
-  /* Section photo+rang à gauche */
   .player-card-top {
-    flex-direction: row !important;
+    flex-direction: column !important;
     align-items: center !important;
-    margin-bottom: 0 !important;
-    flex-shrink: 0 !important;
-    gap: 0.4rem !important;
+    margin-bottom: 0.5rem !important;
+    gap: 0.25rem !important;
   }
   .player-photo-wrapper {
-    width: 44px !important;
-    height: 44px !important;
-    margin-bottom: 0 !important;
-    flex-shrink: 0 !important;
+    width: 54px !important;
+    height: 54px !important;
+    margin-bottom: 0.25rem !important;
   }
-  .player-photo-circle { width: 44px !important; height: 44px !important; }
-  .player-medal { width: 16px !important; height: 16px !important; font-size: 0.55rem !important; bottom: -2px !important; right: -2px !important; }
-  .player-rank { font-size: 1rem !important; opacity: 0.5 !important; }
-  /* Nom + stats à droite dans .player-header */
-  .player-header {
-    flex: 1 !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    margin-bottom: 0 !important;
-    gap: 0.15rem !important;
-  }
-  .player-name { font-size: 0.82rem !important; text-align: left !important; }
-  /* Stats en ligne */
+  .player-photo-circle { width: 54px !important; height: 54px !important; }
+  .player-medal { width: 18px !important; height: 18px !important; font-size: 0.6rem !important; }
+  .player-rank { font-size: 1rem !important; }
+  .player-name { font-size: 0.8rem !important; text-align: center !important; }
+  /* Stats : 2x2 bien lisibles */
+  .player-header { flex-direction: column !important; align-items: center !important; margin-bottom: 0.4rem !important; }
   .player-stats {
-    grid-template-columns: repeat(4, auto) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 0.3rem !important;
     width: 100% !important;
   }
-  .player-stat { padding: 0.25rem 0.35rem !important; }
-  .player-stat-value { font-size: 0.9rem !important; }
-  .player-stat-label { font-size: 0.52rem !important; }
-  .player-record { font-size: 0.6rem !important; }
-  .forme-recent { gap: 2px !important; margin-top: 2px !important; flex-wrap: nowrap !important; }
-  .forme-dot { width: 7px !important; height: 7px !important; }
+  .player-stat { padding: 0.3rem 0.25rem !important; }
+  .player-stat-value { font-size: 1rem !important; }
+  .player-stat-label { font-size: 0.55rem !important; }
+  .player-record { font-size: 0.65rem !important; }
+  .forme-recent { gap: 3px !important; margin-top: 3px !important; flex-wrap: nowrap !important; justify-content: center !important; }
+  .forme-dot { width: 8px !important; height: 8px !important; }
 
   /* === CARTES JOUEURS page Joueurs === */
   .players-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 0.6rem !important; }
