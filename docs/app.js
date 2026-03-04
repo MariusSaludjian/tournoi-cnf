@@ -833,9 +833,21 @@ function afficherProfilJoueur(nomJoueur) {
     const joueur = joueurs.find(j => j.nom === nomJoueur);
     if (!joueur) return;
     
-    const matchsJoueur = matchs.filter(m => 
-        m.joueur1 === nomJoueur || m.joueur2 === nomJoueur
-    );
+    // Matchs individuels CNF1+2
+    const matchsSimples = matchs
+        .filter(m => m.joueur1 === nomJoueur || m.joueur2 === nomJoueur)
+        .map(m => ({ ...m, _type: 'simple' }));
+
+    // Matchs doubles CNF3
+    const sourceCNF3Profil = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3 : [];
+    const matchsDoublesProfil = sourceCNF3Profil
+        .filter(m => m.gagnant &&
+            (m.joueur1_eq1 === nomJoueur || m.joueur2_eq1 === nomJoueur ||
+             m.joueur1_eq2 === nomJoueur || m.joueur2_eq2 === nomJoueur))
+        .map(m => ({ ...m, _type: 'doubles' }));
+
+    // Fusionner pour l'historique
+    const matchsJoueur = [...matchsSimples, ...matchsDoublesProfil];
     
     const modal = document.getElementById('player-modal');
     const content = document.getElementById('player-modal-content');
@@ -959,12 +971,27 @@ function afficherProfilJoueur(nomJoueur) {
         </h3>
         
         <div style="display: flex; flex-direction: column; gap: 1rem; max-height: 400px; overflow-y: auto;">
-            ${matchsJoueur.reverse().map(match => {
-                const adversaire = match.joueur1 === nomJoueur ? match.joueur2 : match.joueur1;
-                const scoreJoueur = match.joueur1 === nomJoueur ? match.score1 : match.score2;
-                const scoreAdversaire = match.joueur1 === nomJoueur ? match.score2 : match.score1;
-                const victoire = match.gagnant === nomJoueur;
-                
+            ${[...matchsJoueur].reverse().map(match => {
+                let adversaire, scoreJoueur, scoreAdversaire, victoire, label;
+
+                if (match._type === 'doubles') {
+                    const estEq1 = (match.joueur1_eq1 === nomJoueur || match.joueur2_eq1 === nomJoueur);
+                    adversaire = estEq1 ? match.equipe2 : match.equipe1;
+                    const partenaire = estEq1
+                        ? (match.joueur1_eq1 === nomJoueur ? match.joueur2_eq1 : match.joueur1_eq1)
+                        : (match.joueur1_eq2 === nomJoueur ? match.joueur2_eq2 : match.joueur1_eq2);
+                    scoreJoueur    = estEq1 ? match.score1 : match.score2;
+                    scoreAdversaire = estEq1 ? match.score2 : match.score1;
+                    victoire = match.gagnant === (estEq1 ? match.equipe1 : match.equipe2);
+                    label = `vs <strong>${adversaire}</strong> <span style="font-size:0.8rem;color:var(--gray);">(avec ${partenaire || '?'})</span>`;
+                } else {
+                    adversaire     = match.joueur1 === nomJoueur ? match.joueur2 : match.joueur1;
+                    scoreJoueur    = match.joueur1 === nomJoueur ? match.score1 : match.score2;
+                    scoreAdversaire = match.joueur1 === nomJoueur ? match.score2 : match.score1;
+                    victoire = match.gagnant === nomJoueur;
+                    label = `vs <strong>${adversaire}</strong>`;
+                }
+
                 return `
                     <div style="background: var(--dark); padding: 1rem; border-radius: 8px; border-left: 4px solid ${victoire ? 'var(--success)' : 'var(--danger)'};">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -972,21 +999,21 @@ function afficherProfilJoueur(nomJoueur) {
                                 <strong style="color: ${victoire ? 'var(--success)' : 'var(--danger)'};">
                                     ${victoire ? 'VICTOIRE' : 'DÉFAITE'}
                                 </strong>
-                                vs ${adversaire}
+                                ${label}
                             </div>
                             <div style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--primary);">
                                 ${scoreJoueur} - ${scoreAdversaire}
                             </div>
                         </div>
                         <div style="font-size: 0.85rem; color: var(--gray); margin-top: 0.5rem;">
-                            ${match.tournoi} - ${match.phase}
+                            ${match.tournoi || 'CNF 3'} - ${match.phase}
                         </div>
                     </div>
                 `;
             }).join('')}
         </div>
     `;
-    
+
     modal.classList.add('active');
 }
 
@@ -1483,6 +1510,92 @@ function afficherFormeRecente(nomJoueur) {
 // 2. PAGE D'ACCUEIL DYNAMIQUE
 // ============================================
 
+/**
+ * Cherche les joueurs d'une équipe CNF3 dans poules_cnf3
+ * Retourne { joueur1, joueur2 } ou null
+ */
+function getJoueursEquipe(nomEquipe) {
+    if (!poulesCNF3 || !nomEquipe) return null;
+    const normaliser = s => (s || '').replace(/\n/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+    const cible = normaliser(nomEquipe);
+    for (const poule of poulesCNF3) {
+        for (const eq of poule.equipes) {
+            if (normaliser(eq.nom) === cible) {
+                return { joueur1: eq.joueur1, joueur2: eq.joueur2 };
+            }
+        }
+    }
+    return null;
+}
+
+/**
+ * Calcule l'ELO moyen d'une équipe à partir des noms de ses joueurs
+ */
+function getEloMoyenEquipe(nomEquipe) {
+    const membres = getJoueursEquipe(nomEquipe);
+    if (!membres) return 1500;
+    const j1 = joueurs.find(j => j.nom === membres.joueur1);
+    const j2 = joueurs.find(j => j.nom === membres.joueur2);
+    return ((j1 ? j1.elo : 1500) + (j2 ? j2.elo : 1500)) / 2;
+}
+
+/**
+ * Génère les prédictions pour les 8èmes et quarts non encore joués
+ * Lit window.data.tableau_cnf3 -> 8emes et quarts
+ */
+function genererPredictionsTableau() {
+    const tableau = window.data && window.data.tableau_cnf3;
+    if (!tableau) return [];
+
+    const PHASES_CIBLES = [
+        { key: '8emes',  label: '8èmes de finale' },
+        { key: 'quarts', label: 'Quarts de finale' }
+    ];
+
+    const predictions = [];
+
+    PHASES_CIBLES.forEach(({ key, label }) => {
+        const matchsList = tableau[key];
+        if (!Array.isArray(matchsList)) return;
+
+        matchsList.forEach(m => {
+            // On prend uniquement les matchs dont on connaît les 2 équipes mais pas encore joués
+            if (!m.equipe1 || !m.equipe2) return;
+            if (m.score1 !== null && m.score1 !== undefined) return; // déjà joué
+
+            const eloEq1 = getEloMoyenEquipe(m.equipe1);
+            const eloEq2 = getEloMoyenEquipe(m.equipe2);
+            const probaEq1 = 1 / (1 + Math.pow(10, (eloEq2 - eloEq1) / 400));
+            const probaEq2 = 1 - probaEq1;
+
+            const membres1 = getJoueursEquipe(m.equipe1);
+            const membres2 = getJoueursEquipe(m.equipe2);
+
+            predictions.push({
+                phase: label,
+                matchNum: m.match_num,
+                equipe1: {
+                    nom: (m.equipe1 || '').replace(/\n/g, ' ').trim(),
+                    joueur1: membres1 ? membres1.joueur1 : '',
+                    joueur2: membres1 ? membres1.joueur2 : ''
+                },
+                equipe2: {
+                    nom: (m.equipe2 || '').replace(/\n/g, ' ').trim(),
+                    joueur1: membres2 ? membres2.joueur1 : '',
+                    joueur2: membres2 ? membres2.joueur2 : ''
+                },
+                eloEq1: Math.round(eloEq1),
+                eloEq2: Math.round(eloEq2),
+                probaEq1: (probaEq1 * 100).toFixed(1),
+                probaEq2: (probaEq2 * 100).toFixed(1),
+                favori: probaEq1 >= 0.5 ? 1 : 2
+            });
+        });
+    });
+
+    return predictions;
+}
+
 function afficherPageAccueilDynamique() {
     const container = document.getElementById('dynamic-home-stats');
     if (!container) return;
@@ -1496,13 +1609,30 @@ function afficherPageAccueilDynamique() {
         elo: j.elo
     })).sort((a, b) => b.progression - a.progression);
     
+    const sourceCNF3Forme = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3 : [];
     const joueursEnForme = joueurs.map(j => {
-        const matchsJoueur = matchs.filter(m => m.joueur1 === j.nom || m.joueur2 === j.nom).slice(-5);
-        const victoires = matchsJoueur.filter(m => m.gagnant === j.nom).length;
-        return { nom: j.nom, victoires, total: matchsJoueur.length };
+        const matchsSimples = matchs
+            .filter(m => (m.joueur1 === j.nom || m.joueur2 === j.nom) && m.gagnant)
+            .map(m => ({ victoire: m.gagnant === j.nom }));
+        const matchsDoubles = sourceCNF3Forme
+            .filter(m => m.gagnant &&
+                (m.joueur1_eq1 === j.nom || m.joueur2_eq1 === j.nom ||
+                 m.joueur1_eq2 === j.nom || m.joueur2_eq2 === j.nom))
+            .map(m => {
+                const estEq1 = (m.joueur1_eq1 === j.nom || m.joueur2_eq1 === j.nom);
+                return { victoire: m.gagnant === (estEq1 ? m.equipe1 : m.equipe2) };
+            });
+        const derniers5 = [...matchsSimples, ...matchsDoubles].slice(-5);
+        const victoires = derniers5.filter(m => m.victoire).length;
+        return { nom: j.nom, victoires, total: derniers5.length };
     }).filter(j => j.total >= 3).sort((a, b) => b.victoires - a.victoires);
     
-    const dernierMatch = matchs.length > 0 ? matchs[matchs.length - 1] : null;
+    const sourceCNF3DernierMatch = (window.data && window.data.matchs_cnf3) ? window.data.matchs_cnf3.filter(m => m.gagnant) : [];
+    const tousLesMatchs = [
+        ...matchs.map(m => ({ ...m, _type: 'simple' })),
+        ...sourceCNF3DernierMatch.map(m => ({ ...m, _type: 'doubles' }))
+    ];
+    const dernierMatch = tousLesMatchs.length > 0 ? tousLesMatchs[tousLesMatchs.length - 1] : null;
     
     container.innerHTML = `
         <div class="home-dynamic-grid">
@@ -1553,6 +1683,17 @@ function afficherPageAccueilDynamique() {
                 <h3><i class="fas fa-bolt"></i> Dernier Match</h3>
                 <div class="match-content">
                     <div class="match-players-home">
+                        ${dernierMatch._type === 'doubles' ? `
+                        <div class="match-player-home ${dernierMatch.gagnant === dernierMatch.equipe1 ? 'winner' : ''}">
+                            <span style="font-size:0.85rem">${dernierMatch.equipe1}</span>
+                            <span class="match-score-home">${dernierMatch.score1}</span>
+                        </div>
+                        <div class="match-vs-home">VS</div>
+                        <div class="match-player-home ${dernierMatch.gagnant === dernierMatch.equipe2 ? 'winner' : ''}">
+                            <span style="font-size:0.85rem">${dernierMatch.equipe2}</span>
+                            <span class="match-score-home">${dernierMatch.score2}</span>
+                        </div>
+                        ` : `
                         <div class="match-player-home ${dernierMatch.gagnant === dernierMatch.joueur1 ? 'winner' : ''}" onclick="afficherProfilJoueur('${dernierMatch.joueur1}')">
                             <span>${dernierMatch.joueur1}</span>
                             <span class="match-score-home">${dernierMatch.score1}</span>
@@ -1562,13 +1703,77 @@ function afficherPageAccueilDynamique() {
                             <span>${dernierMatch.joueur2}</span>
                             <span class="match-score-home">${dernierMatch.score2}</span>
                         </div>
+                        `}
                     </div>
-                    <div class="match-info-home">${dernierMatch.tournoi} - ${dernierMatch.phase}</div>
+                    <div class="match-info-home">${dernierMatch.tournoi || 'CNF 3'} - ${dernierMatch.phase}</div>
                 </div>
             </div>
             ` : ''}
         </div>
     `;
+
+    // --- Prédictions 8èmes / Quarts non joués ---
+    const predictions = genererPredictionsTableau();
+    if (predictions.length > 0) {
+        // Regrouper par phase pour afficher des sous-titres
+        const par8emes  = predictions.filter(p => p.phase === '8èmes de finale');
+        const parQuarts = predictions.filter(p => p.phase === 'Quarts de finale');
+
+        const renderCards = (liste) => liste.map(m => {
+            const fav1 = m.favori === 1;
+            const fav2 = m.favori === 2;
+            const showPlayers1 = m.equipe1.joueur1 || m.equipe1.joueur2;
+            const showPlayers2 = m.equipe2.joueur1 || m.equipe2.joueur2;
+            return `
+            <div class="pred-match-card">
+                <div class="pred-teams-row">
+                    <div class="pred-team ${fav1 ? 'pred-favori' : ''}">
+                        <div class="pred-team-name">${m.equipe1.nom}</div>
+                        ${showPlayers1 ? `<div class="pred-team-players">${m.equipe1.joueur1} &amp; ${m.equipe1.joueur2}</div>` : ''}
+                        <div class="pred-team-elo">ELO moy. ${m.eloEq1}</div>
+                    </div>
+                    <div class="pred-vs">VS</div>
+                    <div class="pred-team ${fav2 ? 'pred-favori' : ''}">
+                        <div class="pred-team-name">${m.equipe2.nom}</div>
+                        ${showPlayers2 ? `<div class="pred-team-players">${m.equipe2.joueur1} &amp; ${m.equipe2.joueur2}</div>` : ''}
+                        <div class="pred-team-elo">ELO moy. ${m.eloEq2}</div>
+                    </div>
+                </div>
+                <div class="pred-bar-container">
+                    <span class="pred-pct pred-pct-left ${fav1 ? 'pred-pct-favori' : ''}">${m.probaEq1}%</span>
+                    <div class="pred-bar">
+                        <div class="pred-bar-fill pred-bar-eq1" style="width:${m.probaEq1}%"></div>
+                        <div class="pred-bar-fill pred-bar-eq2" style="width:${m.probaEq2}%"></div>
+                    </div>
+                    <span class="pred-pct pred-pct-right ${fav2 ? 'pred-pct-favori' : ''}">${m.probaEq2}%</span>
+                </div>
+            </div>`;
+        }).join('');
+
+        let sectionsHTML = '';
+        if (par8emes.length > 0) {
+            sectionsHTML += `
+            <div class="pred-phase-block">
+                <div class="pred-phase-title"><i class="fas fa-shield-alt"></i> 8èmes de finale · ${par8emes.length} match${par8emes.length > 1 ? 's' : ''} à venir</div>
+                <div class="pred-matches-grid">${renderCards(par8emes)}</div>
+            </div>`;
+        }
+        if (parQuarts.length > 0) {
+            sectionsHTML += `
+            <div class="pred-phase-block">
+                <div class="pred-phase-title"><i class="fas fa-crosshairs"></i> Quarts de finale · ${parQuarts.length} match${parQuarts.length > 1 ? 's' : ''} à venir</div>
+                <div class="pred-matches-grid">${renderCards(parQuarts)}</div>
+            </div>`;
+        }
+
+        container.innerHTML += `
+        <div class="home-predictions-section">
+            <h2 class="section-title" style="margin-top:0">🎯 Prédictions CNF 3 — Tableau Final</h2>
+            <p class="pred-subtitle">Probabilités calculées sur les ELO individuels · Phase finale en cours</p>
+            ${sectionsHTML}
+            <div class="pred-more-link" onclick="document.querySelector('[data-page=predictions]').click()">Calculer d'autres prédictions →</div>
+        </div>`;
+    }
 }
 
 // ============================================

@@ -14259,18 +14259,7 @@
         "gagnant": "Fléchettes Famille Patrie"
       }
     ],
-    "quarts": [
-      {
-        "match_num": 1,
-        "seed1": 11,
-        "equipe1": "La corridart",
-        "score1": null,
-        "seed2": 10,
-        "equipe2": "Fléchettes Famille Patrie",
-        "score2": null,
-        "gagnant": null
-      }
-    ],
+    "quarts": [],
     "demis": [],
     "finale": []
   }
