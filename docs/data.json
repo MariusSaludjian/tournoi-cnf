@@ -660,19 +660,19 @@
     },
     {
       "nom": "Augustin Lesne",
-      "matchs_joues": 16,
+      "matchs_joues": 17,
       "victoires": 13,
-      "defaites": 3,
-      "sets_gagnes": 38,
-      "sets_perdus": 15,
+      "defaites": 4,
+      "sets_gagnes": 40,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 81.2,
-      "ratio_sets": 2.53,
-      "elo": 1682.3701495037885,
+      "pourcentage_victoires": 76.5,
+      "ratio_sets": 2.11,
+      "elo": 1663.3,
       "elo_max": 1682.3701495037885,
       "elo_min": 1493.6,
       "photo": "photos/augustin-lesne.jpg",
@@ -681,7 +681,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -729,28 +729,28 @@
     },
     {
       "nom": "Axel Garcin",
-      "matchs_joues": 12,
+      "matchs_joues": 13,
       "victoires": 9,
-      "defaites": 3,
-      "sets_gagnes": 23,
-      "sets_perdus": 15,
+      "defaites": 4,
+      "sets_gagnes": 26,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 75.0,
-      "ratio_sets": 1.53,
-      "elo": 1587.4601609135793,
+      "pourcentage_victoires": 69.2,
+      "ratio_sets": 1.37,
+      "elo": 1573.6,
       "elo_max": 1587.4601609135793,
       "elo_min": 1500.0,
       "photo": "photos/axel-garcin.jpg",
       "forme_recente": [
-        "D",
         "V",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2305,20 +2305,20 @@
     },
     {
       "nom": "Julien Reijasse",
-      "matchs_joues": 13,
-      "victoires": 10,
-      "defaites": 3,
-      "sets_gagnes": 25,
-      "sets_perdus": 12,
+      "matchs_joues": 15,
+      "victoires": 11,
+      "defaites": 4,
+      "sets_gagnes": 32,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 76.9,
-      "ratio_sets": 2.08,
-      "elo": 1607.8945936034816,
-      "elo_max": 1607.8945936034816,
+      "pourcentage_victoires": 73.3,
+      "ratio_sets": 1.68,
+      "elo": 1609.3,
+      "elo_max": 1621.8,
       "elo_min": 1458.9,
       "photo": "photos/julien-reijasse.jpg",
       "forme_recente": [
@@ -2326,7 +2326,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -2944,18 +2944,18 @@
     },
     {
       "nom": "Lucas Larroque",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 5,
-      "defaites": 2,
-      "sets_gagnes": 15,
-      "sets_perdus": 5,
+      "defaites": 3,
+      "sets_gagnes": 17,
+      "sets_perdus": 9,
       "tournois": [
         "CNF 1",
         "CNF 3"
       ],
-      "pourcentage_victoires": 71.4,
-      "ratio_sets": 3.0,
-      "elo": 1532.7701495037886,
+      "pourcentage_victoires": 62.5,
+      "ratio_sets": 1.89,
+      "elo": 1513.7,
       "elo_max": 1532.7701495037886,
       "elo_min": 1457.4,
       "photo": "photos/default.svg",
@@ -2964,7 +2964,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -3016,20 +3016,20 @@
     },
     {
       "nom": "Léo Santiquet",
-      "matchs_joues": 18,
-      "victoires": 15,
+      "matchs_joues": 19,
+      "victoires": 16,
       "defaites": 3,
-      "sets_gagnes": 48,
-      "sets_perdus": 19,
+      "sets_gagnes": 52,
+      "sets_perdus": 21,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 83.3,
-      "ratio_sets": 2.53,
-      "elo": 1730.435274137337,
-      "elo_max": 1730.435274137337,
+      "pourcentage_victoires": 84.2,
+      "ratio_sets": 2.48,
+      "elo": 1749.5,
+      "elo_max": 1749.5,
       "elo_min": 1500.0,
       "photo": "photos/leo-santiquet.jpg",
       "forme_recente": [
@@ -3252,20 +3252,20 @@
     },
     {
       "nom": "Marius Saludjian",
-      "matchs_joues": 15,
-      "victoires": 12,
+      "matchs_joues": 16,
+      "victoires": 13,
       "defaites": 3,
-      "sets_gagnes": 38,
-      "sets_perdus": 15,
+      "sets_gagnes": 42,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.53,
-      "elo": 1682.7484791928919,
-      "elo_max": 1682.7484791928919,
+      "pourcentage_victoires": 81.2,
+      "ratio_sets": 2.33,
+      "elo": 1695.2,
+      "elo_max": 1695.2,
       "elo_min": 1479.7,
       "photo": "photos/marius-saludjian.jpg",
       "forme_recente": [
@@ -3812,19 +3812,19 @@
     },
     {
       "nom": "Maxime Trépant",
-      "matchs_joues": 17,
-      "victoires": 15,
+      "matchs_joues": 18,
+      "victoires": 16,
       "defaites": 2,
-      "sets_gagnes": 44,
-      "sets_perdus": 16,
+      "sets_gagnes": 48,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 88.2,
-      "ratio_sets": 2.75,
-      "elo": 1717.7484791928919,
+      "pourcentage_victoires": 88.9,
+      "ratio_sets": 2.53,
+      "elo": 1730.2,
       "elo_max": 1743.4,
       "elo_min": 1500.0,
       "photo": "photos/maxime-trepant.jpg",
@@ -3982,20 +3982,20 @@
     },
     {
       "nom": "Octave Chardain",
-      "matchs_joues": 11,
-      "victoires": 8,
-      "defaites": 3,
-      "sets_gagnes": 19,
-      "sets_perdus": 8,
+      "matchs_joues": 13,
+      "victoires": 9,
+      "defaites": 4,
+      "sets_gagnes": 26,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 72.7,
-      "ratio_sets": 2.38,
-      "elo": 1564.2945936034814,
-      "elo_max": 1564.2945936034814,
+      "pourcentage_victoires": 69.2,
+      "ratio_sets": 1.73,
+      "elo": 1565.7,
+      "elo_max": 1578.2,
       "elo_min": 1473.9,
       "photo": "photos/octave-chardain.jpg",
       "forme_recente": [
@@ -4003,7 +4003,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -4200,28 +4200,28 @@
     },
     {
       "nom": "Pierre-Louis Petit",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 11,
-      "sets_perdus": 9,
+      "defaites": 4,
+      "sets_gagnes": 14,
+      "sets_perdus": 13,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.22,
-      "elo": 1514.4601609135793,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.08,
+      "elo": 1500.6,
       "elo_max": 1520.3,
       "elo_min": 1476.0,
       "photo": "photos/pierre-louis-petit.jpg",
       "forme_recente": [
-        "V",
         "D",
         "D",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -4323,19 +4323,19 @@
     },
     {
       "nom": "Romain Perrier",
-      "matchs_joues": 10,
-      "victoires": 5,
+      "matchs_joues": 11,
+      "victoires": 6,
       "defaites": 5,
-      "sets_gagnes": 15,
-      "sets_perdus": 12,
+      "sets_gagnes": 19,
+      "sets_perdus": 14,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 50.0,
-      "ratio_sets": 1.25,
-      "elo": 1476.935274137337,
+      "pourcentage_victoires": 54.5,
+      "ratio_sets": 1.36,
+      "elo": 1496.0,
       "elo_max": 1500.0,
       "elo_min": 1399.0,
       "photo": "photos/default.svg",
@@ -13848,6 +13848,63 @@
       "score1": 1,
       "score2": 4,
       "gagnant": "Zéro zéro bull"
+    },
+    {
+      "id": 171,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 3,
+      "seed2": 19,
+      "date": "2026-03-04",
+      "equipe1": "C'est à cause d'mon dard",
+      "equipe2": "Pastis et Cassoulet",
+      "joueur1_eq1": "Julien Reijasse",
+      "joueur2_eq1": "Octave Chardain",
+      "joueur1_eq2": "Pierre-Louis Petit",
+      "joueur2_eq2": "Axel Garcin",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "C'est à cause d'mon dard",
+      "live": true
+    },
+    {
+      "id": 172,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "Quarts",
+      "seed1": 5,
+      "seed2": 4,
+      "date": "2026-03-04",
+      "equipe1": "Zara Dartsson",
+      "equipe2": "Zéro zéro bull",
+      "joueur1_eq1": "Léo Santiquet",
+      "joueur2_eq1": "Romain Perrier",
+      "joueur1_eq2": "Augustin Lesne",
+      "joueur2_eq2": "Lucas Larroque",
+      "score1": 4,
+      "score2": 2,
+      "gagnant": "Zara Dartsson",
+      "live": true
+    },
+    {
+      "id": 173,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "Quarts",
+      "seed1": 3,
+      "seed2": 11,
+      "date": "2026-03-04",
+      "equipe1": "C'est à cause d'mon dard",
+      "equipe2": "La corridart",
+      "joueur1_eq1": "Julien Reijasse",
+      "joueur2_eq1": "Octave Chardain",
+      "joueur1_eq2": "Marius Saludjian",
+      "joueur2_eq2": "Maxime Trépant",
+      "score1": 3,
+      "score2": 4,
+      "gagnant": "La corridart",
+      "live": true
     }
   ],
   "tableau_cnf3": {
@@ -14380,11 +14437,11 @@
         "match_num": 5,
         "seed1": 3,
         "equipe1": "C'est à cause d'mon dard",
-        "score1": null,
+        "score1": 4,
         "seed2": 19,
         "equipe2": "Pastis et Cassoulet",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "C'est à cause d'mon dard"
       },
       {
         "match_num": 6,
@@ -14432,11 +14489,11 @@
         "match_num": 2,
         "seed1": 5,
         "equipe1": "Zara Dartsson",
-        "score1": null,
+        "score1": 4,
         "seed2": 4,
         "equipe2": "Zéro zéro bull",
-        "score2": null,
-        "gagnant": null
+        "score2": 2,
+        "gagnant": "Zara Dartsson"
       },
       {
         "match_num": 3,
@@ -14447,6 +14504,16 @@
         "equipe2": "Fléchettes Famille Patrie",
         "score2": 4,
         "gagnant": null
+      },
+      {
+        "match_num": 4,
+        "seed1": 3,
+        "equipe1": "C'est à cause d'mon dard",
+        "score1": 3,
+        "seed2": 11,
+        "equipe2": "La corridart",
+        "score2": 4,
+        "gagnant": "La corridart"
       }
     ],
     "demis": [
