@@ -9397,8 +9397,8 @@
   "derniere_maj": "2026-03-04",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 509,
-    "total_sets": 1473
+    "total_matchs": 512,
+    "total_sets": 1493
   },
   "equipes": [
     {
@@ -14497,16 +14497,6 @@
       },
       {
         "match_num": 3,
-        "seed1": 11,
-        "equipe1": "La corridart",
-        "score1": null,
-        "seed2": 10,
-        "equipe2": "Fléchettes Famille Patrie",
-        "score2": 4,
-        "gagnant": null
-      },
-      {
-        "match_num": 4,
         "seed1": 3,
         "equipe1": "C'est à cause d'mon dard",
         "score1": 3,
@@ -14514,6 +14504,16 @@
         "equipe2": "La corridart",
         "score2": 4,
         "gagnant": "La corridart"
+      },
+      {
+        "match_num": 4,
+        "seed1": 10,
+        "equipe1": "Fléchettes Famille Patrie",
+        "score1": 4,
+        "seed2": 47,
+        "equipe2": "Les endartcampés",
+        "score2": 1,
+        "gagnant": "Fléchettes Famille Patrie"
       }
     ],
     "demis": [
@@ -14521,6 +14521,16 @@
         "match_num": 1,
         "seed1": 9,
         "equipe1": "Le brancard",
+        "score1": null,
+        "seed2": 5,
+        "equipe2": "Zara Dartsson",
+        "score2": null,
+        "gagnant": null
+      },
+      {
+        "match_num": 2,
+        "seed1": 11,
+        "equipe1": "La corridart",
         "score1": null,
         "seed2": 10,
         "equipe2": "Fléchettes Famille Patrie",
