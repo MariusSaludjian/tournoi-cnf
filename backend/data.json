@@ -660,24 +660,24 @@
     },
     {
       "nom": "Augustin Lesne",
-      "matchs_joues": 15,
-      "victoires": 12,
+      "matchs_joues": 16,
+      "victoires": 13,
       "defaites": 3,
-      "sets_gagnes": 34,
-      "sets_perdus": 14,
+      "sets_gagnes": 38,
+      "sets_perdus": 15,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.43,
-      "elo": 1667.17680709281,
-      "elo_max": 1667.17680709281,
+      "pourcentage_victoires": 81.2,
+      "ratio_sets": 2.53,
+      "elo": 1682.3701495037885,
+      "elo_max": 1682.3701495037885,
       "elo_min": 1493.6,
       "photo": "photos/augustin-lesne.jpg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -1516,27 +1516,27 @@
     },
     {
       "nom": "Eliott Levy Rondeau",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 12,
-      "sets_perdus": 8,
+      "defaites": 4,
+      "sets_gagnes": 13,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.5,
-      "elo": 1526.7822291798725,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.08,
+      "elo": 1511.5888867688939,
       "elo_max": 1526.7822291798725,
       "elo_min": 1464.3,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "V",
         "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -2944,23 +2944,23 @@
     },
     {
       "nom": "Lucas Larroque",
-      "matchs_joues": 6,
-      "victoires": 4,
+      "matchs_joues": 7,
+      "victoires": 5,
       "defaites": 2,
-      "sets_gagnes": 11,
-      "sets_perdus": 4,
+      "sets_gagnes": 15,
+      "sets_perdus": 5,
       "tournois": [
         "CNF 1",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 2.75,
-      "elo": 1517.57680709281,
-      "elo_max": 1517.57680709281,
+      "pourcentage_victoires": 71.4,
+      "ratio_sets": 3.0,
+      "elo": 1532.7701495037886,
+      "elo_max": 1532.7701495037886,
       "elo_min": 1457.4,
       "photo": "photos/default.svg",
       "forme_recente": [
-        "D",
+        "V",
         "V",
         "V",
         "V",
@@ -5082,27 +5082,27 @@
     },
     {
       "nom": "Tom Lemoine",
-      "matchs_joues": 7,
+      "matchs_joues": 8,
       "victoires": 4,
-      "defaites": 3,
-      "sets_gagnes": 11,
-      "sets_perdus": 8,
+      "defaites": 4,
+      "sets_gagnes": 12,
+      "sets_perdus": 12,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 57.1,
-      "ratio_sets": 1.38,
-      "elo": 1525.4822291798725,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.0,
+      "elo": 1510.288886768894,
       "elo_max": 1525.4822291798725,
       "elo_min": 1471.9,
       "photo": "photos/tom-lemoine.jpg",
       "forme_recente": [
         "D",
-        "D",
         "V",
         "V",
-        "V"
+        "V",
+        "D"
       ]
     },
     {
@@ -9397,8 +9397,8 @@
   "derniere_maj": "2026-03-04",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 508,
-    "total_sets": 1468
+    "total_matchs": 509,
+    "total_sets": 1473
   },
   "equipes": [
     {
@@ -13830,6 +13830,24 @@
       "score1": 4,
       "score2": 1,
       "gagnant": "Fléchettes Famille Patrie"
+    },
+    {
+      "id": 170,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "8èmes",
+      "seed1": 52,
+      "seed2": 4,
+      "date": "2026-03-04",
+      "equipe1": "C'est darty mon kiki 2",
+      "equipe2": "Zéro zéro bull",
+      "joueur1_eq1": "Eliott Levy Rondeau",
+      "joueur2_eq1": "Tom Lemoine",
+      "joueur1_eq2": "Augustin Lesne",
+      "joueur2_eq2": "Lucas Larroque",
+      "score1": 1,
+      "score2": 4,
+      "gagnant": "Zéro zéro bull"
     }
   ],
   "tableau_cnf3": {
@@ -14352,11 +14370,11 @@
         "match_num": 4,
         "seed1": 52,
         "equipe1": "C'est darty mon kiki 2",
-        "score1": null,
+        "score1": 1,
         "seed2": 4,
         "equipe2": "Zéro zéro bull",
-        "score2": null,
-        "gagnant": null
+        "score2": 4,
+        "gagnant": "Zéro zéro bull"
       },
       {
         "match_num": 5,
@@ -14415,20 +14433,20 @@
         "seed1": 5,
         "equipe1": "Zara Dartsson",
         "score1": null,
-        "seed2": 11,
-        "equipe2": "La corridart",
+        "seed2": 4,
+        "equipe2": "Zéro zéro bull",
         "score2": null,
         "gagnant": null
       },
       {
         "match_num": 3,
-        "seed1": 10,
-        "equipe1": "Fléchettes Famille Patrie",
-        "score1": 4,
-        "seed2": 47,
-        "equipe2": "Les endartcampés",
-        "score2": 1,
-        "gagnant": "Fléchettes Famille Patrie"
+        "seed1": 11,
+        "equipe1": "La corridart",
+        "score1": null,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
+        "score2": 4,
+        "gagnant": null
       }
     ],
     "demis": [
