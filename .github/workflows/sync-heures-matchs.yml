@@ -2,14 +2,14 @@ name: Sync CNF3 (heures de matchs)
 
 on:
   schedule:
-    # Toutes les 10 minutes entre 11h45 et 14h15
-    # Format : minute heure jour mois jour_semaine
-    # GitHub utilise UTC, Paris = UTC+1
-    # Donc 11h45-14h15 Paris = 10h45-13h15 UTC
-    
-    - cron: '45,55 10 * * 1-5'  # 11h45, 11h55
-    - cron: '5,15,25,35,45,55 11 * * 1-5'  # 12h05 à 12h55
-    - cron: '5,15 12 * * 1-5'  # 13h05, 13h15
+     # Toutes les 10 minutes en semaine (11h45 → 20h15 Paris = 10h45 → 19h15 UTC)
+    - cron: '45,55 10 * * 1-5'
+    - cron: '5,15,25,35,45,55 11-18 * * 1-5'
+    - cron: '5,15 19 * * 1-5'
+
+    # Week-end toutes les 10 min (10h → 22h Paris = 9h → 21h UTC)
+    - cron: '0,10,20,30,40,50 9-20 * * 6,0'
+    - cron: '0 21 * * 6,0'
   
   workflow_dispatch:  # Permet execution manuelle
 
