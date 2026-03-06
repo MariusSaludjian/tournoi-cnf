@@ -967,20 +967,20 @@
     },
     {
       "nom": "Benjamin Riegel",
-      "matchs_joues": 15,
-      "victoires": 12,
+      "matchs_joues": 17,
+      "victoires": 14,
       "defaites": 3,
-      "sets_gagnes": 33,
-      "sets_perdus": 16,
+      "sets_gagnes": 41,
+      "sets_perdus": 19,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.06,
-      "elo": 1644.5345399674447,
-      "elo_max": 1644.5345399674447,
+      "pourcentage_victoires": 82.4,
+      "ratio_sets": 2.16,
+      "elo": 1702.6289366188792,
+      "elo_max": 1702.6289366188792,
       "elo_min": 1485.9,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -1868,20 +1868,20 @@
     },
     {
       "nom": "Gabin Néron",
-      "matchs_joues": 15,
-      "victoires": 12,
+      "matchs_joues": 17,
+      "victoires": 14,
       "defaites": 3,
-      "sets_gagnes": 31,
-      "sets_perdus": 14,
+      "sets_gagnes": 39,
+      "sets_perdus": 17,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 80.0,
-      "ratio_sets": 2.21,
-      "elo": 1627.1345399674449,
-      "elo_max": 1627.1345399674449,
+      "pourcentage_victoires": 82.4,
+      "ratio_sets": 2.29,
+      "elo": 1685.2289366188793,
+      "elo_max": 1685.2289366188793,
       "elo_min": 1493.6,
       "photo": "photos/gabin-neron.jpg",
       "forme_recente": [
@@ -3016,19 +3016,19 @@
     },
     {
       "nom": "Léo Santiquet",
-      "matchs_joues": 19,
+      "matchs_joues": 20,
       "victoires": 16,
-      "defaites": 3,
-      "sets_gagnes": 52,
-      "sets_perdus": 21,
+      "defaites": 4,
+      "sets_gagnes": 55,
+      "sets_perdus": 25,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 84.2,
-      "ratio_sets": 2.48,
-      "elo": 1749.5,
+      "pourcentage_victoires": 80.0,
+      "ratio_sets": 2.2,
+      "elo": 1726.2639289270246,
       "elo_max": 1749.5,
       "elo_min": 1500.0,
       "photo": "photos/leo-santiquet.jpg",
@@ -3037,7 +3037,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -3252,19 +3252,19 @@
     },
     {
       "nom": "Marius Saludjian",
-      "matchs_joues": 16,
+      "matchs_joues": 17,
       "victoires": 13,
-      "defaites": 3,
-      "sets_gagnes": 42,
-      "sets_perdus": 18,
+      "defaites": 4,
+      "sets_gagnes": 44,
+      "sets_perdus": 22,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 81.2,
-      "ratio_sets": 2.33,
-      "elo": 1695.2,
+      "pourcentage_victoires": 76.5,
+      "ratio_sets": 2.0,
+      "elo": 1667.071214255059,
       "elo_max": 1695.2,
       "elo_min": 1479.7,
       "photo": "photos/marius-saludjian.jpg",
@@ -3273,7 +3273,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -3648,19 +3648,19 @@
     },
     {
       "nom": "Matéo Batista",
-      "matchs_joues": 11,
-      "victoires": 9,
-      "defaites": 2,
-      "sets_gagnes": 26,
-      "sets_perdus": 10,
+      "matchs_joues": 13,
+      "victoires": 10,
+      "defaites": 3,
+      "sets_gagnes": 31,
+      "sets_perdus": 17,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 81.8,
-      "ratio_sets": 2.6,
-      "elo": 1633.3875444510545,
-      "elo_max": 1633.3875444510545,
+      "pourcentage_victoires": 76.9,
+      "ratio_sets": 1.82,
+      "elo": 1626.6580046175366,
+      "elo_max": 1656.62361552403,
       "elo_min": 1500.0,
       "photo": "photos/mateo-batista.jpg",
       "forme_recente": [
@@ -3668,7 +3668,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -3694,19 +3694,19 @@
     },
     {
       "nom": "Max Perron",
-      "matchs_joues": 9,
-      "victoires": 6,
-      "defaites": 3,
-      "sets_gagnes": 19,
-      "sets_perdus": 11,
+      "matchs_joues": 11,
+      "victoires": 7,
+      "defaites": 4,
+      "sets_gagnes": 24,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 66.7,
-      "ratio_sets": 1.73,
-      "elo": 1545.6875444510545,
-      "elo_max": 1545.6875444510545,
+      "pourcentage_victoires": 63.6,
+      "ratio_sets": 1.33,
+      "elo": 1538.9580046175365,
+      "elo_max": 1568.9236155240299,
       "elo_min": 1434.6,
       "photo": "photos/default.svg",
       "forme_recente": [
@@ -3714,7 +3714,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -3812,19 +3812,19 @@
     },
     {
       "nom": "Maxime Trépant",
-      "matchs_joues": 18,
+      "matchs_joues": 19,
       "victoires": 16,
-      "defaites": 2,
-      "sets_gagnes": 48,
-      "sets_perdus": 19,
+      "defaites": 3,
+      "sets_gagnes": 50,
+      "sets_perdus": 23,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 88.9,
-      "ratio_sets": 2.53,
-      "elo": 1730.2,
+      "pourcentage_victoires": 84.2,
+      "ratio_sets": 2.17,
+      "elo": 1702.071214255059,
       "elo_max": 1743.4,
       "elo_min": 1500.0,
       "photo": "photos/maxime-trepant.jpg",
@@ -3833,7 +3833,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -4323,19 +4323,19 @@
     },
     {
       "nom": "Romain Perrier",
-      "matchs_joues": 11,
+      "matchs_joues": 12,
       "victoires": 6,
-      "defaites": 5,
-      "sets_gagnes": 19,
-      "sets_perdus": 14,
+      "defaites": 6,
+      "sets_gagnes": 22,
+      "sets_perdus": 18,
       "tournois": [
         "CNF 1",
         "CNF 2",
         "CNF 3"
       ],
-      "pourcentage_victoires": 54.5,
-      "ratio_sets": 1.36,
-      "elo": 1496.0,
+      "pourcentage_victoires": 50.0,
+      "ratio_sets": 1.22,
+      "elo": 1472.7639289270246,
       "elo_max": 1500.0,
       "elo_min": 1399.0,
       "photo": "photos/default.svg",
@@ -4344,7 +4344,7 @@
         "V",
         "V",
         "V",
-        "V"
+        "D"
       ]
     },
     {
@@ -9394,11 +9394,11 @@
       "gagnant": "Clément Ricaud"
     }
   ],
-  "derniere_maj": "2026-03-05",
+  "derniere_maj": "2026-03-06",
   "stats_globales": {
     "total_joueurs": 240,
-    "total_matchs": 512,
-    "total_sets": 1493
+    "total_matchs": 515,
+    "total_sets": 1511
   },
   "equipes": [
     {
@@ -13905,6 +13905,60 @@
       "score2": 4,
       "gagnant": "La corridart",
       "live": true
+    },
+    {
+      "id": 174,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "Demis",
+      "seed1": 9,
+      "seed2": 5,
+      "date": "2026-03-06",
+      "equipe1": "Le brancard",
+      "equipe2": "Zara Dartsson",
+      "joueur1_eq1": "Max Perron",
+      "joueur2_eq1": "Matéo Batista",
+      "joueur1_eq2": "Léo Santiquet",
+      "joueur2_eq2": "Romain Perrier",
+      "score1": 4,
+      "score2": 3,
+      "gagnant": "Le brancard"
+    },
+    {
+      "id": 175,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "Demis",
+      "seed1": 11,
+      "seed2": 10,
+      "date": "2026-03-06",
+      "equipe1": "La corridart",
+      "equipe2": "Fléchettes Famille Patrie",
+      "joueur1_eq1": "Marius Saludjian",
+      "joueur2_eq1": "Maxime Trépant",
+      "joueur1_eq2": "Gabin Néron",
+      "joueur2_eq2": "Benjamin Riegel",
+      "score1": 2,
+      "score2": 4,
+      "gagnant": "Fléchettes Famille Patrie"
+    },
+    {
+      "id": 176,
+      "type": "tableau",
+      "tournoi": "CNF 3",
+      "phase": "Finale",
+      "seed1": 9,
+      "seed2": 10,
+      "date": "2026-03-06",
+      "equipe1": "Le brancard",
+      "equipe2": "Fléchettes Famille Patrie",
+      "joueur1_eq1": "Max Perron",
+      "joueur2_eq1": "Matéo Batista",
+      "joueur1_eq2": "Gabin Néron",
+      "joueur2_eq2": "Benjamin Riegel",
+      "score1": 1,
+      "score2": 4,
+      "gagnant": "Fléchettes Famille Patrie"
     }
   ],
   "tableau_cnf3": {
@@ -14521,23 +14575,34 @@
         "match_num": 1,
         "seed1": 9,
         "equipe1": "Le brancard",
-        "score1": null,
+        "score1": 4,
         "seed2": 5,
         "equipe2": "Zara Dartsson",
-        "score2": null,
-        "gagnant": null
+        "score2": 3,
+        "gagnant": "Le brancard"
       },
       {
         "match_num": 2,
         "seed1": 11,
         "equipe1": "La corridart",
-        "score1": null,
+        "score1": 2,
         "seed2": 10,
         "equipe2": "Fléchettes Famille Patrie",
-        "score2": null,
-        "gagnant": null
+        "score2": 4,
+        "gagnant": "Fléchettes Famille Patrie"
       }
     ],
-    "finale": []
+    "finale": [
+      {
+        "match_num": 1,
+        "seed1": 9,
+        "equipe1": "Le brancard",
+        "score1": 1,
+        "seed2": 10,
+        "equipe2": "Fléchettes Famille Patrie",
+        "score2": 4,
+        "gagnant": "Fléchettes Famille Patrie"
+      }
+    ]
   }
 }
